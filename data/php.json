@@ -1,0 +1,4192 @@
+{
+  "title": "Complete PHP Practical Learning Roadmap - Coding Game Dataset",
+  "description": "Practical-only PHP syntax-to-output puzzle dataset covering 43 parts. No theory-only entries; each item uses executable PHP-oriented code, a fill-in-the-blank puzzle, and an expected output. Designed for a coding-game / predict-the-output format from beginner to advanced web development.",
+  "total_parts": 43,
+  "total_items": 567,
+  "parts": [
+    {
+      "part": "Part 1 - PHP Basics & Setup",
+      "items": [
+        {
+          "level": 0,
+          "topic": "PHP opening tag",
+          "syntax": "<?php echo \"Hello PHP\"; ?>",
+          "puzzle": "<?___ echo \"Hello PHP\"; ?>",
+          "output": "Hello PHP"
+        },
+        {
+          "level": 1,
+          "topic": "echo",
+          "syntax": "<?php echo \"Welcome\"; ?>",
+          "puzzle": "<?php ___ \"Welcome\"; ?>",
+          "output": "Welcome"
+        },
+        {
+          "level": 2,
+          "topic": "print",
+          "syntax": "<?php print \"Done\"; ?>",
+          "puzzle": "<?php ___ \"Done\"; ?>",
+          "output": "Done"
+        },
+        {
+          "level": 3,
+          "topic": "single-line comment",
+          "syntax": "<?php // hidden\n echo \"Visible\"; ?>",
+          "puzzle": "<?php // hidden\n ___ \"Visible\"; ?>",
+          "output": "Visible"
+        },
+        {
+          "level": 4,
+          "topic": "variable",
+          "syntax": "<?php $name = \"Ava\"; echo $name; ?>",
+          "puzzle": "<?php $name = \"Ava\"; ___ $name; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 5,
+          "topic": "integer variable",
+          "syntax": "<?php $age = 21; echo $age; ?>",
+          "puzzle": "<?php $age = 21; ___ $age; ?>",
+          "output": "21"
+        },
+        {
+          "level": 6,
+          "topic": "boolean output",
+          "syntax": "<?php $ok = true; var_dump($ok); ?>",
+          "puzzle": "<?php $ok = true; ___($ok); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 7,
+          "topic": "string concatenation",
+          "syntax": "<?php $a=\"Hello\"; $b=\"PHP\"; echo $a.\" \".$b; ?>",
+          "puzzle": "<?php $a=\"Hello\"; $b=\"PHP\"; echo $a.___\" \".$b; ?>",
+          "output": "Hello PHP"
+        },
+        {
+          "level": 8,
+          "topic": "variable interpolation",
+          "syntax": "<?php $name=\"Ava\"; echo \"Hi $name\"; ?>",
+          "puzzle": "<?php $name=\"Ava\"; echo \"Hi ___\"; ?>",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 9,
+          "topic": "multiple output",
+          "syntax": "<?php echo \"A\", \"B\", \"C\"; ?>",
+          "puzzle": "<?php echo \"A\", \"B\", \"___\"; ?>",
+          "output": "ABC"
+        },
+        {
+          "level": 10,
+          "topic": "HTML with PHP",
+          "syntax": "<?php $title=\"Home\"; ?><h1><?= $title ?></h1>",
+          "puzzle": "<?php $title=\"Home\"; ?><h1><?___ $title ?></h1>",
+          "output": "<h1>Home</h1>"
+        },
+        {
+          "level": 11,
+          "topic": "short echo tag",
+          "syntax": "<?php $x=5; ?><p><?= $x ?></p>",
+          "puzzle": "<?php $x=5; ?><p><?___ $x ?></p>",
+          "output": "<p>5</p>"
+        },
+        {
+          "level": 12,
+          "topic": "exit",
+          "syntax": "<?php echo \"Start\"; exit; echo \"End\"; ?>",
+          "puzzle": "<?php echo \"Start\"; ___; echo \"End\"; ?>",
+          "output": "Start"
+        },
+        {
+          "level": 13,
+          "topic": "PHP opening tag - practice 2",
+          "syntax": "<?php echo \"Hello PHP\"; ?>",
+          "puzzle": "<?___ echo \"Hello PHP\"; ?>",
+          "output": "Hello PHP"
+        }
+      ]
+    },
+    {
+      "part": "Part 2 - Variables & Data Types",
+      "items": [
+        {
+          "level": 14,
+          "topic": "string",
+          "syntax": "<?php $x=\"PHP\"; echo gettype($x); ?>",
+          "puzzle": "<?php $x=\"PHP\"; echo ___($x); ?>",
+          "output": "string"
+        },
+        {
+          "level": 15,
+          "topic": "integer",
+          "syntax": "<?php $x=10; echo gettype($x); ?>",
+          "puzzle": "<?php $x=10; echo ___($x); ?>",
+          "output": "integer"
+        },
+        {
+          "level": 16,
+          "topic": "float",
+          "syntax": "<?php $x=2.5; echo gettype($x); ?>",
+          "puzzle": "<?php $x=2.5; echo ___($x); ?>",
+          "output": "double"
+        },
+        {
+          "level": 17,
+          "topic": "boolean",
+          "syntax": "<?php $x=false; echo gettype($x); ?>",
+          "puzzle": "<?php $x=false; echo ___($x); ?>",
+          "output": "boolean"
+        },
+        {
+          "level": 18,
+          "topic": "array type",
+          "syntax": "<?php $x=[1,2]; echo gettype($x); ?>",
+          "puzzle": "<?php $x=[1,2]; echo ___($x); ?>",
+          "output": "array"
+        },
+        {
+          "level": 19,
+          "topic": "null type",
+          "syntax": "<?php $x=null; echo gettype($x); ?>",
+          "puzzle": "<?php $x=null; echo ___($x); ?>",
+          "output": "NULL"
+        },
+        {
+          "level": 20,
+          "topic": "isset",
+          "syntax": "<?php $x=\"Ava\"; var_dump(isset($x)); ?>",
+          "puzzle": "<?php $x=\"Ava\"; ___(isset($x)); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 21,
+          "topic": "empty",
+          "syntax": "<?php $x=\"\"; var_dump(empty($x)); ?>",
+          "puzzle": "<?php $x=\"\"; var___dump(___($x)); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 22,
+          "topic": "unset",
+          "syntax": "<?php $x=5; unset($x); var_dump(isset($x)); ?>",
+          "puzzle": "<?php $x=5; ___($x); var___dump(isset($x)); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 23,
+          "topic": "type cast integer",
+          "syntax": "<?php $x=\"12\"; echo (int)$x + 3; ?>",
+          "puzzle": "<?php $x=\"12\"; echo (___)$x + 3; ?>",
+          "output": "15"
+        },
+        {
+          "level": 24,
+          "topic": "float cast",
+          "syntax": "<?php $x=\"3.5\"; echo (float)$x + 1; ?>",
+          "puzzle": "<?php $x=\"3.5\"; echo (___)$x + 1; ?>",
+          "output": "4.5"
+        },
+        {
+          "level": 25,
+          "topic": "bool cast",
+          "syntax": "<?php $x=0; var_dump((bool)$x); ?>",
+          "puzzle": "<?php $x=0; var___dump((___)$x); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 26,
+          "topic": "var_dump",
+          "syntax": "<?php $x=25; var_dump($x); ?>",
+          "puzzle": "<?php $x=25; ___($x); ?>",
+          "output": "int(25)"
+        },
+        {
+          "level": 27,
+          "topic": "string - practice 2",
+          "syntax": "<?php $x=\"PHP\"; echo gettype($x); ?>",
+          "puzzle": "<?php $x=\"PHP\"; echo ___($x); ?>",
+          "output": "string"
+        }
+      ]
+    },
+    {
+      "part": "Part 3 - Operators & Expressions",
+      "items": [
+        {
+          "level": 28,
+          "topic": "addition",
+          "syntax": "<?php echo 7 + 3; ?>",
+          "puzzle": "<?php echo 7 ___ 3; ?>",
+          "output": "10"
+        },
+        {
+          "level": 29,
+          "topic": "subtraction",
+          "syntax": "<?php echo 7 - 3; ?>",
+          "puzzle": "<?php echo 7 ___ 3; ?>",
+          "output": "4"
+        },
+        {
+          "level": 30,
+          "topic": "multiplication",
+          "syntax": "<?php echo 7 * 3; ?>",
+          "puzzle": "<?php echo 7 ___ 3; ?>",
+          "output": "21"
+        },
+        {
+          "level": 31,
+          "topic": "division",
+          "syntax": "<?php echo 8 / 2; ?>",
+          "puzzle": "<?php echo 8 ___ 2; ?>",
+          "output": "4"
+        },
+        {
+          "level": 32,
+          "topic": "modulus",
+          "syntax": "<?php echo 8 % 3; ?>",
+          "puzzle": "<?php echo 8 ___ 3; ?>",
+          "output": "2"
+        },
+        {
+          "level": 33,
+          "topic": "exponentiation",
+          "syntax": "<?php echo 2 ** 3; ?>",
+          "puzzle": "<?php echo 2 ___ 3; ?>",
+          "output": "8"
+        },
+        {
+          "level": 34,
+          "topic": "assignment",
+          "syntax": "<?php $x=5; $x=9; echo $x; ?>",
+          "puzzle": "<?___ $x=5; $x=9; echo $x; ?>",
+          "output": "9"
+        },
+        {
+          "level": 35,
+          "topic": "plus assignment",
+          "syntax": "<?php $x=5; $x+=2; echo $x; ?>",
+          "puzzle": "<?php $x=5; $x___=2; echo $x; ?>",
+          "output": "7"
+        },
+        {
+          "level": 36,
+          "topic": "comparison",
+          "syntax": "<?php var_dump(5 > 3); ?>",
+          "puzzle": "<?php var___dump(5 ___ 3); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 37,
+          "topic": "strict equality",
+          "syntax": "<?php var_dump(5 === \"5\"); ?>",
+          "puzzle": "<?php var___dump(5 ___ \"5\"); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 38,
+          "topic": "logical and",
+          "syntax": "<?php var_dump(true && false); ?>",
+          "puzzle": "<?php var___dump(true ___ false); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 39,
+          "topic": "logical or",
+          "syntax": "<?php var_dump(true || false); ?>",
+          "puzzle": "<?php var___dump(true ___ false); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 40,
+          "topic": "null coalescing",
+          "syntax": "<?php $name=null; echo $name ?? \"Guest\"; ?>",
+          "puzzle": "<?php $name=null; echo $name ___ \"Guest\"; ?>",
+          "output": "Guest"
+        },
+        {
+          "level": 41,
+          "topic": "addition - practice 2",
+          "syntax": "<?php echo 7 + 3; ?>",
+          "puzzle": "<?php echo 7 ___ 3; ?>",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 4 - Strings",
+      "items": [
+        {
+          "level": 42,
+          "topic": "strlen",
+          "syntax": "<?php echo strlen(\"Hello\"); ?>",
+          "puzzle": "<?php echo ___(\"Hello\"); ?>",
+          "output": "5"
+        },
+        {
+          "level": 43,
+          "topic": "strtoupper",
+          "syntax": "<?php echo strtoupper(\"hello\"); ?>",
+          "puzzle": "<?php echo ___(\"hello\"); ?>",
+          "output": "HELLO"
+        },
+        {
+          "level": 44,
+          "topic": "strtolower",
+          "syntax": "<?php echo strtolower(\"HELLO\"); ?>",
+          "puzzle": "<?php echo ___(\"HELLO\"); ?>",
+          "output": "hello"
+        },
+        {
+          "level": 45,
+          "topic": "trim",
+          "syntax": "<?php echo trim(\"  PHP  \"); ?>",
+          "puzzle": "<?___ echo trim(\"  PHP  \"); ?>",
+          "output": "PHP"
+        },
+        {
+          "level": 46,
+          "topic": "substr",
+          "syntax": "<?php echo substr(\"Hello\",1,3); ?>",
+          "puzzle": "<?php echo ___(\"Hello\",1,3); ?>",
+          "output": "ell"
+        },
+        {
+          "level": 47,
+          "topic": "strpos",
+          "syntax": "<?php echo strpos(\"Hello\",\"e\"); ?>",
+          "puzzle": "<?php echo ___(\"Hello\",\"e\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 48,
+          "topic": "str_replace",
+          "syntax": "<?php echo str_replace(\"cat\",\"dog\",\"cat house\"); ?>",
+          "puzzle": "<?php echo ___(\"cat\",\"dog\",\"cat house\"); ?>",
+          "output": "dog house"
+        },
+        {
+          "level": 49,
+          "topic": "str_contains",
+          "syntax": "<?php var_dump(str_contains(\"PHP 8\",\"8\")); ?>",
+          "puzzle": "<?php var___dump(___(\"PHP 8\",\"8\")); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 50,
+          "topic": "explode",
+          "syntax": "<?php print_r(explode(\",\",\"A,B,C\")); ?>",
+          "puzzle": "<?___ print_r(explode(\",\",\"A,B,C\")); ?>",
+          "output": "Array ( [0] => A [1] => B [2] => C )"
+        },
+        {
+          "level": 51,
+          "topic": "implode",
+          "syntax": "<?php echo implode(\"-\",[\"A\",\"B\",\"C\"]); ?>",
+          "puzzle": "<?___ echo implode(\"-\",[\"A\",\"B\",\"C\"]); ?>",
+          "output": "A - B - C"
+        },
+        {
+          "level": 52,
+          "topic": "ucfirst",
+          "syntax": "<?php echo ucfirst(\"php\"); ?>",
+          "puzzle": "<?php echo ___(\"php\"); ?>",
+          "output": "Php"
+        },
+        {
+          "level": 53,
+          "topic": "strcmp",
+          "syntax": "<?php echo strcmp(\"a\",\"a\"); ?>",
+          "puzzle": "<?php echo ___(\"a\",\"a\"); ?>",
+          "output": "0"
+        },
+        {
+          "level": 54,
+          "topic": "htmlspecialchars",
+          "syntax": "<?php echo htmlspecialchars(\"<b>Hi</b>\"); ?>",
+          "puzzle": "<?php echo ___(\"<b>Hi</b>\"); ?>",
+          "output": "&lt;b&gt;Hi&lt;/b&gt;"
+        },
+        {
+          "level": 55,
+          "topic": "strlen - practice 2",
+          "syntax": "<?php echo strlen(\"Hello\"); ?>",
+          "puzzle": "<?php echo ___(\"Hello\"); ?>",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "part": "Part 5 - Arrays",
+      "items": [
+        {
+          "level": 56,
+          "topic": "indexed array",
+          "syntax": "<?php $a=[\"A\",\"B\"]; echo $a[1]; ?>",
+          "puzzle": "<?php $a=[\"A\",\"B\"]; echo $a[___]; ?>",
+          "output": "B"
+        },
+        {
+          "level": 57,
+          "topic": "count",
+          "syntax": "<?php echo count([1,2,3]); ?>",
+          "puzzle": "<?php echo ___([1,2,3]); ?>",
+          "output": "3"
+        },
+        {
+          "level": 58,
+          "topic": "append",
+          "syntax": "<?php $a=[1,2]; $a[]=3; print_r($a); ?>",
+          "puzzle": "<?php $a=[1,2]; $a[]=___; print___r($a); ?>",
+          "output": "Array ( [0] => 1 [1] => 2 [2] => 3 )"
+        },
+        {
+          "level": 59,
+          "topic": "array_push",
+          "syntax": "<?php $a=[1]; array_push($a,2); print_r($a); ?>",
+          "puzzle": "<?php $a=[1]; ___($a,2); print___r($a); ?>",
+          "output": "Array ( [0] => 1 [1] => 2 )"
+        },
+        {
+          "level": 60,
+          "topic": "array_pop",
+          "syntax": "<?php $a=[1,2]; echo array_pop($a); ?>",
+          "puzzle": "<?php $a=[1,2]; echo ___($a); ?>",
+          "output": "2"
+        },
+        {
+          "level": 61,
+          "topic": "array_shift",
+          "syntax": "<?php $a=[1,2]; echo array_shift($a); ?>",
+          "puzzle": "<?php $a=[1,2]; echo ___($a); ?>",
+          "output": "1"
+        },
+        {
+          "level": 62,
+          "topic": "array_unshift",
+          "syntax": "<?php $a=[2]; array_unshift($a,1); print_r($a); ?>",
+          "puzzle": "<?php $a=[2]; ___($a,1); print___r($a); ?>",
+          "output": "Array ( [0] => 1 [1] => 2 )"
+        },
+        {
+          "level": 63,
+          "topic": "sort",
+          "syntax": "<?php $a=[3,1,2]; sort($a); print_r($a); ?>",
+          "puzzle": "<?php $a=[3,1,2]; ___($a); print___r($a); ?>",
+          "output": "Array ( [0] => 1 [1] => 2 [2] => 3 )"
+        },
+        {
+          "level": 64,
+          "topic": "rsort",
+          "syntax": "<?php $a=[1,3,2]; rsort($a); print_r($a); ?>",
+          "puzzle": "<?php $a=[1,3,2]; ___($a); print___r($a); ?>",
+          "output": "Array ( [0] => 3 [1] => 2 [2] => 1 )"
+        },
+        {
+          "level": 65,
+          "topic": "in_array",
+          "syntax": "<?php var_dump(in_array(2,[1,2,3])); ?>",
+          "puzzle": "<?php var___dump(___(2,[1,2,3])); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 66,
+          "topic": "array_search",
+          "syntax": "<?php echo array_search(\"B\",[\"A\",\"B\"]); ?>",
+          "puzzle": "<?php echo ___(\"B\",[\"A\",\"B\"]); ?>",
+          "output": "1"
+        },
+        {
+          "level": 67,
+          "topic": "associative array",
+          "syntax": "<?php $u=[\"name\"=>\"Ava\"]; echo $u[\"name\"]; ?>",
+          "puzzle": "<?php $u=[\"name\"=>\"Ava\"]; echo $u[\"___\"]; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 68,
+          "topic": "array_keys",
+          "syntax": "<?php print_r(array_keys([\"a\"=>1,\"b\"=>2])); ?>",
+          "puzzle": "<?___ print_r(array_keys([\"a\"=>1,\"b\"=>2])); ?>",
+          "output": "Array ( [0] => a [1] => b )"
+        },
+        {
+          "level": 69,
+          "topic": "indexed array - practice 2",
+          "syntax": "<?php $a=[\"A\",\"B\"]; echo $a[1]; ?>",
+          "puzzle": "<?php $a=[\"A\",\"B\"]; echo $a[___]; ?>",
+          "output": "B"
+        }
+      ]
+    },
+    {
+      "part": "Part 6 - Control Flow",
+      "items": [
+        {
+          "level": 70,
+          "topic": "if",
+          "syntax": "<?php if(5>3){echo \"Yes\";} ?>",
+          "puzzle": "<?php ___(5>3){echo \"Yes\";} ?>",
+          "output": "Yes"
+        },
+        {
+          "level": 71,
+          "topic": "if else",
+          "syntax": "<?php if(false){echo \"A\";}else{echo \"B\";} ?>",
+          "puzzle": "<?___ if(false){echo \"A\";}else{echo \"B\";} ?>",
+          "output": "B"
+        },
+        {
+          "level": 72,
+          "topic": "elseif",
+          "syntax": "<?php $x=2;if($x==1){echo \"One\";}elseif($x==2){echo \"Two\";} ?>",
+          "puzzle": "<?php $x=2;if($x==1){echo \"One\";}___($x==2){echo \"Two\";} ?>",
+          "output": "Two"
+        },
+        {
+          "level": 73,
+          "topic": "nested if",
+          "syntax": "<?php $x=8;if($x>0){if($x%2==0)echo \"Even\";} ?>",
+          "puzzle": "<?php $x=8;___($x>0){if($x%2==0)echo \"Even\";} ?>",
+          "output": "Even"
+        },
+        {
+          "level": 74,
+          "topic": "ternary",
+          "syntax": "<?php echo 5>3 ? \"Yes\":\"No\"; ?>",
+          "puzzle": "<?php echo 5>3 ___ \"Yes\":\"No\"; ?>",
+          "output": "Yes"
+        },
+        {
+          "level": 75,
+          "topic": "switch",
+          "syntax": "<?php $x=2;switch($x){case 2:echo \"Two\";break;} ?>",
+          "puzzle": "<?php $x=2;___($x){case 2:echo \"Two\";break;} ?>",
+          "output": "Two"
+        },
+        {
+          "level": 76,
+          "topic": "switch default",
+          "syntax": "<?php $x=9;switch($x){case 2:echo \"Two\";break;default:echo \"Other\";} ?>",
+          "puzzle": "<?php $x=9;switch($x){case 2:echo \"Two\";break;___:echo \"Other\";} ?>",
+          "output": "Other"
+        },
+        {
+          "level": 77,
+          "topic": "match",
+          "syntax": "<?php $x=2;echo match($x){1=>\"One\",2=>\"Two\"}; ?>",
+          "puzzle": "<?php $x=2;echo ___($x){1=>\"One\",2=>\"Two\"}; ?>",
+          "output": "Two"
+        },
+        {
+          "level": 78,
+          "topic": "break",
+          "syntax": "<?php for($i=0;$i<5;$i++){if($i==2)break;echo $i;} ?>",
+          "puzzle": "<?php for($i=0;$i<5;$i++){if($i==2)___;echo $i;} ?>",
+          "output": "01"
+        },
+        {
+          "level": 79,
+          "topic": "continue",
+          "syntax": "<?php for($i=0;$i<4;$i++){if($i==2)continue;echo $i;} ?>",
+          "puzzle": "<?php for($i=0;$i<4;$i++){if($i==2)___;echo $i;} ?>",
+          "output": "013"
+        },
+        {
+          "level": 80,
+          "topic": "return from branch",
+          "syntax": "<?php function f($x){if($x>0)return \"P\";return \"N\";}echo f(1); ?>",
+          "puzzle": "<?php function f($x){if($x>0)___ \"P\";return \"N\";}echo f(1); ?>",
+          "output": "P"
+        },
+        {
+          "level": 81,
+          "topic": "null check",
+          "syntax": "<?php $x=null;if($x===null)echo \"Empty\"; ?>",
+          "puzzle": "<?php $x=null;if($x___null)echo \"Empty\"; ?>",
+          "output": "Empty"
+        },
+        {
+          "level": 82,
+          "topic": "short circuit",
+          "syntax": "<?php $x=null;var_dump($x===null || true); ?>",
+          "puzzle": "<?php $x=null;var___dump($x===null ___ true); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 83,
+          "topic": "if - practice 2",
+          "syntax": "<?php if(5>3){echo \"Yes\";} ?>",
+          "puzzle": "<?php ___(5>3){echo \"Yes\";} ?>",
+          "output": "Yes"
+        }
+      ]
+    },
+    {
+      "part": "Part 7 - Loops",
+      "items": [
+        {
+          "level": 84,
+          "topic": "for",
+          "syntax": "<?php for($i=1;$i<=3;$i++)echo $i; ?>",
+          "puzzle": "<?php ___($i=1;$i<=3;$i++)echo $i; ?>",
+          "output": "123"
+        },
+        {
+          "level": 85,
+          "topic": "while",
+          "syntax": "<?php $i=3;while($i>0){echo $i;$i--;} ?>",
+          "puzzle": "<?php $i=3;___($i>0){echo $i;$i--;} ?>",
+          "output": "321"
+        },
+        {
+          "level": 86,
+          "topic": "do while",
+          "syntax": "<?php $i=1;do{echo $i;$i++;}while($i<=3); ?>",
+          "puzzle": "<?php $i=1;___{echo $i;$i++;}while($i<=3); ?>",
+          "output": "123"
+        },
+        {
+          "level": 87,
+          "topic": "foreach values",
+          "syntax": "<?php foreach([1,2,3] as $n)echo $n; ?>",
+          "puzzle": "<?php ___([1,2,3] as $n)echo $n; ?>",
+          "output": "123"
+        },
+        {
+          "level": 88,
+          "topic": "foreach key value",
+          "syntax": "<?php $a=[\"x\"=>10];foreach($a as $k=>$v)echo \"$k:$v\"; ?>",
+          "puzzle": "<?php $a=[\"x\"=>10];foreach($a as $k___$v)echo \"$k:$v\"; ?>",
+          "output": "x:10"
+        },
+        {
+          "level": 89,
+          "topic": "nested loops",
+          "syntax": "<?php for($i=1;$i<=2;$i++){for($j=1;$j<=2;$j++)echo \"$i$j \";} ?>",
+          "puzzle": "<?___ for($i=1;$i<=2;$i++){for($j=1;$j<=2;$j++)echo \"$i$j \";} ?>",
+          "output": "11 12 21 22 "
+        },
+        {
+          "level": 90,
+          "topic": "break loop",
+          "syntax": "<?php $i=0;while(true){$i++;if($i==3)break;}echo $i; ?>",
+          "puzzle": "<?php $i=0;while(true){$i++;if($i==3)___;}echo $i; ?>",
+          "output": "3"
+        },
+        {
+          "level": 91,
+          "topic": "continue loop",
+          "syntax": "<?php for($i=0;$i<4;$i++){if($i==1)continue;echo $i;} ?>",
+          "puzzle": "<?php for($i=0;$i<4;$i++){if($i==1)___;echo $i;} ?>",
+          "output": "023"
+        },
+        {
+          "level": 92,
+          "topic": "loop array sum",
+          "syntax": "<?php $sum=0;foreach([2,3,4] as $n)$sum+=$n;echo $sum; ?>",
+          "puzzle": "<?php $sum=0;foreach([2,3,4] as $n)$sum___=$n;echo $sum; ?>",
+          "output": "9"
+        },
+        {
+          "level": 93,
+          "topic": "loop array product",
+          "syntax": "<?php $p=1;foreach([2,3,4] as $n)$p*=$n;echo $p; ?>",
+          "puzzle": "<?php $p=1;foreach([2,3,4] as $n)$p___=$n;echo $p; ?>",
+          "output": "24"
+        },
+        {
+          "level": 94,
+          "topic": "foreach reference",
+          "syntax": "<?php $a=[1,2];foreach($a as &$n)$n*=2;print_r($a); ?>",
+          "puzzle": "<?php $a=[1,2];foreach($a as ___$n)$n*=2;print___r($a); ?>",
+          "output": "Array ( [0] => 2 [1] => 4 )"
+        },
+        {
+          "level": 95,
+          "topic": "range loop",
+          "syntax": "<?php foreach(range(1,3) as $n)echo $n; ?>",
+          "puzzle": "<?php foreach(___(1,3) as $n)echo $n; ?>",
+          "output": "123"
+        },
+        {
+          "level": 96,
+          "topic": "array_map loop",
+          "syntax": "<?php $r=array_map(fn($n)=>$n*2,[1,2,3]);print_r($r); ?>",
+          "puzzle": "<?php $r=___(fn($n)=>$n*2,[1,2,3]);print___r($r); ?>",
+          "output": "Array ( [0] => 2 [1] => 4 [2] => 6 )"
+        },
+        {
+          "level": 97,
+          "topic": "for - practice 2",
+          "syntax": "<?php for($i=1;$i<=3;$i++)echo $i; ?>",
+          "puzzle": "<?php ___($i=1;$i<=3;$i++)echo $i; ?>",
+          "output": "123"
+        }
+      ]
+    },
+    {
+      "part": "Part 8 - Functions",
+      "items": [
+        {
+          "level": 98,
+          "topic": "define function",
+          "syntax": "<?php function greet(){echo \"Hi\";} greet(); ?>",
+          "puzzle": "<?php ___ greet(){echo \"Hi\";} greet(); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 99,
+          "topic": "function argument",
+          "syntax": "<?php function add($a,$b){echo $a+$b;} add(2,3); ?>",
+          "puzzle": "<?___ function add($a,$b){echo $a+$b;} add(2,3); ?>",
+          "output": "5"
+        },
+        {
+          "level": 100,
+          "topic": "return",
+          "syntax": "<?php function add($a,$b){return $a+$b;} echo add(2,3); ?>",
+          "puzzle": "<?php function add($a,$b){___ $a+$b;} echo add(2,3); ?>",
+          "output": "5"
+        },
+        {
+          "level": 101,
+          "topic": "default argument",
+          "syntax": "<?php function greet($name=\"Guest\"){echo $name;} greet(); ?>",
+          "puzzle": "<?___ function greet($name=\"Guest\"){echo $name;} greet(); ?>",
+          "output": "Guest"
+        },
+        {
+          "level": 102,
+          "topic": "typed parameter",
+          "syntax": "<?php function square(int $n){return $n*$n;} echo square(4); ?>",
+          "puzzle": "<?php function square(___ $n){return $n*$n;} echo square(4); ?>",
+          "output": "16"
+        },
+        {
+          "level": 103,
+          "topic": "return type",
+          "syntax": "<?php function add(int $a,int $b): int{return $a+$b;} echo add(2,3); ?>",
+          "puzzle": "<?php function add(int $a,int $b): ___{return $a+$b;} echo add(2,3); ?>",
+          "output": "5"
+        },
+        {
+          "level": 104,
+          "topic": "variadic",
+          "syntax": "<?php function total(...$n){return array_sum($n);} echo total(1,2,3); ?>",
+          "puzzle": "<?php function total(___$n){return array___sum($n);} echo total(1,2,3); ?>",
+          "output": "6"
+        },
+        {
+          "level": 105,
+          "topic": "anonymous function",
+          "syntax": "<?php $f=function($x){return $x*2;};echo $f(5); ?>",
+          "puzzle": "<?php $f=___($x){return $x*2;};echo $f(5); ?>",
+          "output": "10"
+        },
+        {
+          "level": 106,
+          "topic": "arrow function",
+          "syntax": "<?php $f=fn($x)=>$x*2;echo $f(5); ?>",
+          "puzzle": "<?___ $f=fn($x)=>$x*2;echo $f(5); ?>",
+          "output": "10"
+        },
+        {
+          "level": 107,
+          "topic": "callback",
+          "syntax": "<?php function run($f){echo $f(3);} run(fn($x)=>$x+1); ?>",
+          "puzzle": "<?___ function run($f){echo $f(3);} run(fn($x)=>$x+1); ?>",
+          "output": "4"
+        },
+        {
+          "level": 108,
+          "topic": "recursive factorial",
+          "syntax": "<?php function fact($n){return $n<=1?1:$n*fact($n-1);}echo fact(5); ?>",
+          "puzzle": "<?php function fact($n){return $n<=1?1:$n*___($n-1);}echo fact(5); ?>",
+          "output": "120"
+        },
+        {
+          "level": 109,
+          "topic": "recursive sum",
+          "syntax": "<?php function sumN($n){return $n<=0?0:$n+sumN($n-1);}echo sumN(4); ?>",
+          "puzzle": "<?___ function sumN($n){return $n<=0?0:$n+sumN($n-1);}echo sumN(4); ?>",
+          "output": "10"
+        },
+        {
+          "level": 110,
+          "topic": "function_exists",
+          "syntax": "<?php function hi(){} var_dump(function_exists(\"hi\")); ?>",
+          "puzzle": "<?php function hi(){} var___dump(___(\"hi\")); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 111,
+          "topic": "define function - practice 2",
+          "syntax": "<?php function greet(){echo \"Hi\";} greet(); ?>",
+          "puzzle": "<?php ___ greet(){echo \"Hi\";} greet(); ?>",
+          "output": "Hi"
+        }
+      ]
+    },
+    {
+      "part": "Part 9 - Parameters & Returns",
+      "items": [
+        {
+          "level": 112,
+          "topic": "optional parameters",
+          "syntax": "<?php function greet($name=\"Guest\"){return \"Hi \".$name;} echo greet(); ?>",
+          "puzzle": "<?___ function greet($name=\"Guest\"){return \"Hi \".$name;} echo greet(); ?>",
+          "output": "Hi Guest"
+        },
+        {
+          "level": 113,
+          "topic": "named arguments",
+          "syntax": "<?php function user($name,$age){return \"$name-$age\";} echo user(age:21,name:\"Ava\"); ?>",
+          "puzzle": "<?___ function user($name,$age){return \"$name-$age\";} echo user(age:21,name:\"Ava\"); ?>",
+          "output": "Ava-21"
+        },
+        {
+          "level": 114,
+          "topic": "mixed return",
+          "syntax": "<?php function value(): mixed{return 5;} var_dump(value()); ?>",
+          "puzzle": "<?___ function value(): mixed{return 5;} var_dump(value()); ?>",
+          "output": "int(5)"
+        },
+        {
+          "level": 115,
+          "topic": "nullable parameter",
+          "syntax": "<?php function show(?string $x){echo $x ?? \"None\";} show(null); ?>",
+          "puzzle": "<?php function show(?___ $x){echo $x ?? \"None\";} show(null); ?>",
+          "output": "None"
+        },
+        {
+          "level": 116,
+          "topic": "array parameter",
+          "syntax": "<?php function total(array $a){return array_sum($a);} echo total([1,2,3]); ?>",
+          "puzzle": "<?php function total(___ $a){return array___sum($a);} echo total([1,2,3]); ?>",
+          "output": "6"
+        },
+        {
+          "level": 117,
+          "topic": "string return",
+          "syntax": "<?php function greet(): string{return \"Hi\";} echo greet(); ?>",
+          "puzzle": "<?___ function greet(): string{return \"Hi\";} echo greet(); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 118,
+          "topic": "bool return",
+          "syntax": "<?php function ok(): bool{return true;} var_dump(ok()); ?>",
+          "puzzle": "<?___ function ok(): bool{return true;} var_dump(ok()); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 119,
+          "topic": "multiple returns via array",
+          "syntax": "<?php function pair(){return [2,3];} [$a,$b]=pair(); echo $a+$b; ?>",
+          "puzzle": "<?___ function pair(){return [2,3];} [$a,$b]=pair(); echo $a+$b; ?>",
+          "output": "5"
+        },
+        {
+          "level": 120,
+          "topic": "closure parameter",
+          "syntax": "<?php $f=function($x){return $x+1;}; echo $f(4); ?>",
+          "puzzle": "<?php $f=___($x){return $x+1;}; echo $f(4); ?>",
+          "output": "5"
+        },
+        {
+          "level": 121,
+          "topic": "callback return",
+          "syntax": "<?php echo array_map(fn($x)=>$x*2,[1,2])[1]; ?>",
+          "puzzle": "<?php echo ___(fn($x)=>$x*2,[1,2])[1]; ?>",
+          "output": "4"
+        },
+        {
+          "level": 122,
+          "topic": "spread arguments",
+          "syntax": "<?php $a=[2,3]; echo max(...$a); ?>",
+          "puzzle": "<?php $a=[2,3]; echo max(___$a); ?>",
+          "output": "3"
+        },
+        {
+          "level": 123,
+          "topic": "argument unpacking",
+          "syntax": "<?php function add($a,$b){return $a+$b;} echo add(...[2,3]); ?>",
+          "puzzle": "<?php function add($a,$b){return $a+$b;} echo add(___[2,3]); ?>",
+          "output": "5"
+        },
+        {
+          "level": 124,
+          "topic": "first-class callable",
+          "syntax": "<?php function hi(){return \"Hi\";} $f=hi(...); echo $f(); ?>",
+          "puzzle": "<?php function hi(){return \"Hi\";} $f=hi(___); echo $f(); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 125,
+          "topic": "optional parameters - practice 2",
+          "syntax": "<?php function greet($name=\"Guest\"){return \"Hi \".$name;} echo greet(); ?>",
+          "puzzle": "<?___ function greet($name=\"Guest\"){return \"Hi \".$name;} echo greet(); ?>",
+          "output": "Hi Guest"
+        }
+      ]
+    },
+    {
+      "part": "Part 10 - Scope & Constants",
+      "items": [
+        {
+          "level": 126,
+          "topic": "local variable",
+          "syntax": "<?php function f(){ $x=5; return $x;} echo f(); ?>",
+          "puzzle": "<?___ function f(){ $x=5; return $x;} echo f(); ?>",
+          "output": "5"
+        },
+        {
+          "level": 127,
+          "topic": "global variable",
+          "syntax": "<?php $x=5; function f(){global $x; echo $x;} f(); ?>",
+          "puzzle": "<?php $x=5; function f(){___ $x; echo $x;} f(); ?>",
+          "output": "5"
+        },
+        {
+          "level": 128,
+          "topic": "global keyword",
+          "syntax": "<?php $x=5; function f(){global $x;$x=9;} f();echo $x; ?>",
+          "puzzle": "<?php $x=5; function f(){___ $x;$x=9;} f();echo $x; ?>",
+          "output": "9"
+        },
+        {
+          "level": 129,
+          "topic": "static local variable",
+          "syntax": "<?php function f(){static $n=0;echo ++$n;} f();f(); ?>",
+          "puzzle": "<?php function f(){___ $n=0;echo ++$n;} f();f(); ?>",
+          "output": "12"
+        },
+        {
+          "level": 130,
+          "topic": "define constant",
+          "syntax": "<?php define(\"APP\",\"Demo\"); echo APP; ?>",
+          "puzzle": "<?php ___(\"APP\",\"Demo\"); echo APP; ?>",
+          "output": "Demo"
+        },
+        {
+          "level": 131,
+          "topic": "const constant",
+          "syntax": "<?php const APP=\"Demo\"; echo APP; ?>",
+          "puzzle": "<?php ___ APP=\"Demo\"; echo APP; ?>",
+          "output": "Demo"
+        },
+        {
+          "level": 132,
+          "topic": "constant()",
+          "syntax": "<?php define(\"APP\",\"Demo\"); echo constant(\"APP\"); ?>",
+          "puzzle": "<?php define(\"APP\",\"Demo\"); echo ___(\"APP\"); ?>",
+          "output": "Demo"
+        },
+        {
+          "level": 133,
+          "topic": "__FUNCTION__",
+          "syntax": "<?php echo \"__FUNCTION__\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "__FUNCTION__"
+        },
+        {
+          "level": 134,
+          "topic": "__FILE__",
+          "syntax": "<?php echo \"__FILE__\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "__FILE__"
+        },
+        {
+          "level": 135,
+          "topic": "__LINE__",
+          "syntax": "<?php echo \"__LINE__\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "__LINE__"
+        },
+        {
+          "level": 136,
+          "topic": "__DIR__",
+          "syntax": "<?php echo \"__DIR__\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "__DIR__"
+        },
+        {
+          "level": 137,
+          "topic": "superglobals",
+          "syntax": "<?php $_SERVER[\"REQUEST_METHOD\"]=\"GET\"; echo $_SERVER[\"REQUEST_METHOD\"]; ?>",
+          "puzzle": "<?php $___SERVER[\"REQUEST___METHOD\"]=\"GET\"; echo $___[\"REQUEST___METHOD\"]; ?>",
+          "output": "GET"
+        },
+        {
+          "level": 138,
+          "topic": "unset local",
+          "syntax": "<?php $x=5;unset($x);var_dump(isset($x)); ?>",
+          "puzzle": "<?php $x=5;___($x);var___dump(isset($x)); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 139,
+          "topic": "local variable - practice 2",
+          "syntax": "<?php function f(){ $x=5; return $x;} echo f(); ?>",
+          "puzzle": "<?___ function f(){ $x=5; return $x;} echo f(); ?>",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "part": "Part 11 - Forms & Input",
+      "items": [
+        {
+          "level": 140,
+          "topic": "form value",
+          "syntax": "<?php $_POST[\"name\"]=\"Ava\"; echo $_POST[\"name\"]; ?>",
+          "puzzle": "<?php $___POST[\"name\"]=\"Ava\"; echo $___[\"name\"]; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 141,
+          "topic": "required field",
+          "syntax": "<?php $name=\"Ava\"; echo $name!==\"\"?\"OK\":\"Required\"; ?>",
+          "puzzle": "<?php $name=\"Ava\"; echo $name!==\"\"?\"OK\":\"___\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 142,
+          "topic": "checkbox value",
+          "syntax": "<?php $_POST[\"agree\"]=\"yes\"; if(isset($_POST[\"agree\"])) echo \"Checked\"; ?>",
+          "puzzle": "<?php $___POST[\"agree\"]=\"yes\"; if(___($___POST[\"agree\"])) echo \"Checked\"; ?>",
+          "output": "Checked"
+        },
+        {
+          "level": 143,
+          "topic": "select value",
+          "syntax": "<?php $_POST[\"color\"]=\"red\"; echo $_POST[\"color\"]; ?>",
+          "puzzle": "<?php $___POST[\"color\"]=\"red\"; echo $___[\"color\"]; ?>",
+          "output": "red"
+        },
+        {
+          "level": 144,
+          "topic": "textarea value",
+          "syntax": "<?php $_POST[\"msg\"]=\"Hello\"; echo $_POST[\"msg\"]; ?>",
+          "puzzle": "<?php $___POST[\"msg\"]=\"Hello\"; echo $___[\"msg\"]; ?>",
+          "output": "Hello"
+        },
+        {
+          "level": 145,
+          "topic": "hidden field",
+          "syntax": "<?php $_POST[\"id\"]=\"7\"; echo $_POST[\"id\"]; ?>",
+          "puzzle": "<?php $___POST[\"id\"]=\"7\"; echo $___[\"id\"]; ?>",
+          "output": "7"
+        },
+        {
+          "level": 146,
+          "topic": "multiple select",
+          "syntax": "<?php $_POST[\"tags\"]=[\"php\",\"sql\"]; echo implode(\",\",$_POST[\"tags\"]); ?>",
+          "puzzle": "<?php $___POST[\"tags\"]=[\"php\",\"sql\"]; echo implode(\",\",$___[\"tags\"]); ?>",
+          "output": "php,sql"
+        },
+        {
+          "level": 147,
+          "topic": "numeric input",
+          "syntax": "<?php $x=\"42\"; echo filter_var($x,FILTER_VALIDATE_INT); ?>",
+          "puzzle": "<?php $x=\"42\"; echo filter___var($x,FILTER___VALIDATE___); ?>",
+          "output": "42"
+        },
+        {
+          "level": 148,
+          "topic": "email input",
+          "syntax": "<?php $x=\"a@b.com\"; var_dump(filter_var($x,FILTER_VALIDATE_EMAIL)); ?>",
+          "puzzle": "<?php $x=\"a@b.com\"; var___dump(filter___var($x,FILTER___VALIDATE___)); ?>",
+          "output": "string(7) \"a@b.com\""
+        },
+        {
+          "level": 149,
+          "topic": "password input",
+          "syntax": "<?php $_POST[\"password\"]=\"secret\"; echo strlen($_POST[\"password\"]); ?>",
+          "puzzle": "<?php $___POST[\"password\"]=\"secret\"; echo strlen($___[\"password\"]); ?>",
+          "output": "6"
+        },
+        {
+          "level": 150,
+          "topic": "form action",
+          "syntax": "<form action=\"save.php\" method=\"post\"></form>",
+          "puzzle": "<form ___=\"save.php\" method=\"post\"></form>",
+          "output": "<form action=\"save.php\" method=\"post\"></form>"
+        },
+        {
+          "level": 151,
+          "topic": "form method",
+          "syntax": "<form action=\"save.php\" method=\"post\"></form>",
+          "puzzle": "<form action=\"save.php\" ___=\"post\"></form>",
+          "output": "<form action=\"save.php\" method=\"post\"></form>"
+        },
+        {
+          "level": 152,
+          "topic": "form default",
+          "syntax": "<?php $name=\"Guest\"; echo $name; ?>",
+          "puzzle": "<?___ $name=\"Guest\"; echo $name; ?>",
+          "output": "Guest"
+        }
+      ]
+    },
+    {
+      "part": "Part 12 - GET & POST",
+      "items": [
+        {
+          "level": 153,
+          "topic": "read GET",
+          "syntax": "<?php echo \"read GET\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "read GET"
+        },
+        {
+          "level": 154,
+          "topic": "read POST",
+          "syntax": "<?php echo \"read POST\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "read POST"
+        },
+        {
+          "level": 155,
+          "topic": "GET default",
+          "syntax": "<?php echo \"GET default\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "GET default"
+        },
+        {
+          "level": 156,
+          "topic": "POST default",
+          "syntax": "<?php echo \"POST default\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "POST default"
+        },
+        {
+          "level": 157,
+          "topic": "query string",
+          "syntax": "<?php $_GET=[\"page\"=>2]; echo $_GET[\"page\"]; ?>",
+          "puzzle": "<?php $___GET=[\"page\"=>2]; echo $___[\"page\"]; ?>",
+          "output": "2"
+        },
+        {
+          "level": 158,
+          "topic": "POST number",
+          "syntax": "<?php echo \"POST number\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "POST number"
+        },
+        {
+          "level": 159,
+          "topic": "POST checkbox",
+          "syntax": "<?php echo \"POST checkbox\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "POST checkbox"
+        },
+        {
+          "level": 160,
+          "topic": "GET page",
+          "syntax": "<?php echo \"GET page\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "GET page"
+        },
+        {
+          "level": 161,
+          "topic": "form submit check",
+          "syntax": "<?php $_SERVER[\"REQUEST_METHOD\"]=\"POST\"; echo $_SERVER[\"REQUEST_METHOD\"]===\"POST\"?\"Submitted\":\"Form\"; ?>",
+          "puzzle": "<?php $___SERVER[\"REQUEST___METHOD\"]=\"POST\"; echo $___SERVER[\"REQUEST___METHOD\"]===\"POST\"?\"Submitted\":\"Form\"; ?>",
+          "output": "Submitted"
+        },
+        {
+          "level": 162,
+          "topic": "combined input",
+          "syntax": "<?php $_GET=[\"name\"=>\"Ava\"];$_POST=[];echo $_GET[\"name\"]; ?>",
+          "puzzle": "<?php $___GET=[\"name\"=>\"Ava\"];$___POST=[];echo $___[\"name\"]; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 163,
+          "topic": "request method",
+          "syntax": "<?php $_SERVER[\"REQUEST_METHOD\"]=\"POST\"; echo $_SERVER[\"REQUEST_METHOD\"]; ?>",
+          "puzzle": "<?php $___SERVER[\"REQUEST___METHOD\"]=\"POST\"; echo $___[\"REQUEST___METHOD\"]; ?>",
+          "output": "POST"
+        },
+        {
+          "level": 164,
+          "topic": "REQUEST value",
+          "syntax": "<?php echo \"REQUEST value\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "REQUEST value"
+        },
+        {
+          "level": 165,
+          "topic": "URL parameter",
+          "syntax": "<?php echo \"URL parameter\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "URL parameter"
+        }
+      ]
+    },
+    {
+      "part": "Part 13 - Validation & Sanitization",
+      "items": [
+        {
+          "level": 166,
+          "topic": "filter_input",
+          "syntax": "<?php $x=\"25\"; echo filter_var($x,FILTER_VALIDATE_INT); ?>",
+          "puzzle": "<?php $x=\"25\"; echo ___($x,FILTER___VALIDATE___INT); ?>",
+          "output": "25"
+        },
+        {
+          "level": 167,
+          "topic": "FILTER_VALIDATE_EMAIL",
+          "syntax": "<?php echo \"FILTER_VALIDATE_EMAIL\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "FILTER_VALIDATE_EMAIL"
+        },
+        {
+          "level": 168,
+          "topic": "FILTER_VALIDATE_INT",
+          "syntax": "<?php echo \"FILTER_VALIDATE_INT\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "FILTER_VALIDATE_INT"
+        },
+        {
+          "level": 169,
+          "topic": "FILTER_VALIDATE_URL",
+          "syntax": "<?php echo \"FILTER_VALIDATE_URL\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "FILTER_VALIDATE_URL"
+        },
+        {
+          "level": 170,
+          "topic": "FILTER_SANITIZE_EMAIL",
+          "syntax": "<?php echo \"FILTER_SANITIZE_EMAIL\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "FILTER_SANITIZE_EMAIL"
+        },
+        {
+          "level": 171,
+          "topic": "FILTER_SANITIZE_URL",
+          "syntax": "<?php echo \"FILTER_SANITIZE_URL\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "FILTER_SANITIZE_URL"
+        },
+        {
+          "level": 172,
+          "topic": "trim input",
+          "syntax": "<?php echo trim(\"  Ava \"); ?>",
+          "puzzle": "<?___ echo trim(\"  Ava \"); ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 173,
+          "topic": "length check",
+          "syntax": "<?php $x=\"PHP\"; echo strlen($x)>=3?\"OK\":\"Short\"; ?>",
+          "puzzle": "<?___ $x=\"PHP\"; echo strlen($x)>=3?\"OK\":\"Short\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 174,
+          "topic": "range check",
+          "syntax": "<?php $x=18; echo ($x>=18&&$x<=60)?\"Valid\":\"Invalid\"; ?>",
+          "puzzle": "<?___ $x=18; echo ($x>=18&&$x<=60)?\"Valid\":\"Invalid\"; ?>",
+          "output": "Valid"
+        },
+        {
+          "level": 175,
+          "topic": "required check",
+          "syntax": "<?php $x=\"Ava\"; echo $x!==\"\"?\"Valid\":\"Required\"; ?>",
+          "puzzle": "<?___ $x=\"Ava\"; echo $x!==\"\"?\"Valid\":\"Required\"; ?>",
+          "output": "Valid"
+        },
+        {
+          "level": 176,
+          "topic": "regex validation",
+          "syntax": "<?php var_dump(preg_match(\"/^[A-Z]/\",\"Ava\")); ?>",
+          "puzzle": "<?php var___dump(___(\"/^[A-Z]/\",\"Ava\")); ?>",
+          "output": "int(1)"
+        },
+        {
+          "level": 177,
+          "topic": "escape output",
+          "syntax": "<?php echo htmlspecialchars(\"<script>\"); ?>",
+          "puzzle": "<?php echo ___(\"<script>\"); ?>",
+          "output": "&lt;script&gt;"
+        },
+        {
+          "level": 178,
+          "topic": "validate array",
+          "syntax": "<?php $a=[1,2]; var_dump(is_array($a)); ?>",
+          "puzzle": "<?php $a=[1,2]; var___dump(___($a)); ?>",
+          "output": "bool(true)"
+        }
+      ]
+    },
+    {
+      "part": "Part 14 - Date & Time",
+      "items": [
+        {
+          "level": 179,
+          "topic": "current timestamp",
+          "syntax": "<?php echo date(\"Y\"); ?>",
+          "puzzle": "<?php echo ___(\"Y\"); ?>",
+          "output": "2026"
+        },
+        {
+          "level": 180,
+          "topic": "date format",
+          "syntax": "<?php echo date(\"d-m-Y\",strtotime(\"2026-09-07\")); ?>",
+          "puzzle": "<?php echo date(\"___-m-Y\",strtotime(\"2026-09-07\")); ?>",
+          "output": "07-09-2026"
+        },
+        {
+          "level": 181,
+          "topic": "time format",
+          "syntax": "<?php echo date(\"H:i\",strtotime(\"14:30\")); ?>",
+          "puzzle": "<?php echo date(\"H:___\",strtotime(\"14:30\")); ?>",
+          "output": "14:30"
+        },
+        {
+          "level": 182,
+          "topic": "strtotime",
+          "syntax": "<?php echo date(\"Y\",strtotime(\"2026-01-01\")); ?>",
+          "puzzle": "<?php echo date(\"Y\",___(\"2026-01-01\")); ?>",
+          "output": "2026"
+        },
+        {
+          "level": 183,
+          "topic": "date add",
+          "syntax": "<?php $d=new DateTime(\"2026-09-07\");$d->modify(\"+1 day\");echo $d->format(\"Y-m-d\"); ?>",
+          "puzzle": "<?___ $d=new DateTime(\"2026-09-07\");$d->modify(\"+1 day\");echo $d->format(\"Y-m-d\"); ?>",
+          "output": "2026-09-08"
+        },
+        {
+          "level": 184,
+          "topic": "date subtract",
+          "syntax": "<?php $d=new DateTime(\"2026-09-07\");$d->modify(\"-1 day\");echo $d->format(\"Y-m-d\"); ?>",
+          "puzzle": "<?___ $d=new DateTime(\"2026-09-07\");$d->modify(\"-1 day\");echo $d->format(\"Y-m-d\"); ?>",
+          "output": "2026-09-06"
+        },
+        {
+          "level": 185,
+          "topic": "date comparison",
+          "syntax": "<?php $a=new DateTime(\"2026-01-01\");$b=new DateTime(\"2026-02-01\");var_dump($a<$b); ?>",
+          "puzzle": "<?php $a=new DateTime(\"2026-01-01\");$b=new DateTime(\"2026-02-01\");var___dump($a___$b); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 186,
+          "topic": "timezone set",
+          "syntax": "<?php date_default_timezone_set(\"UTC\");echo date_default_timezone_get(); ?>",
+          "puzzle": "<?php date___default___timezone___set(\"UTC\");echo date___default___timezone___(); ?>",
+          "output": "UTC"
+        },
+        {
+          "level": 187,
+          "topic": "today",
+          "syntax": "<?php echo date(\"Y-m-d\",strtotime(\"2026-09-07\")); ?>",
+          "puzzle": "<?php echo date(\"Y-m-d\",strtotime(\"___\")); ?>",
+          "output": "2026-09-07"
+        },
+        {
+          "level": 188,
+          "topic": "tomorrow",
+          "syntax": "<?php echo date(\"Y-m-d\",strtotime(\"2026-09-08\")); ?>",
+          "puzzle": "<?php echo date(\"Y-m-d\",strtotime(\"___\")); ?>",
+          "output": "2026-09-08"
+        },
+        {
+          "level": 189,
+          "topic": "yesterday",
+          "syntax": "<?php echo date(\"Y-m-d\",strtotime(\"2026-09-06\")); ?>",
+          "puzzle": "<?php echo date(\"Y-m-d\",strtotime(\"___\")); ?>",
+          "output": "2026-09-06"
+        },
+        {
+          "level": 190,
+          "topic": "unix timestamp",
+          "syntax": "<?php echo strtotime(\"2026-01-01\"); ?>",
+          "puzzle": "<?php echo ___(\"2026-01-01\"); ?>",
+          "output": "1767225600"
+        },
+        {
+          "level": 191,
+          "topic": "date parsing",
+          "syntax": "<?php $d=date_create(\"2026-09-07\");echo date_format($d,\"Y\"); ?>",
+          "puzzle": "<?php $d=___(\"2026-09-07\");echo date___format($d,\"Y\"); ?>",
+          "output": "2026"
+        }
+      ]
+    },
+    {
+      "part": "Part 15 - Math & Random",
+      "items": [
+        {
+          "level": 192,
+          "topic": "abs",
+          "syntax": "<?php echo abs(-7); ?>",
+          "puzzle": "<?php echo ___(-7); ?>",
+          "output": "7"
+        },
+        {
+          "level": 193,
+          "topic": "ceil",
+          "syntax": "<?php echo ceil(2.1); ?>",
+          "puzzle": "<?php echo ___(2.1); ?>",
+          "output": "3"
+        },
+        {
+          "level": 194,
+          "topic": "floor",
+          "syntax": "<?php echo floor(2.9); ?>",
+          "puzzle": "<?php echo ___(2.9); ?>",
+          "output": "2"
+        },
+        {
+          "level": 195,
+          "topic": "round",
+          "syntax": "<?php echo round(2.6); ?>",
+          "puzzle": "<?php echo ___(2.6); ?>",
+          "output": "3"
+        },
+        {
+          "level": 196,
+          "topic": "min",
+          "syntax": "<?php echo min(4,2,8); ?>",
+          "puzzle": "<?php echo ___(4,2,8); ?>",
+          "output": "2"
+        },
+        {
+          "level": 197,
+          "topic": "max",
+          "syntax": "<?php echo max(4,2,8); ?>",
+          "puzzle": "<?php echo ___(4,2,8); ?>",
+          "output": "8"
+        },
+        {
+          "level": 198,
+          "topic": "pow",
+          "syntax": "<?php echo pow(2,3); ?>",
+          "puzzle": "<?php echo ___(2,3); ?>",
+          "output": "8"
+        },
+        {
+          "level": 199,
+          "topic": "sqrt",
+          "syntax": "<?php echo sqrt(16); ?>",
+          "puzzle": "<?php echo ___(16); ?>",
+          "output": "4"
+        },
+        {
+          "level": 200,
+          "topic": "random_int",
+          "syntax": "<?php echo random_int(1,1); ?>",
+          "puzzle": "<?php echo ___(1,1); ?>",
+          "output": "1"
+        },
+        {
+          "level": 201,
+          "topic": "rand",
+          "syntax": "<?php echo rand(5,5); ?>",
+          "puzzle": "<?php echo ___(5,5); ?>",
+          "output": "5"
+        },
+        {
+          "level": 202,
+          "topic": "mt_rand",
+          "syntax": "<?php echo mt_rand(7,7); ?>",
+          "puzzle": "<?php echo ___(7,7); ?>",
+          "output": "7"
+        },
+        {
+          "level": 203,
+          "topic": "number_format",
+          "syntax": "<?php echo number_format(1234.5,2); ?>",
+          "puzzle": "<?php echo ___(1234.5,2); ?>",
+          "output": "1,234.50"
+        },
+        {
+          "level": 204,
+          "topic": "pi",
+          "syntax": "<?php echo round(pi(),2); ?>",
+          "puzzle": "<?php echo round(___(),2); ?>",
+          "output": "3.14"
+        }
+      ]
+    },
+    {
+      "part": "Part 16 - File Handling",
+      "items": [
+        {
+          "level": 205,
+          "topic": "file_exists",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hi\");var_dump(file_exists(\"demo.txt\")); ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hi\");var___dump(___(\"demo.txt\")); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 206,
+          "topic": "file_get_contents",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hi\");echo file_get_contents(\"demo.txt\"); ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hi\");echo ___(\"demo.txt\"); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 207,
+          "topic": "file_put_contents",
+          "syntax": "<?php echo file_put_contents(\"demo.txt\",\"Hi\"); ?>",
+          "puzzle": "<?php echo ___(\"demo.txt\",\"Hi\"); ?>",
+          "output": "2"
+        },
+        {
+          "level": 208,
+          "topic": "append file",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hi\");file_put_contents(\"demo.txt\",\"!\",FILE_APPEND);echo file_get_contents(\"demo.txt\"); ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hi\");file___put___contents(\"demo.txt\",\"!\",___);echo file___get___contents(\"demo.txt\"); ?>",
+          "output": "Hi!"
+        },
+        {
+          "level": 209,
+          "topic": "fopen read",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hi\");$f=fopen(\"demo.txt\",\"r\");echo fgets($f);fclose($f); ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hi\");$f=___(\"demo.txt\",\"r\");echo fgets($f);fclose($f); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 210,
+          "topic": "fopen write",
+          "syntax": "<?php $f=fopen(\"demo.txt\",\"w\");fwrite($f,\"Hi\");fclose($f);echo file_get_contents(\"demo.txt\"); ?>",
+          "puzzle": "<?php $f=___(\"demo.txt\",\"w\");fwrite($f,\"Hi\");fclose($f);echo file___get___contents(\"demo.txt\"); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 211,
+          "topic": "fread",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hello\");$f=fopen(\"demo.txt\",\"r\");echo fread($f,5);fclose($f); ?>",
+          "puzzle": "<?___ file_put_contents(\"demo.txt\",\"Hello\");$f=fopen(\"demo.txt\",\"r\");echo fread($f,5);fclose($f); ?>",
+          "output": "Hello"
+        },
+        {
+          "level": 212,
+          "topic": "fgets",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hi\");$f=fopen(\"demo.txt\",\"r\");echo fgets($f); ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hi\");$f=fopen(\"demo.txt\",\"r\");echo ___($f); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 213,
+          "topic": "fwrite",
+          "syntax": "<?php $f=fopen(\"demo.txt\",\"w\");echo fwrite($f,\"Hi\");fclose($f); ?>",
+          "puzzle": "<?php $f=fopen(\"demo.txt\",\"w\");echo ___($f,\"Hi\");fclose($f); ?>",
+          "output": "2"
+        },
+        {
+          "level": 214,
+          "topic": "fclose",
+          "syntax": "<?php $f=fopen(\"demo.txt\",\"w\");fwrite($f,\"Hi\");fclose($f);echo \"Done\"; ?>",
+          "puzzle": "<?php $f=fopen(\"demo.txt\",\"w\");fwrite($f,\"Hi\");___($f);echo \"Done\"; ?>",
+          "output": "Done"
+        },
+        {
+          "level": 215,
+          "topic": "filesize",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hello\");echo filesize(\"demo.txt\"); ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hello\");echo ___(\"demo.txt\"); ?>",
+          "output": "5"
+        },
+        {
+          "level": 216,
+          "topic": "filemtime",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hi\");echo is_int(filemtime(\"demo.txt\"))?\"yes\":\"no\"; ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hi\");echo is___int(___(\"demo.txt\"))?\"yes\":\"no\"; ?>",
+          "output": "yes"
+        },
+        {
+          "level": 217,
+          "topic": "unlink",
+          "syntax": "<?php file_put_contents(\"demo.txt\",\"Hi\");unlink(\"demo.txt\");var_dump(file_exists(\"demo.txt\")); ?>",
+          "puzzle": "<?php file___put___contents(\"demo.txt\",\"Hi\");___(\"demo.txt\");var___dump(file___exists(\"demo.txt\")); ?>",
+          "output": "bool(false)"
+        }
+      ]
+    },
+    {
+      "part": "Part 17 - Directories",
+      "items": [
+        {
+          "level": 218,
+          "topic": "is_dir",
+          "syntax": "<?php mkdir(\"demo_dir\");var_dump(is_dir(\"demo_dir\")); ?>",
+          "puzzle": "<?php mkdir(\"demo___dir\");var___dump(___(\"demo___dir\")); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 219,
+          "topic": "mkdir",
+          "syntax": "<?php mkdir(\"demo_dir\");echo is_dir(\"demo_dir\")?\"Created\":\"No\"; ?>",
+          "puzzle": "<?php ___(\"demo___dir\");echo is___dir(\"demo___dir\")?\"Created\":\"No\"; ?>",
+          "output": "Created"
+        },
+        {
+          "level": 220,
+          "topic": "rmdir",
+          "syntax": "<?php mkdir(\"demo_dir\");rmdir(\"demo_dir\");var_dump(is_dir(\"demo_dir\")); ?>",
+          "puzzle": "<?php mkdir(\"demo___dir\");___(\"demo___dir\");var___dump(is___dir(\"demo___dir\")); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 221,
+          "topic": "scandir",
+          "syntax": "<?php mkdir(\"demo_dir\");file_put_contents(\"demo_dir/a.txt\",\"x\");print_r(scandir(\"demo_dir\")); ?>",
+          "puzzle": "<?php mkdir(\"demo___dir\");file___put___contents(\"demo___dir/a.txt\",\"x\");print___r(___(\"demo___dir\")); ?>",
+          "output": "Array ( [0] => . [1] => .. [2] => a.txt )"
+        },
+        {
+          "level": 222,
+          "topic": "glob",
+          "syntax": "<?php file_put_contents(\"a.txt\",\"x\");print_r(glob(\"*.txt\")); ?>",
+          "puzzle": "<?php file___put___contents(\"a.txt\",\"x\");print___r(___(\"*.txt\")); ?>",
+          "output": "Array ( [0] => a.txt )"
+        },
+        {
+          "level": 223,
+          "topic": "basename",
+          "syntax": "<?php echo basename(\"/app/index.php\"); ?>",
+          "puzzle": "<?___ echo basename(\"/app/index.php\"); ?>",
+          "output": "index.php"
+        },
+        {
+          "level": 224,
+          "topic": "dirname",
+          "syntax": "<?php echo dirname(\"/app/index.php\"); ?>",
+          "puzzle": "<?php echo ___(\"/app/index.php\"); ?>",
+          "output": "/app"
+        },
+        {
+          "level": 225,
+          "topic": "realpath",
+          "syntax": "<?php echo basename(realpath(\".\")); ?>",
+          "puzzle": "<?php echo basename(___(\".\")); ?>",
+          "output": "app"
+        },
+        {
+          "level": 226,
+          "topic": "pathinfo",
+          "syntax": "<?php print_r(pathinfo(\"a.txt\")); ?>",
+          "puzzle": "<?php print___r(___(\"a.txt\")); ?>",
+          "output": "Array ( [dirname] => . [basename] => a.txt [extension] => txt [filename] => a )"
+        },
+        {
+          "level": 227,
+          "topic": "file list",
+          "syntax": "<?php print_r([\"a.php\",\"b.php\"]); ?>",
+          "puzzle": "<?php print___r([\"a.php\",\"b.php\"]); ?>",
+          "output": "Array ( [0] => a.php [1] => b.php )"
+        },
+        {
+          "level": 228,
+          "topic": "directory iterator",
+          "syntax": "<?php $it=new DirectoryIterator(\".\");echo $it->getFilename(); ?>",
+          "puzzle": "<?php $it=new ___(\".\");echo $it->getFilename(); ?>",
+          "output": "."
+        },
+        {
+          "level": 229,
+          "topic": "recursive directory",
+          "syntax": "<?php $it=new RecursiveDirectoryIterator(\".\");echo $it instanceof RecursiveDirectoryIterator?\"yes\":\"no\"; ?>",
+          "puzzle": "<?php $it=new ___(\".\");echo $it instanceof RecursiveDirectoryIterator?\"yes\":\"no\"; ?>",
+          "output": "yes"
+        },
+        {
+          "level": 230,
+          "topic": "temp directory",
+          "syntax": "<?php echo sys_get_temp_dir(); ?>",
+          "puzzle": "<?php echo ___; ?>",
+          "output": "/tmp"
+        }
+      ]
+    },
+    {
+      "part": "Part 18 - JSON",
+      "items": [
+        {
+          "level": 231,
+          "topic": "json_encode",
+          "syntax": "<?php echo json_encode([\"name\"=>\"Ava\"]); ?>",
+          "puzzle": "<?php echo ___([\"name\"=>\"Ava\"]); ?>",
+          "output": "{\"name\":\"Ava\"}"
+        },
+        {
+          "level": 232,
+          "topic": "json_decode",
+          "syntax": "<?php $x=json_decode('{\"a\":1}',true);echo $x[\"a\"]; ?>",
+          "puzzle": "<?php $x=___('{\"a\":1}',true);echo $x[\"a\"]; ?>",
+          "output": "1"
+        },
+        {
+          "level": 233,
+          "topic": "JSON_PRETTY_PRINT",
+          "syntax": "<?php echo \"JSON_PRETTY_PRINT\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "JSON_PRETTY_PRINT"
+        },
+        {
+          "level": 234,
+          "topic": "decode object",
+          "syntax": "<?php $x=json_decode('{\"a\":1}');echo $x->a; ?>",
+          "puzzle": "<?php $x=json___decode('{\"a\":1}');echo $x->a; ?>",
+          "output": "1"
+        },
+        {
+          "level": 235,
+          "topic": "decode array",
+          "syntax": "<?php $x=json_decode('[1,2]',true);echo $x[1]; ?>",
+          "puzzle": "<?php $x=json___decode('[1,2]',___);echo $x[1]; ?>",
+          "output": "2"
+        },
+        {
+          "level": 236,
+          "topic": "encode associative array",
+          "syntax": "<?php echo json_encode([\"id\"=>1]); ?>",
+          "puzzle": "<?php echo ___([\"id\"=>1]); ?>",
+          "output": "{\"id\":1}"
+        },
+        {
+          "level": 237,
+          "topic": "JSON error",
+          "syntax": "<?php echo \"JSON error\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "JSON error"
+        },
+        {
+          "level": 238,
+          "topic": "json_last_error",
+          "syntax": "<?php json_decode(\"{\");echo json_last_error(); ?>",
+          "puzzle": "<?php json___decode(\"{\");echo ___; ?>",
+          "output": "4"
+        },
+        {
+          "level": 239,
+          "topic": "nested JSON",
+          "syntax": "<?php echo \"nested JSON\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "nested JSON"
+        },
+        {
+          "level": 240,
+          "topic": "numeric JSON",
+          "syntax": "<?php echo \"numeric JSON\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "numeric JSON"
+        },
+        {
+          "level": 241,
+          "topic": "JSON response",
+          "syntax": "<?php echo \"JSON response\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "JSON response"
+        },
+        {
+          "level": 242,
+          "topic": "JSON request body",
+          "syntax": "<?php echo \"JSON request body\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "JSON request body"
+        },
+        {
+          "level": 243,
+          "topic": "pretty JSON",
+          "syntax": "<?php echo \"pretty JSON\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "pretty JSON"
+        }
+      ]
+    },
+    {
+      "part": "Part 19 - Sessions",
+      "items": [
+        {
+          "level": 244,
+          "topic": "session_start",
+          "syntax": "<?php session_start();$_SESSION[\"user\"]=\"Ava\";echo $_SESSION[\"user\"]; ?>",
+          "puzzle": "<?php ___();$___SESSION[\"user\"]=\"Ava\";echo $___SESSION[\"user\"]; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 245,
+          "topic": "set session",
+          "syntax": "<?php $_SESSION[\"user\"]=\"Ava\";echo $_SESSION[\"user\"]; ?>",
+          "puzzle": "<?php $___SESSION[\"user\"]=\"Ava\";echo $___SESSION[\"user\"]; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 246,
+          "topic": "read session",
+          "syntax": "<?php $_SESSION[\"count\"]=3;echo $_SESSION[\"count\"]; ?>",
+          "puzzle": "<?php $___SESSION[\"count\"]=3;echo $___[\"count\"]; ?>",
+          "output": "3"
+        },
+        {
+          "level": 247,
+          "topic": "session default",
+          "syntax": "<?php echo $_SESSION[\"name\"] ?? \"Guest\"; ?>",
+          "puzzle": "<?php echo $___SESSION[\"name\"] ___ \"Guest\"; ?>",
+          "output": "Guest"
+        },
+        {
+          "level": 248,
+          "topic": "unset session",
+          "syntax": "<?php $_SESSION[\"user\"]=\"Ava\";unset($_SESSION[\"user\"]);var_dump(isset($_SESSION[\"user\"])); ?>",
+          "puzzle": "<?php $___SESSION[\"user\"]=\"Ava\";___($___SESSION[\"user\"]);var___dump(isset($___SESSION[\"user\"])); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 249,
+          "topic": "destroy session",
+          "syntax": "<?php $_SESSION=[\"user\"=>\"Ava\"];session_destroy();echo \"Logged out\"; ?>",
+          "puzzle": "<?php $___SESSION=[\"user\"=>\"Ava\"];___();echo \"Logged out\"; ?>",
+          "output": "Logged out"
+        },
+        {
+          "level": 250,
+          "topic": "session id",
+          "syntax": "<?php session_id(\"abc123\");echo session_id(); ?>",
+          "puzzle": "<?php session___id(\"abc123\");echo ___; ?>",
+          "output": "abc123"
+        },
+        {
+          "level": 251,
+          "topic": "regenerate id",
+          "syntax": "<?php session_regenerate_id(true);echo \"OK\"; ?>",
+          "puzzle": "<?php ___(true);echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 252,
+          "topic": "session array",
+          "syntax": "<?php $_SESSION=[\"role\"=>\"admin\"];echo $_SESSION[\"role\"]; ?>",
+          "puzzle": "<?php $___SESSION=[\"role\"=>\"admin\"];echo $___[\"role\"]; ?>",
+          "output": "admin"
+        },
+        {
+          "level": 253,
+          "topic": "login flag",
+          "syntax": "<?php $_SESSION[\"logged_in\"]=true;var_dump($_SESSION[\"logged_in\"]); ?>",
+          "puzzle": "<?php $___SESSION[\"logged___in\"]=true;var___dump($___[\"logged___in\"]); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 254,
+          "topic": "flash message",
+          "syntax": "<?php $_SESSION[\"flash\"]=\"Saved\";echo $_SESSION[\"flash\"];unset($_SESSION[\"flash\"]); ?>",
+          "puzzle": "<?php $___SESSION[\"flash\"]=\"Saved\";echo $___SESSION[\"flash\"];___($___SESSION[\"flash\"]); ?>",
+          "output": "Saved"
+        },
+        {
+          "level": 255,
+          "topic": "session counter",
+          "syntax": "<?php $_SESSION[\"n\"]=0;echo ++$_SESSION[\"n\"]; ?>",
+          "puzzle": "<?php $___SESSION[\"n\"]=0;echo ++$___[\"n\"]; ?>",
+          "output": "1"
+        },
+        {
+          "level": 256,
+          "topic": "session expiry",
+          "syntax": "<?php ini_set(\"session.gc_maxlifetime\",3600);echo ini_get(\"session.gc_maxlifetime\"); ?>",
+          "puzzle": "<?php ini___set(\"session.gc___maxlifetime\",3600);echo ini___get(\"session.gc___maxlifetime\"); ?>",
+          "output": "3600"
+        }
+      ]
+    },
+    {
+      "part": "Part 20 - Cookies",
+      "items": [
+        {
+          "level": 257,
+          "topic": "set cookie",
+          "syntax": "<?php setcookie(\"theme\",\"dark\");echo \"set\"; ?>",
+          "puzzle": "<?php ___(\"theme\",\"dark\");echo \"set\"; ?>",
+          "output": "set"
+        },
+        {
+          "level": 258,
+          "topic": "read cookie",
+          "syntax": "<?php $_COOKIE[\"theme\"]=\"dark\";echo $_COOKIE[\"theme\"]; ?>",
+          "puzzle": "<?___ $_COOKIE[\"theme\"]=\"dark\";echo $_COOKIE[\"theme\"]; ?>",
+          "output": "dark"
+        },
+        {
+          "level": 259,
+          "topic": "cookie default",
+          "syntax": "<?php $_COOKIE=[];echo $_COOKIE[\"theme\"] ?? \"light\"; ?>",
+          "puzzle": "<?php $___COOKIE=[];echo $___COOKIE[\"theme\"] ___ \"light\"; ?>",
+          "output": "light"
+        },
+        {
+          "level": 260,
+          "topic": "delete cookie",
+          "syntax": "<?php setcookie(\"theme\",\"\",time()-3600);echo \"deleted\"; ?>",
+          "puzzle": "<?php setcookie(\"theme\",\"\",___()-3600);echo \"deleted\"; ?>",
+          "output": "deleted"
+        },
+        {
+          "level": 261,
+          "topic": "cookie path",
+          "syntax": "<?php setcookie(\"theme\",\"dark\",0,\"/\");echo \"OK\"; ?>",
+          "puzzle": "<?php setcookie(\"theme\",\"dark\",0,\"___\");echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 262,
+          "topic": "cookie expiry",
+          "syntax": "<?php setcookie(\"theme\",\"dark\",time()+3600);echo \"OK\"; ?>",
+          "puzzle": "<?php setcookie(\"theme\",\"dark\",time()+___);echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 263,
+          "topic": "cookie value",
+          "syntax": "<?php $_COOKIE[\"lang\"]=\"en\";echo $_COOKIE[\"lang\"]; ?>",
+          "puzzle": "<?php $___COOKIE[\"lang\"]=\"en\";echo $___[\"lang\"]; ?>",
+          "output": "en"
+        },
+        {
+          "level": 264,
+          "topic": "secure cookie",
+          "syntax": "<?php setcookie(\"x\",\"1\",[\"secure\"=>true]);echo \"OK\"; ?>",
+          "puzzle": "<?php setcookie(\"x\",\"1\",[\"___\"=>true]);echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 265,
+          "topic": "httponly cookie",
+          "syntax": "<?php setcookie(\"x\",\"1\",[\"httponly\"=>true]);echo \"OK\"; ?>",
+          "puzzle": "<?php setcookie(\"x\",\"1\",[\"___\"=>true]);echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 266,
+          "topic": "same-site cookie",
+          "syntax": "<?php setcookie(\"x\",\"1\",[\"samesite\"=>\"Lax\"]);echo \"OK\"; ?>",
+          "puzzle": "<?php setcookie(\"x\",\"1\",[\"___\"=>\"Lax\"]);echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 267,
+          "topic": "counter cookie",
+          "syntax": "<?php $n=2;echo $n+1; ?>",
+          "puzzle": "<?php $n=2;echo $n+___; ?>",
+          "output": "3"
+        },
+        {
+          "level": 268,
+          "topic": "preference cookie",
+          "syntax": "<?php $_COOKIE[\"mode\"]=\"dark\";echo $_COOKIE[\"mode\"]; ?>",
+          "puzzle": "<?php $___COOKIE[\"mode\"]=\"dark\";echo $___[\"mode\"]; ?>",
+          "output": "dark"
+        },
+        {
+          "level": 269,
+          "topic": "consent cookie",
+          "syntax": "<?php $_COOKIE[\"consent\"]=\"yes\";echo $_COOKIE[\"consent\"]; ?>",
+          "puzzle": "<?php $___COOKIE[\"consent\"]=\"yes\";echo $___[\"consent\"]; ?>",
+          "output": "yes"
+        }
+      ]
+    },
+    {
+      "part": "Part 21 - Error Handling",
+      "items": [
+        {
+          "level": 270,
+          "topic": "try catch",
+          "syntax": "<?php try{throw new Exception(\"Oops\");}catch(Exception $e){echo \"Caught\";} ?>",
+          "puzzle": "<?php ___{throw new Exception(\"Oops\");}catch(Exception $e){echo \"Caught\";} ?>",
+          "output": "Caught"
+        },
+        {
+          "level": 271,
+          "topic": "Exception",
+          "syntax": "<?php echo \"Exception\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "Exception"
+        },
+        {
+          "level": 272,
+          "topic": "throw",
+          "syntax": "<?php try{throw new Exception(\"Bad\");}catch(Exception $e){echo $e->getMessage();} ?>",
+          "puzzle": "<?php try{___ new Exception(\"Bad\");}catch(Exception $e){echo $e->getMessage();} ?>",
+          "output": "Bad"
+        },
+        {
+          "level": 273,
+          "topic": "finally",
+          "syntax": "<?php try{echo \"A\";}finally{echo \"B\";} ?>",
+          "puzzle": "<?php try{echo \"A\";}___{echo \"B\";} ?>",
+          "output": "AB"
+        },
+        {
+          "level": 274,
+          "topic": "catch message",
+          "syntax": "<?php try{throw new Exception(\"Oops\");}catch(Exception $e){echo $e->getMessage();} ?>",
+          "puzzle": "<?php try{throw new Exception(\"Oops\");}catch(Exception $e){echo $e->___();} ?>",
+          "output": "Oops"
+        },
+        {
+          "level": 275,
+          "topic": "custom exception",
+          "syntax": "<?php class MyError extends Exception{} try{throw new MyError(\"X\");}catch(MyError $e){echo \"X\";} ?>",
+          "puzzle": "<?___ class MyError extends Exception{} try{throw new MyError(\"X\");}catch(MyError $e){echo \"X\";} ?>",
+          "output": "X"
+        },
+        {
+          "level": 276,
+          "topic": "multiple catch",
+          "syntax": "<?php try{throw new InvalidArgumentException(\"X\");}catch(InvalidArgumentException $e){echo \"Invalid\";}catch(Exception $e){echo \"Other\";} ?>",
+          "puzzle": "<?___ try{throw new InvalidArgumentException(\"X\");}catch(InvalidArgumentException $e){echo \"Invalid\";}catch(Exception $e){echo \"Other\";} ?>",
+          "output": "Invalid"
+        },
+        {
+          "level": 277,
+          "topic": "Throwable",
+          "syntax": "<?php echo \"Throwable\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "Throwable"
+        },
+        {
+          "level": 278,
+          "topic": "error_log",
+          "syntax": "<?php error_log(\"Saved\");echo \"OK\"; ?>",
+          "puzzle": "<?php ___(\"Saved\");echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 279,
+          "topic": "set exception handler",
+          "syntax": "<?php set_exception_handler(function($e){echo \"Handled\";});throw new Exception(); ?>",
+          "puzzle": "<?php ___(function($e){echo \"Handled\";});throw new Exception(); ?>",
+          "output": "Handled"
+        },
+        {
+          "level": 280,
+          "topic": "restore exception handler",
+          "syntax": "<?php set_exception_handler(function($e){});restore_exception_handler();echo \"OK\"; ?>",
+          "puzzle": "<?php set___exception___handler(function($e){});___();echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 281,
+          "topic": "user exception",
+          "syntax": "<?php try{throw new Exception(\"User error\");}catch(Exception $e){echo $e->getMessage();} ?>",
+          "puzzle": "<?___ try{throw new Exception(\"User error\");}catch(Exception $e){echo $e->getMessage();} ?>",
+          "output": "User error"
+        },
+        {
+          "level": 282,
+          "topic": "graceful error",
+          "syntax": "<?php try{throw new Exception();}catch(Exception $e){echo \"Something went wrong\";} ?>",
+          "puzzle": "<?___ try{throw new Exception();}catch(Exception $e){echo \"Something went wrong\";} ?>",
+          "output": "Something went wrong"
+        }
+      ]
+    },
+    {
+      "part": "Part 22 - Debugging",
+      "items": [
+        {
+          "level": 283,
+          "topic": "var_dump - practice 2",
+          "syntax": "<?php var_dump([1,2]); ?>",
+          "puzzle": "<?php ___([1,2]); ?>",
+          "output": "array(2) { [0]=> int(1) [1]=> int(2) }"
+        },
+        {
+          "level": 284,
+          "topic": "print_r",
+          "syntax": "<?php print_r([\"a\"=>1]); ?>",
+          "puzzle": "<?php ___([\"a\"=>1]); ?>",
+          "output": "Array ( [a] => 1 )"
+        },
+        {
+          "level": 285,
+          "topic": "debug backtrace",
+          "syntax": "<?php function f(){echo count(debug_backtrace());} f(); ?>",
+          "puzzle": "<?php function f(){echo count(___());} f(); ?>",
+          "output": "0"
+        },
+        {
+          "level": 286,
+          "topic": "error_get_last",
+          "syntax": "<?php echo is_null(error_get_last())?\"none\":\"error\"; ?>",
+          "puzzle": "<?php echo is___null(___())?\"none\":\"error\"; ?>",
+          "output": "none"
+        },
+        {
+          "level": 287,
+          "topic": "error_log - practice 2",
+          "syntax": "<?php error_log(\"Saved\");echo \"OK\"; ?>",
+          "puzzle": "<?php ___(\"Saved\");echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 288,
+          "topic": "display errors",
+          "syntax": "<?php ini_set(\"display_errors\",\"1\");echo ini_get(\"display_errors\"); ?>",
+          "puzzle": "<?php ini___set(\"display___errors\",\"1\");echo ini___get(\"display___errors\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 289,
+          "topic": "strict comparison",
+          "syntax": "<?php var_dump(5===\"5\"); ?>",
+          "puzzle": "<?php var___dump(5___\"5\"); ?>",
+          "output": "bool(false)"
+        },
+        {
+          "level": 290,
+          "topic": "assert",
+          "syntax": "<?php assert(2+2===4);echo \"OK\"; ?>",
+          "puzzle": "<?php ___(2+2===4);echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 291,
+          "topic": "memory_get_usage",
+          "syntax": "<?php echo is_int(memory_get_usage()); ?>",
+          "puzzle": "<?php echo is___int(___()); ?>",
+          "output": "1"
+        },
+        {
+          "level": 292,
+          "topic": "microtime",
+          "syntax": "<?php echo is_string(microtime()); ?>",
+          "puzzle": "<?php echo is___string(___()); ?>",
+          "output": "1"
+        },
+        {
+          "level": 293,
+          "topic": "debug variable",
+          "syntax": "<?php $x=5;var_dump($x); ?>",
+          "puzzle": "<?php $x=5;___($x); ?>",
+          "output": "int(5)"
+        },
+        {
+          "level": 294,
+          "topic": "check array key",
+          "syntax": "<?php $a=[\"id\"=>1];var_dump(array_key_exists(\"id\",$a)); ?>",
+          "puzzle": "<?php $a=[\"id\"=>1];var___dump(___(\"id\",$a)); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 295,
+          "topic": "check object",
+          "syntax": "<?php $o=new stdClass();var_dump(is_object($o)); ?>",
+          "puzzle": "<?php $o=new stdClass();var___dump(___($o)); ?>",
+          "output": "bool(true)"
+        }
+      ]
+    },
+    {
+      "part": "Part 23 - Object-Oriented PHP",
+      "items": [
+        {
+          "level": 296,
+          "topic": "class",
+          "syntax": "<?php class User{} $u=new User();echo get_class($u); ?>",
+          "puzzle": "<?php ___ User{} $u=new User();echo get___class($u); ?>",
+          "output": "User"
+        },
+        {
+          "level": 297,
+          "topic": "object",
+          "syntax": "<?php class User{} $u=new User();echo get_class($u); ?>",
+          "puzzle": "<?php class User{} $u=___ User();echo get___class($u); ?>",
+          "output": "User"
+        },
+        {
+          "level": 298,
+          "topic": "property",
+          "syntax": "<?php class User{public string $name=\"Ava\";} $u=new User();echo $u->name; ?>",
+          "puzzle": "<?php class User{public string $name=\"Ava\";} $u=new User();echo $u->___name; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 299,
+          "topic": "method",
+          "syntax": "<?php class User{function hi(){return \"Hi\";}} echo (new User())->hi(); ?>",
+          "puzzle": "<?php class User{function hi(){return \"Hi\";}} echo (new User())->___(); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 300,
+          "topic": "constructor",
+          "syntax": "<?php class User{function __construct(public string $name){}} echo (new User(\"Ava\"))->name; ?>",
+          "puzzle": "<?php class User{function ___(public string $name){}} echo (new User(\"Ava\"))->name; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 301,
+          "topic": "private property",
+          "syntax": "<?php class User{private string $name=\"Ava\";function get(){return $this->name;}} echo (new User())->get(); ?>",
+          "puzzle": "<?php class User{___ string $name=\"Ava\";function get(){return $this->name;}} echo (new User())->get(); ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 302,
+          "topic": "public method",
+          "syntax": "<?php class User{public function hi(){return \"Hi\";}} echo (new User())->hi(); ?>",
+          "puzzle": "<?php class User{___ function hi(){return \"Hi\";}} echo (new User())->hi(); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 303,
+          "topic": "getter",
+          "syntax": "<?php class User{private $name=\"Ava\";function getName(){return $this->name;}} echo (new User())->getName(); ?>",
+          "puzzle": "<?php class User{private $name=\"Ava\";function ___(){return $this->name;}} echo (new User())->getName(); ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 304,
+          "topic": "setter",
+          "syntax": "<?php class User{private $name;function setName($n){$this->name=$n;}function get(){return $this->name;}} $u=new User();$u->setName(\"Ava\");echo $u->get(); ?>",
+          "puzzle": "<?php class User{private $name;function ___($n){$this->name=$n;}function get(){return $this->name;}} $u=new User();$u->setName(\"Ava\");echo $u->get(); ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 305,
+          "topic": "static property",
+          "syntax": "<?php class C{public static int $n=5;}echo C::$n; ?>",
+          "puzzle": "<?php class C{public ___ int $n=5;}echo C::$n; ?>",
+          "output": "5"
+        },
+        {
+          "level": 306,
+          "topic": "static method",
+          "syntax": "<?php class Math{static function add($a,$b){return $a+$b;}}echo Math::add(2,3); ?>",
+          "puzzle": "<?php class Math{___ function add($a,$b){return $a+$b;}}echo Math::add(2,3); ?>",
+          "output": "5"
+        },
+        {
+          "level": 307,
+          "topic": "readonly property",
+          "syntax": "<?php class User{public readonly string $name;function __construct(){$this->name=\"Ava\";}}echo (new User())->name; ?>",
+          "puzzle": "<?php class User{public ___ string $name;function ___construct(){$this->name=\"Ava\";}}echo (new User())->name; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 308,
+          "topic": "typed property",
+          "syntax": "<?php class User{public int $age=21;}echo (new User())->age; ?>",
+          "puzzle": "<?php class User{public ___ $age=21;}echo (new User())->age; ?>",
+          "output": "21"
+        }
+      ]
+    },
+    {
+      "part": "Part 24 - Inheritance & Polymorphism",
+      "items": [
+        {
+          "level": 309,
+          "topic": "extends",
+          "syntax": "<?php class A{function hi(){return \"A\";}}class B extends A{}echo (new B())->hi(); ?>",
+          "puzzle": "<?php class A{function hi(){return \"A\";}}class B ___ A{}echo (new B())->hi(); ?>",
+          "output": "A"
+        },
+        {
+          "level": 310,
+          "topic": "parent constructor",
+          "syntax": "<?php class A{function __construct(){echo \"A\";}}class B extends A{function __construct(){parent::__construct();echo \"B\";}}new B(); ?>",
+          "puzzle": "<?php class A{function ___construct(){echo \"A\";}}class B extends A{function ___construct(){___::___construct();echo \"B\";}}new B(); ?>",
+          "output": "AB"
+        },
+        {
+          "level": 311,
+          "topic": "method override",
+          "syntax": "<?php class A{function hi(){return \"A\";}}class B extends A{function hi(){return \"B\";}}echo (new B())->hi(); ?>",
+          "puzzle": "<?___ class A{function hi(){return \"A\";}}class B extends A{function hi(){return \"B\";}}echo (new B())->hi(); ?>",
+          "output": "B"
+        },
+        {
+          "level": 312,
+          "topic": "parent method",
+          "syntax": "<?php class A{function hi(){return \"A\";}}class B extends A{function hi(){return parent::hi().\"B\";}}echo (new B())->hi(); ?>",
+          "puzzle": "<?php class A{function hi(){return \"A\";}}class B extends A{function hi(){return ___::hi().\"B\";}}echo (new B())->hi(); ?>",
+          "output": "AB"
+        },
+        {
+          "level": 313,
+          "topic": "protected property",
+          "syntax": "<?php class A{protected $x=5;}class B extends A{function get(){return $this->x;}}echo (new B())->get(); ?>",
+          "puzzle": "<?php class A{___ $x=5;}class B extends A{function get(){return $this->x;}}echo (new B())->get(); ?>",
+          "output": "5"
+        },
+        {
+          "level": 314,
+          "topic": "instanceof",
+          "syntax": "<?php class User{}$u=new User();var_dump($u instanceof User); ?>",
+          "puzzle": "<?php class User{}$u=new User();var___dump($u ___ User); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 315,
+          "topic": "final method",
+          "syntax": "<?php class A{final function hi(){return \"A\";}}echo (new A())->hi(); ?>",
+          "puzzle": "<?php class A{___ function hi(){return \"A\";}}echo (new A())->hi(); ?>",
+          "output": "A"
+        },
+        {
+          "level": 316,
+          "topic": "abstract class",
+          "syntax": "<?php abstract class A{abstract function hi();}class B extends A{function hi(){return \"B\";}}echo (new B())->hi(); ?>",
+          "puzzle": "<?php ___ class A{abstract function hi();}class B extends A{function hi(){return \"B\";}}echo (new B())->hi(); ?>",
+          "output": "B"
+        },
+        {
+          "level": 317,
+          "topic": "abstract method",
+          "syntax": "<?php abstract class A{abstract function hi();}class B extends A{function hi(){return \"B\";}}echo (new B())->hi(); ?>",
+          "puzzle": "<?php abstract class A{___ function hi();}class B extends A{function hi(){return \"B\";}}echo (new B())->hi(); ?>",
+          "output": "B"
+        },
+        {
+          "level": 318,
+          "topic": "interface",
+          "syntax": "<?php interface Fly{function fly();}class Bird implements Fly{function fly(){return \"Fly\";}}echo (new Bird())->fly(); ?>",
+          "puzzle": "<?php ___ Fly{function fly();}class Bird implements Fly{function fly(){return \"Fly\";}}echo (new Bird())->fly(); ?>",
+          "output": "Fly"
+        },
+        {
+          "level": 319,
+          "topic": "implements",
+          "syntax": "<?php interface Fly{function fly();}class Bird implements Fly{function fly(){return \"Fly\";}}echo (new Bird())->fly(); ?>",
+          "puzzle": "<?php interface Fly{function fly();}class Bird ___ Fly{function fly(){return \"Fly\";}}echo (new Bird())->fly(); ?>",
+          "output": "Fly"
+        },
+        {
+          "level": 320,
+          "topic": "trait",
+          "syntax": "<?php trait Say{function hi(){return \"Hi\";}}class A{use Say;}echo (new A())->hi(); ?>",
+          "puzzle": "<?php ___ Say{function hi(){return \"Hi\";}}class A{use Say;}echo (new A())->hi(); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 321,
+          "topic": "method polymorphism",
+          "syntax": "<?php interface S{function sound();}class Cat implements S{function sound(){return \"Meow\";}}foreach([new Cat()] as $x)echo $x->sound(); ?>",
+          "puzzle": "<?___ interface S{function sound();}class Cat implements S{function sound(){return \"Meow\";}}foreach([new Cat()] as $x)echo $x->sound(); ?>",
+          "output": "Meow"
+        }
+      ]
+    },
+    {
+      "part": "Part 25 - Namespaces & Autoloading",
+      "items": [
+        {
+          "level": 322,
+          "topic": "namespace",
+          "syntax": "<?php namespace App; class User{} echo __NAMESPACE__; ?>",
+          "puzzle": "<?php ___ App; class User{} echo ___NAMESPACE___; ?>",
+          "output": "App"
+        },
+        {
+          "level": 323,
+          "topic": "use class",
+          "syntax": "<?php class A{} class B{public function make(){return new A();}} echo get_class((new B())->make()); ?>",
+          "puzzle": "<?php class A{} class B{public function make(){return new A();}} echo get___class((new B())->make()); ?>",
+          "output": "A"
+        },
+        {
+          "level": 324,
+          "topic": "namespace alias",
+          "syntax": "<?php namespace App; class User{} echo __NAMESPACE__; ?>",
+          "puzzle": "<?php namespace ___; class User{} echo ___NAMESPACE___; ?>",
+          "output": "App"
+        },
+        {
+          "level": 325,
+          "topic": "fully qualified class",
+          "syntax": "<?php namespace App; class User{} $u=new \\App\\User();echo get_class($u); ?>",
+          "puzzle": "<?___ namespace App; class User{} $u=new \\App\\User();echo get_class($u); ?>",
+          "output": "App\\User"
+        },
+        {
+          "level": 326,
+          "topic": "class_exists",
+          "syntax": "<?php class User{} var_dump(class_exists(\"User\")); ?>",
+          "puzzle": "<?php class User{} var___dump(___(\"User\")); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 327,
+          "topic": "interface_exists",
+          "syntax": "<?php interface X{} var_dump(interface_exists(\"X\")); ?>",
+          "puzzle": "<?php interface X{} var___dump(___(\"X\")); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 328,
+          "topic": "spl_autoload_register",
+          "syntax": "<?php spl_autoload_register(function($c){echo \"Load \".$c;}); echo \"OK\"; ?>",
+          "puzzle": "<?php ___(function($c){echo \"Load \".$c;}); echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 329,
+          "topic": "autoload class",
+          "syntax": "<?php spl_autoload_register(function($c){}); class User{} echo class_exists(\"User\")?\"yes\":\"no\"; ?>",
+          "puzzle": "<?php spl___autoload___register(function($c){}); class User{} echo class___exists(\"User\")?\"yes\":\"no\"; ?>",
+          "output": "yes"
+        },
+        {
+          "level": 330,
+          "topic": "autoload function",
+          "syntax": "<?php function load($c){} spl_autoload_register(\"load\"); echo \"OK\"; ?>",
+          "puzzle": "<?php function load($c){} spl___autoload___register(\"load\"); echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 331,
+          "topic": "multiple namespaces",
+          "syntax": "<?php namespace A; class X{} echo __NAMESPACE__; ?>",
+          "puzzle": "<?php namespace A; class X{} echo ___NAMESPACE___; ?>",
+          "output": "A"
+        },
+        {
+          "level": 332,
+          "topic": "global namespace",
+          "syntax": "<?php namespace A; class X{} echo \\strlen(\"PHP\"); ?>",
+          "puzzle": "<?___ namespace A; class X{} echo \\strlen(\"PHP\"); ?>",
+          "output": "3"
+        },
+        {
+          "level": 333,
+          "topic": "namespace function",
+          "syntax": "<?php namespace App; function hi(){return \"Hi\";} echo hi(); ?>",
+          "puzzle": "<?___ namespace App; function hi(){return \"Hi\";} echo hi(); ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 334,
+          "topic": "namespace constant",
+          "syntax": "<?php namespace App; const V=5; echo V; ?>",
+          "puzzle": "<?php namespace App; ___ V=5; echo V; ?>",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "part": "Part 26 - Database Programming",
+      "items": [
+        {
+          "level": 335,
+          "topic": "connect database",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");echo \"Connected\"; ?>",
+          "puzzle": "<?php $db=new ___(\"sqlite::memory:\");echo \"Connected\"; ?>",
+          "output": "Connected"
+        },
+        {
+          "level": 336,
+          "topic": "create table",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT)\");echo \"Created\"; ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"___ TABLE users(id INT)\");echo \"Created\"; ?>",
+          "output": "Created"
+        },
+        {
+          "level": 337,
+          "topic": "insert row",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT)\");$db->exec(\"INSERT INTO users VALUES(1)\");echo \"Inserted\"; ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT)\");$db->exec(\"___ INTO users VALUES(1)\");echo \"Inserted\"; ?>",
+          "output": "Inserted"
+        },
+        {
+          "level": 338,
+          "topic": "select rows",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT)\");$db->exec(\"INSERT INTO users VALUES(1)\");$s=$db->query(\"SELECT * FROM users\")->fetch();echo $s[\"id\"]; ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT)\");$db->exec(\"INSERT INTO users VALUES(1)\");$s=$db->query(\"___ * FROM users\")->fetch();echo $s[\"id\"]; ?>",
+          "output": "1"
+        },
+        {
+          "level": 339,
+          "topic": "update row",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT,name TEXT)\");$db->exec(\"INSERT INTO users VALUES(1,'Ava')\");$db->exec(\"UPDATE users SET name='Sam' WHERE id=1\");echo \"Updated\"; ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT,name TEXT)\");$db->exec(\"INSERT INTO users VALUES(1,'Ava')\");$db->exec(\"___ users SET name='Sam' WHERE id=1\");echo \"Updated\"; ?>",
+          "output": "Updated"
+        },
+        {
+          "level": 340,
+          "topic": "delete row",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT)\");$db->exec(\"INSERT INTO users VALUES(1)\");$db->exec(\"DELETE FROM users WHERE id=1\");echo \"Deleted\"; ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE users(id INT)\");$db->exec(\"INSERT INTO users VALUES(1)\");$db->exec(\"___ FROM users WHERE id=1\");echo \"Deleted\"; ?>",
+          "output": "Deleted"
+        },
+        {
+          "level": 341,
+          "topic": "count rows",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(1),(2)\");echo $db->query(\"SELECT COUNT(*) FROM t\")->fetchColumn(); ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(1),(2)\");echo $db->query(\"SELECT ___(*) FROM t\")->fetchColumn(); ?>",
+          "output": "2"
+        },
+        {
+          "level": 342,
+          "topic": "where clause",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(1),(2)\");echo $db->query(\"SELECT id FROM t WHERE id=2\")->fetchColumn(); ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(1),(2)\");echo $db->query(\"SELECT id FROM t ___ id=2\")->fetchColumn(); ?>",
+          "output": "2"
+        },
+        {
+          "level": 343,
+          "topic": "order rows",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(2),(1)\");echo $db->query(\"SELECT id FROM t ORDER BY id\")->fetchColumn(); ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(2),(1)\");echo $db->query(\"SELECT id FROM t ___ BY id\")->fetchColumn(); ?>",
+          "output": "1"
+        },
+        {
+          "level": 344,
+          "topic": "limit rows",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(1),(2)\");echo $db->query(\"SELECT id FROM t LIMIT 1\")->rowCount(); ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db->exec(\"CREATE TABLE t(id INT)\");$db->exec(\"INSERT INTO t VALUES(1),(2)\");echo $db->query(\"SELECT id FROM t ___ 1\")->rowCount(); ?>",
+          "output": "1"
+        },
+        {
+          "level": 345,
+          "topic": "join query",
+          "syntax": "<?php echo \"JOIN users and orders\"; ?>",
+          "puzzle": "<?php echo \"___ users and orders\"; ?>",
+          "output": "JOIN users and orders"
+        },
+        {
+          "level": 346,
+          "topic": "aggregate query",
+          "syntax": "<?php echo \"COUNT=2\"; ?>",
+          "puzzle": "<?___ echo \"COUNT=2\"; ?>",
+          "output": "COUNT=2"
+        },
+        {
+          "level": 347,
+          "topic": "database close",
+          "syntax": "<?php $db=new PDO(\"sqlite::memory:\");$db=null;echo \"Closed\"; ?>",
+          "puzzle": "<?php $db=new PDO(\"sqlite::memory:\");$db=___;echo \"Closed\"; ?>",
+          "output": "Closed"
+        }
+      ]
+    },
+    {
+      "part": "Part 27 - MySQLi",
+      "items": [
+        {
+          "level": 348,
+          "topic": "mysqli connect",
+          "syntax": "<?php echo \"mysqli connect\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli connect"
+        },
+        {
+          "level": 349,
+          "topic": "mysqli query",
+          "syntax": "<?php echo \"mysqli query\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli query"
+        },
+        {
+          "level": 350,
+          "topic": "mysqli fetch_assoc",
+          "syntax": "<?php echo \"mysqli fetch_assoc\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli fetch_assoc"
+        },
+        {
+          "level": 351,
+          "topic": "mysqli fetch_row",
+          "syntax": "<?php echo \"mysqli fetch_row\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli fetch_row"
+        },
+        {
+          "level": 352,
+          "topic": "mysqli num_rows",
+          "syntax": "<?php echo \"mysqli num_rows\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli num_rows"
+        },
+        {
+          "level": 353,
+          "topic": "mysqli insert",
+          "syntax": "<?php echo \"mysqli insert\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli insert"
+        },
+        {
+          "level": 354,
+          "topic": "mysqli update",
+          "syntax": "<?php echo \"mysqli update\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli update"
+        },
+        {
+          "level": 355,
+          "topic": "mysqli delete",
+          "syntax": "<?php echo \"mysqli delete\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli delete"
+        },
+        {
+          "level": 356,
+          "topic": "mysqli error",
+          "syntax": "<?php echo \"mysqli error\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli error"
+        },
+        {
+          "level": 357,
+          "topic": "mysqli close",
+          "syntax": "<?php echo \"mysqli close\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli close"
+        },
+        {
+          "level": 358,
+          "topic": "mysqli prepare",
+          "syntax": "<?php echo \"mysqli prepare\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli prepare"
+        },
+        {
+          "level": 359,
+          "topic": "mysqli bind_param",
+          "syntax": "<?php echo \"mysqli bind_param\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli bind_param"
+        },
+        {
+          "level": 360,
+          "topic": "mysqli execute",
+          "syntax": "<?php echo \"mysqli execute\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mysqli execute"
+        }
+      ]
+    },
+    {
+      "part": "Part 28 - PDO",
+      "items": [
+        {
+          "level": 361,
+          "topic": "PDO connect",
+          "syntax": "<?php echo \"PDO connect\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO connect"
+        },
+        {
+          "level": 362,
+          "topic": "PDO query",
+          "syntax": "<?php echo \"PDO query\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO query"
+        },
+        {
+          "level": 363,
+          "topic": "PDO fetch",
+          "syntax": "<?php echo \"PDO fetch\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO fetch"
+        },
+        {
+          "level": 364,
+          "topic": "PDO fetchAll",
+          "syntax": "<?php echo \"PDO fetchAll\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO fetchAll"
+        },
+        {
+          "level": 365,
+          "topic": "PDO exec",
+          "syntax": "<?php echo \"PDO exec\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO exec"
+        },
+        {
+          "level": 366,
+          "topic": "PDO error mode",
+          "syntax": "<?php echo \"PDO error mode\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO error mode"
+        },
+        {
+          "level": 367,
+          "topic": "PDO close",
+          "syntax": "<?php echo \"PDO close\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO close"
+        },
+        {
+          "level": 368,
+          "topic": "PDO lastInsertId",
+          "syntax": "<?php echo \"PDO lastInsertId\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO lastInsertId"
+        },
+        {
+          "level": 369,
+          "topic": "PDO prepare",
+          "syntax": "<?php echo \"PDO prepare\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO prepare"
+        },
+        {
+          "level": 370,
+          "topic": "PDO execute",
+          "syntax": "<?php echo \"PDO execute\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO execute"
+        },
+        {
+          "level": 371,
+          "topic": "PDO named parameter",
+          "syntax": "<?php echo \"PDO named parameter\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO named parameter"
+        },
+        {
+          "level": 372,
+          "topic": "PDO fetch column",
+          "syntax": "<?php echo \"PDO fetch column\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO fetch column"
+        },
+        {
+          "level": 373,
+          "topic": "PDO row count",
+          "syntax": "<?php echo \"PDO row count\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PDO row count"
+        }
+      ]
+    },
+    {
+      "part": "Part 29 - CRUD Applications",
+      "items": [
+        {
+          "level": 374,
+          "topic": "create user",
+          "syntax": "<?php echo \"create user\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "create user"
+        },
+        {
+          "level": 375,
+          "topic": "list users",
+          "syntax": "<?php echo \"list users\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "list users"
+        },
+        {
+          "level": 376,
+          "topic": "view user",
+          "syntax": "<?php echo \"view user\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "view user"
+        },
+        {
+          "level": 377,
+          "topic": "edit user",
+          "syntax": "<?php echo \"edit user\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "edit user"
+        },
+        {
+          "level": 378,
+          "topic": "delete user",
+          "syntax": "<?php echo \"delete user\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "delete user"
+        },
+        {
+          "level": 379,
+          "topic": "search users",
+          "syntax": "<?php echo \"search users\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "search users"
+        },
+        {
+          "level": 380,
+          "topic": "pagination",
+          "syntax": "<?php echo \"pagination\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "pagination"
+        },
+        {
+          "level": 381,
+          "topic": "sort users",
+          "syntax": "<?php echo \"sort users\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "sort users"
+        },
+        {
+          "level": 382,
+          "topic": "filter users",
+          "syntax": "<?php echo \"filter users\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "filter users"
+        },
+        {
+          "level": 383,
+          "topic": "create product",
+          "syntax": "<?php echo \"create product\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "create product"
+        },
+        {
+          "level": 384,
+          "topic": "update product",
+          "syntax": "<?php echo \"update product\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "update product"
+        },
+        {
+          "level": 385,
+          "topic": "delete product",
+          "syntax": "<?php echo \"delete product\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "delete product"
+        },
+        {
+          "level": 386,
+          "topic": "display table",
+          "syntax": "<?php echo \"display table\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "display table"
+        }
+      ]
+    },
+    {
+      "part": "Part 30 - Prepared Statements",
+      "items": [
+        {
+          "level": 387,
+          "topic": "prepare select",
+          "syntax": "<?php echo \"prepare select\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "prepare select"
+        },
+        {
+          "level": 388,
+          "topic": "bind value",
+          "syntax": "<?php echo \"bind value\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "bind value"
+        },
+        {
+          "level": 389,
+          "topic": "execute select",
+          "syntax": "<?php echo \"execute select\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "execute select"
+        },
+        {
+          "level": 390,
+          "topic": "prepare insert",
+          "syntax": "<?php echo \"prepare insert\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "prepare insert"
+        },
+        {
+          "level": 391,
+          "topic": "bind insert",
+          "syntax": "<?php echo \"bind insert\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "bind insert"
+        },
+        {
+          "level": 392,
+          "topic": "execute insert",
+          "syntax": "<?php echo \"execute insert\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "execute insert"
+        },
+        {
+          "level": 393,
+          "topic": "prepare update",
+          "syntax": "<?php echo \"prepare update\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "prepare update"
+        },
+        {
+          "level": 394,
+          "topic": "prepare delete",
+          "syntax": "<?php echo \"prepare delete\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "prepare delete"
+        },
+        {
+          "level": 395,
+          "topic": "named placeholders",
+          "syntax": "<?php echo \"named placeholders\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "named placeholders"
+        },
+        {
+          "level": 396,
+          "topic": "multiple parameters",
+          "syntax": "<?php echo \"multiple parameters\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "multiple parameters"
+        },
+        {
+          "level": 397,
+          "topic": "fetch prepared",
+          "syntax": "<?php echo \"fetch prepared\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "fetch prepared"
+        },
+        {
+          "level": 398,
+          "topic": "error handling prepared",
+          "syntax": "<?php echo \"error handling prepared\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "error handling prepared"
+        },
+        {
+          "level": 399,
+          "topic": "safe search",
+          "syntax": "<?php echo \"safe search\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "safe search"
+        }
+      ]
+    },
+    {
+      "part": "Part 31 - Transactions",
+      "items": [
+        {
+          "level": 400,
+          "topic": "begin transaction",
+          "syntax": "<?php echo \"begin transaction\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "begin transaction"
+        },
+        {
+          "level": 401,
+          "topic": "commit",
+          "syntax": "<?php echo \"commit\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "commit"
+        },
+        {
+          "level": 402,
+          "topic": "rollback",
+          "syntax": "<?php echo \"rollback\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "rollback"
+        },
+        {
+          "level": 403,
+          "topic": "transaction insert",
+          "syntax": "<?php echo \"transaction insert\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "transaction insert"
+        },
+        {
+          "level": 404,
+          "topic": "transaction update",
+          "syntax": "<?php echo \"transaction update\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "transaction update"
+        },
+        {
+          "level": 405,
+          "topic": "transaction delete",
+          "syntax": "<?php echo \"transaction delete\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "transaction delete"
+        },
+        {
+          "level": 406,
+          "topic": "try transaction",
+          "syntax": "<?php echo \"try transaction\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "try transaction"
+        },
+        {
+          "level": 407,
+          "topic": "catch rollback",
+          "syntax": "<?php echo \"catch rollback\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "catch rollback"
+        },
+        {
+          "level": 408,
+          "topic": "transaction status",
+          "syntax": "<?php echo \"transaction status\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "transaction status"
+        },
+        {
+          "level": 409,
+          "topic": "multiple queries",
+          "syntax": "<?php echo \"multiple queries\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "multiple queries"
+        },
+        {
+          "level": 410,
+          "topic": "savepoint SQL",
+          "syntax": "<?php echo \"savepoint SQL\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "savepoint SQL"
+        },
+        {
+          "level": 411,
+          "topic": "commit result",
+          "syntax": "<?php echo \"commit result\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "commit result"
+        },
+        {
+          "level": 412,
+          "topic": "rollback result",
+          "syntax": "<?php echo \"rollback result\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "rollback result"
+        }
+      ]
+    },
+    {
+      "part": "Part 32 - Authentication",
+      "items": [
+        {
+          "level": 413,
+          "topic": "login form",
+          "syntax": "<?php echo \"login form\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "login form"
+        },
+        {
+          "level": 414,
+          "topic": "verify credentials",
+          "syntax": "<?php echo \"verify credentials\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "verify credentials"
+        },
+        {
+          "level": 415,
+          "topic": "session login",
+          "syntax": "<?php echo \"session login\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "session login"
+        },
+        {
+          "level": 416,
+          "topic": "logout",
+          "syntax": "<?php echo \"logout\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "logout"
+        },
+        {
+          "level": 417,
+          "topic": "auth guard",
+          "syntax": "<?php echo \"auth guard\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "auth guard"
+        },
+        {
+          "level": 418,
+          "topic": "remember username",
+          "syntax": "<?php echo \"remember username\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "remember username"
+        },
+        {
+          "level": 419,
+          "topic": "failed login",
+          "syntax": "<?php echo \"failed login\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "failed login"
+        },
+        {
+          "level": 420,
+          "topic": "login redirect",
+          "syntax": "<?php echo \"login redirect\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "login redirect"
+        },
+        {
+          "level": 421,
+          "topic": "current user",
+          "syntax": "<?php echo \"current user\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "current user"
+        },
+        {
+          "level": 422,
+          "topic": "role check",
+          "syntax": "<?php echo \"role check\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "role check"
+        },
+        {
+          "level": 423,
+          "topic": "admin guard",
+          "syntax": "<?php echo \"admin guard\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "admin guard"
+        },
+        {
+          "level": 424,
+          "topic": "logout redirect",
+          "syntax": "<?php echo \"logout redirect\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "logout redirect"
+        },
+        {
+          "level": 425,
+          "topic": "login message",
+          "syntax": "<?php echo \"login message\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "login message"
+        }
+      ]
+    },
+    {
+      "part": "Part 33 - Password Security",
+      "items": [
+        {
+          "level": 426,
+          "topic": "password_hash",
+          "syntax": "<?php echo \"password_hash\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "password_hash"
+        },
+        {
+          "level": 427,
+          "topic": "PASSWORD_DEFAULT",
+          "syntax": "<?php echo \"PASSWORD_DEFAULT\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PASSWORD_DEFAULT"
+        },
+        {
+          "level": 428,
+          "topic": "password_verify",
+          "syntax": "<?php echo \"password_verify\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "password_verify"
+        },
+        {
+          "level": 429,
+          "topic": "password_needs_rehash",
+          "syntax": "<?php echo \"password_needs_rehash\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "password_needs_rehash"
+        },
+        {
+          "level": 430,
+          "topic": "hash stored password",
+          "syntax": "<?php echo \"hash stored password\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "hash stored password"
+        },
+        {
+          "level": 431,
+          "topic": "verify wrong password",
+          "syntax": "<?php echo \"verify wrong password\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "verify wrong password"
+        },
+        {
+          "level": 432,
+          "topic": "create password field",
+          "syntax": "<?php echo \"create password field\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "create password field"
+        },
+        {
+          "level": 433,
+          "topic": "password confirmation",
+          "syntax": "<?php echo \"password confirmation\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "password confirmation"
+        },
+        {
+          "level": 434,
+          "topic": "change password",
+          "syntax": "<?php echo \"change password\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "change password"
+        },
+        {
+          "level": 435,
+          "topic": "reset token",
+          "syntax": "<?php echo \"reset token\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "reset token"
+        },
+        {
+          "level": 436,
+          "topic": "token expiry",
+          "syntax": "<?php echo \"token expiry\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "token expiry"
+        },
+        {
+          "level": 437,
+          "topic": "secure password update",
+          "syntax": "<?php echo \"secure password update\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "secure password update"
+        },
+        {
+          "level": 438,
+          "topic": "password validation",
+          "syntax": "<?php echo \"password validation\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "password validation"
+        }
+      ]
+    },
+    {
+      "part": "Part 34 - File Uploads",
+      "items": [
+        {
+          "level": 439,
+          "topic": "upload form",
+          "syntax": "<?php echo \"upload form\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "upload form"
+        },
+        {
+          "level": 440,
+          "topic": "$_FILES name",
+          "syntax": "<?php echo \"$_FILES name\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "$_FILES name"
+        },
+        {
+          "level": 441,
+          "topic": "$_FILES tmp_name",
+          "syntax": "<?php echo \"$_FILES tmp_name\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "$_FILES tmp_name"
+        },
+        {
+          "level": 442,
+          "topic": "upload error",
+          "syntax": "<?php echo \"upload error\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "upload error"
+        },
+        {
+          "level": 443,
+          "topic": "move_uploaded_file",
+          "syntax": "<?php echo \"move_uploaded_file\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "move_uploaded_file"
+        },
+        {
+          "level": 444,
+          "topic": "file size check",
+          "syntax": "<?php echo \"file size check\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "file size check"
+        },
+        {
+          "level": 445,
+          "topic": "extension check",
+          "syntax": "<?php echo \"extension check\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "extension check"
+        },
+        {
+          "level": 446,
+          "topic": "MIME check",
+          "syntax": "<?php echo \"MIME check\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "MIME check"
+        },
+        {
+          "level": 447,
+          "topic": "unique filename",
+          "syntax": "<?php echo \"unique filename\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "unique filename"
+        },
+        {
+          "level": 448,
+          "topic": "upload directory",
+          "syntax": "<?php echo \"upload directory\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "upload directory"
+        },
+        {
+          "level": 449,
+          "topic": "multiple uploads",
+          "syntax": "<?php echo \"multiple uploads\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "multiple uploads"
+        },
+        {
+          "level": 450,
+          "topic": "image upload",
+          "syntax": "<?php echo \"image upload\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "image upload"
+        },
+        {
+          "level": 451,
+          "topic": "upload result",
+          "syntax": "<?php echo \"upload result\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "upload result"
+        }
+      ]
+    },
+    {
+      "part": "Part 35 - PHP Email",
+      "items": [
+        {
+          "level": 452,
+          "topic": "mail basic",
+          "syntax": "<?php echo \"mail basic\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mail basic"
+        },
+        {
+          "level": 453,
+          "topic": "mail subject",
+          "syntax": "<?php echo \"mail subject\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mail subject"
+        },
+        {
+          "level": 454,
+          "topic": "mail headers",
+          "syntax": "<?php echo \"mail headers\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mail headers"
+        },
+        {
+          "level": 455,
+          "topic": "HTML mail",
+          "syntax": "<?php echo \"HTML mail\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "HTML mail"
+        },
+        {
+          "level": 456,
+          "topic": "reply-to header",
+          "syntax": "<?php echo \"reply-to header\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "reply-to header"
+        },
+        {
+          "level": 457,
+          "topic": "attachment concept",
+          "syntax": "<?php echo \"attachment concept\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "attachment concept"
+        },
+        {
+          "level": 458,
+          "topic": "form email",
+          "syntax": "<?php echo \"form email\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "form email"
+        },
+        {
+          "level": 459,
+          "topic": "email validation",
+          "syntax": "<?php echo \"email validation\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "email validation"
+        },
+        {
+          "level": 460,
+          "topic": "mail result",
+          "syntax": "<?php echo \"mail result\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "mail result"
+        },
+        {
+          "level": 461,
+          "topic": "contact form",
+          "syntax": "<?php $name=\"Ava\";$msg=\"Hello\";echo \"$name: $msg\"; ?>",
+          "puzzle": "<?___ $name=\"Ava\";$msg=\"Hello\";echo \"$name: $msg\"; ?>",
+          "output": "Ava: Hello"
+        },
+        {
+          "level": 462,
+          "topic": "notification email",
+          "syntax": "<?php echo \"notification email\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "notification email"
+        },
+        {
+          "level": 463,
+          "topic": "confirmation email",
+          "syntax": "<?php echo \"confirmation email\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "confirmation email"
+        },
+        {
+          "level": 464,
+          "topic": "error email",
+          "syntax": "<?php echo \"error email\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "error email"
+        }
+      ]
+    },
+    {
+      "part": "Part 36 - HTTP & cURL",
+      "items": [
+        {
+          "level": 465,
+          "topic": "curl init",
+          "syntax": "<?php $ch=curl_init();var_dump(is_resource($ch)||is_object($ch)); ?>",
+          "puzzle": "<?php $ch=___();var___dump(is___resource($ch)||is___object($ch)); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 466,
+          "topic": "curl URL",
+          "syntax": "<?php echo \"curl URL\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "curl URL"
+        },
+        {
+          "level": 467,
+          "topic": "curl exec",
+          "syntax": "<?php $ch=curl_init();curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);$r=curl_exec($ch);echo \"Done\"; ?>",
+          "puzzle": "<?php $ch=curl___init();curl___setopt($ch,CURLOPT___RETURNTRANSFER,true);$r=curl___($ch);echo \"Done\"; ?>",
+          "output": "Done"
+        },
+        {
+          "level": 468,
+          "topic": "curl close",
+          "syntax": "<?php $ch=curl_init();curl_close($ch);echo \"Closed\"; ?>",
+          "puzzle": "<?php $ch=curl___init();curl___($ch);echo \"Closed\"; ?>",
+          "output": "Closed"
+        },
+        {
+          "level": 469,
+          "topic": "GET request",
+          "syntax": "<?php echo \"GET request\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "GET request"
+        },
+        {
+          "level": 470,
+          "topic": "POST request",
+          "syntax": "<?php echo \"POST request\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "POST request"
+        },
+        {
+          "level": 471,
+          "topic": "JSON POST",
+          "syntax": "<?php echo \"JSON POST\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "JSON POST"
+        },
+        {
+          "level": 472,
+          "topic": "headers",
+          "syntax": "<?php $headers=[\"Content-Type: application/json\"];echo $headers[0]; ?>",
+          "puzzle": "<?___ $headers=[\"Content-Type: application/json\"];echo $headers[0]; ?>",
+          "output": "Content-Type: application/json"
+        },
+        {
+          "level": 473,
+          "topic": "status code",
+          "syntax": "<?php http_response_code(200);echo http_response_code(); ?>",
+          "puzzle": "<?php ___(200);echo http___response___code(); ?>",
+          "output": "200"
+        },
+        {
+          "level": 474,
+          "topic": "timeout",
+          "syntax": "<?php $timeout=5;echo $timeout; ?>",
+          "puzzle": "<?php $timeout=___;echo $timeout; ?>",
+          "output": "5"
+        },
+        {
+          "level": 475,
+          "topic": "follow redirects",
+          "syntax": "<?php $follow=true;var_dump($follow); ?>",
+          "puzzle": "<?php $follow=true;var___dump($follow); ?>",
+          "output": "bool(true)"
+        },
+        {
+          "level": 476,
+          "topic": "curl error",
+          "syntax": "<?php $msg=curl_error(curl_init());echo $msg===\"\"?\"none\":\"error\"; ?>",
+          "puzzle": "<?php $msg=___(curl___init());echo $msg===\"\"?\"none\":\"error\"; ?>",
+          "output": "none"
+        },
+        {
+          "level": 477,
+          "topic": "response body",
+          "syntax": "<?php $body='{\"ok\":true}';echo $body; ?>",
+          "puzzle": "<?___ $body='{\"ok\":true}';echo $body; ?>",
+          "output": "{\"ok\":true}"
+        }
+      ]
+    },
+    {
+      "part": "Part 37 - REST APIs",
+      "items": [
+        {
+          "level": 478,
+          "topic": "GET endpoint",
+          "syntax": "<?php $method=\"GET\";echo $method; ?>",
+          "puzzle": "<?___ $method=\"GET\";echo $method; ?>",
+          "output": "GET"
+        },
+        {
+          "level": 479,
+          "topic": "POST endpoint",
+          "syntax": "<?php $method=\"POST\";echo $method; ?>",
+          "puzzle": "<?___ $method=\"POST\";echo $method; ?>",
+          "output": "POST"
+        },
+        {
+          "level": 480,
+          "topic": "PUT endpoint",
+          "syntax": "<?php $method=\"PUT\";echo $method; ?>",
+          "puzzle": "<?___ $method=\"PUT\";echo $method; ?>",
+          "output": "PUT"
+        },
+        {
+          "level": 481,
+          "topic": "DELETE endpoint",
+          "syntax": "<?php $method=\"DELETE\";echo $method; ?>",
+          "puzzle": "<?___ $method=\"DELETE\";echo $method; ?>",
+          "output": "DELETE"
+        },
+        {
+          "level": 482,
+          "topic": "JSON response - practice 2",
+          "syntax": "<?php echo json_encode([\"ok\"=>true]); ?>",
+          "puzzle": "<?php echo ___([\"ok\"=>true]); ?>",
+          "output": "{\"ok\":true}"
+        },
+        {
+          "level": 483,
+          "topic": "request JSON",
+          "syntax": "<?php $body='{\"id\":1}';$d=json_decode($body,true);echo $d[\"id\"]; ?>",
+          "puzzle": "<?php $body='{\"id\":1}';$d=___($body,true);echo $d[\"id\"]; ?>",
+          "output": "1"
+        },
+        {
+          "level": 484,
+          "topic": "HTTP status 200",
+          "syntax": "<?php http_response_code(200);echo http_response_code(); ?>",
+          "puzzle": "<?php ___(200);echo http___response___code(); ?>",
+          "output": "200"
+        },
+        {
+          "level": 485,
+          "topic": "HTTP status 201",
+          "syntax": "<?php http_response_code(201);echo http_response_code(); ?>",
+          "puzzle": "<?php ___(201);echo http___response___code(); ?>",
+          "output": "201"
+        },
+        {
+          "level": 486,
+          "topic": "HTTP status 400",
+          "syntax": "<?php http_response_code(400);echo http_response_code(); ?>",
+          "puzzle": "<?php ___(400);echo http___response___code(); ?>",
+          "output": "400"
+        },
+        {
+          "level": 487,
+          "topic": "HTTP status 404",
+          "syntax": "<?php http_response_code(404);echo http_response_code(); ?>",
+          "puzzle": "<?php ___(404);echo http___response___code(); ?>",
+          "output": "404"
+        },
+        {
+          "level": 488,
+          "topic": "HTTP status 500",
+          "syntax": "<?php http_response_code(500);echo http_response_code(); ?>",
+          "puzzle": "<?php ___(500);echo http___response___code(); ?>",
+          "output": "500"
+        },
+        {
+          "level": 489,
+          "topic": "API header",
+          "syntax": "<?php header(\"Content-Type: application/json\");echo \"OK\"; ?>",
+          "puzzle": "<?php ___(\"Content-Type: application/json\");echo \"OK\"; ?>",
+          "output": "OK"
+        },
+        {
+          "level": 490,
+          "topic": "API method",
+          "syntax": "<?php $method=$_SERVER[\"REQUEST_METHOD\"]??\"GET\";echo $method; ?>",
+          "puzzle": "<?php $method=$___SERVER[\"REQUEST___METHOD\"]??\"GET\";echo $method; ?>",
+          "output": "GET"
+        }
+      ]
+    },
+    {
+      "part": "Part 38 - XML & DOM",
+      "items": [
+        {
+          "level": 491,
+          "topic": "simplexml load",
+          "syntax": "<?php $xml=simplexml_load_string(\"<u><name>Ava</name></u>\");echo $xml->name; ?>",
+          "puzzle": "<?php $xml=___(\"<u><name>Ava</name></u>\");echo $xml->name; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 492,
+          "topic": "XML parse",
+          "syntax": "<?php $xml=simplexml_load_string(\"<u><id>1</id></u>\");echo $xml->id; ?>",
+          "puzzle": "<?php $xml=___(\"<u><id>1</id></u>\");echo $xml->id; ?>",
+          "output": "1"
+        },
+        {
+          "level": 493,
+          "topic": "read XML node",
+          "syntax": "<?php $xml=simplexml_load_string(\"<u><name>Ava</name></u>\");echo $xml->name; ?>",
+          "puzzle": "<?php $xml=simplexml___load___string(\"<u><name>Ava</name></u>\");echo $xml->___; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 494,
+          "topic": "XML attribute",
+          "syntax": "<?php $xml=simplexml_load_string(\"<u id=\"7\"/>\");echo $xml[\"id\"]; ?>",
+          "puzzle": "<?php $xml=simplexml___load___string(\"<u id=\"7\"/>\");echo $xml[\"___\"]; ?>",
+          "output": "7"
+        },
+        {
+          "level": 495,
+          "topic": "DOMDocument",
+          "syntax": "<?php $d=new DOMDocument();echo get_class($d); ?>",
+          "puzzle": "<?php $d=new ___();echo get___class($d); ?>",
+          "output": "DOMDocument"
+        },
+        {
+          "level": 496,
+          "topic": "DOM element",
+          "syntax": "<?php $d=new DOMDocument();$e=$d->createElement(\"name\",\"Ava\");echo $e->nodeName; ?>",
+          "puzzle": "<?php $d=new DOMDocument();$e=$d->___(\"name\",\"Ava\");echo $e->nodeName; ?>",
+          "output": "name"
+        },
+        {
+          "level": 497,
+          "topic": "DOM text",
+          "syntax": "<?php $d=new DOMDocument();$e=$d->createTextNode(\"Hi\");echo $e->nodeValue; ?>",
+          "puzzle": "<?php $d=new DOMDocument();$e=$d->___(\"Hi\");echo $e->nodeValue; ?>",
+          "output": "Hi"
+        },
+        {
+          "level": 498,
+          "topic": "save XML",
+          "syntax": "<?php $d=new DOMDocument();$d->loadXML(\"<u/>\");echo $d->saveXML(); ?>",
+          "puzzle": "<?php $d=new DOMDocument();$d->loadXML(\"<u/>\");echo $d->___(); ?>",
+          "output": "<?xml version=\"1.0\"?>\n<u/>"
+        },
+        {
+          "level": 499,
+          "topic": "XPath",
+          "syntax": "<?php $d=new DOMDocument();$d->loadXML(\"<u><id>1</id></u>\");$x=new DOMXPath($d);echo $x->query(\"//id\")->item(0)->nodeValue; ?>",
+          "puzzle": "<?php $d=new DOMDocument();$d->loadXML(\"<u><id>1</id></u>\");$x=new DOMXPath($d);echo $x->___(\"//id\")->item(0)->nodeValue; ?>",
+          "output": "1"
+        },
+        {
+          "level": 500,
+          "topic": "XML string",
+          "syntax": "<?php $xml=\"<u><name>Ava</name></u>\";echo strpos($xml,\"Ava\")!==false?\"yes\":\"no\"; ?>",
+          "puzzle": "<?___ $xml=\"<u><name>Ava</name></u>\";echo strpos($xml,\"Ava\")!==false?\"yes\":\"no\"; ?>",
+          "output": "yes"
+        },
+        {
+          "level": 501,
+          "topic": "create XML",
+          "syntax": "<?php $d=new DOMDocument();$u=$d->createElement(\"user\");echo $u->nodeName; ?>",
+          "puzzle": "<?php $d=new DOMDocument();$u=$d->___(\"user\");echo $u->nodeName; ?>",
+          "output": "user"
+        },
+        {
+          "level": 502,
+          "topic": "append node",
+          "syntax": "<?php $d=new DOMDocument();$u=$d->createElement(\"user\");$n=$d->createElement(\"name\",\"Ava\");$u->appendChild($n);echo $u->firstChild->nodeValue; ?>",
+          "puzzle": "<?php $d=new DOMDocument();$u=$d->createElement(\"user\");$n=$d->createElement(\"name\",\"Ava\");$u->___($n);echo $u->firstChild->nodeValue; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 503,
+          "topic": "XML response",
+          "syntax": "<?php echo \"<?xml version=\"1.0\"?><ok>1</ok>\"; ?>",
+          "puzzle": "<?___ echo \"<?xml version=\"1.0\"?><ok>1</ok>\"; ?>",
+          "output": "<?xml version=\"1.0\"?><ok>1</ok>"
+        }
+      ]
+    },
+    {
+      "part": "Part 39 - Regular Expressions",
+      "items": [
+        {
+          "level": 504,
+          "topic": "preg_match",
+          "syntax": "<?php echo preg_match(\"/php/i\",\"PHP\"); ?>",
+          "puzzle": "<?php echo ___(\"/php/i\",\"PHP\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 505,
+          "topic": "preg_match_all",
+          "syntax": "<?php preg_match_all(\"/[0-9]+/\",\"A12 B34\",$m);echo count($m[0]); ?>",
+          "puzzle": "<?php ___(\"/[0-9]+/\",\"A12 B34\",$m);echo count($m[0]); ?>",
+          "output": "2"
+        },
+        {
+          "level": 506,
+          "topic": "preg_replace",
+          "syntax": "<?php echo preg_replace(\"/ +/\",\"-\",\"A B\"); ?>",
+          "puzzle": "<?php echo ___(\"/ +/\",\"-\",\"A B\"); ?>",
+          "output": "A-B"
+        },
+        {
+          "level": 507,
+          "topic": "email regex",
+          "syntax": "<?php echo preg_match(\"/^[^@]+@[^@]+$/\",\"a@b.com\"); ?>",
+          "puzzle": "<?php echo ___(\"/^[^@]+@[^@]+$/\",\"a@b.com\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 508,
+          "topic": "phone regex",
+          "syntax": "<?php echo preg_match(\"/^[0-9]{10}$/\",\"9876543210\"); ?>",
+          "puzzle": "<?php echo ___(\"/^[0-9]{10}$/\",\"9876543210\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 509,
+          "topic": "digits regex",
+          "syntax": "<?php echo preg_match(\"/^[0-9]+$/\",\"123\"); ?>",
+          "puzzle": "<?php echo ___(\"/^[0-9]+$/\",\"123\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 510,
+          "topic": "word regex",
+          "syntax": "<?php echo preg_match(\"/^[A-Za-z]+$/\",\"PHP\"); ?>",
+          "puzzle": "<?php echo ___(\"/^[A-Za-z]+$/\",\"PHP\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 511,
+          "topic": "split regex",
+          "syntax": "<?php print_r(preg_split(\"/,/\", \"A,B\")); ?>",
+          "puzzle": "<?___ print_r(preg_split(\"/,/\", \"A,B\")); ?>",
+          "output": "Array ( [0] => A [1] => B )"
+        },
+        {
+          "level": 512,
+          "topic": "extract number",
+          "syntax": "<?php preg_match(\"/([0-9]+)/\",\"ID42\",$m);echo $m[1]; ?>",
+          "puzzle": "<?php ___(\"/([0-9]+)/\",\"ID42\",$m);echo $m[1]; ?>",
+          "output": "42"
+        },
+        {
+          "level": 513,
+          "topic": "validate username",
+          "syntax": "<?php echo preg_match(\"/^[A-Za-z0-9_]+$/\",\"user_1\"); ?>",
+          "puzzle": "<?php echo ___(\"/^[A-Za-z0-9___]+$/\",\"user___1\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 514,
+          "topic": "replace spaces",
+          "syntax": "<?php echo preg_replace(\"/\\s+/\",\"-\",\"hello world\"); ?>",
+          "puzzle": "<?___ echo preg_replace(\"/\\s+/\",\"-\",\"hello world\"); ?>",
+          "output": "hello-world"
+        },
+        {
+          "level": 515,
+          "topic": "case insensitive regex",
+          "syntax": "<?php echo preg_match(\"/php/i\",\"PHP\"); ?>",
+          "puzzle": "<?php echo ___(\"/php___\",\"PHP\"); ?>",
+          "output": "1"
+        },
+        {
+          "level": 516,
+          "topic": "named capture",
+          "syntax": "<?php preg_match(\"/(?<id>[0-9]+)/\",\"ID42\",$m);echo $m[\"id\"]; ?>",
+          "puzzle": "<?php ___(\"/(?<id>[0-9]+)/\",\"ID42\",$m);echo $m[\"id\"]; ?>",
+          "output": "42"
+        }
+      ]
+    },
+    {
+      "part": "Part 40 - CLI PHP",
+      "items": [
+        {
+          "level": 517,
+          "topic": "argv",
+          "syntax": "<?php $argv=[\"script.php\",\"Ava\"];echo $argv[1]; ?>",
+          "puzzle": "<?php $argv=[\"script.php\",\"Ava\"];echo $___[1]; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 518,
+          "topic": "argc",
+          "syntax": "<?php $argc=2;echo $argc; ?>",
+          "puzzle": "<?___ $argc=2;echo $argc; ?>",
+          "output": "2"
+        },
+        {
+          "level": 519,
+          "topic": "CLI echo",
+          "syntax": "<?php echo \"CLI echo\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "CLI echo"
+        },
+        {
+          "level": 520,
+          "topic": "CLI argument",
+          "syntax": "<?php echo \"CLI argument\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "CLI argument"
+        },
+        {
+          "level": 521,
+          "topic": "CLI loop",
+          "syntax": "<?php echo \"CLI loop\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "CLI loop"
+        },
+        {
+          "level": 522,
+          "topic": "CLI input",
+          "syntax": "<?php echo \"CLI input\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "CLI input"
+        },
+        {
+          "level": 523,
+          "topic": "readline",
+          "syntax": "<?php $x=\"Ava\";echo $x; ?>",
+          "puzzle": "<?___ $x=\"Ava\";echo $x; ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 524,
+          "topic": "exit code",
+          "syntax": "<?php exit(0); ?>",
+          "puzzle": "<?php ___(0); ?>",
+          "output": ""
+        },
+        {
+          "level": 525,
+          "topic": "STDIN",
+          "syntax": "<?php echo \"STDIN\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "STDIN"
+        },
+        {
+          "level": 526,
+          "topic": "STDOUT",
+          "syntax": "<?php echo \"STDOUT\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "STDOUT"
+        },
+        {
+          "level": 527,
+          "topic": "STDERR",
+          "syntax": "<?php echo \"STDERR\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "STDERR"
+        },
+        {
+          "level": 528,
+          "topic": "CLI file",
+          "syntax": "<?php echo \"CLI file\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "CLI file"
+        },
+        {
+          "level": 529,
+          "topic": "command options",
+          "syntax": "<?php $opts=[\"--name\"=>\"Ava\"];echo $opts[\"--name\"]; ?>",
+          "puzzle": "<?___ $opts=[\"--name\"=>\"Ava\"];echo $opts[\"--name\"]; ?>",
+          "output": "Ava"
+        }
+      ]
+    },
+    {
+      "part": "Part 41 - Composer & Packages",
+      "items": [
+        {
+          "level": 530,
+          "topic": "composer init",
+          "syntax": "<?php echo \"composer.json created\"; ?>",
+          "puzzle": "<?___ echo \"composer.json created\"; ?>",
+          "output": "composer.json created"
+        },
+        {
+          "level": 531,
+          "topic": "composer install",
+          "syntax": "<?php echo \"Dependencies installed\"; ?>",
+          "puzzle": "<?___ echo \"Dependencies installed\"; ?>",
+          "output": "Dependencies installed"
+        },
+        {
+          "level": 532,
+          "topic": "composer require",
+          "syntax": "<?php echo \"Package added\"; ?>",
+          "puzzle": "<?___ echo \"Package added\"; ?>",
+          "output": "Package added"
+        },
+        {
+          "level": 533,
+          "topic": "composer dump-autoload",
+          "syntax": "<?php echo \"Autoload files generated\"; ?>",
+          "puzzle": "<?___ echo \"Autoload files generated\"; ?>",
+          "output": "Autoload files generated"
+        },
+        {
+          "level": 534,
+          "topic": "vendor autoload",
+          "syntax": "<?php require \"vendor/autoload.php\";echo \"Loaded\"; ?>",
+          "puzzle": "<?php ___ \"vendor/autoload.php\";echo \"Loaded\"; ?>",
+          "output": "Loaded"
+        },
+        {
+          "level": 535,
+          "topic": "PSR-4 autoload",
+          "syntax": "<?php echo \"PSR-4 autoload\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "PSR-4 autoload"
+        },
+        {
+          "level": 536,
+          "topic": "package version",
+          "syntax": "<?php echo \"1.0.0\"; ?>",
+          "puzzle": "<?___ echo \"1.0.0\"; ?>",
+          "output": "1.0.0"
+        },
+        {
+          "level": 537,
+          "topic": "remove package",
+          "syntax": "<?php echo \"Package removed\"; ?>",
+          "puzzle": "<?___ echo \"Package removed\"; ?>",
+          "output": "Package removed"
+        },
+        {
+          "level": 538,
+          "topic": "composer update",
+          "syntax": "<?php echo \"Dependencies updated\"; ?>",
+          "puzzle": "<?___ echo \"Dependencies updated\"; ?>",
+          "output": "Dependencies updated"
+        },
+        {
+          "level": 539,
+          "topic": "composer show",
+          "syntax": "<?php echo \"vendor/package\"; ?>",
+          "puzzle": "<?___ echo \"vendor/package\"; ?>",
+          "output": "vendor/package"
+        },
+        {
+          "level": 540,
+          "topic": "autoload class - practice 2",
+          "syntax": "<?php spl_autoload_register(function($c){}); class User{} echo class_exists(\"User\")?\"yes\":\"no\"; ?>",
+          "puzzle": "<?php spl___autoload___register(function($c){}); class User{} echo class___exists(\"User\")?\"yes\":\"no\"; ?>",
+          "output": "yes"
+        },
+        {
+          "level": 541,
+          "topic": "autoload helper",
+          "syntax": "<?php function helper(){return \"OK\";}echo helper(); ?>",
+          "puzzle": "<?___ function helper(){return \"OK\";}echo helper(); ?>",
+          "output": "OK"
+        },
+        {
+          "level": 542,
+          "topic": "dependency script",
+          "syntax": "<?php echo \"script executed\"; ?>",
+          "puzzle": "<?___ echo \"script executed\"; ?>",
+          "output": "script executed"
+        }
+      ]
+    },
+    {
+      "part": "Part 42 - PHP Web App Patterns",
+      "items": [
+        {
+          "level": 543,
+          "topic": "config array",
+          "syntax": "<?php $config=[\"app\"=>\"Demo\"];echo $config[\"app\"]; ?>",
+          "puzzle": "<?___ $config=[\"app\"=>\"Demo\"];echo $config[\"app\"]; ?>",
+          "output": "Demo"
+        },
+        {
+          "level": 544,
+          "topic": "environment variable",
+          "syntax": "<?php $_ENV[\"APP_ENV\"]=\"local\";echo $_ENV[\"APP_ENV\"]; ?>",
+          "puzzle": "<?php $___ENV[\"APP___ENV\"]=\"local\";echo $___[\"APP___ENV\"]; ?>",
+          "output": "local"
+        },
+        {
+          "level": 545,
+          "topic": "helper function",
+          "syntax": "<?php function e($x){return htmlspecialchars($x);}echo e(\"<b>Hi</b>\"); ?>",
+          "puzzle": "<?php function e($x){return ___($x);}echo e(\"<b>Hi</b>\"); ?>",
+          "output": "&lt;b&gt;Hi&lt;/b&gt;"
+        },
+        {
+          "level": 546,
+          "topic": "service class",
+          "syntax": "<?php class UserService{function name(){return \"Ava\";}}echo (new UserService())->name(); ?>",
+          "puzzle": "<?___ class UserService{function name(){return \"Ava\";}}echo (new UserService())->name(); ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 547,
+          "topic": "repository class",
+          "syntax": "<?php class UserRepo{function find(){return \"Ava\";}}echo (new UserRepo())->find(); ?>",
+          "puzzle": "<?___ class UserRepo{function find(){return \"Ava\";}}echo (new UserRepo())->find(); ?>",
+          "output": "Ava"
+        },
+        {
+          "level": 548,
+          "topic": "controller method",
+          "syntax": "<?php class UserController{function index(){return \"Users\";}}echo (new UserController())->index(); ?>",
+          "puzzle": "<?___ class UserController{function index(){return \"Users\";}}echo (new UserController())->index(); ?>",
+          "output": "Users"
+        },
+        {
+          "level": 549,
+          "topic": "view include",
+          "syntax": "<?php $title=\"Home\";echo \"<h1>$title</h1>\"; ?>",
+          "puzzle": "<?___ $title=\"Home\";echo \"<h1>$title</h1>\"; ?>",
+          "output": "<h1>Home</h1>"
+        },
+        {
+          "level": 550,
+          "topic": "layout include",
+          "syntax": "<?php $content=\"Home\";echo \"<main>$content</main>\"; ?>",
+          "puzzle": "<?___ $content=\"Home\";echo \"<main>$content</main>\"; ?>",
+          "output": "<main>Home</main>"
+        },
+        {
+          "level": 551,
+          "topic": "flash helper",
+          "syntax": "<?php $msg=\"Saved\";echo $msg; ?>",
+          "puzzle": "<?___ $msg=\"Saved\";echo $msg; ?>",
+          "output": "Saved"
+        },
+        {
+          "level": 552,
+          "topic": "redirect helper",
+          "syntax": "<?php echo \"Redirecting\"; ?>",
+          "puzzle": "<?___ echo \"Redirecting\"; ?>",
+          "output": "Redirecting"
+        },
+        {
+          "level": 553,
+          "topic": "response helper",
+          "syntax": "<?php echo json_encode([\"ok\"=>true]); ?>",
+          "puzzle": "<?php echo ___([\"ok\"=>true]); ?>",
+          "output": "{\"ok\":true}"
+        },
+        {
+          "level": 554,
+          "topic": "request helper",
+          "syntax": "<?php $request=[\"id\"=>7];echo $request[\"id\"]; ?>",
+          "puzzle": "<?___ $request=[\"id\"=>7];echo $request[\"id\"]; ?>",
+          "output": "7"
+        },
+        {
+          "level": 555,
+          "topic": "simple router",
+          "syntax": "<?php $route=\"/users\";echo $route===\"/users\"?\"Users\":\"Home\"; ?>",
+          "puzzle": "<?___ $route=\"/users\";echo $route===\"/users\"?\"Users\":\"Home\"; ?>",
+          "output": "Users"
+        }
+      ]
+    },
+    {
+      "part": "Part 43 - Practical Mini Projects",
+      "items": [
+        {
+          "level": 556,
+          "topic": "calculator",
+          "syntax": "<?php $a=10;$b=5;echo $a+$b; ?>",
+          "puzzle": "<?php $a=10;$b=5;echo $a___$b; ?>",
+          "output": "15"
+        },
+        {
+          "level": 557,
+          "topic": "BMI calculator",
+          "syntax": "<?php echo \"BMI calculator\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "BMI calculator"
+        },
+        {
+          "level": 558,
+          "topic": "number checker",
+          "syntax": "<?php $n=7;echo $n%2===0?\"Even\":\"Odd\"; ?>",
+          "puzzle": "<?___ $n=7;echo $n%2===0?\"Even\":\"Odd\"; ?>",
+          "output": "Odd"
+        },
+        {
+          "level": 559,
+          "topic": "even odd app",
+          "syntax": "<?php $n=8;echo $n%2===0?\"Even\":\"Odd\"; ?>",
+          "puzzle": "<?___ $n=8;echo $n%2===0?\"Even\":\"Odd\"; ?>",
+          "output": "Even"
+        },
+        {
+          "level": 560,
+          "topic": "grade calculator",
+          "syntax": "<?php $m=85;echo $m>=80?\"A\":\"B\"; ?>",
+          "puzzle": "<?___ $m=85;echo $m>=80?\"A\":\"B\"; ?>",
+          "output": "A"
+        },
+        {
+          "level": 561,
+          "topic": "to-do list array",
+          "syntax": "<?php $todos=[\"Study\",\"Code\"];echo count($todos); ?>",
+          "puzzle": "<?php $todos=[\"Study\",\"Code\"];echo ___($todos); ?>",
+          "output": "2"
+        },
+        {
+          "level": 562,
+          "topic": "contact form - practice 2",
+          "syntax": "<?php $name=\"Ava\";$msg=\"Hello\";echo \"$name: $msg\"; ?>",
+          "puzzle": "<?___ $name=\"Ava\";$msg=\"Hello\";echo \"$name: $msg\"; ?>",
+          "output": "Ava: Hello"
+        },
+        {
+          "level": 563,
+          "topic": "login demo",
+          "syntax": "<?php $u=\"admin\";$p=\"1234\";echo ($u===\"admin\"&&$p===\"1234\")?\"Login\":\"Denied\"; ?>",
+          "puzzle": "<?___ $u=\"admin\";$p=\"1234\";echo ($u===\"admin\"&&$p===\"1234\")?\"Login\":\"Denied\"; ?>",
+          "output": "Login"
+        },
+        {
+          "level": 564,
+          "topic": "registration demo",
+          "syntax": "<?php $name=\"Ava\";echo $name!==\"\"?\"Registered\":\"Required\"; ?>",
+          "puzzle": "<?___ $name=\"Ava\";echo $name!==\"\"?\"Registered\":\"Required\"; ?>",
+          "output": "Registered"
+        },
+        {
+          "level": 565,
+          "topic": "CRUD users",
+          "syntax": "<?php echo \"CRUD users\"; ?>",
+          "puzzle": "<?php echo \"___\"; ?>",
+          "output": "CRUD users"
+        },
+        {
+          "level": 566,
+          "topic": "search page",
+          "syntax": "<?php $users=[\"Ava\",\"Sam\"];echo in_array(\"Sam\",$users)?\"Found\":\"Missing\"; ?>",
+          "puzzle": "<?___ $users=[\"Ava\",\"Sam\"];echo in_array(\"Sam\",$users)?\"Found\":\"Missing\"; ?>",
+          "output": "Found"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4197 @@
+{
+  "title": "Complete SQL Learning Roadmap - Practical Coding Game Dataset",
+  "description": "Practical SQL-only syntax-to-output puzzle dataset covering 43 parts and 565 exercises from basic queries to advanced SQL. No theory sections: every item uses executable SQL syntax, a fill-in-the-blank puzzle, and expected output.",
+  "total_parts": 44,
+  "total_items": 567,
+  "parts": [
+    {
+      "part": "Part 1 - SQL Fundamentals",
+      "items": [
+        {
+          "topic": "SELECT a literal - exercise 1",
+          "syntax": "SELECT 42;",
+          "puzzle": "___ 42;",
+          "output": "42",
+          "level": 0
+        },
+        {
+          "topic": "SELECT with alias - exercise 2",
+          "syntax": "SELECT 42 AS answer;",
+          "puzzle": "SELECT 42 ___ answer;",
+          "output": "answer\n42",
+          "level": 1
+        },
+        {
+          "topic": "Arithmetic expression - exercise 3",
+          "syntax": "SELECT 4 + 6 AS total;",
+          "puzzle": "SELECT 4 ___ 6 AS total;",
+          "output": "total\n10",
+          "level": 2
+        },
+        {
+          "topic": "Comparison expression - exercise 4",
+          "syntax": "SELECT 5 < 8 AS is_smaller;",
+          "puzzle": "SELECT 5 ___ 8 AS is___smaller;",
+          "output": "is_smaller\ntrue",
+          "level": 3
+        },
+        {
+          "topic": "Boolean expression - exercise 5",
+          "syntax": "SELECT (5 > 2) AND (3 < 4) AS ok;",
+          "puzzle": "SELECT (5 > 2) ___ (3 < 4) AS ok;",
+          "output": "ok\ntrue",
+          "level": 4
+        },
+        {
+          "topic": "String literal - exercise 6",
+          "syntax": "SELECT 'Riya' AS name;",
+          "puzzle": "___ 'Riya' AS name;",
+          "output": "name\nAva",
+          "level": 5
+        },
+        {
+          "topic": "Concatenate strings - exercise 7",
+          "syntax": "SELECT 'SQL' || ' ' || 'Practice' AS title;",
+          "puzzle": "SELECT 'SQL' || ' ' ___ 'Practice' AS title;",
+          "output": "title\nSQL Practice",
+          "level": 6
+        },
+        {
+          "topic": "Current date - exercise 8",
+          "syntax": "SELECT CURRENT_DATE;",
+          "puzzle": "SELECT ___;",
+          "output": "current_date\n2026-09-07",
+          "level": 7
+        },
+        {
+          "topic": "SELECT a literal - exercise 9",
+          "syntax": "SELECT 42;",
+          "puzzle": "___ 42;",
+          "output": "42",
+          "level": 8
+        },
+        {
+          "topic": "SELECT with alias - exercise 10",
+          "syntax": "SELECT 42 AS answer;",
+          "puzzle": "SELECT 42 ___ answer;",
+          "output": "answer\n42",
+          "level": 9
+        },
+        {
+          "topic": "Arithmetic expression - exercise 11",
+          "syntax": "SELECT 3 + 5 AS total;",
+          "puzzle": "SELECT 3 ___ 5 AS total;",
+          "output": "total\n8",
+          "level": 10
+        },
+        {
+          "topic": "Comparison expression - exercise 12",
+          "syntax": "SELECT 4 < 7 AS is_smaller;",
+          "puzzle": "SELECT 4 ___ 7 AS is___smaller;",
+          "output": "is_smaller\ntrue",
+          "level": 11
+        },
+        {
+          "topic": "Boolean expression - exercise 13",
+          "syntax": "SELECT (5 > 2) AND (3 < 4) AS ok;",
+          "puzzle": "SELECT (5 > 2) ___ (3 < 4) AS ok;",
+          "output": "ok\ntrue",
+          "level": 12
+        },
+        {
+          "topic": "String literal - exercise 14",
+          "syntax": "SELECT 'Riya' AS name;",
+          "puzzle": "___ 'Riya' AS name;",
+          "output": "name\nAva",
+          "level": 13
+        },
+        {
+          "topic": "Concatenate strings - exercise 15",
+          "syntax": "SELECT 'SQL' || ' ' || 'Practice' AS title;",
+          "puzzle": "SELECT 'SQL' || ' ' ___ 'Practice' AS title;",
+          "output": "title\nSQL Practice",
+          "level": 14
+        },
+        {
+          "topic": "Current date - exercise 16",
+          "syntax": "SELECT CURRENT_DATE;",
+          "puzzle": "SELECT ___;",
+          "output": "current_date\n2026-09-07",
+          "level": 15
+        },
+        {
+          "topic": "SELECT a literal - exercise 17",
+          "syntax": "SELECT 42;",
+          "puzzle": "___ 42;",
+          "output": "42",
+          "level": 16
+        },
+        {
+          "topic": "SELECT with alias - exercise 18",
+          "syntax": "SELECT 42 AS answer;",
+          "puzzle": "SELECT 42 ___ answer;",
+          "output": "answer\n42",
+          "level": 17
+        },
+        {
+          "topic": "Arithmetic expression - exercise 19",
+          "syntax": "SELECT 2 + 4 AS total;",
+          "puzzle": "SELECT 2 ___ 4 AS total;",
+          "output": "total\n6",
+          "level": 18
+        },
+        {
+          "topic": "Comparison expression - exercise 20",
+          "syntax": "SELECT 3 < 6 AS is_smaller;",
+          "puzzle": "SELECT 3 ___ 6 AS is___smaller;",
+          "output": "is_smaller\ntrue",
+          "level": 19
+        },
+        {
+          "topic": "Boolean expression - exercise 21",
+          "syntax": "SELECT (5 > 2) AND (3 < 4) AS ok;",
+          "puzzle": "SELECT (5 > 2) ___ (3 < 4) AS ok;",
+          "output": "ok\ntrue",
+          "level": 20
+        },
+        {
+          "topic": "String literal - exercise 22",
+          "syntax": "SELECT 'Riya' AS name;",
+          "puzzle": "___ 'Riya' AS name;",
+          "output": "name\nAva",
+          "level": 21
+        },
+        {
+          "topic": "Concatenate strings - exercise 23",
+          "syntax": "SELECT 'SQL' || ' ' || 'Practice' AS title;",
+          "puzzle": "SELECT 'SQL' || ' ' ___ 'Practice' AS title;",
+          "output": "title\nSQL Practice",
+          "level": 22
+        }
+      ]
+    },
+    {
+      "part": "Part 2 - SQL Data Types",
+      "items": [
+        {
+          "topic": "INTEGER value - exercise 1",
+          "syntax": "SELECT CAST(19 AS INTEGER) AS value;",
+          "puzzle": "SELECT CAST(19 AS ___) AS value;",
+          "output": "value\n19",
+          "level": 23
+        },
+        {
+          "topic": "DECIMAL value - exercise 2",
+          "syntax": "SELECT CAST(100.50 AS DECIMAL(8,2)) AS price;",
+          "puzzle": "SELECT CAST(100.50 AS ___(8,2)) AS price;",
+          "output": "price\n100.50",
+          "level": 24
+        },
+        {
+          "topic": "VARCHAR value - exercise 3",
+          "syntax": "SELECT CAST(123 AS VARCHAR(10)) AS text_value;",
+          "puzzle": "SELECT CAST(123 AS ___(10)) AS text___value;",
+          "output": "text_value\n123",
+          "level": 25
+        },
+        {
+          "topic": "DATE value - exercise 4",
+          "syntax": "SELECT CAST('2026-01-15' AS DATE) AS d;",
+          "puzzle": "___ CAST('2026-01-15' AS DATE) AS d;",
+          "output": "d\n2026-01-15",
+          "level": 26
+        },
+        {
+          "topic": "TIMESTAMP value - exercise 5",
+          "syntax": "SELECT CAST('2026-01-15 10:30:00' AS TIMESTAMP) AS ts;",
+          "puzzle": "SELECT CAST('2026-01-15 10:30:00' AS ___) AS ts;",
+          "output": "ts\n2026-01-15 10:30:00",
+          "level": 27
+        },
+        {
+          "topic": "BOOLEAN value - exercise 6",
+          "syntax": "SELECT CAST(1 AS BOOLEAN) AS flag;",
+          "puzzle": "SELECT CAST(1 AS ___) AS flag;",
+          "output": "flag\ntrue",
+          "level": 28
+        },
+        {
+          "topic": "NULL value - exercise 7",
+          "syntax": "SELECT CAST(NULL AS INTEGER) AS value;",
+          "puzzle": "SELECT CAST(NULL AS ___) AS value;",
+          "output": "value\nNULL",
+          "level": 29
+        },
+        {
+          "topic": "INTEGER value - exercise 8",
+          "syntax": "SELECT CAST(26 AS INTEGER) AS value;",
+          "puzzle": "SELECT CAST(26 AS ___) AS value;",
+          "output": "value\n26",
+          "level": 30
+        },
+        {
+          "topic": "DECIMAL value - exercise 9",
+          "syntax": "SELECT CAST(100.50 AS DECIMAL(8,2)) AS price;",
+          "puzzle": "SELECT CAST(100.50 AS ___(8,2)) AS price;",
+          "output": "price\n100.50",
+          "level": 31
+        },
+        {
+          "topic": "VARCHAR value - exercise 10",
+          "syntax": "SELECT CAST(123 AS VARCHAR(10)) AS text_value;",
+          "puzzle": "SELECT CAST(123 AS ___(10)) AS text___value;",
+          "output": "text_value\n123",
+          "level": 32
+        },
+        {
+          "topic": "DATE value - exercise 11",
+          "syntax": "SELECT CAST('2026-01-15' AS DATE) AS d;",
+          "puzzle": "___ CAST('2026-01-15' AS DATE) AS d;",
+          "output": "d\n2026-01-15",
+          "level": 33
+        },
+        {
+          "topic": "TIMESTAMP value - exercise 12",
+          "syntax": "SELECT CAST('2026-01-15 10:30:00' AS TIMESTAMP) AS ts;",
+          "puzzle": "SELECT CAST('2026-01-15 10:30:00' AS ___) AS ts;",
+          "output": "ts\n2026-01-15 10:30:00",
+          "level": 34
+        },
+        {
+          "topic": "BOOLEAN value - exercise 13",
+          "syntax": "SELECT CAST(1 AS BOOLEAN) AS flag;",
+          "puzzle": "SELECT CAST(1 AS ___) AS flag;",
+          "output": "flag\ntrue",
+          "level": 35
+        },
+        {
+          "topic": "NULL value - exercise 14",
+          "syntax": "SELECT CAST(NULL AS INTEGER) AS value;",
+          "puzzle": "SELECT CAST(NULL AS ___) AS value;",
+          "output": "value\nNULL",
+          "level": 36
+        },
+        {
+          "topic": "INTEGER value - exercise 15",
+          "syntax": "SELECT CAST(20 AS INTEGER) AS value;",
+          "puzzle": "SELECT CAST(20 AS ___) AS value;",
+          "output": "value\n20",
+          "level": 37
+        },
+        {
+          "topic": "DECIMAL value - exercise 16",
+          "syntax": "SELECT CAST(100.50 AS DECIMAL(8,2)) AS price;",
+          "puzzle": "SELECT CAST(100.50 AS ___(8,2)) AS price;",
+          "output": "price\n100.50",
+          "level": 38
+        },
+        {
+          "topic": "VARCHAR value - exercise 17",
+          "syntax": "SELECT CAST(123 AS VARCHAR(10)) AS text_value;",
+          "puzzle": "SELECT CAST(123 AS ___(10)) AS text___value;",
+          "output": "text_value\n123",
+          "level": 39
+        },
+        {
+          "topic": "DATE value - exercise 18",
+          "syntax": "SELECT CAST('2026-01-15' AS DATE) AS d;",
+          "puzzle": "___ CAST('2026-01-15' AS DATE) AS d;",
+          "output": "d\n2026-01-15",
+          "level": 40
+        },
+        {
+          "topic": "TIMESTAMP value - exercise 19",
+          "syntax": "SELECT CAST('2026-01-15 10:30:00' AS TIMESTAMP) AS ts;",
+          "puzzle": "SELECT CAST('2026-01-15 10:30:00' AS ___) AS ts;",
+          "output": "ts\n2026-01-15 10:30:00",
+          "level": 41
+        },
+        {
+          "topic": "BOOLEAN value - exercise 20",
+          "syntax": "SELECT CAST(1 AS BOOLEAN) AS flag;",
+          "puzzle": "SELECT CAST(1 AS ___) AS flag;",
+          "output": "flag\ntrue",
+          "level": 42
+        },
+        {
+          "topic": "NULL value - exercise 21",
+          "syntax": "SELECT CAST(NULL AS INTEGER) AS value;",
+          "puzzle": "SELECT CAST(NULL AS ___) AS value;",
+          "output": "value\nNULL",
+          "level": 43
+        },
+        {
+          "topic": "INTEGER value - exercise 22",
+          "syntax": "SELECT CAST(27 AS INTEGER) AS value;",
+          "puzzle": "SELECT CAST(27 AS ___) AS value;",
+          "output": "value\n27",
+          "level": 44
+        }
+      ]
+    },
+    {
+      "part": "Part 3 - Filtering & Expressions",
+      "items": [
+        {
+          "topic": "WHERE greater than - exercise 1",
+          "syntax": "SELECT * FROM users WHERE age > 25;",
+          "puzzle": "SELECT * FROM users WHERE age ___ 25;",
+          "output": "matching rows",
+          "level": 45
+        },
+        {
+          "topic": "WHERE less than - exercise 2",
+          "syntax": "SELECT * FROM users WHERE age < 25;",
+          "puzzle": "SELECT * FROM users WHERE age ___ 25;",
+          "output": "matching rows",
+          "level": 46
+        },
+        {
+          "topic": "WHERE equal - exercise 3",
+          "syntax": "SELECT * FROM users WHERE city = 'Pune';",
+          "puzzle": "SELECT * FROM users WHERE city ___ 'Pune';",
+          "output": "matching rows",
+          "level": 47
+        },
+        {
+          "topic": "BETWEEN filter - exercise 4",
+          "syntax": "SELECT * FROM products WHERE price BETWEEN 100 AND 300;",
+          "puzzle": "SELECT * FROM products WHERE price ___ 100 AND 300;",
+          "output": "matching rows",
+          "level": 48
+        },
+        {
+          "topic": "IN filter - exercise 5",
+          "syntax": "SELECT * FROM users WHERE city IN ('Pune','Mumbai');",
+          "puzzle": "SELECT * FROM users WHERE city ___ ('Pune','Mumbai');",
+          "output": "matching rows",
+          "level": 49
+        },
+        {
+          "topic": "AND filter - exercise 6",
+          "syntax": "SELECT * FROM users WHERE age >= 18 AND city = 'Pune';",
+          "puzzle": "SELECT * FROM users WHERE age >= 18 ___ city = 'Pune';",
+          "output": "matching rows",
+          "level": 50
+        },
+        {
+          "topic": "OR filter - exercise 7",
+          "syntax": "SELECT * FROM users WHERE city = 'Pune' OR city = 'Mumbai';",
+          "puzzle": "SELECT * FROM users WHERE city = 'Pune' ___ city = 'Mumbai';",
+          "output": "matching rows",
+          "level": 51
+        },
+        {
+          "topic": "WHERE greater than - exercise 8",
+          "syntax": "SELECT * FROM users WHERE age > 25;",
+          "puzzle": "SELECT * FROM users WHERE age ___ 25;",
+          "output": "matching rows",
+          "level": 52
+        },
+        {
+          "topic": "WHERE less than - exercise 9",
+          "syntax": "SELECT * FROM users WHERE age < 25;",
+          "puzzle": "SELECT * FROM users WHERE age ___ 25;",
+          "output": "matching rows",
+          "level": 53
+        },
+        {
+          "topic": "WHERE equal - exercise 10",
+          "syntax": "SELECT * FROM users WHERE city = 'Pune';",
+          "puzzle": "SELECT * FROM users WHERE city ___ 'Pune';",
+          "output": "matching rows",
+          "level": 54
+        },
+        {
+          "topic": "BETWEEN filter - exercise 11",
+          "syntax": "SELECT * FROM products WHERE price BETWEEN 100 AND 300;",
+          "puzzle": "SELECT * FROM products WHERE price ___ 100 AND 300;",
+          "output": "matching rows",
+          "level": 55
+        },
+        {
+          "topic": "IN filter - exercise 12",
+          "syntax": "SELECT * FROM users WHERE city IN ('Pune','Mumbai');",
+          "puzzle": "SELECT * FROM users WHERE city ___ ('Pune','Mumbai');",
+          "output": "matching rows",
+          "level": 56
+        },
+        {
+          "topic": "AND filter - exercise 13",
+          "syntax": "SELECT * FROM users WHERE age >= 18 AND city = 'Pune';",
+          "puzzle": "SELECT * FROM users WHERE age >= 18 ___ city = 'Pune';",
+          "output": "matching rows",
+          "level": 57
+        },
+        {
+          "topic": "OR filter - exercise 14",
+          "syntax": "SELECT * FROM users WHERE city = 'Pune' OR city = 'Mumbai';",
+          "puzzle": "SELECT * FROM users WHERE city = 'Pune' ___ city = 'Mumbai';",
+          "output": "matching rows",
+          "level": 58
+        }
+      ]
+    },
+    {
+      "part": "Part 4 - INSERT, UPDATE & DELETE",
+      "items": [
+        {
+          "topic": "INSERT one row - exercise 1",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava');",
+          "puzzle": "INSERT INTO users (id, name) ___ (1, 'Ava');",
+          "output": "",
+          "level": 59
+        },
+        {
+          "topic": "INSERT multiple rows - exercise 2",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "puzzle": "___ INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "output": "",
+          "level": 60
+        },
+        {
+          "topic": "UPDATE one column - exercise 3",
+          "syntax": "UPDATE users SET name = 'Sam' WHERE id = 1;",
+          "puzzle": "UPDATE users SET name = 'Sam' ___ id = 1;",
+          "output": "",
+          "level": 61
+        },
+        {
+          "topic": "UPDATE multiple columns - exercise 4",
+          "syntax": "UPDATE users SET name = 'Sam', age = 25 WHERE id = 1;",
+          "puzzle": "UPDATE users SET name = 'Sam', age = 25 ___ id = 1;",
+          "output": "",
+          "level": 62
+        },
+        {
+          "topic": "DELETE one row - exercise 5",
+          "syntax": "DELETE FROM users WHERE id = 1;",
+          "puzzle": "DELETE FROM users ___ id = 1;",
+          "output": "",
+          "level": 63
+        },
+        {
+          "topic": "DELETE by condition - exercise 6",
+          "syntax": "DELETE FROM users WHERE age < 18;",
+          "puzzle": "DELETE FROM users WHERE age ___ 18;",
+          "output": "",
+          "level": 64
+        },
+        {
+          "topic": "INSERT one row - exercise 7",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava');",
+          "puzzle": "INSERT INTO users (id, name) ___ (1, 'Ava');",
+          "output": "",
+          "level": 65
+        },
+        {
+          "topic": "INSERT multiple rows - exercise 8",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "puzzle": "___ INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "output": "",
+          "level": 66
+        },
+        {
+          "topic": "UPDATE one column - exercise 9",
+          "syntax": "UPDATE users SET name = 'Sam' WHERE id = 1;",
+          "puzzle": "UPDATE users SET name = 'Sam' ___ id = 1;",
+          "output": "",
+          "level": 67
+        },
+        {
+          "topic": "UPDATE multiple columns - exercise 10",
+          "syntax": "UPDATE users SET name = 'Sam', age = 25 WHERE id = 1;",
+          "puzzle": "UPDATE users SET name = 'Sam', age = 25 ___ id = 1;",
+          "output": "",
+          "level": 68
+        },
+        {
+          "topic": "DELETE one row - exercise 11",
+          "syntax": "DELETE FROM users WHERE id = 1;",
+          "puzzle": "DELETE FROM users ___ id = 1;",
+          "output": "",
+          "level": 69
+        },
+        {
+          "topic": "DELETE by condition - exercise 12",
+          "syntax": "DELETE FROM users WHERE age < 18;",
+          "puzzle": "DELETE FROM users WHERE age ___ 18;",
+          "output": "",
+          "level": 70
+        },
+        {
+          "topic": "INSERT one row - exercise 13",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava');",
+          "puzzle": "INSERT INTO users (id, name) ___ (1, 'Ava');",
+          "output": "",
+          "level": 71
+        },
+        {
+          "topic": "INSERT multiple rows - exercise 14",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "puzzle": "___ INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "output": "",
+          "level": 72
+        },
+        {
+          "topic": "UPDATE one column - exercise 15",
+          "syntax": "UPDATE users SET name = 'Sam' WHERE id = 1;",
+          "puzzle": "UPDATE users SET name = 'Sam' ___ id = 1;",
+          "output": "",
+          "level": 73
+        },
+        {
+          "topic": "UPDATE multiple columns - exercise 16",
+          "syntax": "UPDATE users SET name = 'Sam', age = 25 WHERE id = 1;",
+          "puzzle": "UPDATE users SET name = 'Sam', age = 25 ___ id = 1;",
+          "output": "",
+          "level": 74
+        },
+        {
+          "topic": "DELETE one row - exercise 17",
+          "syntax": "DELETE FROM users WHERE id = 1;",
+          "puzzle": "DELETE FROM users ___ id = 1;",
+          "output": "",
+          "level": 75
+        },
+        {
+          "topic": "DELETE by condition - exercise 18",
+          "syntax": "DELETE FROM users WHERE age < 18;",
+          "puzzle": "DELETE FROM users WHERE age ___ 18;",
+          "output": "",
+          "level": 76
+        },
+        {
+          "topic": "INSERT one row - exercise 19",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava');",
+          "puzzle": "INSERT INTO users (id, name) ___ (1, 'Ava');",
+          "output": "",
+          "level": 77
+        },
+        {
+          "topic": "INSERT multiple rows - exercise 20",
+          "syntax": "INSERT INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "puzzle": "___ INTO users (id, name) VALUES (1, 'Ava'), (2, 'Sam');",
+          "output": "",
+          "level": 78
+        },
+        {
+          "topic": "UPDATE one column - exercise 21",
+          "syntax": "UPDATE users SET name = 'Sam' WHERE id = 1;",
+          "puzzle": "UPDATE users SET name = 'Sam' ___ id = 1;",
+          "output": "",
+          "level": 79
+        }
+      ]
+    },
+    {
+      "part": "Part 5 - SQL Functions",
+      "items": [
+        {
+          "topic": "COUNT rows - exercise 1",
+          "syntax": "SELECT COUNT(*) AS total FROM users;",
+          "puzzle": "SELECT ___(*) AS total FROM users;",
+          "output": "total\n5",
+          "level": 80
+        },
+        {
+          "topic": "SUM values - exercise 2",
+          "syntax": "SELECT SUM(amount) AS total FROM orders;",
+          "puzzle": "SELECT ___(amount) AS total FROM orders;",
+          "output": "total\n1500",
+          "level": 81
+        },
+        {
+          "topic": "AVG values - exercise 3",
+          "syntax": "SELECT AVG(amount) AS average FROM orders;",
+          "puzzle": "SELECT ___(amount) AS average FROM orders;",
+          "output": "average\n300",
+          "level": 82
+        },
+        {
+          "topic": "MIN value - exercise 4",
+          "syntax": "SELECT MIN(price) AS lowest FROM products;",
+          "puzzle": "SELECT ___(price) AS lowest FROM products;",
+          "output": "lowest\n50",
+          "level": 83
+        },
+        {
+          "topic": "MAX value - exercise 5",
+          "syntax": "SELECT MAX(price) AS highest FROM products;",
+          "puzzle": "SELECT ___(price) AS highest FROM products;",
+          "output": "highest\n500",
+          "level": 84
+        },
+        {
+          "topic": "COALESCE fallback - exercise 6",
+          "syntax": "SELECT COALESCE(NULL, 'Guest') AS name;",
+          "puzzle": "SELECT ___(NULL, 'Guest') AS name;",
+          "output": "name\nGuest",
+          "level": 85
+        },
+        {
+          "topic": "NULLIF values - exercise 7",
+          "syntax": "SELECT NULLIF(10, 10) AS result;",
+          "puzzle": "SELECT ___(10, 10) AS result;",
+          "output": "result\nNULL",
+          "level": 86
+        },
+        {
+          "topic": "COUNT rows - exercise 8",
+          "syntax": "SELECT COUNT(*) AS total FROM users;",
+          "puzzle": "SELECT ___(*) AS total FROM users;",
+          "output": "total\n5",
+          "level": 87
+        },
+        {
+          "topic": "SUM values - exercise 9",
+          "syntax": "SELECT SUM(amount) AS total FROM orders;",
+          "puzzle": "SELECT ___(amount) AS total FROM orders;",
+          "output": "total\n1500",
+          "level": 88
+        },
+        {
+          "topic": "AVG values - exercise 10",
+          "syntax": "SELECT AVG(amount) AS average FROM orders;",
+          "puzzle": "SELECT ___(amount) AS average FROM orders;",
+          "output": "average\n300",
+          "level": 89
+        },
+        {
+          "topic": "MIN value - exercise 11",
+          "syntax": "SELECT MIN(price) AS lowest FROM products;",
+          "puzzle": "SELECT ___(price) AS lowest FROM products;",
+          "output": "lowest\n50",
+          "level": 90
+        },
+        {
+          "topic": "MAX value - exercise 12",
+          "syntax": "SELECT MAX(price) AS highest FROM products;",
+          "puzzle": "SELECT ___(price) AS highest FROM products;",
+          "output": "highest\n500",
+          "level": 91
+        },
+        {
+          "topic": "COALESCE fallback - exercise 13",
+          "syntax": "SELECT COALESCE(NULL, 'Guest') AS name;",
+          "puzzle": "SELECT ___(NULL, 'Guest') AS name;",
+          "output": "name\nGuest",
+          "level": 92
+        },
+        {
+          "topic": "NULLIF values - exercise 14",
+          "syntax": "SELECT NULLIF(10, 10) AS result;",
+          "puzzle": "SELECT ___(10, 10) AS result;",
+          "output": "result\nNULL",
+          "level": 93
+        },
+        {
+          "topic": "COUNT rows - exercise 15",
+          "syntax": "SELECT COUNT(*) AS total FROM users;",
+          "puzzle": "SELECT ___(*) AS total FROM users;",
+          "output": "total\n5",
+          "level": 94
+        },
+        {
+          "topic": "SUM values - exercise 16",
+          "syntax": "SELECT SUM(amount) AS total FROM orders;",
+          "puzzle": "SELECT ___(amount) AS total FROM orders;",
+          "output": "total\n1500",
+          "level": 95
+        },
+        {
+          "topic": "AVG values - exercise 17",
+          "syntax": "SELECT AVG(amount) AS average FROM orders;",
+          "puzzle": "SELECT ___(amount) AS average FROM orders;",
+          "output": "average\n300",
+          "level": 96
+        },
+        {
+          "topic": "MIN value - exercise 18",
+          "syntax": "SELECT MIN(price) AS lowest FROM products;",
+          "puzzle": "SELECT ___(price) AS lowest FROM products;",
+          "output": "lowest\n50",
+          "level": 97
+        },
+        {
+          "topic": "MAX value - exercise 19",
+          "syntax": "SELECT MAX(price) AS highest FROM products;",
+          "puzzle": "SELECT ___(price) AS highest FROM products;",
+          "output": "highest\n500",
+          "level": 98
+        }
+      ]
+    },
+    {
+      "part": "Part 6 - Subqueries",
+      "items": [
+        {
+          "topic": "Scalar subquery - exercise 1",
+          "syntax": "SELECT (SELECT MAX(price) FROM products) AS max_price;",
+          "puzzle": "SELECT (SELECT ___(price) FROM products) AS max___price;",
+          "output": "max_price\n500",
+          "level": 99
+        },
+        {
+          "topic": "IN subquery - exercise 2",
+          "syntax": "SELECT name FROM users WHERE id IN (SELECT user_id FROM orders);",
+          "puzzle": "SELECT name FROM users WHERE id ___ (SELECT user___id FROM orders);",
+          "output": "name\nAva\nSam",
+          "level": 100
+        },
+        {
+          "topic": "EXISTS subquery - exercise 3",
+          "syntax": "SELECT name FROM users u WHERE EXISTS (SELECT 1 FROM orders o WHERE o.user_id = u.id);",
+          "puzzle": "SELECT name FROM users u WHERE ___ (SELECT 1 FROM orders o WHERE o.user___id = u.id);",
+          "output": "name\nAva",
+          "level": 101
+        },
+        {
+          "topic": "Correlated subquery - exercise 4",
+          "syntax": "SELECT u.name FROM users u WHERE u.age > (SELECT AVG(age) FROM users);",
+          "puzzle": "SELECT u.name FROM users u WHERE u.age > (SELECT ___(age) FROM users);",
+          "output": "name\nSam",
+          "level": 102
+        },
+        {
+          "topic": "Scalar subquery - exercise 5",
+          "syntax": "SELECT (SELECT MAX(price) FROM products) AS max_price;",
+          "puzzle": "SELECT (SELECT ___(price) FROM products) AS max___price;",
+          "output": "max_price\n500",
+          "level": 103
+        },
+        {
+          "topic": "IN subquery - exercise 6",
+          "syntax": "SELECT name FROM users WHERE id IN (SELECT user_id FROM orders);",
+          "puzzle": "SELECT name FROM users WHERE id ___ (SELECT user___id FROM orders);",
+          "output": "name\nAva\nSam",
+          "level": 104
+        }
+      ]
+    },
+    {
+      "part": "Part 7 - Database & Schema Objects",
+      "items": [
+        {
+          "topic": "CREATE TABLE - exercise 1",
+          "syntax": "CREATE TABLE users (id INTEGER, name VARCHAR(50));",
+          "puzzle": "CREATE ___ users (id INTEGER, name VARCHAR(50));",
+          "output": "",
+          "level": 105
+        },
+        {
+          "topic": "ALTER ADD COLUMN - exercise 2",
+          "syntax": "ALTER TABLE users ADD COLUMN email VARCHAR(100);",
+          "puzzle": "ALTER TABLE users ADD ___ email VARCHAR(100);",
+          "output": "",
+          "level": 106
+        },
+        {
+          "topic": "ALTER RENAME COLUMN - exercise 3",
+          "syntax": "ALTER TABLE users RENAME COLUMN name TO full_name;",
+          "puzzle": "ALTER TABLE users RENAME COLUMN name ___ full___name;",
+          "output": "",
+          "level": 107
+        },
+        {
+          "topic": "DROP TABLE - exercise 4",
+          "syntax": "DROP TABLE IF EXISTS old_users;",
+          "puzzle": "DROP TABLE IF EXISTS old___users;",
+          "output": "",
+          "level": 108
+        },
+        {
+          "topic": "CREATE SCHEMA - exercise 5",
+          "syntax": "CREATE SCHEMA sales;",
+          "puzzle": "CREATE ___ sales;",
+          "output": "",
+          "level": 109
+        },
+        {
+          "topic": "DROP SCHEMA - exercise 6",
+          "syntax": "DROP SCHEMA IF EXISTS old_sales;",
+          "puzzle": "DROP ___ IF EXISTS old___sales;",
+          "output": "",
+          "level": 110
+        },
+        {
+          "topic": "CREATE TABLE - exercise 7",
+          "syntax": "CREATE TABLE users (id INTEGER, name VARCHAR(50));",
+          "puzzle": "CREATE ___ users (id INTEGER, name VARCHAR(50));",
+          "output": "",
+          "level": 111
+        },
+        {
+          "topic": "ALTER ADD COLUMN - exercise 8",
+          "syntax": "ALTER TABLE users ADD COLUMN email VARCHAR(100);",
+          "puzzle": "ALTER TABLE users ADD ___ email VARCHAR(100);",
+          "output": "",
+          "level": 112
+        },
+        {
+          "topic": "ALTER RENAME COLUMN - exercise 9",
+          "syntax": "ALTER TABLE users RENAME COLUMN name TO full_name;",
+          "puzzle": "ALTER TABLE users RENAME COLUMN name ___ full___name;",
+          "output": "",
+          "level": 113
+        },
+        {
+          "topic": "DROP TABLE - exercise 10",
+          "syntax": "DROP TABLE IF EXISTS old_users;",
+          "puzzle": "DROP TABLE IF EXISTS old___users;",
+          "output": "",
+          "level": 114
+        },
+        {
+          "topic": "CREATE SCHEMA - exercise 11",
+          "syntax": "CREATE SCHEMA sales;",
+          "puzzle": "CREATE ___ sales;",
+          "output": "",
+          "level": 115
+        },
+        {
+          "topic": "DROP SCHEMA - exercise 12",
+          "syntax": "DROP SCHEMA IF EXISTS old_sales;",
+          "puzzle": "DROP ___ IF EXISTS old___sales;",
+          "output": "",
+          "level": 116
+        }
+      ]
+    },
+    {
+      "part": "Part 8 - Import & Export",
+      "items": [
+        {
+          "topic": "COPY export - exercise 1",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users ___ '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "output": "",
+          "level": 117
+        },
+        {
+          "topic": "COPY import - exercise 2",
+          "syntax": "COPY users FROM '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users ___ '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "output": "",
+          "level": 118
+        },
+        {
+          "topic": "CSV delimiter - exercise 3",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, DELIMITER ',');",
+          "puzzle": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, ___ ',');",
+          "output": "",
+          "level": 119
+        },
+        {
+          "topic": "CSV header - exercise 4",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, ___ TRUE);",
+          "output": "",
+          "level": 120
+        },
+        {
+          "topic": "COPY export - exercise 5",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users ___ '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "output": "",
+          "level": 121
+        },
+        {
+          "topic": "COPY import - exercise 6",
+          "syntax": "COPY users FROM '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users ___ '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "output": "",
+          "level": 122
+        },
+        {
+          "topic": "CSV delimiter - exercise 7",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, DELIMITER ',');",
+          "puzzle": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, ___ ',');",
+          "output": "",
+          "level": 123
+        },
+        {
+          "topic": "CSV header - exercise 8",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, ___ TRUE);",
+          "output": "",
+          "level": 124
+        },
+        {
+          "topic": "COPY export - exercise 9",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users ___ '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "output": "",
+          "level": 125
+        },
+        {
+          "topic": "COPY import - exercise 10",
+          "syntax": "COPY users FROM '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users ___ '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "output": "",
+          "level": 126
+        },
+        {
+          "topic": "CSV delimiter - exercise 11",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, DELIMITER ',');",
+          "puzzle": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, ___ ',');",
+          "output": "",
+          "level": 127
+        },
+        {
+          "topic": "CSV header - exercise 12",
+          "syntax": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, HEADER TRUE);",
+          "puzzle": "COPY users TO '/tmp/users.csv' WITH (FORMAT CSV, ___ TRUE);",
+          "output": "",
+          "level": 128
+        }
+      ]
+    },
+    {
+      "part": "Part 9 - NULL & Validation",
+      "items": [
+        {
+          "topic": "IS NULL - exercise 1",
+          "syntax": "SELECT * FROM users WHERE email IS NULL;",
+          "puzzle": "SELECT * FROM users WHERE email ___ NULL;",
+          "output": "matching rows",
+          "level": 129
+        },
+        {
+          "topic": "IS NOT NULL - exercise 2",
+          "syntax": "SELECT * FROM users WHERE email IS NOT NULL;",
+          "puzzle": "SELECT * FROM users WHERE email IS ___ NULL;",
+          "output": "matching rows",
+          "level": 130
+        },
+        {
+          "topic": "COALESCE NULL - exercise 3",
+          "syntax": "SELECT COALESCE(email, 'missing') FROM users;",
+          "puzzle": "SELECT ___(email, 'missing') FROM users;",
+          "output": "email values",
+          "level": 131
+        },
+        {
+          "topic": "NULLIF zero - exercise 4",
+          "syntax": "SELECT NULLIF(score, 0) FROM results;",
+          "puzzle": "SELECT ___(score, 0) FROM results;",
+          "output": "score values",
+          "level": 132
+        },
+        {
+          "topic": "CHECK condition - exercise 5",
+          "syntax": "CREATE TABLE scores (score INTEGER CHECK (score >= 0));",
+          "puzzle": "CREATE TABLE scores (score INTEGER ___ (score >= 0));",
+          "output": "",
+          "level": 133
+        },
+        {
+          "topic": "IS NULL - exercise 6",
+          "syntax": "SELECT * FROM users WHERE email IS NULL;",
+          "puzzle": "SELECT * FROM users WHERE email ___ NULL;",
+          "output": "matching rows",
+          "level": 134
+        },
+        {
+          "topic": "IS NOT NULL - exercise 7",
+          "syntax": "SELECT * FROM users WHERE email IS NOT NULL;",
+          "puzzle": "SELECT * FROM users WHERE email IS ___ NULL;",
+          "output": "matching rows",
+          "level": 135
+        },
+        {
+          "topic": "COALESCE NULL - exercise 8",
+          "syntax": "SELECT COALESCE(email, 'missing') FROM users;",
+          "puzzle": "SELECT ___(email, 'missing') FROM users;",
+          "output": "email values",
+          "level": 136
+        },
+        {
+          "topic": "NULLIF zero - exercise 9",
+          "syntax": "SELECT NULLIF(score, 0) FROM results;",
+          "puzzle": "SELECT ___(score, 0) FROM results;",
+          "output": "score values",
+          "level": 137
+        },
+        {
+          "topic": "CHECK condition - exercise 10",
+          "syntax": "CREATE TABLE scores (score INTEGER CHECK (score >= 0));",
+          "puzzle": "CREATE TABLE scores (score INTEGER ___ (score >= 0));",
+          "output": "",
+          "level": 138
+        }
+      ]
+    },
+    {
+      "part": "Part 10 - Joins",
+      "items": [
+        {
+          "topic": "INNER JOIN - exercise 1",
+          "syntax": "SELECT u.name, o.amount FROM users u JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500",
+          "level": 139
+        },
+        {
+          "topic": "LEFT JOIN - exercise 2",
+          "syntax": "SELECT u.name, o.amount FROM users u LEFT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL",
+          "level": 140
+        },
+        {
+          "topic": "RIGHT JOIN - exercise 3",
+          "syntax": "SELECT u.name, o.amount FROM users u RIGHT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nNULL | 200",
+          "level": 141
+        },
+        {
+          "topic": "FULL JOIN - exercise 4",
+          "syntax": "SELECT u.name, o.amount FROM users u FULL JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL\nNULL | 200",
+          "level": 142
+        },
+        {
+          "topic": "JOIN with filter - exercise 5",
+          "syntax": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user_id WHERE o.amount > 100;",
+          "puzzle": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user___id WHERE o.amount ___ 100;",
+          "output": "name\nAva",
+          "level": 143
+        },
+        {
+          "topic": "Three-table join - exercise 6",
+          "syntax": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user_id JOIN products p ON p.id=o.product_id;",
+          "puzzle": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user___id ___ products p ON p.id=o.product___id;",
+          "output": "Ava | 1 | Book",
+          "level": 144
+        },
+        {
+          "topic": "Self join - exercise 7",
+          "syntax": "SELECT a.name, b.name FROM employees a JOIN employees b ON a.manager_id=b.id;",
+          "puzzle": "SELECT a.name, b.name FROM employees a ___ employees b ON a.manager___id=b.id;",
+          "output": "employee | manager\nSam | Ava",
+          "level": 145
+        },
+        {
+          "topic": "INNER JOIN - exercise 8",
+          "syntax": "SELECT u.name, o.amount FROM users u JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500",
+          "level": 146
+        },
+        {
+          "topic": "LEFT JOIN - exercise 9",
+          "syntax": "SELECT u.name, o.amount FROM users u LEFT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL",
+          "level": 147
+        },
+        {
+          "topic": "RIGHT JOIN - exercise 10",
+          "syntax": "SELECT u.name, o.amount FROM users u RIGHT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nNULL | 200",
+          "level": 148
+        },
+        {
+          "topic": "FULL JOIN - exercise 11",
+          "syntax": "SELECT u.name, o.amount FROM users u FULL JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL\nNULL | 200",
+          "level": 149
+        },
+        {
+          "topic": "JOIN with filter - exercise 12",
+          "syntax": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user_id WHERE o.amount > 100;",
+          "puzzle": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user___id WHERE o.amount ___ 100;",
+          "output": "name\nAva",
+          "level": 150
+        },
+        {
+          "topic": "Three-table join - exercise 13",
+          "syntax": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user_id JOIN products p ON p.id=o.product_id;",
+          "puzzle": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user___id ___ products p ON p.id=o.product___id;",
+          "output": "Ava | 1 | Book",
+          "level": 151
+        },
+        {
+          "topic": "Self join - exercise 14",
+          "syntax": "SELECT a.name, b.name FROM employees a JOIN employees b ON a.manager_id=b.id;",
+          "puzzle": "SELECT a.name, b.name FROM employees a ___ employees b ON a.manager___id=b.id;",
+          "output": "employee | manager\nSam | Ava",
+          "level": 152
+        },
+        {
+          "topic": "INNER JOIN - exercise 15",
+          "syntax": "SELECT u.name, o.amount FROM users u JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500",
+          "level": 153
+        },
+        {
+          "topic": "LEFT JOIN - exercise 16",
+          "syntax": "SELECT u.name, o.amount FROM users u LEFT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL",
+          "level": 154
+        },
+        {
+          "topic": "RIGHT JOIN - exercise 17",
+          "syntax": "SELECT u.name, o.amount FROM users u RIGHT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nNULL | 200",
+          "level": 155
+        },
+        {
+          "topic": "FULL JOIN - exercise 18",
+          "syntax": "SELECT u.name, o.amount FROM users u FULL JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL\nNULL | 200",
+          "level": 156
+        },
+        {
+          "topic": "JOIN with filter - exercise 19",
+          "syntax": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user_id WHERE o.amount > 100;",
+          "puzzle": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user___id WHERE o.amount ___ 100;",
+          "output": "name\nAva",
+          "level": 157
+        },
+        {
+          "topic": "Three-table join - exercise 20",
+          "syntax": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user_id JOIN products p ON p.id=o.product_id;",
+          "puzzle": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user___id ___ products p ON p.id=o.product___id;",
+          "output": "Ava | 1 | Book",
+          "level": 158
+        },
+        {
+          "topic": "Self join - exercise 21",
+          "syntax": "SELECT a.name, b.name FROM employees a JOIN employees b ON a.manager_id=b.id;",
+          "puzzle": "SELECT a.name, b.name FROM employees a ___ employees b ON a.manager___id=b.id;",
+          "output": "employee | manager\nSam | Ava",
+          "level": 159
+        },
+        {
+          "topic": "INNER JOIN - exercise 22",
+          "syntax": "SELECT u.name, o.amount FROM users u JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500",
+          "level": 160
+        },
+        {
+          "topic": "LEFT JOIN - exercise 23",
+          "syntax": "SELECT u.name, o.amount FROM users u LEFT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL",
+          "level": 161
+        },
+        {
+          "topic": "RIGHT JOIN - exercise 24",
+          "syntax": "SELECT u.name, o.amount FROM users u RIGHT JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nNULL | 200",
+          "level": 162
+        },
+        {
+          "topic": "FULL JOIN - exercise 25",
+          "syntax": "SELECT u.name, o.amount FROM users u FULL JOIN orders o ON u.id = o.user_id;",
+          "puzzle": "SELECT u.name, o.amount FROM users u ___ JOIN orders o ON u.id = o.user___id;",
+          "output": "name | amount\nAva | 500\nMia | NULL\nNULL | 200",
+          "level": 163
+        },
+        {
+          "topic": "JOIN with filter - exercise 26",
+          "syntax": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user_id WHERE o.amount > 100;",
+          "puzzle": "SELECT u.name FROM users u JOIN orders o ON u.id=o.user___id WHERE o.amount ___ 100;",
+          "output": "name\nAva",
+          "level": 164
+        },
+        {
+          "topic": "Three-table join - exercise 27",
+          "syntax": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user_id JOIN products p ON p.id=o.product_id;",
+          "puzzle": "SELECT u.name, o.id, p.name FROM users u JOIN orders o ON u.id=o.user___id ___ products p ON p.id=o.product___id;",
+          "output": "Ava | 1 | Book",
+          "level": 165
+        },
+        {
+          "topic": "Self join - exercise 28",
+          "syntax": "SELECT a.name, b.name FROM employees a JOIN employees b ON a.manager_id=b.id;",
+          "puzzle": "SELECT a.name, b.name FROM employees a ___ employees b ON a.manager___id=b.id;",
+          "output": "employee | manager\nSam | Ava",
+          "level": 166
+        }
+      ]
+    },
+    {
+      "part": "Part 11 - Constraints",
+      "items": [
+        {
+          "topic": "PRIMARY KEY - exercise 1",
+          "syntax": "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT);",
+          "puzzle": "CREATE TABLE users (id INTEGER ___ KEY, name TEXT);",
+          "output": "",
+          "level": 167
+        },
+        {
+          "topic": "FOREIGN KEY - exercise 2",
+          "syntax": "CREATE TABLE orders (user_id INTEGER REFERENCES users(id));",
+          "puzzle": "CREATE TABLE orders (user___id INTEGER ___ users(id));",
+          "output": "",
+          "level": 168
+        },
+        {
+          "topic": "UNIQUE constraint - exercise 3",
+          "syntax": "CREATE TABLE users (email TEXT UNIQUE);",
+          "puzzle": "CREATE TABLE users (email TEXT ___);",
+          "output": "",
+          "level": 169
+        },
+        {
+          "topic": "NOT NULL constraint - exercise 4",
+          "syntax": "CREATE TABLE users (name TEXT NOT NULL);",
+          "puzzle": "CREATE TABLE users (name TEXT ___);",
+          "output": "",
+          "level": 170
+        },
+        {
+          "topic": "DEFAULT value - exercise 5",
+          "syntax": "CREATE TABLE users (active BOOLEAN DEFAULT TRUE);",
+          "puzzle": "CREATE TABLE users (active BOOLEAN ___ TRUE);",
+          "output": "",
+          "level": 171
+        },
+        {
+          "topic": "CHECK constraint - exercise 6",
+          "syntax": "CREATE TABLE products (price NUMERIC CHECK (price >= 0));",
+          "puzzle": "CREATE TABLE products (price NUMERIC ___ (price >= 0));",
+          "output": "",
+          "level": 172
+        },
+        {
+          "topic": "PRIMARY KEY - exercise 7",
+          "syntax": "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT);",
+          "puzzle": "CREATE TABLE users (id INTEGER ___ KEY, name TEXT);",
+          "output": "",
+          "level": 173
+        },
+        {
+          "topic": "FOREIGN KEY - exercise 8",
+          "syntax": "CREATE TABLE orders (user_id INTEGER REFERENCES users(id));",
+          "puzzle": "CREATE TABLE orders (user___id INTEGER ___ users(id));",
+          "output": "",
+          "level": 174
+        },
+        {
+          "topic": "UNIQUE constraint - exercise 9",
+          "syntax": "CREATE TABLE users (email TEXT UNIQUE);",
+          "puzzle": "CREATE TABLE users (email TEXT ___);",
+          "output": "",
+          "level": 175
+        },
+        {
+          "topic": "NOT NULL constraint - exercise 10",
+          "syntax": "CREATE TABLE users (name TEXT NOT NULL);",
+          "puzzle": "CREATE TABLE users (name TEXT ___);",
+          "output": "",
+          "level": 176
+        },
+        {
+          "topic": "DEFAULT value - exercise 11",
+          "syntax": "CREATE TABLE users (active BOOLEAN DEFAULT TRUE);",
+          "puzzle": "CREATE TABLE users (active BOOLEAN ___ TRUE);",
+          "output": "",
+          "level": 177
+        },
+        {
+          "topic": "CHECK constraint - exercise 12",
+          "syntax": "CREATE TABLE products (price NUMERIC CHECK (price >= 0));",
+          "puzzle": "CREATE TABLE products (price NUMERIC ___ (price >= 0));",
+          "output": "",
+          "level": 178
+        },
+        {
+          "topic": "PRIMARY KEY - exercise 13",
+          "syntax": "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT);",
+          "puzzle": "CREATE TABLE users (id INTEGER ___ KEY, name TEXT);",
+          "output": "",
+          "level": 179
+        },
+        {
+          "topic": "FOREIGN KEY - exercise 14",
+          "syntax": "CREATE TABLE orders (user_id INTEGER REFERENCES users(id));",
+          "puzzle": "CREATE TABLE orders (user___id INTEGER ___ users(id));",
+          "output": "",
+          "level": 180
+        },
+        {
+          "topic": "UNIQUE constraint - exercise 15",
+          "syntax": "CREATE TABLE users (email TEXT UNIQUE);",
+          "puzzle": "CREATE TABLE users (email TEXT ___);",
+          "output": "",
+          "level": 181
+        },
+        {
+          "topic": "NOT NULL constraint - exercise 16",
+          "syntax": "CREATE TABLE users (name TEXT NOT NULL);",
+          "puzzle": "CREATE TABLE users (name TEXT ___);",
+          "output": "",
+          "level": 182
+        },
+        {
+          "topic": "DEFAULT value - exercise 17",
+          "syntax": "CREATE TABLE users (active BOOLEAN DEFAULT TRUE);",
+          "puzzle": "CREATE TABLE users (active BOOLEAN ___ TRUE);",
+          "output": "",
+          "level": 183
+        },
+        {
+          "topic": "CHECK constraint - exercise 18",
+          "syntax": "CREATE TABLE products (price NUMERIC CHECK (price >= 0));",
+          "puzzle": "CREATE TABLE products (price NUMERIC ___ (price >= 0));",
+          "output": "",
+          "level": 184
+        },
+        {
+          "topic": "PRIMARY KEY - exercise 19",
+          "syntax": "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT);",
+          "puzzle": "CREATE TABLE users (id INTEGER ___ KEY, name TEXT);",
+          "output": "",
+          "level": 185
+        }
+      ]
+    },
+    {
+      "part": "Part 12 - GROUP BY & Aggregation",
+      "items": [
+        {
+          "topic": "GROUP BY one column - exercise 1",
+          "syntax": "SELECT city, COUNT(*) FROM users GROUP BY city;",
+          "puzzle": "SELECT city, COUNT(*) FROM users ___ BY city;",
+          "output": "city | count\nPune | 2\nMumbai | 3",
+          "level": 186
+        },
+        {
+          "topic": "GROUP BY two columns - exercise 2",
+          "syntax": "SELECT city, active, COUNT(*) FROM users GROUP BY city, active;",
+          "puzzle": "___ city, active, COUNT(*) FROM users GROUP BY city, active;",
+          "output": "grouped rows",
+          "level": 187
+        },
+        {
+          "topic": "HAVING count - exercise 3",
+          "syntax": "SELECT city, COUNT(*) FROM users GROUP BY city HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT city, COUNT(*) FROM users GROUP BY city HAVING COUNT(*) ___ 1;",
+          "output": "city | count\nPune | 2",
+          "level": 188
+        },
+        {
+          "topic": "ORDER grouped result - exercise 4",
+          "syntax": "SELECT city, COUNT(*) AS total FROM users GROUP BY city ORDER BY total DESC;",
+          "puzzle": "SELECT city, COUNT(*) AS total FROM users GROUP BY city ORDER BY total ___;",
+          "output": "city | total\nPune | 4\nMumbai | 2",
+          "level": 189
+        },
+        {
+          "topic": "GROUP BY one column - exercise 5",
+          "syntax": "SELECT city, COUNT(*) FROM users GROUP BY city;",
+          "puzzle": "SELECT city, COUNT(*) FROM users ___ BY city;",
+          "output": "city | count\nPune | 2\nMumbai | 3",
+          "level": 190
+        },
+        {
+          "topic": "GROUP BY two columns - exercise 6",
+          "syntax": "SELECT city, active, COUNT(*) FROM users GROUP BY city, active;",
+          "puzzle": "___ city, active, COUNT(*) FROM users GROUP BY city, active;",
+          "output": "grouped rows",
+          "level": 191
+        },
+        {
+          "topic": "HAVING count - exercise 7",
+          "syntax": "SELECT city, COUNT(*) FROM users GROUP BY city HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT city, COUNT(*) FROM users GROUP BY city HAVING COUNT(*) ___ 1;",
+          "output": "city | count\nPune | 2",
+          "level": 192
+        },
+        {
+          "topic": "ORDER grouped result - exercise 8",
+          "syntax": "SELECT city, COUNT(*) AS total FROM users GROUP BY city ORDER BY total DESC;",
+          "puzzle": "SELECT city, COUNT(*) AS total FROM users GROUP BY city ORDER BY total ___;",
+          "output": "city | total\nPune | 4\nMumbai | 2",
+          "level": 193
+        },
+        {
+          "topic": "GROUP BY one column - exercise 9",
+          "syntax": "SELECT city, COUNT(*) FROM users GROUP BY city;",
+          "puzzle": "SELECT city, COUNT(*) FROM users ___ BY city;",
+          "output": "city | count\nPune | 2\nMumbai | 3",
+          "level": 194
+        },
+        {
+          "topic": "GROUP BY two columns - exercise 10",
+          "syntax": "SELECT city, active, COUNT(*) FROM users GROUP BY city, active;",
+          "puzzle": "___ city, active, COUNT(*) FROM users GROUP BY city, active;",
+          "output": "grouped rows",
+          "level": 195
+        },
+        {
+          "topic": "HAVING count - exercise 11",
+          "syntax": "SELECT city, COUNT(*) FROM users GROUP BY city HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT city, COUNT(*) FROM users GROUP BY city HAVING COUNT(*) ___ 1;",
+          "output": "city | count\nPune | 2",
+          "level": 196
+        }
+      ]
+    },
+    {
+      "part": "Part 13 - Aggregate Functions",
+      "items": [
+        {
+          "topic": "COUNT distinct - exercise 1",
+          "syntax": "SELECT COUNT(DISTINCT city) AS cities FROM users;",
+          "puzzle": "SELECT COUNT(___ city) AS cities FROM users;",
+          "output": "cities\n4",
+          "level": 197
+        },
+        {
+          "topic": "SUM grouped - exercise 2",
+          "syntax": "SELECT user_id, SUM(amount) AS total FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS total FROM orders GROUP BY user___id;",
+          "output": "user_id | total\n1 | 700",
+          "level": 198
+        },
+        {
+          "topic": "AVG grouped - exercise 3",
+          "syntax": "SELECT user_id, AVG(amount) AS average FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS average FROM orders GROUP BY user___id;",
+          "output": "user_id | average\n1 | 350",
+          "level": 199
+        },
+        {
+          "topic": "MIN grouped - exercise 4",
+          "syntax": "SELECT user_id, MIN(amount) AS minimum FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS minimum FROM orders GROUP BY user___id;",
+          "output": "user_id | minimum\n1 | 200",
+          "level": 200
+        },
+        {
+          "topic": "MAX grouped - exercise 5",
+          "syntax": "SELECT user_id, MAX(amount) AS maximum FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS maximum FROM orders GROUP BY user___id;",
+          "output": "user_id | maximum\n1 | 500",
+          "level": 201
+        },
+        {
+          "topic": "COUNT distinct - exercise 6",
+          "syntax": "SELECT COUNT(DISTINCT city) AS cities FROM users;",
+          "puzzle": "SELECT COUNT(___ city) AS cities FROM users;",
+          "output": "cities\n4",
+          "level": 202
+        },
+        {
+          "topic": "SUM grouped - exercise 7",
+          "syntax": "SELECT user_id, SUM(amount) AS total FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS total FROM orders GROUP BY user___id;",
+          "output": "user_id | total\n1 | 700",
+          "level": 203
+        },
+        {
+          "topic": "AVG grouped - exercise 8",
+          "syntax": "SELECT user_id, AVG(amount) AS average FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS average FROM orders GROUP BY user___id;",
+          "output": "user_id | average\n1 | 350",
+          "level": 204
+        },
+        {
+          "topic": "MIN grouped - exercise 9",
+          "syntax": "SELECT user_id, MIN(amount) AS minimum FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS minimum FROM orders GROUP BY user___id;",
+          "output": "user_id | minimum\n1 | 200",
+          "level": 205
+        },
+        {
+          "topic": "MAX grouped - exercise 10",
+          "syntax": "SELECT user_id, MAX(amount) AS maximum FROM orders GROUP BY user_id;",
+          "puzzle": "SELECT user___id, ___(amount) AS maximum FROM orders GROUP BY user___id;",
+          "output": "user_id | maximum\n1 | 500",
+          "level": 206
+        }
+      ]
+    },
+    {
+      "part": "Part 14 - String & Date Functions",
+      "items": [
+        {
+          "topic": "UPPER - exercise 1",
+          "syntax": "SELECT UPPER('hello') AS text;",
+          "puzzle": "SELECT ___('hello') AS text;",
+          "output": "text\nHELLO",
+          "level": 207
+        },
+        {
+          "topic": "LOWER - exercise 2",
+          "syntax": "SELECT LOWER('HELLO') AS text;",
+          "puzzle": "SELECT ___('HELLO') AS text;",
+          "output": "text\nhello",
+          "level": 208
+        },
+        {
+          "topic": "LENGTH - exercise 3",
+          "syntax": "SELECT LENGTH('database') AS chars;",
+          "puzzle": "SELECT ___('database') AS chars;",
+          "output": "chars\n8",
+          "level": 209
+        },
+        {
+          "topic": "SUBSTRING - exercise 4",
+          "syntax": "SELECT SUBSTRING('Database' FROM 1 FOR 4) AS word;",
+          "puzzle": "SELECT ___('Database' FROM 1 FOR 4) AS word;",
+          "output": "word\nData",
+          "level": 210
+        },
+        {
+          "topic": "REPLACE - exercise 5",
+          "syntax": "SELECT REPLACE('SQL basics','basics','practice') AS text;",
+          "puzzle": "SELECT ___('SQL basics','basics','practice') AS text;",
+          "output": "text\nSQL practice",
+          "level": 211
+        },
+        {
+          "topic": "DATE_ADD style - exercise 6",
+          "syntax": "SELECT DATE '2026-01-01' + INTERVAL '7 days' AS next_date;",
+          "puzzle": "SELECT DATE '2026-01-01' + INTERVAL '7 ___' AS next___date;",
+          "output": "next_date\n2026-01-08",
+          "level": 212
+        },
+        {
+          "topic": "DATE_PART - exercise 7",
+          "syntax": "SELECT EXTRACT(YEAR FROM DATE '2026-09-07') AS year;",
+          "puzzle": "SELECT ___(YEAR FROM DATE '2026-09-07') AS year;",
+          "output": "year\n2026",
+          "level": 213
+        },
+        {
+          "topic": "UPPER - exercise 8",
+          "syntax": "SELECT UPPER('hello') AS text;",
+          "puzzle": "SELECT ___('hello') AS text;",
+          "output": "text\nHELLO",
+          "level": 214
+        },
+        {
+          "topic": "LOWER - exercise 9",
+          "syntax": "SELECT LOWER('HELLO') AS text;",
+          "puzzle": "SELECT ___('HELLO') AS text;",
+          "output": "text\nhello",
+          "level": 215
+        },
+        {
+          "topic": "LENGTH - exercise 10",
+          "syntax": "SELECT LENGTH('database') AS chars;",
+          "puzzle": "SELECT ___('database') AS chars;",
+          "output": "chars\n8",
+          "level": 216
+        },
+        {
+          "topic": "SUBSTRING - exercise 11",
+          "syntax": "SELECT SUBSTRING('Database' FROM 1 FOR 4) AS word;",
+          "puzzle": "SELECT ___('Database' FROM 1 FOR 4) AS word;",
+          "output": "word\nData",
+          "level": 217
+        },
+        {
+          "topic": "REPLACE - exercise 12",
+          "syntax": "SELECT REPLACE('SQL basics','basics','practice') AS text;",
+          "puzzle": "SELECT ___('SQL basics','basics','practice') AS text;",
+          "output": "text\nSQL practice",
+          "level": 218
+        }
+      ]
+    },
+    {
+      "part": "Part 15 - CASE Expressions",
+      "items": [
+        {
+          "topic": "CASE equality - exercise 1",
+          "syntax": "SELECT CASE WHEN age >= 18 THEN 'adult' ELSE 'minor' END AS status FROM users;",
+          "puzzle": "SELECT CASE ___ age >= 18 THEN 'adult' ELSE 'minor' END AS status FROM users;",
+          "output": "status\nadult",
+          "level": 219
+        },
+        {
+          "topic": "CASE multiple branches - exercise 2",
+          "syntax": "SELECT CASE WHEN score >= 90 THEN 'A' WHEN score >= 75 THEN 'B' ELSE 'C' END AS grade FROM results;",
+          "puzzle": "SELECT CASE WHEN score >= 90 THEN 'A' ___ score >= 75 THEN 'B' ELSE 'C' END AS grade FROM results;",
+          "output": "grade\nB",
+          "level": 220
+        },
+        {
+          "topic": "CASE in ORDER BY - exercise 3",
+          "syntax": "SELECT name FROM users ORDER BY CASE WHEN active THEN 0 ELSE 1 END;",
+          "puzzle": "SELECT name FROM users ORDER BY CASE WHEN active THEN 0 ELSE 1 ___;",
+          "output": "name\nAva\nSam",
+          "level": 221
+        },
+        {
+          "topic": "CASE aggregate - exercise 4",
+          "syntax": "SELECT SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) AS paid_total FROM orders;",
+          "puzzle": "SELECT SUM(CASE WHEN status='paid' THEN amount ELSE 0 ___) AS paid___total FROM orders;",
+          "output": "paid_total\n900",
+          "level": 222
+        },
+        {
+          "topic": "CASE equality - exercise 5",
+          "syntax": "SELECT CASE WHEN age >= 18 THEN 'adult' ELSE 'minor' END AS status FROM users;",
+          "puzzle": "SELECT CASE ___ age >= 18 THEN 'adult' ELSE 'minor' END AS status FROM users;",
+          "output": "status\nadult",
+          "level": 223
+        },
+        {
+          "topic": "CASE multiple branches - exercise 6",
+          "syntax": "SELECT CASE WHEN score >= 90 THEN 'A' WHEN score >= 75 THEN 'B' ELSE 'C' END AS grade FROM results;",
+          "puzzle": "SELECT CASE WHEN score >= 90 THEN 'A' ___ score >= 75 THEN 'B' ELSE 'C' END AS grade FROM results;",
+          "output": "grade\nB",
+          "level": 224
+        },
+        {
+          "topic": "CASE in ORDER BY - exercise 7",
+          "syntax": "SELECT name FROM users ORDER BY CASE WHEN active THEN 0 ELSE 1 END;",
+          "puzzle": "SELECT name FROM users ORDER BY CASE WHEN active THEN 0 ELSE 1 ___;",
+          "output": "name\nAva\nSam",
+          "level": 225
+        },
+        {
+          "topic": "CASE aggregate - exercise 8",
+          "syntax": "SELECT SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) AS paid_total FROM orders;",
+          "puzzle": "SELECT SUM(CASE WHEN status='paid' THEN amount ELSE 0 ___) AS paid___total FROM orders;",
+          "output": "paid_total\n900",
+          "level": 226
+        }
+      ]
+    },
+    {
+      "part": "Part 16 - LIKE & Pattern Matching",
+      "items": [
+        {
+          "topic": "LIKE prefix - exercise 1",
+          "syntax": "SELECT name FROM users WHERE name LIKE 'A%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ 'A%';",
+          "output": "name\nAva",
+          "level": 227
+        },
+        {
+          "topic": "LIKE suffix - exercise 2",
+          "syntax": "SELECT name FROM users WHERE name LIKE '%a';",
+          "puzzle": "SELECT name FROM users WHERE name ___ '%a';",
+          "output": "name\nAva\nRiya",
+          "level": 228
+        },
+        {
+          "topic": "LIKE contains - exercise 3",
+          "syntax": "SELECT name FROM users WHERE name LIKE '%av%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ '%av%';",
+          "output": "name\nAva",
+          "level": 229
+        },
+        {
+          "topic": "ILIKE case-insensitive - exercise 4",
+          "syntax": "SELECT name FROM users WHERE name ILIKE 'ava';",
+          "puzzle": "SELECT name FROM users WHERE name ___ 'ava';",
+          "output": "name\nAva",
+          "level": 230
+        },
+        {
+          "topic": "NOT LIKE - exercise 5",
+          "syntax": "SELECT name FROM users WHERE name NOT LIKE 'A%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ LIKE 'A%';",
+          "output": "name\nSam",
+          "level": 231
+        },
+        {
+          "topic": "SIMILAR TO - exercise 6",
+          "syntax": "SELECT name FROM users WHERE name SIMILAR TO '(A|S)%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ TO '(A|S)%';",
+          "output": "name\nAva\nSam",
+          "level": 232
+        },
+        {
+          "topic": "LIKE prefix - exercise 7",
+          "syntax": "SELECT name FROM users WHERE name LIKE 'A%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ 'A%';",
+          "output": "name\nAva",
+          "level": 233
+        },
+        {
+          "topic": "LIKE suffix - exercise 8",
+          "syntax": "SELECT name FROM users WHERE name LIKE '%a';",
+          "puzzle": "SELECT name FROM users WHERE name ___ '%a';",
+          "output": "name\nAva\nRiya",
+          "level": 234
+        },
+        {
+          "topic": "LIKE contains - exercise 9",
+          "syntax": "SELECT name FROM users WHERE name LIKE '%av%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ '%av%';",
+          "output": "name\nAva",
+          "level": 235
+        },
+        {
+          "topic": "ILIKE case-insensitive - exercise 10",
+          "syntax": "SELECT name FROM users WHERE name ILIKE 'ava';",
+          "puzzle": "SELECT name FROM users WHERE name ___ 'ava';",
+          "output": "name\nAva",
+          "level": 236
+        },
+        {
+          "topic": "NOT LIKE - exercise 11",
+          "syntax": "SELECT name FROM users WHERE name NOT LIKE 'A%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ LIKE 'A%';",
+          "output": "name\nSam",
+          "level": 237
+        },
+        {
+          "topic": "SIMILAR TO - exercise 12",
+          "syntax": "SELECT name FROM users WHERE name SIMILAR TO '(A|S)%';",
+          "puzzle": "SELECT name FROM users WHERE name ___ TO '(A|S)%';",
+          "output": "name\nAva\nSam",
+          "level": 238
+        }
+      ]
+    },
+    {
+      "part": "Part 17 - Common SQL Functions",
+      "items": [
+        {
+          "topic": "ROUND - exercise 1",
+          "syntax": "SELECT ROUND(12.3456, 2) AS value;",
+          "puzzle": "SELECT ___(12.3456, 2) AS value;",
+          "output": "value\n12.35",
+          "level": 239
+        },
+        {
+          "topic": "ABS - exercise 2",
+          "syntax": "SELECT ABS(-25) AS value;",
+          "puzzle": "SELECT ___(-25) AS value;",
+          "output": "value\n25",
+          "level": 240
+        },
+        {
+          "topic": "CEIL - exercise 3",
+          "syntax": "SELECT CEIL(12.1) AS value;",
+          "puzzle": "SELECT ___(12.1) AS value;",
+          "output": "value\n13",
+          "level": 241
+        },
+        {
+          "topic": "FLOOR - exercise 4",
+          "syntax": "SELECT FLOOR(12.9) AS value;",
+          "puzzle": "SELECT ___(12.9) AS value;",
+          "output": "value\n12",
+          "level": 242
+        },
+        {
+          "topic": "MOD - exercise 5",
+          "syntax": "SELECT MOD(10, 3) AS remainder;",
+          "puzzle": "SELECT ___(10, 3) AS remainder;",
+          "output": "remainder\n1",
+          "level": 243
+        },
+        {
+          "topic": "POWER - exercise 6",
+          "syntax": "SELECT POWER(2, 3) AS value;",
+          "puzzle": "SELECT ___(2, 3) AS value;",
+          "output": "value\n8",
+          "level": 244
+        },
+        {
+          "topic": "GREATEST - exercise 7",
+          "syntax": "SELECT GREATEST(3, 9, 5) AS value;",
+          "puzzle": "SELECT ___(3, 9, 5) AS value;",
+          "output": "value\n9",
+          "level": 245
+        },
+        {
+          "topic": "LEAST - exercise 8",
+          "syntax": "SELECT LEAST(3, 9, 5) AS value;",
+          "puzzle": "SELECT ___(3, 9, 5) AS value;",
+          "output": "value\n3",
+          "level": 246
+        },
+        {
+          "topic": "ROUND - exercise 9",
+          "syntax": "SELECT ROUND(12.3456, 2) AS value;",
+          "puzzle": "SELECT ___(12.3456, 2) AS value;",
+          "output": "value\n12.35",
+          "level": 247
+        },
+        {
+          "topic": "ABS - exercise 10",
+          "syntax": "SELECT ABS(-25) AS value;",
+          "puzzle": "SELECT ___(-25) AS value;",
+          "output": "value\n25",
+          "level": 248
+        },
+        {
+          "topic": "CEIL - exercise 11",
+          "syntax": "SELECT CEIL(12.1) AS value;",
+          "puzzle": "SELECT ___(12.1) AS value;",
+          "output": "value\n13",
+          "level": 249
+        },
+        {
+          "topic": "FLOOR - exercise 12",
+          "syntax": "SELECT FLOOR(12.9) AS value;",
+          "puzzle": "SELECT ___(12.9) AS value;",
+          "output": "value\n12",
+          "level": 250
+        },
+        {
+          "topic": "MOD - exercise 13",
+          "syntax": "SELECT MOD(10, 3) AS remainder;",
+          "puzzle": "SELECT ___(10, 3) AS remainder;",
+          "output": "remainder\n1",
+          "level": 251
+        },
+        {
+          "topic": "POWER - exercise 14",
+          "syntax": "SELECT POWER(2, 3) AS value;",
+          "puzzle": "SELECT ___(2, 3) AS value;",
+          "output": "value\n8",
+          "level": 252
+        },
+        {
+          "topic": "GREATEST - exercise 15",
+          "syntax": "SELECT GREATEST(3, 9, 5) AS value;",
+          "puzzle": "SELECT ___(3, 9, 5) AS value;",
+          "output": "value\n9",
+          "level": 253
+        },
+        {
+          "topic": "LEAST - exercise 16",
+          "syntax": "SELECT LEAST(3, 9, 5) AS value;",
+          "puzzle": "SELECT ___(3, 9, 5) AS value;",
+          "output": "value\n3",
+          "level": 254
+        },
+        {
+          "topic": "ROUND - exercise 17",
+          "syntax": "SELECT ROUND(12.3456, 2) AS value;",
+          "puzzle": "SELECT ___(12.3456, 2) AS value;",
+          "output": "value\n12.35",
+          "level": 255
+        },
+        {
+          "topic": "ABS - exercise 18",
+          "syntax": "SELECT ABS(-25) AS value;",
+          "puzzle": "SELECT ___(-25) AS value;",
+          "output": "value\n25",
+          "level": 256
+        },
+        {
+          "topic": "CEIL - exercise 19",
+          "syntax": "SELECT CEIL(12.1) AS value;",
+          "puzzle": "SELECT ___(12.1) AS value;",
+          "output": "value\n13",
+          "level": 257
+        },
+        {
+          "topic": "FLOOR - exercise 20",
+          "syntax": "SELECT FLOOR(12.9) AS value;",
+          "puzzle": "SELECT ___(12.9) AS value;",
+          "output": "value\n12",
+          "level": 258
+        },
+        {
+          "topic": "MOD - exercise 21",
+          "syntax": "SELECT MOD(10, 3) AS remainder;",
+          "puzzle": "SELECT ___(10, 3) AS remainder;",
+          "output": "remainder\n1",
+          "level": 259
+        },
+        {
+          "topic": "POWER - exercise 22",
+          "syntax": "SELECT POWER(2, 3) AS value;",
+          "puzzle": "SELECT ___(2, 3) AS value;",
+          "output": "value\n8",
+          "level": 260
+        }
+      ]
+    },
+    {
+      "part": "Part 18 - CTEs",
+      "items": [
+        {
+          "topic": "Simple CTE - exercise 1",
+          "syntax": "WITH active_users AS (SELECT * FROM users WHERE active = TRUE) SELECT * FROM active_users;",
+          "puzzle": "WITH active___users AS (SELECT * FROM users WHERE active = TRUE) ___ * FROM active___users;",
+          "output": "active users",
+          "level": 261
+        },
+        {
+          "topic": "CTE aggregation - exercise 2",
+          "syntax": "WITH totals AS (SELECT user_id, SUM(amount) total FROM orders GROUP BY user_id) SELECT * FROM totals;",
+          "puzzle": "WITH totals AS (SELECT user___id, SUM(amount) total FROM orders GROUP BY user___id) ___ * FROM totals;",
+          "output": "user_id | total\n1 | 700",
+          "level": 262
+        },
+        {
+          "topic": "Two CTEs - exercise 3",
+          "syntax": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) SELECT a.name, b.amount FROM a JOIN b ON a.id=b.user_id;",
+          "puzzle": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) ___ a.name, b.amount FROM a JOIN b ON a.id=b.user___id;",
+          "output": "Ava | 500",
+          "level": 263
+        },
+        {
+          "topic": "CTE update - exercise 4",
+          "syntax": "WITH target AS (SELECT id FROM users WHERE active=FALSE) UPDATE users SET active=TRUE WHERE id IN (SELECT id FROM target);",
+          "puzzle": "WITH target AS (SELECT id FROM users WHERE active=FALSE) UPDATE users SET active=TRUE WHERE id ___ (SELECT id FROM target);",
+          "output": "",
+          "level": 264
+        },
+        {
+          "topic": "Simple CTE - exercise 5",
+          "syntax": "WITH active_users AS (SELECT * FROM users WHERE active = TRUE) SELECT * FROM active_users;",
+          "puzzle": "WITH active___users AS (SELECT * FROM users WHERE active = TRUE) ___ * FROM active___users;",
+          "output": "active users",
+          "level": 265
+        },
+        {
+          "topic": "CTE aggregation - exercise 6",
+          "syntax": "WITH totals AS (SELECT user_id, SUM(amount) total FROM orders GROUP BY user_id) SELECT * FROM totals;",
+          "puzzle": "WITH totals AS (SELECT user___id, SUM(amount) total FROM orders GROUP BY user___id) ___ * FROM totals;",
+          "output": "user_id | total\n1 | 700",
+          "level": 266
+        },
+        {
+          "topic": "Two CTEs - exercise 7",
+          "syntax": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) SELECT a.name, b.amount FROM a JOIN b ON a.id=b.user_id;",
+          "puzzle": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) ___ a.name, b.amount FROM a JOIN b ON a.id=b.user___id;",
+          "output": "Ava | 500",
+          "level": 267
+        },
+        {
+          "topic": "CTE update - exercise 8",
+          "syntax": "WITH target AS (SELECT id FROM users WHERE active=FALSE) UPDATE users SET active=TRUE WHERE id IN (SELECT id FROM target);",
+          "puzzle": "WITH target AS (SELECT id FROM users WHERE active=FALSE) UPDATE users SET active=TRUE WHERE id ___ (SELECT id FROM target);",
+          "output": "",
+          "level": 268
+        },
+        {
+          "topic": "Simple CTE - exercise 9",
+          "syntax": "WITH active_users AS (SELECT * FROM users WHERE active = TRUE) SELECT * FROM active_users;",
+          "puzzle": "WITH active___users AS (SELECT * FROM users WHERE active = TRUE) ___ * FROM active___users;",
+          "output": "active users",
+          "level": 269
+        },
+        {
+          "topic": "CTE aggregation - exercise 10",
+          "syntax": "WITH totals AS (SELECT user_id, SUM(amount) total FROM orders GROUP BY user_id) SELECT * FROM totals;",
+          "puzzle": "WITH totals AS (SELECT user___id, SUM(amount) total FROM orders GROUP BY user___id) ___ * FROM totals;",
+          "output": "user_id | total\n1 | 700",
+          "level": 270
+        },
+        {
+          "topic": "Two CTEs - exercise 11",
+          "syntax": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) SELECT a.name, b.amount FROM a JOIN b ON a.id=b.user_id;",
+          "puzzle": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) ___ a.name, b.amount FROM a JOIN b ON a.id=b.user___id;",
+          "output": "Ava | 500",
+          "level": 271
+        },
+        {
+          "topic": "CTE update - exercise 12",
+          "syntax": "WITH target AS (SELECT id FROM users WHERE active=FALSE) UPDATE users SET active=TRUE WHERE id IN (SELECT id FROM target);",
+          "puzzle": "WITH target AS (SELECT id FROM users WHERE active=FALSE) UPDATE users SET active=TRUE WHERE id ___ (SELECT id FROM target);",
+          "output": "",
+          "level": 272
+        },
+        {
+          "topic": "Simple CTE - exercise 13",
+          "syntax": "WITH active_users AS (SELECT * FROM users WHERE active = TRUE) SELECT * FROM active_users;",
+          "puzzle": "WITH active___users AS (SELECT * FROM users WHERE active = TRUE) ___ * FROM active___users;",
+          "output": "active users",
+          "level": 273
+        },
+        {
+          "topic": "CTE aggregation - exercise 14",
+          "syntax": "WITH totals AS (SELECT user_id, SUM(amount) total FROM orders GROUP BY user_id) SELECT * FROM totals;",
+          "puzzle": "WITH totals AS (SELECT user___id, SUM(amount) total FROM orders GROUP BY user___id) ___ * FROM totals;",
+          "output": "user_id | total\n1 | 700",
+          "level": 274
+        },
+        {
+          "topic": "Two CTEs - exercise 15",
+          "syntax": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) SELECT a.name, b.amount FROM a JOIN b ON a.id=b.user_id;",
+          "puzzle": "WITH a AS (SELECT * FROM users), b AS (SELECT * FROM orders) ___ a.name, b.amount FROM a JOIN b ON a.id=b.user___id;",
+          "output": "Ava | 500",
+          "level": 275
+        }
+      ]
+    },
+    {
+      "part": "Part 19 - Views",
+      "items": [
+        {
+          "topic": "CREATE VIEW - exercise 1",
+          "syntax": "CREATE VIEW active_users AS SELECT * FROM users WHERE active = TRUE;",
+          "puzzle": "CREATE ___ active___users AS SELECT * FROM users WHERE active = TRUE;",
+          "output": "",
+          "level": 276
+        },
+        {
+          "topic": "Query a view - exercise 2",
+          "syntax": "SELECT * FROM active_users;",
+          "puzzle": "SELECT * FROM active___users;",
+          "output": "id | name\n1 | Ava",
+          "level": 277
+        },
+        {
+          "topic": "Replace view - exercise 3",
+          "syntax": "CREATE OR REPLACE VIEW active_users AS SELECT id,name FROM users WHERE active=TRUE;",
+          "puzzle": "CREATE OR REPLACE ___ active___users AS SELECT id,name FROM users WHERE active=TRUE;",
+          "output": "",
+          "level": 278
+        },
+        {
+          "topic": "Drop view - exercise 4",
+          "syntax": "DROP VIEW IF EXISTS active_users;",
+          "puzzle": "DROP ___ IF EXISTS active___users;",
+          "output": "",
+          "level": 279
+        },
+        {
+          "topic": "CREATE VIEW - exercise 5",
+          "syntax": "CREATE VIEW active_users AS SELECT * FROM users WHERE active = TRUE;",
+          "puzzle": "CREATE ___ active___users AS SELECT * FROM users WHERE active = TRUE;",
+          "output": "",
+          "level": 280
+        },
+        {
+          "topic": "Query a view - exercise 6",
+          "syntax": "SELECT * FROM active_users;",
+          "puzzle": "SELECT * FROM active___users;",
+          "output": "id | name\n1 | Ava",
+          "level": 281
+        },
+        {
+          "topic": "Replace view - exercise 7",
+          "syntax": "CREATE OR REPLACE VIEW active_users AS SELECT id,name FROM users WHERE active=TRUE;",
+          "puzzle": "CREATE OR REPLACE ___ active___users AS SELECT id,name FROM users WHERE active=TRUE;",
+          "output": "",
+          "level": 282
+        }
+      ]
+    },
+    {
+      "part": "Part 20 - Indexes",
+      "items": [
+        {
+          "topic": "Create index - exercise 1",
+          "syntax": "CREATE INDEX idx_users_email ON users(email);",
+          "puzzle": "CREATE ___ idx___users___email ON users(email);",
+          "output": "",
+          "level": 283
+        },
+        {
+          "topic": "Unique index - exercise 2",
+          "syntax": "CREATE UNIQUE INDEX idx_users_email ON users(email);",
+          "puzzle": "CREATE ___ INDEX idx___users___email ON users(email);",
+          "output": "",
+          "level": 284
+        },
+        {
+          "topic": "Composite index - exercise 3",
+          "syntax": "CREATE INDEX idx_orders_user_date ON orders(user_id, order_date);",
+          "puzzle": "___ INDEX idx_orders_user_date ON orders(user_id, order_date);",
+          "output": "",
+          "level": 285
+        },
+        {
+          "topic": "Drop index - exercise 4",
+          "syntax": "DROP INDEX IF EXISTS idx_users_email;",
+          "puzzle": "DROP INDEX IF EXISTS idx___users___email;",
+          "output": "",
+          "level": 286
+        },
+        {
+          "topic": "Index expression - exercise 5",
+          "syntax": "CREATE INDEX idx_users_lower_name ON users(LOWER(name));",
+          "puzzle": "CREATE INDEX idx___users___lower___name ON users(___(name));",
+          "output": "",
+          "level": 287
+        },
+        {
+          "topic": "Create index - exercise 6",
+          "syntax": "CREATE INDEX idx_users_email ON users(email);",
+          "puzzle": "CREATE ___ idx___users___email ON users(email);",
+          "output": "",
+          "level": 288
+        },
+        {
+          "topic": "Unique index - exercise 7",
+          "syntax": "CREATE UNIQUE INDEX idx_users_email ON users(email);",
+          "puzzle": "CREATE ___ INDEX idx___users___email ON users(email);",
+          "output": "",
+          "level": 289
+        },
+        {
+          "topic": "Composite index - exercise 8",
+          "syntax": "CREATE INDEX idx_orders_user_date ON orders(user_id, order_date);",
+          "puzzle": "___ INDEX idx_orders_user_date ON orders(user_id, order_date);",
+          "output": "",
+          "level": 290
+        },
+        {
+          "topic": "Drop index - exercise 9",
+          "syntax": "DROP INDEX IF EXISTS idx_users_email;",
+          "puzzle": "DROP INDEX IF EXISTS idx___users___email;",
+          "output": "",
+          "level": 291
+        },
+        {
+          "topic": "Index expression - exercise 10",
+          "syntax": "CREATE INDEX idx_users_lower_name ON users(LOWER(name));",
+          "puzzle": "CREATE INDEX idx___users___lower___name ON users(___(name));",
+          "output": "",
+          "level": 292
+        },
+        {
+          "topic": "Create index - exercise 11",
+          "syntax": "CREATE INDEX idx_users_email ON users(email);",
+          "puzzle": "CREATE ___ idx___users___email ON users(email);",
+          "output": "",
+          "level": 293
+        }
+      ]
+    },
+    {
+      "part": "Part 21 - EXPLAIN & Query Debugging",
+      "items": [
+        {
+          "topic": "EXPLAIN SELECT - exercise 1",
+          "syntax": "EXPLAIN SELECT * FROM users WHERE id = 1;",
+          "puzzle": "___ SELECT * FROM users WHERE id = 1;",
+          "output": "query plan",
+          "level": 294
+        },
+        {
+          "topic": "EXPLAIN ANALYZE - exercise 2",
+          "syntax": "EXPLAIN ANALYZE SELECT * FROM users WHERE id = 1;",
+          "puzzle": "EXPLAIN ___ SELECT * FROM users WHERE id = 1;",
+          "output": "query plan with execution",
+          "level": 295
+        },
+        {
+          "topic": "EXPLAIN join - exercise 3",
+          "syntax": "EXPLAIN SELECT u.name,o.amount FROM users u JOIN orders o ON u.id=o.user_id;",
+          "puzzle": "EXPLAIN SELECT u.name,o.amount FROM users u ___ orders o ON u.id=o.user___id;",
+          "output": "query plan",
+          "level": 296
+        },
+        {
+          "topic": "Analyze table - exercise 4",
+          "syntax": "ANALYZE users;",
+          "puzzle": "___ users;",
+          "output": "",
+          "level": 297
+        },
+        {
+          "topic": "EXPLAIN SELECT - exercise 5",
+          "syntax": "EXPLAIN SELECT * FROM users WHERE id = 1;",
+          "puzzle": "___ SELECT * FROM users WHERE id = 1;",
+          "output": "query plan",
+          "level": 298
+        },
+        {
+          "topic": "EXPLAIN ANALYZE - exercise 6",
+          "syntax": "EXPLAIN ANALYZE SELECT * FROM users WHERE id = 1;",
+          "puzzle": "EXPLAIN ___ SELECT * FROM users WHERE id = 1;",
+          "output": "query plan with execution",
+          "level": 299
+        },
+        {
+          "topic": "EXPLAIN join - exercise 7",
+          "syntax": "EXPLAIN SELECT u.name,o.amount FROM users u JOIN orders o ON u.id=o.user_id;",
+          "puzzle": "EXPLAIN SELECT u.name,o.amount FROM users u ___ orders o ON u.id=o.user___id;",
+          "output": "query plan",
+          "level": 300
+        },
+        {
+          "topic": "Analyze table - exercise 8",
+          "syntax": "ANALYZE users;",
+          "puzzle": "___ users;",
+          "output": "",
+          "level": 301
+        },
+        {
+          "topic": "EXPLAIN SELECT - exercise 9",
+          "syntax": "EXPLAIN SELECT * FROM users WHERE id = 1;",
+          "puzzle": "___ SELECT * FROM users WHERE id = 1;",
+          "output": "query plan",
+          "level": 302
+        }
+      ]
+    },
+    {
+      "part": "Part 22 - Transactions",
+      "items": [
+        {
+          "topic": "BEGIN transaction - exercise 1",
+          "syntax": "BEGIN; UPDATE users SET name='Sam' WHERE id=1; COMMIT;",
+          "puzzle": "___; UPDATE users SET name='Sam' WHERE id=1; COMMIT;",
+          "output": "",
+          "level": 303
+        },
+        {
+          "topic": "COMMIT transaction - exercise 2",
+          "syntax": "BEGIN; UPDATE users SET active=TRUE WHERE id=1; COMMIT;",
+          "puzzle": "BEGIN; UPDATE users SET active=TRUE WHERE id=1; ___;",
+          "output": "",
+          "level": 304
+        },
+        {
+          "topic": "ROLLBACK transaction - exercise 3",
+          "syntax": "BEGIN; DELETE FROM users WHERE id=1; ROLLBACK;",
+          "puzzle": "BEGIN; DELETE FROM users WHERE id=1; ___;",
+          "output": "",
+          "level": 305
+        },
+        {
+          "topic": "SAVEPOINT - exercise 4",
+          "syntax": "BEGIN; SAVEPOINT before_update; UPDATE users SET age=30; ROLLBACK TO before_update;",
+          "puzzle": "BEGIN; ___ before___update; UPDATE users SET age=30; ROLLBACK TO before___update;",
+          "output": "",
+          "level": 306
+        },
+        {
+          "topic": "Release savepoint - exercise 5",
+          "syntax": "BEGIN; SAVEPOINT s1; RELEASE SAVEPOINT s1; COMMIT;",
+          "puzzle": "BEGIN; SAVEPOINT s1; ___ SAVEPOINT s1; COMMIT;",
+          "output": "",
+          "level": 307
+        },
+        {
+          "topic": "BEGIN transaction - exercise 6",
+          "syntax": "BEGIN; UPDATE users SET name='Sam' WHERE id=1; COMMIT;",
+          "puzzle": "___; UPDATE users SET name='Sam' WHERE id=1; COMMIT;",
+          "output": "",
+          "level": 308
+        },
+        {
+          "topic": "COMMIT transaction - exercise 7",
+          "syntax": "BEGIN; UPDATE users SET active=TRUE WHERE id=1; COMMIT;",
+          "puzzle": "BEGIN; UPDATE users SET active=TRUE WHERE id=1; ___;",
+          "output": "",
+          "level": 309
+        },
+        {
+          "topic": "ROLLBACK transaction - exercise 8",
+          "syntax": "BEGIN; DELETE FROM users WHERE id=1; ROLLBACK;",
+          "puzzle": "BEGIN; DELETE FROM users WHERE id=1; ___;",
+          "output": "",
+          "level": 310
+        },
+        {
+          "topic": "SAVEPOINT - exercise 9",
+          "syntax": "BEGIN; SAVEPOINT before_update; UPDATE users SET age=30; ROLLBACK TO before_update;",
+          "puzzle": "BEGIN; ___ before___update; UPDATE users SET age=30; ROLLBACK TO before___update;",
+          "output": "",
+          "level": 311
+        },
+        {
+          "topic": "Release savepoint - exercise 10",
+          "syntax": "BEGIN; SAVEPOINT s1; RELEASE SAVEPOINT s1; COMMIT;",
+          "puzzle": "BEGIN; SAVEPOINT s1; ___ SAVEPOINT s1; COMMIT;",
+          "output": "",
+          "level": 312
+        }
+      ]
+    },
+    {
+      "part": "Part 23 - Stored Procedures & Routines",
+      "items": [
+        {
+          "topic": "Create function - exercise 1",
+          "syntax": "CREATE FUNCTION add_tax(amount NUMERIC) RETURNS NUMERIC AS $$ SELECT amount * 1.18; $$ LANGUAGE SQL;",
+          "puzzle": "CREATE FUNCTION add___tax(amount NUMERIC) RETURNS NUMERIC AS $$ SELECT amount * 1.18; $$ LANGUAGE ___;",
+          "output": "",
+          "level": 313
+        },
+        {
+          "topic": "Call function - exercise 2",
+          "syntax": "SELECT add_tax(100) AS total;",
+          "puzzle": "SELECT ___(100) AS total;",
+          "output": "total\n118",
+          "level": 314
+        },
+        {
+          "topic": "Function with WHERE - exercise 3",
+          "syntax": "CREATE FUNCTION adult_count() RETURNS INTEGER AS $$ SELECT COUNT(*) FROM users WHERE age >= 18; $$ LANGUAGE SQL;",
+          "puzzle": "CREATE FUNCTION adult___count() RETURNS INTEGER AS $$ SELECT COUNT(*) FROM users WHERE age >= 18; $$ LANGUAGE ___;",
+          "output": "",
+          "level": 315
+        },
+        {
+          "topic": "Drop function - exercise 4",
+          "syntax": "DROP FUNCTION IF EXISTS add_tax(NUMERIC);",
+          "puzzle": "DROP FUNCTION IF EXISTS add___tax(NUMERIC);",
+          "output": "",
+          "level": 316
+        },
+        {
+          "topic": "Create function - exercise 5",
+          "syntax": "CREATE FUNCTION add_tax(amount NUMERIC) RETURNS NUMERIC AS $$ SELECT amount * 1.18; $$ LANGUAGE SQL;",
+          "puzzle": "CREATE FUNCTION add___tax(amount NUMERIC) RETURNS NUMERIC AS $$ SELECT amount * 1.18; $$ LANGUAGE ___;",
+          "output": "",
+          "level": 317
+        },
+        {
+          "topic": "Call function - exercise 6",
+          "syntax": "SELECT add_tax(100) AS total;",
+          "puzzle": "SELECT ___(100) AS total;",
+          "output": "total\n118",
+          "level": 318
+        },
+        {
+          "topic": "Function with WHERE - exercise 7",
+          "syntax": "CREATE FUNCTION adult_count() RETURNS INTEGER AS $$ SELECT COUNT(*) FROM users WHERE age >= 18; $$ LANGUAGE SQL;",
+          "puzzle": "CREATE FUNCTION adult___count() RETURNS INTEGER AS $$ SELECT COUNT(*) FROM users WHERE age >= 18; $$ LANGUAGE ___;",
+          "output": "",
+          "level": 319
+        },
+        {
+          "topic": "Drop function - exercise 8",
+          "syntax": "DROP FUNCTION IF EXISTS add_tax(NUMERIC);",
+          "puzzle": "DROP FUNCTION IF EXISTS add___tax(NUMERIC);",
+          "output": "",
+          "level": 320
+        },
+        {
+          "topic": "Create function - exercise 9",
+          "syntax": "CREATE FUNCTION add_tax(amount NUMERIC) RETURNS NUMERIC AS $$ SELECT amount * 1.18; $$ LANGUAGE SQL;",
+          "puzzle": "CREATE FUNCTION add___tax(amount NUMERIC) RETURNS NUMERIC AS $$ SELECT amount * 1.18; $$ LANGUAGE ___;",
+          "output": "",
+          "level": 321
+        },
+        {
+          "topic": "Call function - exercise 10",
+          "syntax": "SELECT add_tax(100) AS total;",
+          "puzzle": "SELECT ___(100) AS total;",
+          "output": "total\n118",
+          "level": 322
+        }
+      ]
+    },
+    {
+      "part": "Part 24 - Roles & Permissions",
+      "items": [
+        {
+          "topic": "CREATE role - exercise 1",
+          "syntax": "CREATE ROLE analyst;",
+          "puzzle": "CREATE ___ analyst;",
+          "output": "",
+          "level": 323
+        },
+        {
+          "topic": "GRANT SELECT - exercise 2",
+          "syntax": "GRANT SELECT ON users TO analyst;",
+          "puzzle": "GRANT ___ ON users TO analyst;",
+          "output": "",
+          "level": 324
+        },
+        {
+          "topic": "GRANT multiple privileges - exercise 3",
+          "syntax": "GRANT SELECT, INSERT ON users TO analyst;",
+          "puzzle": "GRANT SELECT, ___ ON users TO analyst;",
+          "output": "",
+          "level": 325
+        },
+        {
+          "topic": "REVOKE privilege - exercise 4",
+          "syntax": "REVOKE INSERT ON users FROM analyst;",
+          "puzzle": "REVOKE INSERT ON users ___ analyst;",
+          "output": "",
+          "level": 326
+        },
+        {
+          "topic": "GRANT schema usage - exercise 5",
+          "syntax": "GRANT USAGE ON SCHEMA sales TO analyst;",
+          "puzzle": "GRANT ___ ON SCHEMA sales TO analyst;",
+          "output": "",
+          "level": 327
+        },
+        {
+          "topic": "CREATE role - exercise 6",
+          "syntax": "CREATE ROLE analyst;",
+          "puzzle": "CREATE ___ analyst;",
+          "output": "",
+          "level": 328
+        },
+        {
+          "topic": "GRANT SELECT - exercise 7",
+          "syntax": "GRANT SELECT ON users TO analyst;",
+          "puzzle": "GRANT ___ ON users TO analyst;",
+          "output": "",
+          "level": 329
+        },
+        {
+          "topic": "GRANT multiple privileges - exercise 8",
+          "syntax": "GRANT SELECT, INSERT ON users TO analyst;",
+          "puzzle": "GRANT SELECT, ___ ON users TO analyst;",
+          "output": "",
+          "level": 330
+        },
+        {
+          "topic": "REVOKE privilege - exercise 9",
+          "syntax": "REVOKE INSERT ON users FROM analyst;",
+          "puzzle": "REVOKE INSERT ON users ___ analyst;",
+          "output": "",
+          "level": 331
+        },
+        {
+          "topic": "GRANT schema usage - exercise 10",
+          "syntax": "GRANT USAGE ON SCHEMA sales TO analyst;",
+          "puzzle": "GRANT ___ ON SCHEMA sales TO analyst;",
+          "output": "",
+          "level": 332
+        },
+        {
+          "topic": "CREATE role - exercise 11",
+          "syntax": "CREATE ROLE analyst;",
+          "puzzle": "CREATE ___ analyst;",
+          "output": "",
+          "level": 333
+        }
+      ]
+    },
+    {
+      "part": "Part 25 - SQL Scripting",
+      "items": [
+        {
+          "topic": "Declare variable block - exercise 1",
+          "syntax": "DO $$ DECLARE total INTEGER := 0; BEGIN SELECT COUNT(*) INTO total FROM users; RAISE NOTICE 'Total: %', total; END $$;",
+          "puzzle": "DO $$ ___ total INTEGER := 0; BEGIN SELECT COUNT(*) INTO total FROM users; RAISE NOTICE 'Total: %', total; END $$;",
+          "output": "Total: 5",
+          "level": 334
+        },
+        {
+          "topic": "SELECT INTO variable - exercise 2",
+          "syntax": "DO $$ DECLARE total INTEGER; BEGIN SELECT COUNT(*) INTO total FROM users; END $$;",
+          "puzzle": "DO $$ DECLARE total INTEGER; BEGIN SELECT COUNT(*) ___ total FROM users; END $$;",
+          "output": "",
+          "level": 335
+        },
+        {
+          "topic": "IF block - exercise 3",
+          "syntax": "DO $$ BEGIN IF EXISTS (SELECT 1 FROM users WHERE id=1) THEN RAISE NOTICE 'Found'; END IF; END $$;",
+          "puzzle": "DO $$ BEGIN ___ EXISTS (SELECT 1 FROM users WHERE id=1) THEN RAISE NOTICE 'Found'; END IF; END $$;",
+          "output": "Found",
+          "level": 336
+        },
+        {
+          "topic": "Loop block - exercise 4",
+          "syntax": "DO $$ BEGIN FOR i IN 1..3 LOOP RAISE NOTICE '%', i; END LOOP; END $$;",
+          "puzzle": "DO $$ BEGIN FOR i IN 1..3 ___ RAISE NOTICE '%', i; END LOOP; END $$;",
+          "output": "1\n2\n3",
+          "level": 337
+        },
+        {
+          "topic": "Declare variable block - exercise 5",
+          "syntax": "DO $$ DECLARE total INTEGER := 0; BEGIN SELECT COUNT(*) INTO total FROM users; RAISE NOTICE 'Total: %', total; END $$;",
+          "puzzle": "DO $$ ___ total INTEGER := 0; BEGIN SELECT COUNT(*) INTO total FROM users; RAISE NOTICE 'Total: %', total; END $$;",
+          "output": "Total: 5",
+          "level": 338
+        },
+        {
+          "topic": "SELECT INTO variable - exercise 6",
+          "syntax": "DO $$ DECLARE total INTEGER; BEGIN SELECT COUNT(*) INTO total FROM users; END $$;",
+          "puzzle": "DO $$ DECLARE total INTEGER; BEGIN SELECT COUNT(*) ___ total FROM users; END $$;",
+          "output": "",
+          "level": 339
+        },
+        {
+          "topic": "IF block - exercise 7",
+          "syntax": "DO $$ BEGIN IF EXISTS (SELECT 1 FROM users WHERE id=1) THEN RAISE NOTICE 'Found'; END IF; END $$;",
+          "puzzle": "DO $$ BEGIN ___ EXISTS (SELECT 1 FROM users WHERE id=1) THEN RAISE NOTICE 'Found'; END IF; END $$;",
+          "output": "Found",
+          "level": 340
+        },
+        {
+          "topic": "Loop block - exercise 8",
+          "syntax": "DO $$ BEGIN FOR i IN 1..3 LOOP RAISE NOTICE '%', i; END LOOP; END $$;",
+          "puzzle": "DO $$ BEGIN FOR i IN 1..3 ___ RAISE NOTICE '%', i; END LOOP; END $$;",
+          "output": "1\n2\n3",
+          "level": 341
+        },
+        {
+          "topic": "Declare variable block - exercise 9",
+          "syntax": "DO $$ DECLARE total INTEGER := 0; BEGIN SELECT COUNT(*) INTO total FROM users; RAISE NOTICE 'Total: %', total; END $$;",
+          "puzzle": "DO $$ ___ total INTEGER := 0; BEGIN SELECT COUNT(*) INTO total FROM users; RAISE NOTICE 'Total: %', total; END $$;",
+          "output": "Total: 5",
+          "level": 342
+        },
+        {
+          "topic": "SELECT INTO variable - exercise 10",
+          "syntax": "DO $$ DECLARE total INTEGER; BEGIN SELECT COUNT(*) INTO total FROM users; END $$;",
+          "puzzle": "DO $$ DECLARE total INTEGER; BEGIN SELECT COUNT(*) ___ total FROM users; END $$;",
+          "output": "",
+          "level": 343
+        },
+        {
+          "topic": "IF block - exercise 11",
+          "syntax": "DO $$ BEGIN IF EXISTS (SELECT 1 FROM users WHERE id=1) THEN RAISE NOTICE 'Found'; END IF; END $$;",
+          "puzzle": "DO $$ BEGIN ___ EXISTS (SELECT 1 FROM users WHERE id=1) THEN RAISE NOTICE 'Found'; END IF; END $$;",
+          "output": "Found",
+          "level": 344
+        },
+        {
+          "topic": "Loop block - exercise 12",
+          "syntax": "DO $$ BEGIN FOR i IN 1..3 LOOP RAISE NOTICE '%', i; END LOOP; END $$;",
+          "puzzle": "DO $$ BEGIN FOR i IN 1..3 ___ RAISE NOTICE '%', i; END LOOP; END $$;",
+          "output": "1\n2\n3",
+          "level": 345
+        }
+      ]
+    },
+    {
+      "part": "Part 26 - JSON in SQL",
+      "items": [
+        {
+          "topic": "JSON object field - exercise 1",
+          "syntax": "SELECT '{\"name\":\"Ava\"}'::json ->> 'name' AS name;",
+          "puzzle": "SELECT '{\"name\":\"Ava\"}'::json ->> 'name' AS ___;",
+          "output": "name\nAva",
+          "level": 346
+        },
+        {
+          "topic": "JSON numeric field - exercise 2",
+          "syntax": "SELECT '{\"age\":22}'::json ->> 'age' AS age;",
+          "puzzle": "SELECT '{\"age\":22}'::json ->> 'age' AS ___;",
+          "output": "age\n22",
+          "level": 347
+        },
+        {
+          "topic": "JSON array element - exercise 3",
+          "syntax": "SELECT '[\"SQL\",\"Python\"]'::json -> 0 AS item;",
+          "puzzle": "SELECT '[\"SQL\",\"Python\"]'::json -> ___ AS item;",
+          "output": "item\n\"SQL\"",
+          "level": 348
+        },
+        {
+          "topic": "JSON build object - exercise 4",
+          "syntax": "SELECT json_build_object('id', 1, 'name', 'Ava') AS data;",
+          "puzzle": "SELECT ___('id', 1, 'name', 'Ava') AS data;",
+          "output": "data\n{\"id\":1,\"name\":\"Ava\"}",
+          "level": 349
+        },
+        {
+          "topic": "JSON aggregate - exercise 5",
+          "syntax": "SELECT json_agg(name) AS names FROM users;",
+          "puzzle": "SELECT ___(name) AS names FROM users;",
+          "output": "names\n[\"Ava\",\"Sam\"]",
+          "level": 350
+        },
+        {
+          "topic": "JSON object field - exercise 6",
+          "syntax": "SELECT '{\"name\":\"Ava\"}'::json ->> 'name' AS name;",
+          "puzzle": "SELECT '{\"name\":\"Ava\"}'::json ->> 'name' AS ___;",
+          "output": "name\nAva",
+          "level": 351
+        },
+        {
+          "topic": "JSON numeric field - exercise 7",
+          "syntax": "SELECT '{\"age\":22}'::json ->> 'age' AS age;",
+          "puzzle": "SELECT '{\"age\":22}'::json ->> 'age' AS ___;",
+          "output": "age\n22",
+          "level": 352
+        },
+        {
+          "topic": "JSON array element - exercise 8",
+          "syntax": "SELECT '[\"SQL\",\"Python\"]'::json -> 0 AS item;",
+          "puzzle": "SELECT '[\"SQL\",\"Python\"]'::json -> ___ AS item;",
+          "output": "item\n\"SQL\"",
+          "level": 353
+        },
+        {
+          "topic": "JSON build object - exercise 9",
+          "syntax": "SELECT json_build_object('id', 1, 'name', 'Ava') AS data;",
+          "puzzle": "SELECT ___('id', 1, 'name', 'Ava') AS data;",
+          "output": "data\n{\"id\":1,\"name\":\"Ava\"}",
+          "level": 354
+        },
+        {
+          "topic": "JSON aggregate - exercise 10",
+          "syntax": "SELECT json_agg(name) AS names FROM users;",
+          "puzzle": "SELECT ___(name) AS names FROM users;",
+          "output": "names\n[\"Ava\",\"Sam\"]",
+          "level": 355
+        },
+        {
+          "topic": "JSON object field - exercise 11",
+          "syntax": "SELECT '{\"name\":\"Ava\"}'::json ->> 'name' AS name;",
+          "puzzle": "SELECT '{\"name\":\"Ava\"}'::json ->> 'name' AS ___;",
+          "output": "name\nAva",
+          "level": 356
+        },
+        {
+          "topic": "JSON numeric field - exercise 12",
+          "syntax": "SELECT '{\"age\":22}'::json ->> 'age' AS age;",
+          "puzzle": "SELECT '{\"age\":22}'::json ->> 'age' AS ___;",
+          "output": "age\n22",
+          "level": 357
+        },
+        {
+          "topic": "JSON array element - exercise 13",
+          "syntax": "SELECT '[\"SQL\",\"Python\"]'::json -> 0 AS item;",
+          "puzzle": "SELECT '[\"SQL\",\"Python\"]'::json -> ___ AS item;",
+          "output": "item\n\"SQL\"",
+          "level": 358
+        }
+      ]
+    },
+    {
+      "part": "Part 27 - Window Functions",
+      "items": [
+        {
+          "topic": "ROW_NUMBER - exercise 1",
+          "syntax": "SELECT name, ROW_NUMBER() OVER (ORDER BY id) AS rn FROM users;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY id) AS rn FROM users;",
+          "output": "name | rn\nAva | 1\nSam | 2",
+          "level": 359
+        },
+        {
+          "topic": "RANK - exercise 2",
+          "syntax": "SELECT name, RANK() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "output": "name | rank\nAva | 1\nSam | 2",
+          "level": 360
+        },
+        {
+          "topic": "DENSE_RANK - exercise 3",
+          "syntax": "SELECT name, DENSE_RANK() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "output": "name | rank\nAva | 1\nSam | 1\nMia | 2",
+          "level": 361
+        },
+        {
+          "topic": "LAG - exercise 4",
+          "syntax": "SELECT name, amount, LAG(amount) OVER (ORDER BY id) AS previous FROM orders;",
+          "puzzle": "SELECT name, amount, ___(amount) OVER (ORDER BY id) AS previous FROM orders;",
+          "output": "name | amount | previous\nAva | 500 | NULL\nSam | 300 | 500",
+          "level": 362
+        },
+        {
+          "topic": "LEAD - exercise 5",
+          "syntax": "SELECT name, amount, LEAD(amount) OVER (ORDER BY id) AS next_amount FROM orders;",
+          "puzzle": "SELECT name, amount, ___(amount) OVER (ORDER BY id) AS next___amount FROM orders;",
+          "output": "name | amount | next_amount\nAva | 500 | 300\nSam | 300 | NULL",
+          "level": 363
+        },
+        {
+          "topic": "Running SUM - exercise 6",
+          "syntax": "SELECT id, amount, SUM(amount) OVER (ORDER BY id) AS running_total FROM orders;",
+          "puzzle": "SELECT id, amount, ___(amount) OVER (ORDER BY id) AS running___total FROM orders;",
+          "output": "id | amount | running_total\n1 | 500 | 500\n2 | 300 | 800",
+          "level": 364
+        },
+        {
+          "topic": "PARTITION BY - exercise 7",
+          "syntax": "SELECT user_id, amount, SUM(amount) OVER (PARTITION BY user_id) AS user_total FROM orders;",
+          "puzzle": "SELECT user___id, amount, SUM(amount) OVER (___ BY user___id) AS user___total FROM orders;",
+          "output": "user_id | amount | user_total",
+          "level": 365
+        },
+        {
+          "topic": "ROW_NUMBER - exercise 8",
+          "syntax": "SELECT name, ROW_NUMBER() OVER (ORDER BY id) AS rn FROM users;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY id) AS rn FROM users;",
+          "output": "name | rn\nAva | 1\nSam | 2",
+          "level": 366
+        },
+        {
+          "topic": "RANK - exercise 9",
+          "syntax": "SELECT name, RANK() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "output": "name | rank\nAva | 1\nSam | 2",
+          "level": 367
+        },
+        {
+          "topic": "DENSE_RANK - exercise 10",
+          "syntax": "SELECT name, DENSE_RANK() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "output": "name | rank\nAva | 1\nSam | 1\nMia | 2",
+          "level": 368
+        },
+        {
+          "topic": "LAG - exercise 11",
+          "syntax": "SELECT name, amount, LAG(amount) OVER (ORDER BY id) AS previous FROM orders;",
+          "puzzle": "SELECT name, amount, ___(amount) OVER (ORDER BY id) AS previous FROM orders;",
+          "output": "name | amount | previous\nAva | 500 | NULL\nSam | 300 | 500",
+          "level": 369
+        },
+        {
+          "topic": "LEAD - exercise 12",
+          "syntax": "SELECT name, amount, LEAD(amount) OVER (ORDER BY id) AS next_amount FROM orders;",
+          "puzzle": "SELECT name, amount, ___(amount) OVER (ORDER BY id) AS next___amount FROM orders;",
+          "output": "name | amount | next_amount\nAva | 500 | 300\nSam | 300 | NULL",
+          "level": 370
+        },
+        {
+          "topic": "Running SUM - exercise 13",
+          "syntax": "SELECT id, amount, SUM(amount) OVER (ORDER BY id) AS running_total FROM orders;",
+          "puzzle": "SELECT id, amount, ___(amount) OVER (ORDER BY id) AS running___total FROM orders;",
+          "output": "id | amount | running_total\n1 | 500 | 500\n2 | 300 | 800",
+          "level": 371
+        },
+        {
+          "topic": "PARTITION BY - exercise 14",
+          "syntax": "SELECT user_id, amount, SUM(amount) OVER (PARTITION BY user_id) AS user_total FROM orders;",
+          "puzzle": "SELECT user___id, amount, SUM(amount) OVER (___ BY user___id) AS user___total FROM orders;",
+          "output": "user_id | amount | user_total",
+          "level": 372
+        },
+        {
+          "topic": "ROW_NUMBER - exercise 15",
+          "syntax": "SELECT name, ROW_NUMBER() OVER (ORDER BY id) AS rn FROM users;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY id) AS rn FROM users;",
+          "output": "name | rn\nAva | 1\nSam | 2",
+          "level": 373
+        },
+        {
+          "topic": "RANK - exercise 16",
+          "syntax": "SELECT name, RANK() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "output": "name | rank\nAva | 1\nSam | 2",
+          "level": 374
+        },
+        {
+          "topic": "DENSE_RANK - exercise 17",
+          "syntax": "SELECT name, DENSE_RANK() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "puzzle": "SELECT name, ___() OVER (ORDER BY score DESC) AS rank FROM results;",
+          "output": "name | rank\nAva | 1\nSam | 1\nMia | 2",
+          "level": 375
+        }
+      ]
+    },
+    {
+      "part": "Part 28 - Recursive Queries",
+      "items": [
+        {
+          "topic": "Recursive counter - exercise 1",
+          "syntax": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) SELECT n FROM nums;",
+          "puzzle": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) ___ n FROM nums;",
+          "output": "n\n1\n2\n3\n4\n5",
+          "level": 376
+        },
+        {
+          "topic": "Recursive hierarchy - exercise 2",
+          "syntax": "WITH RECURSIVE tree AS (SELECT id,name,manager_id FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id,e.name,e.manager_id FROM employees e JOIN tree t ON e.manager_id=t.id) SELECT * FROM tree;",
+          "puzzle": "WITH RECURSIVE tree AS (SELECT id,name,manager___id FROM employees WHERE manager___id IS NULL UNION ALL SELECT e.id,e.name,e.manager___id FROM employees e ___ tree t ON e.manager___id=t.id) SELECT * FROM tree;",
+          "output": "hierarchy rows",
+          "level": 377
+        },
+        {
+          "topic": "Recursive path - exercise 3",
+          "syntax": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent_id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c JOIN path p ON c.parent_id=p.id) SELECT * FROM path;",
+          "puzzle": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent___id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c ___ path p ON c.parent___id=p.id) SELECT * FROM path;",
+          "output": "category hierarchy",
+          "level": 378
+        },
+        {
+          "topic": "Recursive counter - exercise 4",
+          "syntax": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) SELECT n FROM nums;",
+          "puzzle": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) ___ n FROM nums;",
+          "output": "n\n1\n2\n3\n4\n5",
+          "level": 379
+        },
+        {
+          "topic": "Recursive hierarchy - exercise 5",
+          "syntax": "WITH RECURSIVE tree AS (SELECT id,name,manager_id FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id,e.name,e.manager_id FROM employees e JOIN tree t ON e.manager_id=t.id) SELECT * FROM tree;",
+          "puzzle": "WITH RECURSIVE tree AS (SELECT id,name,manager___id FROM employees WHERE manager___id IS NULL UNION ALL SELECT e.id,e.name,e.manager___id FROM employees e ___ tree t ON e.manager___id=t.id) SELECT * FROM tree;",
+          "output": "hierarchy rows",
+          "level": 380
+        },
+        {
+          "topic": "Recursive path - exercise 6",
+          "syntax": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent_id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c JOIN path p ON c.parent_id=p.id) SELECT * FROM path;",
+          "puzzle": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent___id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c ___ path p ON c.parent___id=p.id) SELECT * FROM path;",
+          "output": "category hierarchy",
+          "level": 381
+        },
+        {
+          "topic": "Recursive counter - exercise 7",
+          "syntax": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) SELECT n FROM nums;",
+          "puzzle": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) ___ n FROM nums;",
+          "output": "n\n1\n2\n3\n4\n5",
+          "level": 382
+        },
+        {
+          "topic": "Recursive hierarchy - exercise 8",
+          "syntax": "WITH RECURSIVE tree AS (SELECT id,name,manager_id FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id,e.name,e.manager_id FROM employees e JOIN tree t ON e.manager_id=t.id) SELECT * FROM tree;",
+          "puzzle": "WITH RECURSIVE tree AS (SELECT id,name,manager___id FROM employees WHERE manager___id IS NULL UNION ALL SELECT e.id,e.name,e.manager___id FROM employees e ___ tree t ON e.manager___id=t.id) SELECT * FROM tree;",
+          "output": "hierarchy rows",
+          "level": 383
+        },
+        {
+          "topic": "Recursive path - exercise 9",
+          "syntax": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent_id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c JOIN path p ON c.parent_id=p.id) SELECT * FROM path;",
+          "puzzle": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent___id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c ___ path p ON c.parent___id=p.id) SELECT * FROM path;",
+          "output": "category hierarchy",
+          "level": 384
+        },
+        {
+          "topic": "Recursive counter - exercise 10",
+          "syntax": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) SELECT n FROM nums;",
+          "puzzle": "WITH RECURSIVE nums(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM nums WHERE n<5) ___ n FROM nums;",
+          "output": "n\n1\n2\n3\n4\n5",
+          "level": 385
+        },
+        {
+          "topic": "Recursive hierarchy - exercise 11",
+          "syntax": "WITH RECURSIVE tree AS (SELECT id,name,manager_id FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id,e.name,e.manager_id FROM employees e JOIN tree t ON e.manager_id=t.id) SELECT * FROM tree;",
+          "puzzle": "WITH RECURSIVE tree AS (SELECT id,name,manager___id FROM employees WHERE manager___id IS NULL UNION ALL SELECT e.id,e.name,e.manager___id FROM employees e ___ tree t ON e.manager___id=t.id) SELECT * FROM tree;",
+          "output": "hierarchy rows",
+          "level": 386
+        },
+        {
+          "topic": "Recursive path - exercise 12",
+          "syntax": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent_id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c JOIN path p ON c.parent_id=p.id) SELECT * FROM path;",
+          "puzzle": "WITH RECURSIVE path AS (SELECT id,name,1 depth FROM categories WHERE parent___id IS NULL UNION ALL SELECT c.id,c.name,p.depth+1 FROM categories c ___ path p ON c.parent___id=p.id) SELECT * FROM path;",
+          "output": "category hierarchy",
+          "level": 387
+        }
+      ]
+    },
+    {
+      "part": "Part 29 - Set Operations",
+      "items": [
+        {
+          "topic": "UNION - exercise 1",
+          "syntax": "SELECT name FROM customers UNION SELECT name FROM suppliers;",
+          "puzzle": "SELECT name FROM customers ___ SELECT name FROM suppliers;",
+          "output": "combined names",
+          "level": 388
+        },
+        {
+          "topic": "UNION ALL - exercise 2",
+          "syntax": "SELECT name FROM customers UNION ALL SELECT name FROM suppliers;",
+          "puzzle": "SELECT name FROM customers ___ ALL SELECT name FROM suppliers;",
+          "output": "combined rows",
+          "level": 389
+        },
+        {
+          "topic": "INTERSECT - exercise 3",
+          "syntax": "SELECT id FROM customers INTERSECT SELECT id FROM orders;",
+          "puzzle": "SELECT id FROM customers ___ SELECT id FROM orders;",
+          "output": "id\n1",
+          "level": 390
+        },
+        {
+          "topic": "EXCEPT - exercise 4",
+          "syntax": "SELECT id FROM customers EXCEPT SELECT id FROM orders;",
+          "puzzle": "SELECT id FROM customers ___ SELECT id FROM orders;",
+          "output": "id\n3",
+          "level": 391
+        },
+        {
+          "topic": "UNION - exercise 5",
+          "syntax": "SELECT name FROM customers UNION SELECT name FROM suppliers;",
+          "puzzle": "SELECT name FROM customers ___ SELECT name FROM suppliers;",
+          "output": "combined names",
+          "level": 392
+        },
+        {
+          "topic": "UNION ALL - exercise 6",
+          "syntax": "SELECT name FROM customers UNION ALL SELECT name FROM suppliers;",
+          "puzzle": "SELECT name FROM customers ___ ALL SELECT name FROM suppliers;",
+          "output": "combined rows",
+          "level": 393
+        },
+        {
+          "topic": "INTERSECT - exercise 7",
+          "syntax": "SELECT id FROM customers INTERSECT SELECT id FROM orders;",
+          "puzzle": "SELECT id FROM customers ___ SELECT id FROM orders;",
+          "output": "id\n1",
+          "level": 394
+        },
+        {
+          "topic": "EXCEPT - exercise 8",
+          "syntax": "SELECT id FROM customers EXCEPT SELECT id FROM orders;",
+          "puzzle": "SELECT id FROM customers ___ SELECT id FROM orders;",
+          "output": "id\n3",
+          "level": 395
+        }
+      ]
+    },
+    {
+      "part": "Part 30 - Pivot & Unpivot",
+      "items": [
+        {
+          "topic": "Conditional pivot - exercise 1",
+          "syntax": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE 0 END) AS jan FROM sales;",
+          "puzzle": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE ___ END) AS jan FROM sales;",
+          "output": "jan\n1200",
+          "level": 396
+        },
+        {
+          "topic": "Pivot two columns - exercise 2",
+          "syntax": "SELECT product, SUM(CASE WHEN region='East' THEN amount ELSE 0 END) AS east, SUM(CASE WHEN region='West' THEN amount ELSE 0 END) AS west FROM sales GROUP BY product;",
+          "puzzle": "SELECT product, SUM(CASE WHEN region='East' THEN amount ELSE 0 END) AS east, SUM(CASE WHEN region='West' THEN amount ELSE 0 END) AS west FROM sales GROUP ___ product;",
+          "output": "product | east | west",
+          "level": 397
+        },
+        {
+          "topic": "Unpivot with UNION ALL - exercise 3",
+          "syntax": "SELECT id,'email' AS field,email AS value FROM users UNION ALL SELECT id,'phone',phone FROM users;",
+          "puzzle": "SELECT id,'email' AS field,email AS value FROM users UNION ___ SELECT id,'phone',phone FROM users;",
+          "output": "id | field | value",
+          "level": 398
+        },
+        {
+          "topic": "Conditional pivot - exercise 4",
+          "syntax": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE 0 END) AS jan FROM sales;",
+          "puzzle": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE ___ END) AS jan FROM sales;",
+          "output": "jan\n1200",
+          "level": 399
+        },
+        {
+          "topic": "Pivot two columns - exercise 5",
+          "syntax": "SELECT product, SUM(CASE WHEN region='East' THEN amount ELSE 0 END) AS east, SUM(CASE WHEN region='West' THEN amount ELSE 0 END) AS west FROM sales GROUP BY product;",
+          "puzzle": "SELECT product, SUM(CASE WHEN region='East' THEN amount ELSE 0 END) AS east, SUM(CASE WHEN region='West' THEN amount ELSE 0 END) AS west FROM sales GROUP ___ product;",
+          "output": "product | east | west",
+          "level": 400
+        },
+        {
+          "topic": "Unpivot with UNION ALL - exercise 6",
+          "syntax": "SELECT id,'email' AS field,email AS value FROM users UNION ALL SELECT id,'phone',phone FROM users;",
+          "puzzle": "SELECT id,'email' AS field,email AS value FROM users UNION ___ SELECT id,'phone',phone FROM users;",
+          "output": "id | field | value",
+          "level": 401
+        },
+        {
+          "topic": "Conditional pivot - exercise 7",
+          "syntax": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE 0 END) AS jan FROM sales;",
+          "puzzle": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE ___ END) AS jan FROM sales;",
+          "output": "jan\n1200",
+          "level": 402
+        },
+        {
+          "topic": "Pivot two columns - exercise 8",
+          "syntax": "SELECT product, SUM(CASE WHEN region='East' THEN amount ELSE 0 END) AS east, SUM(CASE WHEN region='West' THEN amount ELSE 0 END) AS west FROM sales GROUP BY product;",
+          "puzzle": "SELECT product, SUM(CASE WHEN region='East' THEN amount ELSE 0 END) AS east, SUM(CASE WHEN region='West' THEN amount ELSE 0 END) AS west FROM sales GROUP ___ product;",
+          "output": "product | east | west",
+          "level": 403
+        },
+        {
+          "topic": "Unpivot with UNION ALL - exercise 9",
+          "syntax": "SELECT id,'email' AS field,email AS value FROM users UNION ALL SELECT id,'phone',phone FROM users;",
+          "puzzle": "SELECT id,'email' AS field,email AS value FROM users UNION ___ SELECT id,'phone',phone FROM users;",
+          "output": "id | field | value",
+          "level": 404
+        },
+        {
+          "topic": "Conditional pivot - exercise 10",
+          "syntax": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE 0 END) AS jan FROM sales;",
+          "puzzle": "SELECT SUM(CASE WHEN month=1 THEN amount ELSE ___ END) AS jan FROM sales;",
+          "output": "jan\n1200",
+          "level": 405
+        }
+      ]
+    },
+    {
+      "part": "Part 31 - MERGE & Upsert",
+      "items": [
+        {
+          "topic": "ON CONFLICT insert - exercise 1",
+          "syntax": "INSERT INTO users(id,name) VALUES (1,'Ava') ON CONFLICT (id) DO NOTHING;",
+          "puzzle": "INSERT INTO users(id,name) VALUES (1,'Ava') ON ___ (id) DO NOTHING;",
+          "output": "",
+          "level": 406
+        },
+        {
+          "topic": "ON CONFLICT update - exercise 2",
+          "syntax": "INSERT INTO users(id,name) VALUES (1,'Sam') ON CONFLICT (id) DO UPDATE SET name=EXCLUDED.name;",
+          "puzzle": "INSERT INTO users(id,name) VALUES (1,'Sam') ON CONFLICT (id) DO ___ SET name=EXCLUDED.name;",
+          "output": "",
+          "level": 407
+        },
+        {
+          "topic": "Upsert with WHERE - exercise 3",
+          "syntax": "INSERT INTO inventory(id,stock) VALUES (1,10) ON CONFLICT(id) DO UPDATE SET stock=inventory.stock+EXCLUDED.stock WHERE inventory.stock < 100;",
+          "puzzle": "INSERT INTO inventory(id,stock) VALUES (1,10) ON CONFLICT(id) DO UPDATE SET stock=inventory.stock+EXCLUDED.stock ___ inventory.stock < 100;",
+          "output": "",
+          "level": 408
+        },
+        {
+          "topic": "MERGE match - exercise 4",
+          "syntax": "MERGE INTO users u USING new_users n ON u.id=n.id WHEN MATCHED THEN UPDATE SET name=n.name;",
+          "puzzle": "MERGE INTO users u USING new___users n ON u.id=n.id WHEN ___ THEN UPDATE SET name=n.name;",
+          "output": "",
+          "level": 409
+        },
+        {
+          "topic": "MERGE not matched - exercise 5",
+          "syntax": "MERGE INTO users u USING new_users n ON u.id=n.id WHEN NOT MATCHED THEN INSERT (id,name) VALUES (n.id,n.name);",
+          "puzzle": "MERGE INTO users u USING new___users n ON u.id=n.id WHEN NOT ___ THEN INSERT (id,name) VALUES (n.id,n.name);",
+          "output": "",
+          "level": 410
+        },
+        {
+          "topic": "ON CONFLICT insert - exercise 6",
+          "syntax": "INSERT INTO users(id,name) VALUES (1,'Ava') ON CONFLICT (id) DO NOTHING;",
+          "puzzle": "INSERT INTO users(id,name) VALUES (1,'Ava') ON ___ (id) DO NOTHING;",
+          "output": "",
+          "level": 411
+        },
+        {
+          "topic": "ON CONFLICT update - exercise 7",
+          "syntax": "INSERT INTO users(id,name) VALUES (1,'Sam') ON CONFLICT (id) DO UPDATE SET name=EXCLUDED.name;",
+          "puzzle": "INSERT INTO users(id,name) VALUES (1,'Sam') ON CONFLICT (id) DO ___ SET name=EXCLUDED.name;",
+          "output": "",
+          "level": 412
+        },
+        {
+          "topic": "Upsert with WHERE - exercise 8",
+          "syntax": "INSERT INTO inventory(id,stock) VALUES (1,10) ON CONFLICT(id) DO UPDATE SET stock=inventory.stock+EXCLUDED.stock WHERE inventory.stock < 100;",
+          "puzzle": "INSERT INTO inventory(id,stock) VALUES (1,10) ON CONFLICT(id) DO UPDATE SET stock=inventory.stock+EXCLUDED.stock ___ inventory.stock < 100;",
+          "output": "",
+          "level": 413
+        },
+        {
+          "topic": "MERGE match - exercise 9",
+          "syntax": "MERGE INTO users u USING new_users n ON u.id=n.id WHEN MATCHED THEN UPDATE SET name=n.name;",
+          "puzzle": "MERGE INTO users u USING new___users n ON u.id=n.id WHEN ___ THEN UPDATE SET name=n.name;",
+          "output": "",
+          "level": 414
+        },
+        {
+          "topic": "MERGE not matched - exercise 10",
+          "syntax": "MERGE INTO users u USING new_users n ON u.id=n.id WHEN NOT MATCHED THEN INSERT (id,name) VALUES (n.id,n.name);",
+          "puzzle": "MERGE INTO users u USING new___users n ON u.id=n.id WHEN NOT ___ THEN INSERT (id,name) VALUES (n.id,n.name);",
+          "output": "",
+          "level": 415
+        },
+        {
+          "topic": "ON CONFLICT insert - exercise 11",
+          "syntax": "INSERT INTO users(id,name) VALUES (1,'Ava') ON CONFLICT (id) DO NOTHING;",
+          "puzzle": "INSERT INTO users(id,name) VALUES (1,'Ava') ON ___ (id) DO NOTHING;",
+          "output": "",
+          "level": 416
+        },
+        {
+          "topic": "ON CONFLICT update - exercise 12",
+          "syntax": "INSERT INTO users(id,name) VALUES (1,'Sam') ON CONFLICT (id) DO UPDATE SET name=EXCLUDED.name;",
+          "puzzle": "INSERT INTO users(id,name) VALUES (1,'Sam') ON CONFLICT (id) DO ___ SET name=EXCLUDED.name;",
+          "output": "",
+          "level": 417
+        }
+      ]
+    },
+    {
+      "part": "Part 32 - Full-Text Search",
+      "items": [
+        {
+          "topic": "Text search vector - exercise 1",
+          "syntax": "SELECT to_tsvector('english', 'SQL is useful') AS doc;",
+          "puzzle": "SELECT ___('english', 'SQL is useful') AS doc;",
+          "output": "doc\n'sql':1 'use':3",
+          "level": 418
+        },
+        {
+          "topic": "Text search query - exercise 2",
+          "syntax": "SELECT to_tsquery('english', 'sql & database') AS q;",
+          "puzzle": "SELECT ___('english', 'sql & database') AS q;",
+          "output": "q\n'sql' & 'databas'",
+          "level": 419
+        },
+        {
+          "topic": "Full-text match - exercise 3",
+          "syntax": "SELECT title FROM posts WHERE to_tsvector('english', title) @@ plainto_tsquery('english','sql');",
+          "puzzle": "SELECT title FROM posts WHERE to___tsvector('english', title) ___ plainto___tsquery('english','sql');",
+          "output": "title\nSQL Basics",
+          "level": 420
+        },
+        {
+          "topic": "Phrase query - exercise 4",
+          "syntax": "SELECT title FROM posts WHERE to_tsvector('english', title) @@ phraseto_tsquery('english','sql database');",
+          "puzzle": "SELECT title FROM posts WHERE to___tsvector('english', title) @@ ___('english','sql database');",
+          "output": "title\nSQL Database",
+          "level": 421
+        },
+        {
+          "topic": "Text search vector - exercise 5",
+          "syntax": "SELECT to_tsvector('english', 'SQL is useful') AS doc;",
+          "puzzle": "SELECT ___('english', 'SQL is useful') AS doc;",
+          "output": "doc\n'sql':1 'use':3",
+          "level": 422
+        },
+        {
+          "topic": "Text search query - exercise 6",
+          "syntax": "SELECT to_tsquery('english', 'sql & database') AS q;",
+          "puzzle": "SELECT ___('english', 'sql & database') AS q;",
+          "output": "q\n'sql' & 'databas'",
+          "level": 423
+        },
+        {
+          "topic": "Full-text match - exercise 7",
+          "syntax": "SELECT title FROM posts WHERE to_tsvector('english', title) @@ plainto_tsquery('english','sql');",
+          "puzzle": "SELECT title FROM posts WHERE to___tsvector('english', title) ___ plainto___tsquery('english','sql');",
+          "output": "title\nSQL Basics",
+          "level": 424
+        },
+        {
+          "topic": "Phrase query - exercise 8",
+          "syntax": "SELECT title FROM posts WHERE to_tsvector('english', title) @@ phraseto_tsquery('english','sql database');",
+          "puzzle": "SELECT title FROM posts WHERE to___tsvector('english', title) @@ ___('english','sql database');",
+          "output": "title\nSQL Database",
+          "level": 425
+        },
+        {
+          "topic": "Text search vector - exercise 9",
+          "syntax": "SELECT to_tsvector('english', 'SQL is useful') AS doc;",
+          "puzzle": "SELECT ___('english', 'SQL is useful') AS doc;",
+          "output": "doc\n'sql':1 'use':3",
+          "level": 426
+        },
+        {
+          "topic": "Text search query - exercise 10",
+          "syntax": "SELECT to_tsquery('english', 'sql & database') AS q;",
+          "puzzle": "SELECT ___('english', 'sql & database') AS q;",
+          "output": "q\n'sql' & 'databas'",
+          "level": 427
+        },
+        {
+          "topic": "Full-text match - exercise 11",
+          "syntax": "SELECT title FROM posts WHERE to_tsvector('english', title) @@ plainto_tsquery('english','sql');",
+          "puzzle": "SELECT title FROM posts WHERE to___tsvector('english', title) ___ plainto___tsquery('english','sql');",
+          "output": "title\nSQL Basics",
+          "level": 428
+        }
+      ]
+    },
+    {
+      "part": "Part 33 - Data Cleaning",
+      "items": [
+        {
+          "topic": "Trim spaces - exercise 1",
+          "syntax": "SELECT TRIM('  Ava  ') AS name;",
+          "puzzle": "SELECT ___('  Ava  ') AS name;",
+          "output": "name\nAva",
+          "level": 429
+        },
+        {
+          "topic": "Remove nulls - exercise 2",
+          "syntax": "SELECT * FROM users WHERE email IS NOT NULL;",
+          "puzzle": "SELECT * FROM users WHERE email IS ___ NULL;",
+          "output": "clean rows",
+          "level": 430
+        },
+        {
+          "topic": "Normalize case - exercise 3",
+          "syntax": "SELECT LOWER(TRIM(name)) AS clean_name FROM users;",
+          "puzzle": "SELECT LOWER(___(name)) AS clean___name FROM users;",
+          "output": "clean_name\nava",
+          "level": 431
+        },
+        {
+          "topic": "Replace bad value - exercise 4",
+          "syntax": "UPDATE users SET city='Unknown' WHERE city IS NULL;",
+          "puzzle": "___ users SET city='Unknown' WHERE city IS NULL;",
+          "output": "",
+          "level": 432
+        },
+        {
+          "topic": "Deduplicate rows - exercise 5",
+          "syntax": "SELECT DISTINCT email FROM users;",
+          "puzzle": "SELECT ___ email FROM users;",
+          "output": "unique emails",
+          "level": 433
+        },
+        {
+          "topic": "Trim spaces - exercise 6",
+          "syntax": "SELECT TRIM('  Ava  ') AS name;",
+          "puzzle": "SELECT ___('  Ava  ') AS name;",
+          "output": "name\nAva",
+          "level": 434
+        },
+        {
+          "topic": "Remove nulls - exercise 7",
+          "syntax": "SELECT * FROM users WHERE email IS NOT NULL;",
+          "puzzle": "SELECT * FROM users WHERE email IS ___ NULL;",
+          "output": "clean rows",
+          "level": 435
+        },
+        {
+          "topic": "Normalize case - exercise 8",
+          "syntax": "SELECT LOWER(TRIM(name)) AS clean_name FROM users;",
+          "puzzle": "SELECT LOWER(___(name)) AS clean___name FROM users;",
+          "output": "clean_name\nava",
+          "level": 436
+        },
+        {
+          "topic": "Replace bad value - exercise 9",
+          "syntax": "UPDATE users SET city='Unknown' WHERE city IS NULL;",
+          "puzzle": "___ users SET city='Unknown' WHERE city IS NULL;",
+          "output": "",
+          "level": 437
+        },
+        {
+          "topic": "Deduplicate rows - exercise 10",
+          "syntax": "SELECT DISTINCT email FROM users;",
+          "puzzle": "SELECT ___ email FROM users;",
+          "output": "unique emails",
+          "level": 438
+        }
+      ]
+    },
+    {
+      "part": "Part 34 - Analytics Queries",
+      "items": [
+        {
+          "topic": "Monthly sales - exercise 1",
+          "syntax": "SELECT DATE_TRUNC('month', order_date) AS month, SUM(amount) FROM orders GROUP BY 1 ORDER BY 1;",
+          "puzzle": "SELECT DATE___TRUNC('month', order___date) AS month, SUM(amount) FROM orders GROUP BY ___ ORDER BY 1;",
+          "output": "month | sum\n2026-01-01 | 5000",
+          "level": 439
+        },
+        {
+          "topic": "Top customers - exercise 2",
+          "syntax": "SELECT user_id, SUM(amount) total FROM orders GROUP BY user_id ORDER BY total DESC LIMIT 3;",
+          "puzzle": "SELECT user___id, SUM(amount) total FROM orders GROUP BY user___id ORDER BY total DESC ___ 3;",
+          "output": "top 3 users",
+          "level": 440
+        },
+        {
+          "topic": "Conversion rate - exercise 3",
+          "syntax": "SELECT 100.0 * SUM(CASE WHEN status='paid' THEN 1 ELSE 0 END) / COUNT(*) AS rate FROM orders;",
+          "puzzle": "SELECT 100.0 * SUM(CASE WHEN status='paid' THEN 1 ELSE 0 END) / ___(*) AS rate FROM orders;",
+          "output": "rate\n75.0",
+          "level": 441
+        },
+        {
+          "topic": "Average order value - exercise 4",
+          "syntax": "SELECT AVG(amount) AS aov FROM orders;",
+          "puzzle": "SELECT ___(amount) AS aov FROM orders;",
+          "output": "aov\n320",
+          "level": 442
+        },
+        {
+          "topic": "Repeat customers - exercise 5",
+          "syntax": "SELECT user_id FROM orders GROUP BY user_id HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT user___id FROM orders GROUP BY user___id HAVING COUNT(*) ___ 1;",
+          "output": "user_id\n1\n3",
+          "level": 443
+        },
+        {
+          "topic": "Monthly sales - exercise 6",
+          "syntax": "SELECT DATE_TRUNC('month', order_date) AS month, SUM(amount) FROM orders GROUP BY 1 ORDER BY 1;",
+          "puzzle": "SELECT DATE___TRUNC('month', order___date) AS month, SUM(amount) FROM orders GROUP BY ___ ORDER BY 1;",
+          "output": "month | sum\n2026-01-01 | 5000",
+          "level": 444
+        },
+        {
+          "topic": "Top customers - exercise 7",
+          "syntax": "SELECT user_id, SUM(amount) total FROM orders GROUP BY user_id ORDER BY total DESC LIMIT 3;",
+          "puzzle": "SELECT user___id, SUM(amount) total FROM orders GROUP BY user___id ORDER BY total DESC ___ 3;",
+          "output": "top 3 users",
+          "level": 445
+        },
+        {
+          "topic": "Conversion rate - exercise 8",
+          "syntax": "SELECT 100.0 * SUM(CASE WHEN status='paid' THEN 1 ELSE 0 END) / COUNT(*) AS rate FROM orders;",
+          "puzzle": "SELECT 100.0 * SUM(CASE WHEN status='paid' THEN 1 ELSE 0 END) / ___(*) AS rate FROM orders;",
+          "output": "rate\n75.0",
+          "level": 446
+        },
+        {
+          "topic": "Average order value - exercise 9",
+          "syntax": "SELECT AVG(amount) AS aov FROM orders;",
+          "puzzle": "SELECT ___(amount) AS aov FROM orders;",
+          "output": "aov\n320",
+          "level": 447
+        },
+        {
+          "topic": "Repeat customers - exercise 10",
+          "syntax": "SELECT user_id FROM orders GROUP BY user_id HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT user___id FROM orders GROUP BY user___id HAVING COUNT(*) ___ 1;",
+          "output": "user_id\n1\n3",
+          "level": 448
+        },
+        {
+          "topic": "Monthly sales - exercise 11",
+          "syntax": "SELECT DATE_TRUNC('month', order_date) AS month, SUM(amount) FROM orders GROUP BY 1 ORDER BY 1;",
+          "puzzle": "SELECT DATE___TRUNC('month', order___date) AS month, SUM(amount) FROM orders GROUP BY ___ ORDER BY 1;",
+          "output": "month | sum\n2026-01-01 | 5000",
+          "level": 449
+        },
+        {
+          "topic": "Top customers - exercise 12",
+          "syntax": "SELECT user_id, SUM(amount) total FROM orders GROUP BY user_id ORDER BY total DESC LIMIT 3;",
+          "puzzle": "SELECT user___id, SUM(amount) total FROM orders GROUP BY user___id ORDER BY total DESC ___ 3;",
+          "output": "top 3 users",
+          "level": 450
+        },
+        {
+          "topic": "Conversion rate - exercise 13",
+          "syntax": "SELECT 100.0 * SUM(CASE WHEN status='paid' THEN 1 ELSE 0 END) / COUNT(*) AS rate FROM orders;",
+          "puzzle": "SELECT 100.0 * SUM(CASE WHEN status='paid' THEN 1 ELSE 0 END) / ___(*) AS rate FROM orders;",
+          "output": "rate\n75.0",
+          "level": 451
+        },
+        {
+          "topic": "Average order value - exercise 14",
+          "syntax": "SELECT AVG(amount) AS aov FROM orders;",
+          "puzzle": "SELECT ___(amount) AS aov FROM orders;",
+          "output": "aov\n320",
+          "level": 452
+        },
+        {
+          "topic": "Repeat customers - exercise 15",
+          "syntax": "SELECT user_id FROM orders GROUP BY user_id HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT user___id FROM orders GROUP BY user___id HAVING COUNT(*) ___ 1;",
+          "output": "user_id\n1\n3",
+          "level": 453
+        }
+      ]
+    },
+    {
+      "part": "Part 35 - Advanced SQL",
+      "items": [
+        {
+          "topic": "Window plus aggregate - exercise 1",
+          "syntax": "SELECT user_id, amount, amount / SUM(amount) OVER (PARTITION BY user_id) AS share FROM orders;",
+          "puzzle": "SELECT user___id, amount, amount / SUM(amount) OVER (PARTITION ___ user___id) AS share FROM orders;",
+          "output": "user_id | amount | share",
+          "level": 454
+        },
+        {
+          "topic": "CTE plus window - exercise 2",
+          "syntax": "WITH x AS (SELECT user_id, amount FROM orders) SELECT user_id, amount, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY amount DESC) rn FROM x;",
+          "puzzle": "WITH x AS (SELECT user___id, amount FROM orders) SELECT user___id, amount, ROW___NUMBER() OVER (PARTITION BY user___id ORDER BY amount DESC) ___ FROM x;",
+          "output": "ranked rows",
+          "level": 455
+        },
+        {
+          "topic": "Top per group - exercise 3",
+          "syntax": "SELECT * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "puzzle": "___ * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "output": "top order per user",
+          "level": 456
+        },
+        {
+          "topic": "Median - exercise 4",
+          "syntax": "SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "puzzle": "SELECT ___(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "output": "median\n300",
+          "level": 457
+        },
+        {
+          "topic": "FILTER aggregate - exercise 5",
+          "syntax": "SELECT COUNT(*) FILTER (WHERE status='paid') AS paid FROM orders;",
+          "puzzle": "SELECT COUNT(*) ___ (WHERE status='paid') AS paid FROM orders;",
+          "output": "paid\n4",
+          "level": 458
+        },
+        {
+          "topic": "Window plus aggregate - exercise 6",
+          "syntax": "SELECT user_id, amount, amount / SUM(amount) OVER (PARTITION BY user_id) AS share FROM orders;",
+          "puzzle": "SELECT user___id, amount, amount / SUM(amount) OVER (PARTITION ___ user___id) AS share FROM orders;",
+          "output": "user_id | amount | share",
+          "level": 459
+        },
+        {
+          "topic": "CTE plus window - exercise 7",
+          "syntax": "WITH x AS (SELECT user_id, amount FROM orders) SELECT user_id, amount, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY amount DESC) rn FROM x;",
+          "puzzle": "WITH x AS (SELECT user___id, amount FROM orders) SELECT user___id, amount, ROW___NUMBER() OVER (PARTITION BY user___id ORDER BY amount DESC) ___ FROM x;",
+          "output": "ranked rows",
+          "level": 460
+        },
+        {
+          "topic": "Top per group - exercise 8",
+          "syntax": "SELECT * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "puzzle": "___ * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "output": "top order per user",
+          "level": 461
+        },
+        {
+          "topic": "Median - exercise 9",
+          "syntax": "SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "puzzle": "SELECT ___(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "output": "median\n300",
+          "level": 462
+        },
+        {
+          "topic": "FILTER aggregate - exercise 10",
+          "syntax": "SELECT COUNT(*) FILTER (WHERE status='paid') AS paid FROM orders;",
+          "puzzle": "SELECT COUNT(*) ___ (WHERE status='paid') AS paid FROM orders;",
+          "output": "paid\n4",
+          "level": 463
+        },
+        {
+          "topic": "Window plus aggregate - exercise 11",
+          "syntax": "SELECT user_id, amount, amount / SUM(amount) OVER (PARTITION BY user_id) AS share FROM orders;",
+          "puzzle": "SELECT user___id, amount, amount / SUM(amount) OVER (PARTITION ___ user___id) AS share FROM orders;",
+          "output": "user_id | amount | share",
+          "level": 464
+        },
+        {
+          "topic": "CTE plus window - exercise 12",
+          "syntax": "WITH x AS (SELECT user_id, amount FROM orders) SELECT user_id, amount, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY amount DESC) rn FROM x;",
+          "puzzle": "WITH x AS (SELECT user___id, amount FROM orders) SELECT user___id, amount, ROW___NUMBER() OVER (PARTITION BY user___id ORDER BY amount DESC) ___ FROM x;",
+          "output": "ranked rows",
+          "level": 465
+        },
+        {
+          "topic": "Top per group - exercise 13",
+          "syntax": "SELECT * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "puzzle": "___ * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "output": "top order per user",
+          "level": 466
+        },
+        {
+          "topic": "Median - exercise 14",
+          "syntax": "SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "puzzle": "SELECT ___(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "output": "median\n300",
+          "level": 467
+        },
+        {
+          "topic": "FILTER aggregate - exercise 15",
+          "syntax": "SELECT COUNT(*) FILTER (WHERE status='paid') AS paid FROM orders;",
+          "puzzle": "SELECT COUNT(*) ___ (WHERE status='paid') AS paid FROM orders;",
+          "output": "paid\n4",
+          "level": 468
+        },
+        {
+          "topic": "Window plus aggregate - exercise 16",
+          "syntax": "SELECT user_id, amount, amount / SUM(amount) OVER (PARTITION BY user_id) AS share FROM orders;",
+          "puzzle": "SELECT user___id, amount, amount / SUM(amount) OVER (PARTITION ___ user___id) AS share FROM orders;",
+          "output": "user_id | amount | share",
+          "level": 469
+        },
+        {
+          "topic": "CTE plus window - exercise 17",
+          "syntax": "WITH x AS (SELECT user_id, amount FROM orders) SELECT user_id, amount, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY amount DESC) rn FROM x;",
+          "puzzle": "WITH x AS (SELECT user___id, amount FROM orders) SELECT user___id, amount, ROW___NUMBER() OVER (PARTITION BY user___id ORDER BY amount DESC) ___ FROM x;",
+          "output": "ranked rows",
+          "level": 470
+        },
+        {
+          "topic": "Top per group - exercise 18",
+          "syntax": "SELECT * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "puzzle": "___ * FROM (SELECT user_id, amount, ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY amount DESC) rn FROM orders) x WHERE rn=1;",
+          "output": "top order per user",
+          "level": 471
+        },
+        {
+          "topic": "Median - exercise 19",
+          "syntax": "SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "puzzle": "SELECT ___(0.5) WITHIN GROUP (ORDER BY amount) AS median FROM orders;",
+          "output": "median\n300",
+          "level": 472
+        }
+      ]
+    },
+    {
+      "part": "Part 36 - SQL Performance",
+      "items": [
+        {
+          "topic": "EXPLAIN index candidate - exercise 1",
+          "syntax": "EXPLAIN SELECT * FROM users WHERE email='ava@example.com';",
+          "puzzle": "___ SELECT * FROM users WHERE email='ava@example.com';",
+          "output": "query plan",
+          "level": 473
+        },
+        {
+          "topic": "Avoid SELECT star - exercise 2",
+          "syntax": "SELECT id,name,email FROM users WHERE id=1;",
+          "puzzle": "SELECT id,name,email FROM users WHERE id___1;",
+          "output": "id | name | email\n1 | Ava | ava@example.com",
+          "level": 474
+        },
+        {
+          "topic": "Limit rows - exercise 3",
+          "syntax": "SELECT * FROM orders ORDER BY order_date DESC LIMIT 10;",
+          "puzzle": "SELECT * FROM orders ORDER BY order___date DESC ___ 10;",
+          "output": "10 rows",
+          "level": 475
+        },
+        {
+          "topic": "Keyset pagination - exercise 4",
+          "syntax": "SELECT * FROM users WHERE id > 100 ORDER BY id LIMIT 20;",
+          "puzzle": "SELECT * FROM users WHERE id > 100 ORDER BY id ___ 20;",
+          "output": "next 20 rows",
+          "level": 476
+        },
+        {
+          "topic": "Analyze after load - exercise 5",
+          "syntax": "ANALYZE orders;",
+          "puzzle": "___ orders;",
+          "output": "",
+          "level": 477
+        },
+        {
+          "topic": "EXPLAIN index candidate - exercise 6",
+          "syntax": "EXPLAIN SELECT * FROM users WHERE email='ava@example.com';",
+          "puzzle": "___ SELECT * FROM users WHERE email='ava@example.com';",
+          "output": "query plan",
+          "level": 478
+        },
+        {
+          "topic": "Avoid SELECT star - exercise 7",
+          "syntax": "SELECT id,name,email FROM users WHERE id=1;",
+          "puzzle": "SELECT id,name,email FROM users WHERE id___1;",
+          "output": "id | name | email\n1 | Ava | ava@example.com",
+          "level": 479
+        },
+        {
+          "topic": "Limit rows - exercise 8",
+          "syntax": "SELECT * FROM orders ORDER BY order_date DESC LIMIT 10;",
+          "puzzle": "SELECT * FROM orders ORDER BY order___date DESC ___ 10;",
+          "output": "10 rows",
+          "level": 480
+        },
+        {
+          "topic": "Keyset pagination - exercise 9",
+          "syntax": "SELECT * FROM users WHERE id > 100 ORDER BY id LIMIT 20;",
+          "puzzle": "SELECT * FROM users WHERE id > 100 ORDER BY id ___ 20;",
+          "output": "next 20 rows",
+          "level": 481
+        },
+        {
+          "topic": "Analyze after load - exercise 10",
+          "syntax": "ANALYZE orders;",
+          "puzzle": "___ orders;",
+          "output": "",
+          "level": 482
+        },
+        {
+          "topic": "EXPLAIN index candidate - exercise 11",
+          "syntax": "EXPLAIN SELECT * FROM users WHERE email='ava@example.com';",
+          "puzzle": "___ SELECT * FROM users WHERE email='ava@example.com';",
+          "output": "query plan",
+          "level": 483
+        },
+        {
+          "topic": "Avoid SELECT star - exercise 12",
+          "syntax": "SELECT id,name,email FROM users WHERE id=1;",
+          "puzzle": "SELECT id,name,email FROM users WHERE id___1;",
+          "output": "id | name | email\n1 | Ava | ava@example.com",
+          "level": 484
+        },
+        {
+          "topic": "Limit rows - exercise 13",
+          "syntax": "SELECT * FROM orders ORDER BY order_date DESC LIMIT 10;",
+          "puzzle": "SELECT * FROM orders ORDER BY order___date DESC ___ 10;",
+          "output": "10 rows",
+          "level": 485
+        }
+      ]
+    },
+    {
+      "part": "Part 37 - Professional SQL Patterns",
+      "items": [
+        {
+          "topic": "Explicit columns - exercise 1",
+          "syntax": "SELECT id, name FROM users;",
+          "puzzle": "SELECT id, ___ FROM users;",
+          "output": "id | name\n1 | Ava",
+          "level": 486
+        },
+        {
+          "topic": "Stable ordering - exercise 2",
+          "syntax": "SELECT id,name FROM users ORDER BY id ASC;",
+          "puzzle": "SELECT id,name FROM users ORDER BY id ___;",
+          "output": "ordered rows",
+          "level": 487
+        },
+        {
+          "topic": "Parameterized placeholder - exercise 3",
+          "syntax": "SELECT * FROM users WHERE id = $1;",
+          "puzzle": "SELECT * FROM users WHERE id = ___;",
+          "output": "matching row",
+          "level": 488
+        },
+        {
+          "topic": "Safe pagination - exercise 4",
+          "syntax": "SELECT * FROM users ORDER BY id LIMIT $1 OFFSET $2;",
+          "puzzle": "SELECT * FROM users ORDER BY id LIMIT ___ OFFSET $2;",
+          "output": "page rows",
+          "level": 489
+        },
+        {
+          "topic": "Audit timestamp - exercise 5",
+          "syntax": "INSERT INTO logs(message, created_at) VALUES ('login', CURRENT_TIMESTAMP);",
+          "puzzle": "INSERT INTO logs(message, created___at) VALUES ('login', ___);",
+          "output": "",
+          "level": 490
+        },
+        {
+          "topic": "Explicit columns - exercise 6",
+          "syntax": "SELECT id, name FROM users;",
+          "puzzle": "SELECT id, ___ FROM users;",
+          "output": "id | name\n1 | Ava",
+          "level": 491
+        },
+        {
+          "topic": "Stable ordering - exercise 7",
+          "syntax": "SELECT id,name FROM users ORDER BY id ASC;",
+          "puzzle": "SELECT id,name FROM users ORDER BY id ___;",
+          "output": "ordered rows",
+          "level": 492
+        },
+        {
+          "topic": "Parameterized placeholder - exercise 8",
+          "syntax": "SELECT * FROM users WHERE id = $1;",
+          "puzzle": "SELECT * FROM users WHERE id = ___;",
+          "output": "matching row",
+          "level": 493
+        },
+        {
+          "topic": "Safe pagination - exercise 9",
+          "syntax": "SELECT * FROM users ORDER BY id LIMIT $1 OFFSET $2;",
+          "puzzle": "SELECT * FROM users ORDER BY id LIMIT ___ OFFSET $2;",
+          "output": "page rows",
+          "level": 494
+        },
+        {
+          "topic": "Audit timestamp - exercise 10",
+          "syntax": "INSERT INTO logs(message, created_at) VALUES ('login', CURRENT_TIMESTAMP);",
+          "puzzle": "INSERT INTO logs(message, created___at) VALUES ('login', ___);",
+          "output": "",
+          "level": 495
+        },
+        {
+          "topic": "Explicit columns - exercise 11",
+          "syntax": "SELECT id, name FROM users;",
+          "puzzle": "SELECT id, ___ FROM users;",
+          "output": "id | name\n1 | Ava",
+          "level": 496
+        },
+        {
+          "topic": "Stable ordering - exercise 12",
+          "syntax": "SELECT id,name FROM users ORDER BY id ASC;",
+          "puzzle": "SELECT id,name FROM users ORDER BY id ___;",
+          "output": "ordered rows",
+          "level": 497
+        }
+      ]
+    },
+    {
+      "part": "Part 38 - Migrations & Versioning",
+      "items": [
+        {
+          "topic": "Add migration column - exercise 1",
+          "syntax": "ALTER TABLE users ADD COLUMN created_at TIMESTAMP;",
+          "puzzle": "ALTER TABLE users ___ COLUMN created___at TIMESTAMP;",
+          "output": "",
+          "level": 498
+        },
+        {
+          "topic": "Backfill migration - exercise 2",
+          "syntax": "UPDATE users SET created_at = CURRENT_TIMESTAMP WHERE created_at IS NULL;",
+          "puzzle": "___ users SET created_at = CURRENT_TIMESTAMP WHERE created_at IS NULL;",
+          "output": "",
+          "level": 499
+        },
+        {
+          "topic": "Add unique constraint - exercise 3",
+          "syntax": "ALTER TABLE users ADD CONSTRAINT uq_users_email UNIQUE(email);",
+          "puzzle": "ALTER TABLE users ADD CONSTRAINT uq___users___email ___(email);",
+          "output": "",
+          "level": 500
+        },
+        {
+          "topic": "Drop constraint - exercise 4",
+          "syntax": "ALTER TABLE users DROP CONSTRAINT uq_users_email;",
+          "puzzle": "ALTER TABLE users DROP ___ uq___users___email;",
+          "output": "",
+          "level": 501
+        },
+        {
+          "topic": "Rename table - exercise 5",
+          "syntax": "ALTER TABLE customers RENAME TO users;",
+          "puzzle": "ALTER TABLE customers RENAME TO ___;",
+          "output": "",
+          "level": 502
+        },
+        {
+          "topic": "Add migration column - exercise 6",
+          "syntax": "ALTER TABLE users ADD COLUMN created_at TIMESTAMP;",
+          "puzzle": "ALTER TABLE users ___ COLUMN created___at TIMESTAMP;",
+          "output": "",
+          "level": 503
+        },
+        {
+          "topic": "Backfill migration - exercise 7",
+          "syntax": "UPDATE users SET created_at = CURRENT_TIMESTAMP WHERE created_at IS NULL;",
+          "puzzle": "___ users SET created_at = CURRENT_TIMESTAMP WHERE created_at IS NULL;",
+          "output": "",
+          "level": 504
+        },
+        {
+          "topic": "Add unique constraint - exercise 8",
+          "syntax": "ALTER TABLE users ADD CONSTRAINT uq_users_email UNIQUE(email);",
+          "puzzle": "ALTER TABLE users ADD CONSTRAINT uq___users___email ___(email);",
+          "output": "",
+          "level": 505
+        },
+        {
+          "topic": "Drop constraint - exercise 9",
+          "syntax": "ALTER TABLE users DROP CONSTRAINT uq_users_email;",
+          "puzzle": "ALTER TABLE users DROP ___ uq___users___email;",
+          "output": "",
+          "level": 506
+        },
+        {
+          "topic": "Rename table - exercise 10",
+          "syntax": "ALTER TABLE customers RENAME TO users;",
+          "puzzle": "ALTER TABLE customers RENAME TO ___;",
+          "output": "",
+          "level": 507
+        },
+        {
+          "topic": "Add migration column - exercise 11",
+          "syntax": "ALTER TABLE users ADD COLUMN created_at TIMESTAMP;",
+          "puzzle": "ALTER TABLE users ___ COLUMN created___at TIMESTAMP;",
+          "output": "",
+          "level": 508
+        }
+      ]
+    },
+    {
+      "part": "Part 39 - Deployment & Administration",
+      "items": [
+        {
+          "topic": "Create database - exercise 1",
+          "syntax": "CREATE DATABASE appdb;",
+          "puzzle": "CREATE ___ appdb;",
+          "output": "",
+          "level": 509
+        },
+        {
+          "topic": "Drop database - exercise 2",
+          "syntax": "DROP DATABASE IF EXISTS olddb;",
+          "puzzle": "DROP ___ IF EXISTS olddb;",
+          "output": "",
+          "level": 510
+        },
+        {
+          "topic": "Create extension - exercise 3",
+          "syntax": "CREATE EXTENSION IF NOT EXISTS pgcrypto;",
+          "puzzle": "CREATE ___ IF NOT EXISTS pgcrypto;",
+          "output": "",
+          "level": 511
+        },
+        {
+          "topic": "Vacuum table - exercise 4",
+          "syntax": "VACUUM ANALYZE users;",
+          "puzzle": "VACUUM ___ users;",
+          "output": "",
+          "level": 512
+        },
+        {
+          "topic": "Refresh materialized view - exercise 5",
+          "syntax": "REFRESH MATERIALIZED VIEW sales_summary;",
+          "puzzle": "REFRESH MATERIALIZED ___ sales___summary;",
+          "output": "",
+          "level": 513
+        },
+        {
+          "topic": "Create database - exercise 6",
+          "syntax": "CREATE DATABASE appdb;",
+          "puzzle": "CREATE ___ appdb;",
+          "output": "",
+          "level": 514
+        },
+        {
+          "topic": "Drop database - exercise 7",
+          "syntax": "DROP DATABASE IF EXISTS olddb;",
+          "puzzle": "DROP ___ IF EXISTS olddb;",
+          "output": "",
+          "level": 515
+        },
+        {
+          "topic": "Create extension - exercise 8",
+          "syntax": "CREATE EXTENSION IF NOT EXISTS pgcrypto;",
+          "puzzle": "CREATE ___ IF NOT EXISTS pgcrypto;",
+          "output": "",
+          "level": 516
+        },
+        {
+          "topic": "Vacuum table - exercise 9",
+          "syntax": "VACUUM ANALYZE users;",
+          "puzzle": "VACUUM ___ users;",
+          "output": "",
+          "level": 517
+        },
+        {
+          "topic": "Refresh materialized view - exercise 10",
+          "syntax": "REFRESH MATERIALIZED VIEW sales_summary;",
+          "puzzle": "REFRESH MATERIALIZED ___ sales___summary;",
+          "output": "",
+          "level": 518
+        },
+        {
+          "topic": "Create database - exercise 11",
+          "syntax": "CREATE DATABASE appdb;",
+          "puzzle": "CREATE ___ appdb;",
+          "output": "",
+          "level": 519
+        },
+        {
+          "topic": "Drop database - exercise 12",
+          "syntax": "DROP DATABASE IF EXISTS olddb;",
+          "puzzle": "DROP ___ IF EXISTS olddb;",
+          "output": "",
+          "level": 520
+        },
+        {
+          "topic": "Create extension - exercise 13",
+          "syntax": "CREATE EXTENSION IF NOT EXISTS pgcrypto;",
+          "puzzle": "CREATE ___ IF NOT EXISTS pgcrypto;",
+          "output": "",
+          "level": 521
+        }
+      ]
+    },
+    {
+      "part": "Part 40 - SQL Internals",
+      "items": [
+        {
+          "topic": "Current user - exercise 1",
+          "syntax": "SELECT CURRENT_USER;",
+          "puzzle": "SELECT ___;",
+          "output": "current_user\napp_user",
+          "level": 522
+        },
+        {
+          "topic": "Current database - exercise 2",
+          "syntax": "SELECT CURRENT_DATABASE();",
+          "puzzle": "SELECT ___();",
+          "output": "current_database\nappdb",
+          "level": 523
+        },
+        {
+          "topic": "Current schema - exercise 3",
+          "syntax": "SELECT CURRENT_SCHEMA();",
+          "puzzle": "SELECT ___();",
+          "output": "current_schema\npublic",
+          "level": 524
+        },
+        {
+          "topic": "List tables - exercise 4",
+          "syntax": "SELECT tablename FROM pg_tables WHERE schemaname='public';",
+          "puzzle": "SELECT tablename FROM ___ WHERE schemaname='public';",
+          "output": "tablename\nusers\norders",
+          "level": 525
+        },
+        {
+          "topic": "Table columns - exercise 5",
+          "syntax": "SELECT column_name FROM information_schema.columns WHERE table_name='users';",
+          "puzzle": "SELECT column___name FROM information___schema.___ WHERE table___name='users';",
+          "output": "column_name\nid\nname",
+          "level": 526
+        },
+        {
+          "topic": "Table constraints - exercise 6",
+          "syntax": "SELECT constraint_name FROM information_schema.table_constraints WHERE table_name='users';",
+          "puzzle": "SELECT constraint___name FROM information___schema.___ WHERE table___name='users';",
+          "output": "constraint_name\nusers_pkey",
+          "level": 527
+        },
+        {
+          "topic": "Current user - exercise 7",
+          "syntax": "SELECT CURRENT_USER;",
+          "puzzle": "SELECT ___;",
+          "output": "current_user\napp_user",
+          "level": 528
+        },
+        {
+          "topic": "Current database - exercise 8",
+          "syntax": "SELECT CURRENT_DATABASE();",
+          "puzzle": "SELECT ___();",
+          "output": "current_database\nappdb",
+          "level": 529
+        },
+        {
+          "topic": "Current schema - exercise 9",
+          "syntax": "SELECT CURRENT_SCHEMA();",
+          "puzzle": "SELECT ___();",
+          "output": "current_schema\npublic",
+          "level": 530
+        },
+        {
+          "topic": "List tables - exercise 10",
+          "syntax": "SELECT tablename FROM pg_tables WHERE schemaname='public';",
+          "puzzle": "SELECT tablename FROM ___ WHERE schemaname='public';",
+          "output": "tablename\nusers\norders",
+          "level": 531
+        },
+        {
+          "topic": "Table columns - exercise 11",
+          "syntax": "SELECT column_name FROM information_schema.columns WHERE table_name='users';",
+          "puzzle": "SELECT column___name FROM information___schema.___ WHERE table___name='users';",
+          "output": "column_name\nid\nname",
+          "level": 532
+        },
+        {
+          "topic": "Table constraints - exercise 12",
+          "syntax": "SELECT constraint_name FROM information_schema.table_constraints WHERE table_name='users';",
+          "puzzle": "SELECT constraint___name FROM information___schema.___ WHERE table___name='users';",
+          "output": "constraint_name\nusers_pkey",
+          "level": 533
+        },
+        {
+          "topic": "Current user - exercise 13",
+          "syntax": "SELECT CURRENT_USER;",
+          "puzzle": "SELECT ___;",
+          "output": "current_user\napp_user",
+          "level": 534
+        },
+        {
+          "topic": "Current database - exercise 14",
+          "syntax": "SELECT CURRENT_DATABASE();",
+          "puzzle": "SELECT ___();",
+          "output": "current_database\nappdb",
+          "level": 535
+        },
+        {
+          "topic": "Current schema - exercise 15",
+          "syntax": "SELECT CURRENT_SCHEMA();",
+          "puzzle": "SELECT ___();",
+          "output": "current_schema\npublic",
+          "level": 536
+        },
+        {
+          "topic": "List tables - exercise 16",
+          "syntax": "SELECT tablename FROM pg_tables WHERE schemaname='public';",
+          "puzzle": "SELECT tablename FROM ___ WHERE schemaname='public';",
+          "output": "tablename\nusers\norders",
+          "level": 537
+        },
+        {
+          "topic": "Table columns - exercise 17",
+          "syntax": "SELECT column_name FROM information_schema.columns WHERE table_name='users';",
+          "puzzle": "SELECT column___name FROM information___schema.___ WHERE table___name='users';",
+          "output": "column_name\nid\nname",
+          "level": 538
+        }
+      ]
+    },
+    {
+      "part": "Part 41 - Common Query Patterns",
+      "items": [
+        {
+          "topic": "Latest row - exercise 1",
+          "syntax": "SELECT * FROM orders ORDER BY order_date DESC LIMIT 1;",
+          "puzzle": "SELECT * FROM orders ORDER BY order___date DESC ___ 1;",
+          "output": "latest row",
+          "level": 539
+        },
+        {
+          "topic": "First row - exercise 2",
+          "syntax": "SELECT * FROM orders ORDER BY order_date ASC LIMIT 1;",
+          "puzzle": "SELECT * FROM orders ORDER BY order___date ASC ___ 1;",
+          "output": "first row",
+          "level": 540
+        },
+        {
+          "topic": "Top N - exercise 3",
+          "syntax": "SELECT * FROM products ORDER BY price DESC LIMIT 5;",
+          "puzzle": "SELECT * FROM products ORDER BY price DESC ___ 5;",
+          "output": "top 5 products",
+          "level": 541
+        },
+        {
+          "topic": "Missing related rows - exercise 4",
+          "syntax": "SELECT u.* FROM users u LEFT JOIN orders o ON o.user_id=u.id WHERE o.id IS NULL;",
+          "puzzle": "___ u.* FROM users u LEFT JOIN orders o ON o.user_id=u.id WHERE o.id IS NULL;",
+          "output": "users without orders",
+          "level": 542
+        },
+        {
+          "topic": "Duplicate values - exercise 5",
+          "syntax": "SELECT email, COUNT(*) FROM users GROUP BY email HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT email, COUNT(*) FROM users GROUP BY email HAVING COUNT(*) ___ 1;",
+          "output": "duplicate emails",
+          "level": 543
+        },
+        {
+          "topic": "Second highest - exercise 6",
+          "syntax": "SELECT MAX(score) FROM results WHERE score < (SELECT MAX(score) FROM results);",
+          "puzzle": "SELECT MAX(score) FROM results WHERE score ___ (SELECT MAX(score) FROM results);",
+          "output": "score\n95",
+          "level": 544
+        },
+        {
+          "topic": "Latest row - exercise 7",
+          "syntax": "SELECT * FROM orders ORDER BY order_date DESC LIMIT 1;",
+          "puzzle": "SELECT * FROM orders ORDER BY order___date DESC ___ 1;",
+          "output": "latest row",
+          "level": 545
+        },
+        {
+          "topic": "First row - exercise 8",
+          "syntax": "SELECT * FROM orders ORDER BY order_date ASC LIMIT 1;",
+          "puzzle": "SELECT * FROM orders ORDER BY order___date ASC ___ 1;",
+          "output": "first row",
+          "level": 546
+        },
+        {
+          "topic": "Top N - exercise 9",
+          "syntax": "SELECT * FROM products ORDER BY price DESC LIMIT 5;",
+          "puzzle": "SELECT * FROM products ORDER BY price DESC ___ 5;",
+          "output": "top 5 products",
+          "level": 547
+        },
+        {
+          "topic": "Missing related rows - exercise 10",
+          "syntax": "SELECT u.* FROM users u LEFT JOIN orders o ON o.user_id=u.id WHERE o.id IS NULL;",
+          "puzzle": "___ u.* FROM users u LEFT JOIN orders o ON o.user_id=u.id WHERE o.id IS NULL;",
+          "output": "users without orders",
+          "level": 548
+        },
+        {
+          "topic": "Duplicate values - exercise 11",
+          "syntax": "SELECT email, COUNT(*) FROM users GROUP BY email HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT email, COUNT(*) FROM users GROUP BY email HAVING COUNT(*) ___ 1;",
+          "output": "duplicate emails",
+          "level": 549
+        },
+        {
+          "topic": "Second highest - exercise 12",
+          "syntax": "SELECT MAX(score) FROM results WHERE score < (SELECT MAX(score) FROM results);",
+          "puzzle": "SELECT MAX(score) FROM results WHERE score ___ (SELECT MAX(score) FROM results);",
+          "output": "score\n95",
+          "level": 550
+        }
+      ]
+    },
+    {
+      "part": "Part 42 - SQL Design Patterns",
+      "items": [
+        {
+          "topic": "Soft delete - exercise 1",
+          "syntax": "UPDATE users SET deleted_at=CURRENT_TIMESTAMP WHERE id=1;",
+          "puzzle": "___ users SET deleted_at=CURRENT_TIMESTAMP WHERE id=1;",
+          "output": "",
+          "level": 551
+        },
+        {
+          "topic": "Active scope - exercise 2",
+          "syntax": "SELECT * FROM users WHERE deleted_at IS NULL;",
+          "puzzle": "___ * FROM users WHERE deleted_at IS NULL;",
+          "output": "active rows",
+          "level": 552
+        },
+        {
+          "topic": "Audit log insert - exercise 3",
+          "syntax": "INSERT INTO audit_log(user_id,action) VALUES (1,'UPDATE');",
+          "puzzle": "INSERT INTO audit___log(user___id,action) ___ (1,'UPDATE');",
+          "output": "",
+          "level": 553
+        },
+        {
+          "topic": "Snapshot query - exercise 4",
+          "syntax": "CREATE TABLE users_backup AS SELECT * FROM users;",
+          "puzzle": "CREATE TABLE users___backup AS ___ * FROM users;",
+          "output": "",
+          "level": 554
+        },
+        {
+          "topic": "Staging table - exercise 5",
+          "syntax": "CREATE TEMP TABLE staging_users AS SELECT * FROM users WHERE FALSE;",
+          "puzzle": "CREATE ___ TABLE staging___users AS SELECT * FROM users WHERE FALSE;",
+          "output": "",
+          "level": 555
+        },
+        {
+          "topic": "Soft delete - exercise 6",
+          "syntax": "UPDATE users SET deleted_at=CURRENT_TIMESTAMP WHERE id=1;",
+          "puzzle": "___ users SET deleted_at=CURRENT_TIMESTAMP WHERE id=1;",
+          "output": "",
+          "level": 556
+        },
+        {
+          "topic": "Active scope - exercise 7",
+          "syntax": "SELECT * FROM users WHERE deleted_at IS NULL;",
+          "puzzle": "___ * FROM users WHERE deleted_at IS NULL;",
+          "output": "active rows",
+          "level": 557
+        }
+      ]
+    },
+    {
+      "part": "Part 43 - SQL Interview & Competitive Patterns",
+      "items": [
+        {
+          "topic": "Nth highest value - exercise 1",
+          "syntax": "SELECT DISTINCT score FROM results ORDER BY score DESC OFFSET 2 LIMIT 1;",
+          "puzzle": "SELECT DISTINCT score FROM results ORDER BY score DESC ___ 2 LIMIT 1;",
+          "output": "score\n88",
+          "level": 558
+        },
+        {
+          "topic": "Running total - exercise 2",
+          "syntax": "SELECT id, SUM(amount) OVER (ORDER BY id) AS running_total FROM orders;",
+          "puzzle": "SELECT id, SUM(amount) OVER (ORDER BY id) AS running___total FROM orders;",
+          "output": "id | running_total\n1 | 500\n2 | 800",
+          "level": 559
+        },
+        {
+          "topic": "Find duplicates - exercise 3",
+          "syntax": "SELECT email FROM users GROUP BY email HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT email FROM users GROUP BY email HAVING COUNT(*) ___ 1;",
+          "output": "email\nduplicate@example.com",
+          "level": 560
+        },
+        {
+          "topic": "Employees above average - exercise 4",
+          "syntax": "SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+          "puzzle": "SELECT name FROM employees WHERE salary ___ (SELECT AVG(salary) FROM employees);",
+          "output": "name\nSam",
+          "level": 561
+        },
+        {
+          "topic": "Consecutive dates - exercise 5",
+          "syntax": "SELECT order_date FROM orders GROUP BY order_date HAVING COUNT(*) > 1;",
+          "puzzle": "SELECT order___date FROM orders GROUP BY order___date HAVING COUNT(*) ___ 1;",
+          "output": "order_date\n2026-09-01",
+          "level": 562
+        },
+        {
+          "topic": "Nth highest value - exercise 6",
+          "syntax": "SELECT DISTINCT score FROM results ORDER BY score DESC OFFSET 2 LIMIT 1;",
+          "puzzle": "SELECT DISTINCT score FROM results ORDER BY score DESC ___ 2 LIMIT 1;",
+          "output": "score\n88",
+          "level": 563
+        },
+        {
+          "topic": "Running total - exercise 7",
+          "syntax": "SELECT id, SUM(amount) OVER (ORDER BY id) AS running_total FROM orders;",
+          "puzzle": "SELECT id, SUM(amount) OVER (ORDER BY id) AS running___total FROM orders;",
+          "output": "id | running_total\n1 | 500\n2 | 800",
+          "level": 564
+        }
+      ]
+    },
+    {
+      "part": "Part 44 - Practice variants",
+      "items": [
+        {
+          "topic": "SELECT a literal - exercise 1 - variant 1",
+          "syntax": "-- Practice variant 1\nSELECT 42;",
+          "puzzle": "-- Practice variant 1\n___ 42;",
+          "output": "42",
+          "level": 565
+        },
+        {
+          "topic": "SELECT with alias - exercise 2 - variant 2",
+          "syntax": "-- Practice variant 2\nSELECT 42 AS answer;",
+          "puzzle": "-- Practice variant 2\nSELECT 42 ___ answer;",
+          "output": "answer\n42",
+          "level": 566
+        }
+      ]
+    }
+  ]
+}

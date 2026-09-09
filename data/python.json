@@ -1,0 +1,4197 @@
+{
+  "title": "Complete Python Learning Roadmap - Coding Game Dataset",
+  "description": "Syntax-to-output puzzle dataset covering the full Python roadmap (40 parts) plus 3 bonus parts (built-in functions, design patterns, interview/competitive programming patterns). Each item has a topic name, a syntax snippet, and its expected output — meant to power a fill-in-the-blank / predict-the-output style coding game, basic to advanced.",
+  "total_parts": 44,
+  "total_items": 567,
+  "parts": [
+    {
+      "part": "Part 1 - Python Fundamentals",
+      "items": [
+        {
+          "level": 0,
+          "topic": "Python syntax",
+          "syntax": "print(\"Syntax matters in Python\")",
+          "puzzle": "___(\"Syntax matters in Python\")",
+          "output": "Syntax matters in Python"
+        },
+        {
+          "level": 1,
+          "topic": "Comments",
+          "syntax": "# This is a comment\nprint(\"Comments are ignored\")",
+          "puzzle": "# This is a comment\n___(\"Comments are ignored\")",
+          "output": "Comments are ignored"
+        },
+        {
+          "level": 2,
+          "topic": "Variables",
+          "syntax": "x = 10\nprint(x)",
+          "puzzle": "___ = ___\nprint(x)",
+          "output": "10"
+        },
+        {
+          "level": 3,
+          "topic": "Constants",
+          "syntax": "PI = 3.14\nprint(PI)",
+          "puzzle": "___ = ___\nprint(PI)",
+          "output": "3.14"
+        },
+        {
+          "level": 4,
+          "topic": "Naming conventions",
+          "syntax": "student_name = \"Ava\"\nprint(student_name)",
+          "puzzle": "___ = \"Ava\"\nprint(student___name)",
+          "output": "Ava"
+        },
+        {
+          "level": 5,
+          "topic": "Keywords",
+          "syntax": "import keyword\nprint(keyword.iskeyword(\"for\"))",
+          "puzzle": "import keyword\nprint(keyword.___(\"for\"))",
+          "output": "True"
+        },
+        {
+          "level": 6,
+          "topic": "Indentation",
+          "syntax": "if True:\n    print(\"Indented block\")",
+          "puzzle": "___ True:\n    print(\"Indented block\")",
+          "output": "Indented block"
+        },
+        {
+          "level": 7,
+          "topic": "print()",
+          "syntax": "print(\"Hello, World!\")",
+          "puzzle": "___(\"Hello, World!\")",
+          "output": "Hello, World!"
+        },
+        {
+          "level": 8,
+          "topic": "input()",
+          "syntax": "name = input(\"Enter your name: \")\nprint(name)",
+          "puzzle": "name = ___(\"Enter your name: \")\nprint(name)",
+          "output": "Enter your name: Ava\nAva"
+        },
+        {
+          "level": 9,
+          "topic": "Escape characters",
+          "syntax": "print(\"Line1\\nLine2\")",
+          "puzzle": "print(\"Line1___Line2\")",
+          "output": "Line1\nLine2"
+        },
+        {
+          "level": 10,
+          "topic": "Python expressions",
+          "syntax": "print(3 + 4 * 2)",
+          "puzzle": "pr___t(3 + 4 * 2)",
+          "output": "11"
+        },
+        {
+          "level": 11,
+          "topic": "Arithmetic operators",
+          "syntax": "print(7 // 2)",
+          "puzzle": "print(7 ___ 2)",
+          "output": "3"
+        },
+        {
+          "level": 12,
+          "topic": "Assignment operators",
+          "syntax": "x = 5\nx += 3\nprint(x)",
+          "puzzle": "x = 5\nx ___ 3\nprint(x)",
+          "output": "8"
+        },
+        {
+          "level": 13,
+          "topic": "Comparison operators",
+          "syntax": "print(5 > 3)",
+          "puzzle": "print(5 ___ 3)",
+          "output": "True"
+        },
+        {
+          "level": 14,
+          "topic": "Logical operators",
+          "syntax": "print(True and False)",
+          "puzzle": "print(True ___ False)",
+          "output": "False"
+        },
+        {
+          "level": 15,
+          "topic": "Bitwise operators",
+          "syntax": "print(5 & 3)",
+          "puzzle": "print(5 ___ 3)",
+          "output": "1"
+        },
+        {
+          "level": 16,
+          "topic": "Membership operators",
+          "syntax": "print(3 in [1, 2, 3])",
+          "puzzle": "pr___t(3 in [1, 2, 3])",
+          "output": "True"
+        },
+        {
+          "level": 17,
+          "topic": "Identity operators",
+          "syntax": "a = [1, 2]\nb = [1, 2]\nprint(a is b)",
+          "puzzle": "a = [1, 2]\nb = [1, 2]\nprint(a ___ b)",
+          "output": "False"
+        },
+        {
+          "level": 18,
+          "topic": "Operator precedence",
+          "syntax": "print(2 + 3 * 4)",
+          "puzzle": "print(2 ___ 3 ___ 4)",
+          "output": "14"
+        },
+        {
+          "level": 19,
+          "topic": "Type conversion",
+          "syntax": "print(int(\"5\") + 2)",
+          "puzzle": "print(___(\"5\") + 2)",
+          "output": "7"
+        },
+        {
+          "level": 20,
+          "topic": "Dynamic typing",
+          "syntax": "x = 5\nx = \"now a string\"\nprint(x)",
+          "puzzle": "x ___ 5\nx = \"now a string\"\nprint(x)",
+          "output": "now a string"
+        },
+        {
+          "level": 21,
+          "topic": "type()",
+          "syntax": "print(type(5))",
+          "puzzle": "print(___(5))",
+          "output": "<class 'int'>"
+        },
+        {
+          "level": 22,
+          "topic": "id()",
+          "syntax": "x = 10\nprint(id(x) == id(x))",
+          "puzzle": "x = 10\nprint(___(x) == id(x))",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "part": "Part 2 - Python Data Types",
+      "items": [
+        {
+          "level": 23,
+          "topic": "int",
+          "syntax": "x = 42\nprint(x)",
+          "puzzle": "x = 42\npr___(x)",
+          "output": "42"
+        },
+        {
+          "level": 24,
+          "topic": "float",
+          "syntax": "x = 3.14\nprint(x)",
+          "puzzle": "___ = ___\nprint(x)",
+          "output": "3.14"
+        },
+        {
+          "level": 25,
+          "topic": "complex",
+          "syntax": "x = 2 + 3j\nprint(x)",
+          "puzzle": "___ = ___\nprint(x)",
+          "output": "(2+3j)"
+        },
+        {
+          "level": 26,
+          "topic": "Boolean",
+          "syntax": "x = True\nprint(x)",
+          "puzzle": "___ = ___\nprint(x)",
+          "output": "True"
+        },
+        {
+          "level": 27,
+          "topic": "Strings",
+          "syntax": "s = \"hello\"\nprint(s)",
+          "puzzle": "___ = ___\nprint(s)",
+          "output": "hello"
+        },
+        {
+          "level": 28,
+          "topic": "Lists",
+          "syntax": "nums = [1, 2, 3]\nprint(nums)",
+          "puzzle": "___ = ___\nprint(nums)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 29,
+          "topic": "Tuples",
+          "syntax": "point = (1, 2)\nprint(point)",
+          "puzzle": "___ = ___\nprint(point)",
+          "output": "(1, 2)"
+        },
+        {
+          "level": 30,
+          "topic": "Sets",
+          "syntax": "s = {1, 2, 3}\nprint(s)",
+          "puzzle": "___ = ___\nprint(s)",
+          "output": "{1, 2, 3}"
+        },
+        {
+          "level": 31,
+          "topic": "Dictionaries",
+          "syntax": "d = {\"a\": 1}\nprint(d)",
+          "puzzle": "___ = ___\nprint(d)",
+          "output": "{'a': 1}"
+        },
+        {
+          "level": 32,
+          "topic": "None",
+          "syntax": "x = None\nprint(x)",
+          "puzzle": "x = ___\nprint(x)",
+          "output": "None"
+        },
+        {
+          "level": 33,
+          "topic": "Mutable vs Immutable",
+          "syntax": "lst = [1, 2]\nlst.append(3)\nprint(lst)",
+          "puzzle": "lst = [1, 2]\nlst___(3)\nprint(lst)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 34,
+          "topic": "Hashable vs Unhashable",
+          "syntax": "print(hash(\"text\") == hash(\"text\"))",
+          "puzzle": "print(___(\"text\") == hash(\"text\"))",
+          "output": "True"
+        },
+        {
+          "level": 35,
+          "topic": "Type checking",
+          "syntax": "print(isinstance(5, int))",
+          "puzzle": "print(___(5, int))",
+          "output": "True"
+        },
+        {
+          "level": 36,
+          "topic": "Type casting",
+          "syntax": "print(float(\"3.5\"))",
+          "puzzle": "print(___\"3.5\"))",
+          "output": "3.5"
+        },
+        {
+          "level": 37,
+          "topic": "Nested data structures",
+          "syntax": "data = {\"nums\": [1, 2, 3]}\nprint(data[\"nums\"][1])",
+          "puzzle": "___ = ___\nprint(data[\"nums\"][1])",
+          "output": "2"
+        },
+        {
+          "level": 38,
+          "topic": "String indexing",
+          "syntax": "s = \"hello\"\nprint(s[1])",
+          "puzzle": "s = \"hello\"\nprint(___)",
+          "output": "e"
+        },
+        {
+          "level": 39,
+          "topic": "String slicing",
+          "syntax": "s = \"hello\"\nprint(s[1:4])",
+          "puzzle": "s = \"hello\"\nprint(s___)",
+          "output": "ell"
+        },
+        {
+          "level": 40,
+          "topic": "String methods",
+          "syntax": "s = \"hello\"\nprint(s.upper())",
+          "puzzle": "s = \"hello\"\nprint(s___())",
+          "output": "HELLO"
+        },
+        {
+          "level": 41,
+          "topic": "String formatting",
+          "syntax": "print(\"{} is {}\".format(\"Ava\", 21))",
+          "puzzle": "print(\"{} is {}\"___(\"Ava\", 21))",
+          "output": "Ava is 21"
+        },
+        {
+          "level": 42,
+          "topic": "f-strings",
+          "syntax": "name = \"Ava\"\nprint(f\"Hi {name}\")",
+          "puzzle": "name = \"Ava\"\nprint(___Hi {name}\")",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 43,
+          "topic": "Raw strings",
+          "syntax": "print(r\"C:\\new_folder\")",
+          "puzzle": "print(___C:\\new___folder\")",
+          "output": "C:\\new_folder"
+        },
+        {
+          "level": 44,
+          "topic": "Multiline strings",
+          "syntax": "s = \"\"\"Line1\nLine2\"\"\"\nprint(s)",
+          "puzzle": "s = ___Line1\nLine2\"\"\"\nprint(s)",
+          "output": "Line1\nLine2"
+        }
+      ]
+    },
+    {
+      "part": "Part 3 - Control Flow",
+      "items": [
+        {
+          "level": 45,
+          "topic": "if",
+          "syntax": "if 5 > 3:\n    print(\"Yes\")",
+          "puzzle": "___ 5 > 3:\n    print(\"Yes\")",
+          "output": "Yes"
+        },
+        {
+          "level": 46,
+          "topic": "elif",
+          "syntax": "x = 2\nif x == 1:\n    print(\"One\")\nelif x == 2:\n    print(\"Two\")",
+          "puzzle": "x = 2\nif x == 1:\n    print(\"One\")\n___ x == 2:\n    print(\"Two\")",
+          "output": "Two"
+        },
+        {
+          "level": 47,
+          "topic": "else",
+          "syntax": "x = 5\nif x > 10:\n    print(\"Big\")\nelse:\n    print(\"Small\")",
+          "puzzle": "x = 5\nif x > 10:\n    print(\"Big\")\n___:\n    print(\"Small\")",
+          "output": "Small"
+        },
+        {
+          "level": 48,
+          "topic": "Nested conditions",
+          "syntax": "x = 5\nif x > 0:\n    if x % 2 == 0:\n        print(\"Positive even\")\n    else:\n        print(\"Positive odd\")",
+          "puzzle": "x = 5\n___ x > 0:\n    if x % 2 == 0:\n        print(\"Positive even\")\n    else:\n        print(\"Positive odd\")",
+          "output": "Positive odd"
+        },
+        {
+          "level": 49,
+          "topic": "Conditional expressions",
+          "syntax": "x = 5\nresult = \"even\" if x % 2 == 0 else \"odd\"\nprint(result)",
+          "puzzle": "x = 5\nresult = \"even\" ___ x % 2 == 0 else \"odd\"\nprint(result)",
+          "output": "odd"
+        },
+        {
+          "level": 50,
+          "topic": "for loops",
+          "syntax": "for i in [1, 2, 3]:\n    print(i)",
+          "puzzle": "___ i in [1, 2, 3]:\n    print(i)",
+          "output": "1\n2\n3"
+        },
+        {
+          "level": 51,
+          "topic": "while loops",
+          "syntax": "n = 3\nwhile n > 0:\n    print(n)\n    n -= 1",
+          "puzzle": "n = 3\n___ n > 0:\n    print(n)\n    n -= 1",
+          "output": "3\n2\n1"
+        },
+        {
+          "level": 52,
+          "topic": "Nested loops",
+          "syntax": "for i in range(2):\n    for j in range(2):\n        print(i, j)",
+          "puzzle": "___ i in range(2):\n    for j in range(2):\n        print(i, j)",
+          "output": "0 0\n0 1\n1 0\n1 1"
+        },
+        {
+          "level": 53,
+          "topic": "range()",
+          "syntax": "print(list(range(3)))",
+          "puzzle": "print(list(___(3)))",
+          "output": "[0, 1, 2]"
+        },
+        {
+          "level": 54,
+          "topic": "break",
+          "syntax": "for i in range(5):\n    if i == 3:\n        break\n    print(i)",
+          "puzzle": "for i in range(5):\n    if i == 3:\n        ___\n    print(i)",
+          "output": "0\n1\n2"
+        },
+        {
+          "level": 55,
+          "topic": "continue",
+          "syntax": "for i in range(4):\n    if i == 2:\n        continue\n    print(i)",
+          "puzzle": "for i in range(4):\n    if i == 2:\n        ___\n    print(i)",
+          "output": "0\n1\n3"
+        },
+        {
+          "level": 56,
+          "topic": "pass",
+          "syntax": "for i in range(3):\n    pass\nprint(\"Done\")",
+          "puzzle": "for i in range(3):\n    ___\nprint(\"Done\")",
+          "output": "Done"
+        },
+        {
+          "level": 57,
+          "topic": "else with loops",
+          "syntax": "for i in range(3):\n    print(i)\nelse:\n    print(\"Loop finished\")",
+          "puzzle": "___ i in range(3):\n    print(i)\nelse:\n    print(\"Loop finished\")",
+          "output": "0\n1\n2\nLoop finished"
+        },
+        {
+          "level": 58,
+          "topic": "Loop patterns",
+          "syntax": "total = 0\nfor n in [1, 2, 3]:\n    total += n\nprint(total)",
+          "puzzle": "total = 0\n___ n in [1, 2, 3]:\n    total += n\nprint(total)",
+          "output": "6"
+        }
+      ]
+    },
+    {
+      "part": "Part 4 - Data Structures",
+      "items": [
+        {
+          "level": 59,
+          "topic": "Creating lists",
+          "syntax": "nums = [1, 2, 3]\nprint(nums)",
+          "puzzle": "___ = ___\nprint(nums)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 60,
+          "topic": "List indexing",
+          "syntax": "nums = [10, 20, 30]\nprint(nums[2])",
+          "puzzle": "___ = ___\nprint(nums[2])",
+          "output": "30"
+        },
+        {
+          "level": 61,
+          "topic": "List slicing",
+          "syntax": "nums = [1, 2, 3, 4, 5]\nprint(nums[1:3])",
+          "puzzle": "___ = ___\nprint(nums[1:3])",
+          "output": "[2, 3]"
+        },
+        {
+          "level": 62,
+          "topic": "Adding elements",
+          "syntax": "nums = [1, 2]\nnums.append(3)\nprint(nums)",
+          "puzzle": "___ = ___\nnums.append(3)\nprint(nums)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 63,
+          "topic": "Removing elements",
+          "syntax": "nums = [1, 2, 3]\nnums.remove(2)\nprint(nums)",
+          "puzzle": "___ = ___\nnums.remove(2)\nprint(nums)",
+          "output": "[1, 3]"
+        },
+        {
+          "level": 64,
+          "topic": "Sorting",
+          "syntax": "nums = [3, 1, 2]\nnums.sort()\nprint(nums)",
+          "puzzle": "___ = ___\nnums.sort()\nprint(nums)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 65,
+          "topic": "Copying",
+          "syntax": "a = [1, 2]\nb = a.copy()\nb.append(3)\nprint(a, b)",
+          "puzzle": "___ = ___\nb = a.copy()\nb.append(3)\nprint(a, b)",
+          "output": "[1, 2] [1, 2, 3]"
+        },
+        {
+          "level": 66,
+          "topic": "Nested lists",
+          "syntax": "matrix = [[1, 2], [3, 4]]\nprint(matrix[1][0])",
+          "puzzle": "___ = ___\nprint(matrix[1][0])",
+          "output": "3"
+        },
+        {
+          "level": 67,
+          "topic": "Tuple operations",
+          "syntax": "t = (1, 2, 3)\nprint(t.count(2))",
+          "puzzle": "___ = ___\nprint(t.count(2))",
+          "output": "1"
+        },
+        {
+          "level": 68,
+          "topic": "Tuple unpacking",
+          "syntax": "a, b = (1, 2)\nprint(a, b)",
+          "puzzle": "___, b = (1, 2)\nprint(a, b)",
+          "output": "1 2"
+        },
+        {
+          "level": 69,
+          "topic": "Named tuples",
+          "syntax": "from collections import namedtuple\nPoint = namedtuple(\"Point\", [\"x\", \"y\"])\np = Point(1, 2)\nprint(p.x)",
+          "puzzle": "from collections ___ namedtuple\nPoint = namedtuple(\"Point\", [\"x\", \"y\"])\np = Point(1, 2)\nprint(p.x)",
+          "output": "1"
+        },
+        {
+          "level": 70,
+          "topic": "Union (sets)",
+          "syntax": "a = {1, 2}\nb = {2, 3}\nprint(a | b)",
+          "puzzle": "a = {1, 2}\nb = {2, 3}\nprint(a ___ b)",
+          "output": "{1, 2, 3}"
+        },
+        {
+          "level": 71,
+          "topic": "Intersection (sets)",
+          "syntax": "a = {1, 2}\nb = {2, 3}\nprint(a & b)",
+          "puzzle": "a = {1, 2}\nb = {2, 3}\nprint(a ___ b)",
+          "output": "{2}"
+        },
+        {
+          "level": 72,
+          "topic": "Difference (sets)",
+          "syntax": "a = {1, 2}\nb = {2, 3}\nprint(a - b)",
+          "puzzle": "a = {1, 2}\nb = {2, 3}\nprint(a ___ b)",
+          "output": "{1}"
+        },
+        {
+          "level": 73,
+          "topic": "Symmetric difference",
+          "syntax": "a = {1, 2}\nb = {2, 3}\nprint(a ^ b)",
+          "puzzle": "a = {1, 2}\nb = {2, 3}\nprint(a ___ b)",
+          "output": "{1, 3}"
+        },
+        {
+          "level": 74,
+          "topic": "Set operations",
+          "syntax": "s = {1, 2}\ns.add(3)\nprint(s)",
+          "puzzle": "s = {1, 2}\ns___(3)\nprint(s)",
+          "output": "{1, 2, 3}"
+        },
+        {
+          "level": 75,
+          "topic": "Keys and values",
+          "syntax": "d = {\"a\": 1, \"b\": 2}\nprint(list(d.keys()))",
+          "puzzle": "d = {\"a\": 1, \"b\": 2}\nprint(list(d___()))",
+          "output": "['a', 'b']"
+        },
+        {
+          "level": 76,
+          "topic": "Adding/removing dictionary data",
+          "syntax": "d = {\"a\": 1}\nd[\"b\"] = 2\nprint(d)",
+          "puzzle": "d = {\"a\": 1}\nd___\"b\"] = 2\nprint(d)",
+          "output": "{'a': 1, 'b': 2}"
+        },
+        {
+          "level": 77,
+          "topic": "Dictionary methods",
+          "syntax": "d = {\"a\": 1}\nprint(d.get(\"b\", 0))",
+          "puzzle": "d = {\"a\": 1}\nprint(d___(\"b\", 0))",
+          "output": "0"
+        },
+        {
+          "level": 78,
+          "topic": "Dictionary comprehension",
+          "syntax": "d = {x: x*x for x in range(3)}\nprint(d)",
+          "puzzle": "d = {x: x*x ___ x in range(3)}\nprint(d)",
+          "output": "{0: 0, 1: 1, 2: 4}"
+        },
+        {
+          "level": 79,
+          "topic": "Nested dictionaries",
+          "syntax": "d = {\"user\": {\"name\": \"Ava\"}}\nprint(d[\"user\"][\"name\"])",
+          "puzzle": "d = {\"user\": {\"name\": \"Ava\"}}\nprint(d___\"user\"][\"name\"])",
+          "output": "Ava"
+        }
+      ]
+    },
+    {
+      "part": "Part 5 - Functions",
+      "items": [
+        {
+          "level": 80,
+          "topic": "Defining functions",
+          "syntax": "def greet():\n    print(\"Hello\")",
+          "puzzle": "___ greet():\n    print(\"Hello\")",
+          "output": ""
+        },
+        {
+          "level": 81,
+          "topic": "Calling functions",
+          "syntax": "def greet():\n    print(\"Hello\")\ngreet()",
+          "puzzle": "___ greet():\n    print(\"Hello\")\ngreet()",
+          "output": "Hello"
+        },
+        {
+          "level": 82,
+          "topic": "Parameters",
+          "syntax": "def greet(name):\n    print(\"Hi\", name)\ngreet(\"Ava\")",
+          "puzzle": "___ greet(name):\n    print(\"Hi\", name)\ngreet(\"Ava\")",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 83,
+          "topic": "Arguments",
+          "syntax": "def add(a, b):\n    print(a + b)\nadd(2, 3)",
+          "puzzle": "___ add(a, b):\n    print(a + b)\nadd(2, 3)",
+          "output": "5"
+        },
+        {
+          "level": 84,
+          "topic": "Return values",
+          "syntax": "def add(a, b):\n    return a + b\nprint(add(2, 3))",
+          "puzzle": "___ add(a, b):\n    return a + b\nprint(add(2, 3))",
+          "output": "5"
+        },
+        {
+          "level": 85,
+          "topic": "Default arguments",
+          "syntax": "def greet(name=\"Guest\"):\n    print(\"Hi\", name)\ngreet()",
+          "puzzle": "___ greet(name=\"Guest\"):\n    print(\"Hi\", name)\ngreet()",
+          "output": "Hi Guest"
+        },
+        {
+          "level": 86,
+          "topic": "Keyword arguments",
+          "syntax": "def greet(name, age):\n    print(name, age)\ngreet(age=21, name=\"Ava\")",
+          "puzzle": "___ greet(name, age):\n    print(name, age)\ngreet(age=21, name=\"Ava\")",
+          "output": "Ava 21"
+        },
+        {
+          "level": 87,
+          "topic": "Positional arguments",
+          "syntax": "def sub(a, b):\n    print(a - b)\nsub(5, 2)",
+          "puzzle": "___ sub(a, b):\n    print(a - b)\nsub(5, 2)",
+          "output": "3"
+        },
+        {
+          "level": 88,
+          "topic": "*args",
+          "syntax": "def total(*nums):\n    print(sum(nums))\ntotal(1, 2, 3)",
+          "puzzle": "___ total(*nums):\n    print(sum(nums))\ntotal(1, 2, 3)",
+          "output": "6"
+        },
+        {
+          "level": 89,
+          "topic": "**kwargs",
+          "syntax": "def info(**data):\n    print(data)\ninfo(name=\"Ava\", age=21)",
+          "puzzle": "___ info(**data):\n    print(data)\ninfo(name=\"Ava\", age=21)",
+          "output": "{'name': 'Ava', 'age': 21}"
+        },
+        {
+          "level": 90,
+          "topic": "Local variables",
+          "syntax": "def f():\n    x = 5\n    print(x)\nf()",
+          "puzzle": "def f():\n    x ___ 5\n    print(x)\nf()",
+          "output": "5"
+        },
+        {
+          "level": 91,
+          "topic": "Global variables",
+          "syntax": "x = 10\ndef f():\n    print(x)\nf()",
+          "puzzle": "x ___ 10\ndef f():\n    print(x)\nf()",
+          "output": "10"
+        },
+        {
+          "level": 92,
+          "topic": "global",
+          "syntax": "x = 5\ndef f():\n    global x\n    x = 10\nf()\nprint(x)",
+          "puzzle": "x = 5\ndef f():\n    ___ x\n    x = 10\nf()\nprint(x)",
+          "output": "10"
+        },
+        {
+          "level": 93,
+          "topic": "nonlocal",
+          "syntax": "def outer():\n    x = 1\n    def inner():\n        nonlocal x\n        x = 2\n    inner()\n    print(x)\nouter()",
+          "puzzle": "def outer():\n    x = 1\n    def inner():\n        ___ x\n        x = 2\n    inner()\n    print(x)\nouter()",
+          "output": "2"
+        },
+        {
+          "level": 94,
+          "topic": "Docstrings",
+          "syntax": "def greet():\n    \"\"\"Prints a greeting\"\"\"\n    print(\"Hi\")\nprint(greet.__doc__)",
+          "puzzle": "___ greet():\n    \"\"\"Prints a greeting\"\"\"\n    print(\"Hi\")\nprint(greet.___doc___)",
+          "output": "Prints a greeting"
+        },
+        {
+          "level": 95,
+          "topic": "First-class functions",
+          "syntax": "def greet():\n    return \"Hi\"\nf = greet\nprint(f())",
+          "puzzle": "def greet():\n    return \"Hi\"\nf ___ greet\nprint(f())",
+          "output": "Hi"
+        },
+        {
+          "level": 96,
+          "topic": "Higher-order functions",
+          "syntax": "def apply(fn, x):\n    return fn(x)\nprint(apply(lambda x: x*2, 5))",
+          "puzzle": "def apply(fn, x):\n    return fn(x)\nprint(apply(___ x: x*2, 5))",
+          "output": "10"
+        },
+        {
+          "level": 97,
+          "topic": "Recursive functions",
+          "syntax": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)\nprint(factorial(4))",
+          "puzzle": "def factorial(n):\n    if n == 0:\n        ___ 1\n    return n * factorial(n - 1)\nprint(factorial(4))",
+          "output": "24"
+        },
+        {
+          "level": 98,
+          "topic": "Lambda functions",
+          "syntax": "double = lambda x: x * 2\nprint(double(5))",
+          "puzzle": "double = ___ x: x * 2\nprint(double(5))",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 6 - Comprehensions",
+      "items": [
+        {
+          "level": 99,
+          "topic": "List comprehension",
+          "syntax": "squares = [x*x for x in range(4)]\nprint(squares)",
+          "puzzle": "squares = [x*x ___ x in range(4)]\nprint(squares)",
+          "output": "[0, 1, 4, 9]"
+        },
+        {
+          "level": 100,
+          "topic": "Set comprehension",
+          "syntax": "s = {x*x for x in [1, 1, 2]}\nprint(s)",
+          "puzzle": "s = {x*x ___ x in [1, 1, 2]}\nprint(s)",
+          "output": "{1, 4}"
+        },
+        {
+          "level": 101,
+          "topic": "Dictionary comprehension - practice 2",
+          "syntax": "d = {x: x*2 for x in range(3)}\nprint(d)",
+          "puzzle": "d = {x: x*2 ___ x in range(3)}\nprint(d)",
+          "output": "{0: 0, 1: 2, 2: 4}"
+        },
+        {
+          "level": 102,
+          "topic": "Generator expressions",
+          "syntax": "g = (x*x for x in range(3))\nprint(list(g))",
+          "puzzle": "g = (x*x ___ x in range(3))\nprint(list(g))",
+          "output": "[0, 1, 4]"
+        },
+        {
+          "level": 103,
+          "topic": "Conditional comprehensions",
+          "syntax": "evens = [x for x in range(6) if x % 2 == 0]\nprint(evens)",
+          "puzzle": "evens = [x for x in range(6) ___ x % 2 == 0]\nprint(evens)",
+          "output": "[0, 2, 4]"
+        },
+        {
+          "level": 104,
+          "topic": "Nested comprehensions",
+          "syntax": "matrix = [[1, 2], [3, 4]]\nflat = [x for row in matrix for x in row]\nprint(flat)",
+          "puzzle": "matrix = [[1, 2], [3, 4]]\nflat = [x ___ row in matrix for x in row]\nprint(flat)",
+          "output": "[1, 2, 3, 4]"
+        }
+      ]
+    },
+    {
+      "part": "Part 7 - Modules & Packages",
+      "items": [
+        {
+          "level": 105,
+          "topic": "import",
+          "syntax": "import math\nprint(math.sqrt(16))",
+          "puzzle": "___ math\nprint(math.sqrt(16))",
+          "output": "4.0"
+        },
+        {
+          "level": 106,
+          "topic": "from ... import",
+          "syntax": "from math import sqrt\nprint(sqrt(9))",
+          "puzzle": "___ math import sqrt\nprint(sqrt(9))",
+          "output": "3.0"
+        },
+        {
+          "level": 107,
+          "topic": "Aliases",
+          "syntax": "import math as m\nprint(m.pi)",
+          "puzzle": "import math ___ m\nprint(m.pi)",
+          "output": "3.141592653589793"
+        },
+        {
+          "level": 108,
+          "topic": "Built-in modules",
+          "syntax": "import random\nprint(type(random.randint(1, 10)))",
+          "puzzle": "___ random\nprint(type(random.randint(1, 10)))",
+          "output": "<class 'int'>"
+        },
+        {
+          "level": 109,
+          "topic": "Creating your own modules",
+          "syntax": "# mymodule.py\ndef greet():\n    return \"Hi\"\n\n# main.py\nimport mymodule\nprint(mymodule.greet())",
+          "puzzle": "# mymodule.py\n___ greet():\n    return \"Hi\"\n\n# main.py\nimport mymodule\nprint(mymodule.greet())",
+          "output": "Hi"
+        },
+        {
+          "level": 110,
+          "topic": "Packages",
+          "syntax": "# mypackage/__init__.py exists\nfrom mypackage import mymodule\nprint(mymodule.greet())",
+          "puzzle": "# mypackage/___init___.py exists\nfrom mypackage ___ mymodule\nprint(mymodule.greet())",
+          "output": "Hi"
+        },
+        {
+          "level": 111,
+          "topic": "__init__.py",
+          "syntax": "# mypackage/__init__.py\nprint(\"Package loaded\")",
+          "puzzle": "# mypackage/___.py\nprint(\"Package loaded\")",
+          "output": "Package loaded"
+        },
+        {
+          "level": 112,
+          "topic": "__name__",
+          "syntax": "print(__name__)",
+          "puzzle": "print(___)",
+          "output": "__main__"
+        },
+        {
+          "level": 113,
+          "topic": "__main__",
+          "syntax": "if __name__ == \"__main__\":\n    print(\"Running directly\")",
+          "puzzle": "if ___ == \"___main___\":\n    print(\"Running directly\")",
+          "output": "Running directly"
+        },
+        {
+          "level": 114,
+          "topic": "sys.path",
+          "syntax": "import sys\nprint(type(sys.path))",
+          "puzzle": "import sys\nprint(type(___))",
+          "output": "<class 'list'>"
+        },
+        {
+          "level": 115,
+          "topic": "Relative imports",
+          "syntax": "# inside package/module_a.py\nfrom . import module_b",
+          "puzzle": "# inside package/module___a.py\n___ . import module___b",
+          "output": ""
+        },
+        {
+          "level": 116,
+          "topic": "Absolute imports",
+          "syntax": "from mypackage.mymodule import greet\nprint(greet())",
+          "puzzle": "from mypackage.mymodule ___ greet\nprint(greet())",
+          "output": "Hi"
+        }
+      ]
+    },
+    {
+      "part": "Part 8 - File Handling",
+      "items": [
+        {
+          "level": 117,
+          "topic": "Opening files",
+          "syntax": "f = open(\"data.txt\", \"r\")\nprint(f.mode)",
+          "puzzle": "f = ___(\"data.txt\", \"r\")\nprint(f.mode)",
+          "output": "r"
+        },
+        {
+          "level": 118,
+          "topic": "Reading files",
+          "syntax": "with open(\"data.txt\") as f:\n    print(f.read())",
+          "puzzle": "with open(\"data.txt\") as f:\n    print(f___())",
+          "output": "file contents here"
+        },
+        {
+          "level": 119,
+          "topic": "Writing files",
+          "syntax": "with open(\"data.txt\", \"w\") as f:\n    f.write(\"Hello\")",
+          "puzzle": "with open(\"data.txt\", \"w\") as f:\n    f___(\"Hello\")",
+          "output": ""
+        },
+        {
+          "level": 120,
+          "topic": "Appending",
+          "syntax": "with open(\"data.txt\", \"a\") as f:\n    f.write(\"More text\")",
+          "puzzle": "with open(\"data.txt\", \"a\") as f:\n    f___(\"More text\")",
+          "output": ""
+        },
+        {
+          "level": 121,
+          "topic": "with open()",
+          "syntax": "with open(\"data.txt\") as f:\n    data = f.read()\nprint(len(data) >= 0)",
+          "puzzle": "with ___(\"data.txt\") as f:\n    data = f.read()\nprint(len(data) >= 0)",
+          "output": "True"
+        },
+        {
+          "level": 122,
+          "topic": "File modes",
+          "syntax": "f = open(\"data.txt\", \"rb\")\nprint(f.mode)",
+          "puzzle": "f = open(\"data.txt\", ___)\nprint(f.mode)",
+          "output": "rb"
+        },
+        {
+          "level": 123,
+          "topic": "Text files",
+          "syntax": "with open(\"notes.txt\", \"w\") as f:\n    f.write(\"note\")",
+          "puzzle": "___ open(\"notes.txt\", \"w\") as f:\n    f.write(\"note\")",
+          "output": ""
+        },
+        {
+          "level": 124,
+          "topic": "Binary files",
+          "syntax": "with open(\"image.png\", \"rb\") as f:\n    data = f.read()\nprint(type(data))",
+          "puzzle": "___ open(\"image.png\", \"rb\") as f:\n    data = f.read()\nprint(type(data))",
+          "output": "<class 'bytes'>"
+        },
+        {
+          "level": 125,
+          "topic": "CSV",
+          "syntax": "import csv\nwith open(\"data.csv\") as f:\n    reader = csv.reader(f)\n    print(next(reader))",
+          "puzzle": "___ csv\nwith open(\"data.csv\") as f:\n    reader = csv.reader(f)\n    print(next(reader))",
+          "output": "['name', 'age']"
+        },
+        {
+          "level": 126,
+          "topic": "JSON (file handling)",
+          "syntax": "import json\nprint(json.dumps({\"a\": 1}))",
+          "puzzle": "___ json\nprint(json.dumps({\"a\": 1}))",
+          "output": "{\"a\": 1}"
+        },
+        {
+          "level": 127,
+          "topic": "pathlib",
+          "syntax": "from pathlib import Path\np = Path(\"data.txt\")\nprint(p.suffix)",
+          "puzzle": "from ___ import Path\np = Path(\"data.txt\")\nprint(p.suffix)",
+          "output": ".txt"
+        },
+        {
+          "level": 128,
+          "topic": "Directory operations",
+          "syntax": "import os\nprint(os.path.isdir(\".\"))",
+          "puzzle": "___ os\nprint(os.path.isdir(\".\"))",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "part": "Part 9 - Error & Exception Handling",
+      "items": [
+        {
+          "level": 129,
+          "topic": "try",
+          "syntax": "try:\n    x = 1 / 1\n    print(x)\nexcept ZeroDivisionError:\n    print(\"Error\")",
+          "puzzle": "___:\n    x = 1 / 1\n    print(x)\nexcept ZeroDivisionError:\n    print(\"Error\")",
+          "output": "1.0"
+        },
+        {
+          "level": 130,
+          "topic": "except",
+          "syntax": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero\")",
+          "puzzle": "try:\n    x = 1 / 0\n___ ZeroDivisionError:\n    print(\"Cannot divide by zero\")",
+          "output": "Cannot divide by zero"
+        },
+        {
+          "level": 131,
+          "topic": "else (in try)",
+          "syntax": "try:\n    x = 5\nexcept:\n    print(\"Error\")\nelse:\n    print(\"No error\")",
+          "puzzle": "try:\n    x = 5\nexcept:\n    print(\"Error\")\n___:\n    print(\"No error\")",
+          "output": "No error"
+        },
+        {
+          "level": 132,
+          "topic": "finally",
+          "syntax": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print(\"Error\")\nfinally:\n    print(\"Cleanup\")",
+          "puzzle": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print(\"Error\")\n___:\n    print(\"Cleanup\")",
+          "output": "Error\nCleanup"
+        },
+        {
+          "level": 133,
+          "topic": "Multiple exceptions",
+          "syntax": "try:\n    x = int(\"abc\")\nexcept (ValueError, TypeError):\n    print(\"Bad input\")",
+          "puzzle": "try:\n    x = int(\"abc\")\n___ (ValueError, TypeError):\n    print(\"Bad input\")",
+          "output": "Bad input"
+        },
+        {
+          "level": 134,
+          "topic": "Exception hierarchy",
+          "syntax": "print(issubclass(ZeroDivisionError, ArithmeticError))",
+          "puzzle": "___(issubclass(ZeroDivisionError, ArithmeticError))",
+          "output": "True"
+        },
+        {
+          "level": 135,
+          "topic": "Raising exceptions",
+          "syntax": "raise ValueError(\"Bad value\")",
+          "puzzle": "___ ValueError(\"Bad value\")",
+          "output": "ValueError: Bad value"
+        },
+        {
+          "level": 136,
+          "topic": "Custom exceptions",
+          "syntax": "class MyError(Exception):\n    pass\n\nraise MyError(\"Something failed\")",
+          "puzzle": "class MyError(Exception):\n    pass\n\n___ MyError(\"Something failed\")",
+          "output": "MyError: Something failed"
+        },
+        {
+          "level": 137,
+          "topic": "Exception chaining",
+          "syntax": "try:\n    raise ValueError(\"first\")\nexcept ValueError as e:\n    raise RuntimeError(\"second\") from e",
+          "puzzle": "try:\n    raise ValueError(\"first\")\nexcept ValueError as e:\n    raise RuntimeError(\"second\") ___ e",
+          "output": "RuntimeError: second"
+        },
+        {
+          "level": 138,
+          "topic": "Best practices for error handling",
+          "syntax": "try:\n    risky_op()\nexcept SpecificError as e:\n    log(e)",
+          "puzzle": "___:\n    risky___op()\nexcept SpecificError as e:\n    log(e)",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 10 - Object-Oriented Programming (OOP)",
+      "items": [
+        {
+          "level": 139,
+          "topic": "Classes",
+          "syntax": "class Dog:\n    pass\nprint(type(Dog))",
+          "puzzle": "___ Dog:\n    pass\nprint(type(Dog))",
+          "output": "<class 'type'>"
+        },
+        {
+          "level": 140,
+          "topic": "Objects",
+          "syntax": "class Dog:\n    pass\nd = Dog()\nprint(type(d))",
+          "puzzle": "___ Dog:\n    pass\nd = Dog()\nprint(type(d))",
+          "output": "<class '__main__.Dog'>"
+        },
+        {
+          "level": 141,
+          "topic": "Attributes",
+          "syntax": "class Dog:\n    pass\nd = Dog()\nd.name = \"Rex\"\nprint(d.name)",
+          "puzzle": "___ Dog:\n    pass\nd = Dog()\nd.name = \"Rex\"\nprint(d.name)",
+          "output": "Rex"
+        },
+        {
+          "level": 142,
+          "topic": "Methods",
+          "syntax": "class Dog:\n    def bark(self):\n        return \"Woof\"\nprint(Dog().bark())",
+          "puzzle": "class Dog:\n    ___ bark(self):\n        return \"Woof\"\nprint(Dog().bark())",
+          "output": "Woof"
+        },
+        {
+          "level": 143,
+          "topic": "Constructors (__init__)",
+          "syntax": "class Dog:\n    def __init__(self, name):\n        self.name = name\nd = Dog(\"Rex\")\nprint(d.name)",
+          "puzzle": "class Dog:\n    def ___(self, name):\n        self.name = name\nd = Dog(\"Rex\")\nprint(d.name)",
+          "output": "Rex"
+        },
+        {
+          "level": 144,
+          "topic": "Instance variables",
+          "syntax": "class Dog:\n    def __init__(self, name):\n        self.name = name\nprint(Dog(\"Rex\").name)",
+          "puzzle": "class Dog:\n    ___ ___init___(self, name):\n        self.name = name\nprint(Dog(\"Rex\").name)",
+          "output": "Rex"
+        },
+        {
+          "level": 145,
+          "topic": "Class variables",
+          "syntax": "class Dog:\n    species = \"Canine\"\nprint(Dog.species)",
+          "puzzle": "class Dog:\n    species ___ \"Canine\"\nprint(Dog.species)",
+          "output": "Canine"
+        },
+        {
+          "level": 146,
+          "topic": "Instance methods",
+          "syntax": "class Dog:\n    def bark(self):\n        return \"Woof\"\nprint(Dog().bark())",
+          "puzzle": "class Dog:\n    ___ bark(self):\n        return \"Woof\"\nprint(Dog().bark())",
+          "output": "Woof"
+        },
+        {
+          "level": 147,
+          "topic": "Class methods",
+          "syntax": "class Dog:\n    count = 0\n    @classmethod\n    def get_count(cls):\n        return cls.count\nprint(Dog.get_count())",
+          "puzzle": "class Dog:\n    count = 0\n    @___\n    def get___count(cls):\n        return cls.count\nprint(Dog.get___count())",
+          "output": "0"
+        },
+        {
+          "level": 148,
+          "topic": "Static methods",
+          "syntax": "class MathUtil:\n    @staticmethod\n    def add(a, b):\n        return a + b\nprint(MathUtil.add(2, 3))",
+          "puzzle": "class MathUtil:\n    @___\n    def add(a, b):\n        return a + b\nprint(MathUtil.add(2, 3))",
+          "output": "5"
+        },
+        {
+          "level": 149,
+          "topic": "Encapsulation",
+          "syntax": "class Account:\n    def __init__(self):\n        self.__balance = 100\n    def get_balance(self):\n        return self.__balance\nprint(Account().get_balance())",
+          "puzzle": "class Account:\n    def ___init___(self):\n        self.___ = 100\n    def get___balance(self):\n        return self.___balance\nprint(Account().get___balance())",
+          "output": "100"
+        },
+        {
+          "level": 150,
+          "topic": "Inheritance",
+          "syntax": "class Animal:\n    def speak(self):\n        return \"...\"\nclass Dog(Animal):\n    def speak(self):\n        return \"Woof\"\nprint(Dog().speak())",
+          "puzzle": "class Animal:\n    def speak___self):\n        return \"...\"\nclass Dog(Animal):\n    def speak(self):\n        return \"Woof\"\nprint(Dog().speak())",
+          "output": "Woof"
+        },
+        {
+          "level": 151,
+          "topic": "Multiple inheritance",
+          "syntax": "class A:\n    def hello(self):\n        return \"A\"\nclass B:\n    def world(self):\n        return \"B\"\nclass C(A, B):\n    pass\nc = C()\nprint(c.hello() + c.world())",
+          "puzzle": "class A:\n    def hello___self):\n        return \"A\"\nclass B:\n    def world(self):\n        return \"B\"\nclass C(A, B):\n    pass\nc = C()\nprint(c.hello() + c.world())",
+          "output": "AB"
+        },
+        {
+          "level": 152,
+          "topic": "Multilevel inheritance",
+          "syntax": "class A:\n    def show(self):\n        return \"A\"\nclass B(A):\n    pass\nclass C(B):\n    pass\nprint(C().show())",
+          "puzzle": "class A:\n    def show___self):\n        return \"A\"\nclass B(A):\n    pass\nclass C(B):\n    pass\nprint(C().show())",
+          "output": "A"
+        },
+        {
+          "level": 153,
+          "topic": "Hierarchical inheritance",
+          "syntax": "class Animal:\n    def sound(self):\n        return \"...\"\nclass Dog(Animal):\n    pass\nclass Cat(Animal):\n    pass\nprint(Dog().sound(), Cat().sound())",
+          "puzzle": "class Animal:\n    def sound___self):\n        return \"...\"\nclass Dog(Animal):\n    pass\nclass Cat(Animal):\n    pass\nprint(Dog().sound(), Cat().sound())",
+          "output": "... ..."
+        },
+        {
+          "level": 154,
+          "topic": "Polymorphism",
+          "syntax": "class Cat:\n    def speak(self):\n        return \"Meow\"\nclass Dog:\n    def speak(self):\n        return \"Woof\"\nfor a in [Cat(), Dog()]:\n    print(a.speak())",
+          "puzzle": "class Cat:\n    def ___(self):\n        return \"Meow\"\nclass Dog:\n    def speak(self):\n        return \"Woof\"\nfor a in [Cat(), Dog()]:\n    print(a.speak())",
+          "output": "Meow\nWoof"
+        },
+        {
+          "level": 155,
+          "topic": "Method overriding",
+          "syntax": "class Animal:\n    def speak(self):\n        return \"...\"\nclass Dog(Animal):\n    def speak(self):\n        return \"Woof\"\nprint(Dog().speak())",
+          "puzzle": "class Animal:\n    ___ speak(self):\n        return \"...\"\nclass Dog(Animal):\n    def speak(self):\n        return \"Woof\"\nprint(Dog().speak())",
+          "output": "Woof"
+        },
+        {
+          "level": 156,
+          "topic": "Method overloading concepts",
+          "syntax": "def greet(name=None):\n    if name:\n        return f\"Hi {name}\"\n    return \"Hi\"\nprint(greet())",
+          "puzzle": "___ greet(name=None):\n    if name:\n        return f\"Hi {name}\"\n    return \"Hi\"\nprint(greet())",
+          "output": "Hi"
+        },
+        {
+          "level": 157,
+          "topic": "Abstraction",
+          "syntax": "from abc import ABC, abstractmethod\nclass Shape(ABC):\n    @abstractmethod\n    def area(self):\n        pass",
+          "puzzle": "from abc import ABC, ___\nclass Shape(ABC):\n    @abstractmethod\n    def area(self):\n        pass",
+          "output": ""
+        },
+        {
+          "level": 158,
+          "topic": "Abstract classes",
+          "syntax": "from abc import ABC, abstractmethod\nclass Shape(ABC):\n    @abstractmethod\n    def area(self):\n        pass\nclass Circle(Shape):\n    def area(self):\n        return 3.14\nprint(Circle().area())",
+          "puzzle": "from abc import ABC, ___\nclass Shape(ABC):\n    @abstractmethod\n    def area(self):\n        pass\nclass Circle(Shape):\n    def area(self):\n        return 3.14\nprint(Circle().area())",
+          "output": "3.14"
+        },
+        {
+          "level": 159,
+          "topic": "Interfaces/conventions",
+          "syntax": "class Flyable:\n    def fly(self):\n        raise NotImplementedError\nclass Bird(Flyable):\n    def fly(self):\n        return \"Flying\"\nprint(Bird().fly())",
+          "puzzle": "class Flyable:\n    ___ fly(self):\n        raise NotImplementedError\nclass Bird(Flyable):\n    def fly(self):\n        return \"Flying\"\nprint(Bird().fly())",
+          "output": "Flying"
+        },
+        {
+          "level": 160,
+          "topic": "Composition",
+          "syntax": "class Engine:\n    def start(self):\n        return \"Engine started\"\nclass Car:\n    def __init__(self):\n        self.engine = Engine()\nprint(Car().engine.start())",
+          "puzzle": "class Engine:\n    ___ start(self):\n        return \"Engine started\"\nclass Car:\n    def ___init___(self):\n        self.engine = Engine()\nprint(Car().engine.start())",
+          "output": "Engine started"
+        },
+        {
+          "level": 161,
+          "topic": "Aggregation",
+          "syntax": "class Department:\n    def __init__(self, name):\n        self.name = name\nclass Employee:\n    def __init__(self, dept):\n        self.dept = dept\nd = Department(\"IT\")\ne = Employee(d)\nprint(e.dept.name)",
+          "puzzle": "class Department:\n    ___ ___init___(self, name):\n        self.name = name\nclass Employee:\n    def ___init___(self, dept):\n        self.dept = dept\nd = Department(\"IT\")\ne = Employee(d)\nprint(e.dept.name)",
+          "output": "IT"
+        },
+        {
+          "level": 162,
+          "topic": "super()",
+          "syntax": "class Animal:\n    def __init__(self, name):\n        self.name = name\nclass Dog(Animal):\n    def __init__(self, name):\n        super().__init__(name)\nprint(Dog(\"Rex\").name)",
+          "puzzle": "class Animal:\n    def ___init___(self, name):\n        self.name = name\nclass Dog(Animal):\n    def ___init___(self, name):\n        ___().___init___(name)\nprint(Dog(\"Rex\").name)",
+          "output": "Rex"
+        },
+        {
+          "level": 163,
+          "topic": "self",
+          "syntax": "class Dog:\n    def __init__(self, name):\n        self.name = name\n    def show(self):\n        print(self.name)\nDog(\"Rex\").show()",
+          "puzzle": "class Dog:\n    def ___init___(___, name):\n        self.name = name\n    def show(self):\n        print(self.name)\nDog(\"Rex\").show()",
+          "output": "Rex"
+        },
+        {
+          "level": 164,
+          "topic": "Properties",
+          "syntax": "class Circle:\n    def __init__(self, r):\n        self._r = r\n    @property\n    def radius(self):\n        return self._r\nprint(Circle(5).radius)",
+          "puzzle": "class Circle:\n    def ___init___(self, r):\n        self.___r = r\n    @___\n    def radius(self):\n        return self.___r\nprint(Circle(5).radius)",
+          "output": "5"
+        },
+        {
+          "level": 165,
+          "topic": "Getters/setters",
+          "syntax": "class Circle:\n    def __init__(self, r):\n        self._r = r\n    @property\n    def radius(self):\n        return self._r\n    @radius.setter\n    def radius(self, value):\n        self._r = value\nc = Circle(5)\nc.radius = 10\nprint(c.radius)",
+          "puzzle": "class Circle:\n    def ___init___(self, r):\n        self.___r = r\n    @property\n    def radius(self):\n        return self.___r\n    @radius.___\n    def radius(self, value):\n        self.___r = value\nc = Circle(5)\nc.radius = 10\nprint(c.radius)",
+          "output": "10"
+        },
+        {
+          "level": 166,
+          "topic": "Magic/dunder methods",
+          "syntax": "class Point:\n    def __init__(self, x):\n        self.x = x\n    def __str__(self):\n        return f\"Point({self.x})\"\nprint(Point(5))",
+          "puzzle": "class Point:\n    def ___init___(self, x):\n        self.x = x\n    def ___(self):\n        return f\"Point({self.x})\"\nprint(Point(5))",
+          "output": "Point(5)"
+        }
+      ]
+    },
+    {
+      "part": "Part 11 - Advanced Python Data Model",
+      "items": [
+        {
+          "level": 167,
+          "topic": "__str__",
+          "syntax": "class Point:\n    def __str__(self):\n        return \"A point\"\nprint(Point())",
+          "puzzle": "class Point:\n    def ___(self):\n        return \"A point\"\nprint(Point())",
+          "output": "A point"
+        },
+        {
+          "level": 168,
+          "topic": "__repr__",
+          "syntax": "class Point:\n    def __repr__(self):\n        return \"Point()\"\nprint(repr(Point()))",
+          "puzzle": "class Point:\n    def ___(self):\n        return \"Point()\"\nprint(repr(Point()))",
+          "output": "Point()"
+        },
+        {
+          "level": 169,
+          "topic": "__len__",
+          "syntax": "class Bag:\n    def __len__(self):\n        return 5\nprint(len(Bag()))",
+          "puzzle": "class Bag:\n    def ___(self):\n        return 5\nprint(len(Bag()))",
+          "output": "5"
+        },
+        {
+          "level": 170,
+          "topic": "__getitem__",
+          "syntax": "class Box:\n    def __getitem__(self, i):\n        return i * 2\nprint(Box()[3])",
+          "puzzle": "class Box:\n    def ___(self, i):\n        return i * 2\nprint(Box()[3])",
+          "output": "6"
+        },
+        {
+          "level": 171,
+          "topic": "__setitem__",
+          "syntax": "class Box:\n    def __init__(self):\n        self.data = {}\n    def __setitem__(self, k, v):\n        self.data[k] = v\nb = Box()\nb[\"x\"] = 5\nprint(b.data)",
+          "puzzle": "class Box:\n    def ___init___(self):\n        self.data = {}\n    def ___(self, k, v):\n        self.data[k] = v\nb = Box()\nb[\"x\"] = 5\nprint(b.data)",
+          "output": "{'x': 5}"
+        },
+        {
+          "level": 172,
+          "topic": "__iter__",
+          "syntax": "class Counter:\n    def __iter__(self):\n        return iter([1, 2, 3])\nprint(list(Counter()))",
+          "puzzle": "class Counter:\n    def ___(self):\n        return iter([1, 2, 3])\nprint(list(Counter()))",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 173,
+          "topic": "__next__",
+          "syntax": "class Counter:\n    def __init__(self):\n        self.n = 0\n    def __iter__(self):\n        return self\n    def __next__(self):\n        self.n += 1\n        if self.n > 2:\n            raise StopIteration\n        return self.n\nprint(list(Counter()))",
+          "puzzle": "class Counter:\n    def ___init___(self):\n        self.n = 0\n    def ___iter___(self):\n        return self\n    def ___(self):\n        self.n += 1\n        if self.n > 2:\n            raise StopIteration\n        return self.n\nprint(list(Counter()))",
+          "output": "[1, 2]"
+        },
+        {
+          "level": 174,
+          "topic": "__contains__",
+          "syntax": "class Box:\n    def __contains__(self, item):\n        return item == 5\nprint(5 in Box())",
+          "puzzle": "class Box:\n    def ___(self, item):\n        return item == 5\nprint(5 in Box())",
+          "output": "True"
+        },
+        {
+          "level": 175,
+          "topic": "__call__",
+          "syntax": "class Adder:\n    def __call__(self, x, y):\n        return x + y\nadd = Adder()\nprint(add(2, 3))",
+          "puzzle": "class Adder:\n    def ___(self, x, y):\n        return x + y\nadd = Adder()\nprint(add(2, 3))",
+          "output": "5"
+        },
+        {
+          "level": 176,
+          "topic": "__eq__",
+          "syntax": "class Point:\n    def __init__(self, x):\n        self.x = x\n    def __eq__(self, other):\n        return self.x == other.x\nprint(Point(1) == Point(1))",
+          "puzzle": "class Point:\n    def ___init___(self, x):\n        self.x = x\n    def ___(self, other):\n        return self.x == other.x\nprint(Point(1) == Point(1))",
+          "output": "True"
+        },
+        {
+          "level": 177,
+          "topic": "__lt__",
+          "syntax": "class Box:\n    def __init__(self, v):\n        self.v = v\n    def __lt__(self, other):\n        return self.v < other.v\nprint(Box(1) < Box(2))",
+          "puzzle": "class Box:\n    def ___init___(self, v):\n        self.v = v\n    def ___(self, other):\n        return self.v < other.v\nprint(Box(1) < Box(2))",
+          "output": "True"
+        },
+        {
+          "level": 178,
+          "topic": "__add__",
+          "syntax": "class Vector:\n    def __init__(self, x):\n        self.x = x\n    def __add__(self, other):\n        return Vector(self.x + other.x)\nprint((Vector(1) + Vector(2)).x)",
+          "puzzle": "class Vector:\n    def ___init___(self, x):\n        self.x = x\n    def ___(self, other):\n        return Vector(self.x + other.x)\nprint((Vector(1) + Vector(2)).x)",
+          "output": "3"
+        },
+        {
+          "level": 179,
+          "topic": "__enter__",
+          "syntax": "class Resource:\n    def __enter__(self):\n        print(\"Opened\")\n        return self\n    def __exit__(self, *args):\n        print(\"Closed\")\nwith Resource():\n    print(\"Using\")",
+          "puzzle": "class Resource:\n    def ___(self):\n        print(\"Opened\")\n        return self\n    def ___exit___(self, *args):\n        print(\"Closed\")\nwith Resource():\n    print(\"Using\")",
+          "output": "Opened\nUsing\nClosed"
+        },
+        {
+          "level": 180,
+          "topic": "__exit__",
+          "syntax": "class Resource:\n    def __enter__(self):\n        return self\n    def __exit__(self, *args):\n        print(\"Closed\")\nwith Resource():\n    pass",
+          "puzzle": "class Resource:\n    def ___enter___(self):\n        return self\n    def ___(self, *args):\n        print(\"Closed\")\nwith Resource():\n    pass",
+          "output": "Closed"
+        },
+        {
+          "level": 181,
+          "topic": "Object identity",
+          "syntax": "a = [1, 2]\nb = a\nprint(a is b)",
+          "puzzle": "___ = ___\nb = a\nprint(a is b)",
+          "output": "True"
+        },
+        {
+          "level": 182,
+          "topic": "Object equality",
+          "syntax": "a = [1, 2]\nb = [1, 2]\nprint(a == b)",
+          "puzzle": "___ = ___\nb = [1, 2]\nprint(a == b)",
+          "output": "True"
+        },
+        {
+          "level": 183,
+          "topic": "Python data model",
+          "syntax": "print(len([1, 2, 3]))",
+          "puzzle": "___(len([1, 2, 3]))",
+          "output": "3"
+        },
+        {
+          "level": 184,
+          "topic": "Protocols",
+          "syntax": "class Sized:\n    def __len__(self):\n        return 10\nprint(len(Sized()))",
+          "puzzle": "class Sized:\n    ___ ___len___(self):\n        return 10\nprint(len(Sized()))",
+          "output": "10"
+        },
+        {
+          "level": 185,
+          "topic": "Duck typing",
+          "syntax": "class Duck:\n    def quack(self):\n        return \"Quack\"\nclass Person:\n    def quack(self):\n        return \"I'm quacking\"\nfor x in [Duck(), Person()]:\n    print(x.quack())",
+          "puzzle": "class Duck:\n    ___ quack(self):\n        return \"Quack\"\nclass Person:\n    def quack(self):\n        return \"I'm quacking\"\nfor x in [Duck(), Person()]:\n    print(x.quack())",
+          "output": "Quack\nI'm quacking"
+        }
+      ]
+    },
+    {
+      "part": "Part 12 - Iterators & Generators",
+      "items": [
+        {
+          "level": 186,
+          "topic": "Iterable",
+          "syntax": "print(hasattr([1, 2, 3], \"__iter__\"))",
+          "puzzle": "print(hasattr([1, 2, 3], \"___\"))",
+          "output": "True"
+        },
+        {
+          "level": 187,
+          "topic": "Iterator",
+          "syntax": "it = iter([1, 2, 3])\nprint(next(it))",
+          "puzzle": "it = ___([1, 2, 3])\nprint(next(it))",
+          "output": "1"
+        },
+        {
+          "level": 188,
+          "topic": "iter()",
+          "syntax": "it = iter([1, 2])\nprint(next(it), next(it))",
+          "puzzle": "it = ___([1, 2])\nprint(next(it), next(it))",
+          "output": "1 2"
+        },
+        {
+          "level": 189,
+          "topic": "next()",
+          "syntax": "it = iter([5, 6])\nprint(next(it))",
+          "puzzle": "it = iter([5, 6])\nprint(___(it))",
+          "output": "5"
+        },
+        {
+          "level": 190,
+          "topic": "Creating custom iterators",
+          "syntax": "class Counter:\n    def __init__(self, n):\n        self.n = n\n        self.i = 0\n    def __iter__(self):\n        return self\n    def __next__(self):\n        if self.i >= self.n:\n            raise StopIteration\n        self.i += 1\n        return self.i\nprint(list(Counter(3)))",
+          "puzzle": "class Counter:\n    ___ ___init___(self, n):\n        self.n = n\n        self.i = 0\n    def ___iter___(self):\n        return self\n    def ___next___(self):\n        if self.i >= self.n:\n            raise StopIteration\n        self.i += 1\n        return self.i\nprint(list(Counter(3)))",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 191,
+          "topic": "yield",
+          "syntax": "def gen():\n    yield 1\n    yield 2\nprint(list(gen()))",
+          "puzzle": "def gen():\n    ___ 1\n    yield 2\nprint(list(gen()))",
+          "output": "[1, 2]"
+        },
+        {
+          "level": 192,
+          "topic": "Generators",
+          "syntax": "def counter(n):\n    i = 0\n    while i < n:\n        yield i\n        i += 1\nprint(list(counter(3)))",
+          "puzzle": "___ counter(n):\n    i = 0\n    while i < n:\n        yield i\n        i += 1\nprint(list(counter(3)))",
+          "output": "[0, 1, 2]"
+        },
+        {
+          "level": 193,
+          "topic": "Generator expressions - practice 2",
+          "syntax": "g = (x*x for x in range(3))\nprint(next(g))",
+          "puzzle": "g = (x*x ___ x in range(3))\nprint(next(g))",
+          "output": "0"
+        },
+        {
+          "level": 194,
+          "topic": "yield from",
+          "syntax": "def inner():\n    yield 1\n    yield 2\ndef outer():\n    yield from inner()\nprint(list(outer()))",
+          "puzzle": "def inner():\n    yield 1\n    yield 2\ndef outer():\n    ___ inner()\nprint(list(outer()))",
+          "output": "[1, 2]"
+        },
+        {
+          "level": 195,
+          "topic": "Lazy evaluation",
+          "syntax": "g = (x for x in range(1000000))\nprint(next(g))",
+          "puzzle": "g = ___x for x in range(1000000))\nprint(next(g))",
+          "output": "0"
+        },
+        {
+          "level": 196,
+          "topic": "Generator pipelines",
+          "syntax": "nums = range(5)\nsquares = (x*x for x in nums)\nevens = (x for x in squares if x % 2 == 0)\nprint(list(evens))",
+          "puzzle": "nums = range(5)\nsquares = (x*x ___ x in nums)\nevens = (x for x in squares if x % 2 == 0)\nprint(list(evens))",
+          "output": "[0, 4, 16]"
+        }
+      ]
+    },
+    {
+      "part": "Part 13 - Decorators",
+      "items": [
+        {
+          "level": 197,
+          "topic": "Functions as objects",
+          "syntax": "def greet():\n    return \"Hi\"\nf = greet\nprint(f())",
+          "puzzle": "___ greet():\n    return \"Hi\"\nf = greet\nprint(f())",
+          "output": "Hi"
+        },
+        {
+          "level": 198,
+          "topic": "Nested functions",
+          "syntax": "def outer():\n    def inner():\n        return \"Inner\"\n    return inner()\nprint(outer())",
+          "puzzle": "___ outer():\n    def inner():\n        return \"Inner\"\n    return inner()\nprint(outer())",
+          "output": "Inner"
+        },
+        {
+          "level": 199,
+          "topic": "Closures",
+          "syntax": "def outer():\n    msg = \"Hi\"\n    def inner():\n        return msg\n    return inner\nprint(outer()())",
+          "puzzle": "def outer():\n    msg = \"Hi\"\n    def inner():\n        ___ msg\n    return inner\nprint(outer()())",
+          "output": "Hi"
+        },
+        {
+          "level": 200,
+          "topic": "Higher-order functions (decorators)",
+          "syntax": "def shout(fn):\n    def wrapper():\n        return fn().upper()\n    return wrapper\n@shout\ndef greet():\n    return \"hi\"\nprint(greet())",
+          "puzzle": "___ shout(fn):\n    def wrapper():\n        return fn().upper()\n    return wrapper\n@shout\ndef greet():\n    return \"hi\"\nprint(greet())",
+          "output": "HI"
+        },
+        {
+          "level": 201,
+          "topic": "Basic decorators",
+          "syntax": "def decorator(fn):\n    def wrapper():\n        print(\"Before\")\n        fn()\n    return wrapper\n@decorator\ndef greet():\n    print(\"Hello\")\ngreet()",
+          "puzzle": "def decorator(fn):\n    def wrapper():\n        print(\"Before\")\n        fn()\n    return wrapper\n___\ndef greet():\n    print(\"Hello\")\ngreet()",
+          "output": "Before\nHello"
+        },
+        {
+          "level": 202,
+          "topic": "Decorators with arguments",
+          "syntax": "def repeat(n):\n    def decorator(fn):\n        def wrapper():\n            for _ in range(n):\n                fn()\n        return wrapper\n    return decorator\n@repeat(2)\ndef hi():\n    print(\"Hi\")\nhi()",
+          "puzzle": "def repeat(n):\n    def decorator(fn):\n        def wrapper():\n            for ___ in range(n):\n                fn()\n        return wrapper\n    return decorator\n___(2)\ndef hi():\n    print(\"Hi\")\nhi()",
+          "output": "Hi\nHi"
+        },
+        {
+          "level": 203,
+          "topic": "Multiple decorators",
+          "syntax": "def bold(fn):\n    def wrapper():\n        return \"**\" + fn() + \"**\"\n    return wrapper\ndef italic(fn):\n    def wrapper():\n        return \"_\" + fn() + \"_\"\n    return wrapper\n@bold\n@italic\ndef text():\n    return \"hi\"\nprint(text())",
+          "puzzle": "def bold(fn):\n    def wrapper():\n        return \"**\" + fn() + \"**\"\n    return wrapper\ndef italic(fn):\n    def wrapper():\n        return \"___\" + fn() + \"___\"\n    return wrapper\n___\n@italic\ndef text():\n    return \"hi\"\nprint(text())",
+          "output": "**_hi_**"
+        },
+        {
+          "level": 204,
+          "topic": "functools.wraps",
+          "syntax": "from functools import wraps\ndef decorator(fn):\n    @wraps(fn)\n    def wrapper():\n        return fn()\n    return wrapper\n@decorator\ndef greet():\n    \"\"\"doc\"\"\"\n    return \"Hi\"\nprint(greet.__name__)",
+          "puzzle": "from functools import wraps\ndef decorator(fn):\n    ___(fn)\n    def wrapper():\n        return fn()\n    return wrapper\n@decorator\ndef greet():\n    \"\"\"doc\"\"\"\n    return \"Hi\"\nprint(greet.___name___)",
+          "output": "greet"
+        },
+        {
+          "level": 205,
+          "topic": "Class decorators",
+          "syntax": "def add_greeting(cls):\n    cls.greet = lambda self: \"Hi\"\n    return cls\n@add_greeting\nclass Person:\n    pass\nprint(Person().greet())",
+          "puzzle": "def add___greeting(cls):\n    cls.greet = lambda self: \"Hi\"\n    return cls\n___\nclass Person:\n    pass\nprint(Person().greet())",
+          "output": "Hi"
+        },
+        {
+          "level": 206,
+          "topic": "Practical decorator patterns",
+          "syntax": "import time\ndef timer(fn):\n    def wrapper(*a):\n        start = time.time()\n        result = fn(*a)\n        return result\n    return wrapper\n@timer\ndef work():\n    return \"done\"\nprint(work())",
+          "puzzle": "import time\n___ timer(fn):\n    def wrapper(*a):\n        start = time.time()\n        result = fn(*a)\n        return result\n    return wrapper\n@timer\ndef work():\n    return \"done\"\nprint(work())",
+          "output": "done"
+        }
+      ]
+    },
+    {
+      "part": "Part 14 - Closures & Functional Programming",
+      "items": [
+        {
+          "level": 207,
+          "topic": "Closures - practice 2",
+          "syntax": "def make_adder(x):\n    def add(y):\n        return x + y\n    return add\nadd5 = make_adder(5)\nprint(add5(3))",
+          "puzzle": "def make___adder(x):\n    def add(y):\n        ___ x + y\n    return add\nadd5 = make___adder(5)\nprint(add5(3))",
+          "output": "8"
+        },
+        {
+          "level": 208,
+          "topic": "lambda",
+          "syntax": "square = lambda x: x * x\nprint(square(4))",
+          "puzzle": "square = ___ x: x * x\nprint(square(4))",
+          "output": "16"
+        },
+        {
+          "level": 209,
+          "topic": "map()",
+          "syntax": "nums = [1, 2, 3]\nprint(list(map(lambda x: x*2, nums)))",
+          "puzzle": "nums = [1, 2, 3]\nprint(list(___(lambda x: x*2, nums)))",
+          "output": "[2, 4, 6]"
+        },
+        {
+          "level": 210,
+          "topic": "filter()",
+          "syntax": "nums = [1, 2, 3, 4]\nprint(list(filter(lambda x: x % 2 == 0, nums)))",
+          "puzzle": "nums = [1, 2, 3, 4]\nprint(list(___(lambda x: x % 2 == 0, nums)))",
+          "output": "[2, 4]"
+        },
+        {
+          "level": 211,
+          "topic": "reduce()",
+          "syntax": "from functools import reduce\nnums = [1, 2, 3, 4]\nprint(reduce(lambda a, b: a + b, nums))",
+          "puzzle": "from functools import ___\nnums = [1, 2, 3, 4]\nprint(reduce(lambda a, b: a + b, nums))",
+          "output": "10"
+        },
+        {
+          "level": 212,
+          "topic": "zip()",
+          "syntax": "a = [1, 2]\nb = [\"x\", \"y\"]\nprint(list(zip(a, b)))",
+          "puzzle": "a = [1, 2]\nb = [\"x\", \"y\"]\nprint(list(___(a, b)))",
+          "output": "[(1, 'x'), (2, 'y')]"
+        },
+        {
+          "level": 213,
+          "topic": "enumerate()",
+          "syntax": "for i, v in enumerate([\"a\", \"b\"]):\n    print(i, v)",
+          "puzzle": "for i, v in ___([\"a\", \"b\"]):\n    print(i, v)",
+          "output": "0 a\n1 b"
+        },
+        {
+          "level": 214,
+          "topic": "any()",
+          "syntax": "print(any([False, False, True]))",
+          "puzzle": "print(___([False, False, True]))",
+          "output": "True"
+        },
+        {
+          "level": 215,
+          "topic": "all()",
+          "syntax": "print(all([True, True, False]))",
+          "puzzle": "print(___([True, True, False]))",
+          "output": "False"
+        },
+        {
+          "level": 216,
+          "topic": "sorted()",
+          "syntax": "print(sorted([3, 1, 2]))",
+          "puzzle": "print(___([3, 1, 2]))",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 217,
+          "topic": "Functional programming concepts",
+          "syntax": "nums = [1, 2, 3]\nprint(list(map(lambda x: x**2, filter(lambda x: x > 1, nums))))",
+          "puzzle": "nums = [1, 2, 3]\nprint(list(map(___ x: x**2, filter(lambda x: x > 1, nums))))",
+          "output": "[4, 9]"
+        },
+        {
+          "level": 218,
+          "topic": "Immutability",
+          "syntax": "t = (1, 2, 3)\nprint(t)",
+          "puzzle": "___ = ___\nprint(t)",
+          "output": "(1, 2, 3)"
+        }
+      ]
+    },
+    {
+      "part": "Part 15 - Context Managers",
+      "items": [
+        {
+          "level": 219,
+          "topic": "with",
+          "syntax": "with open(\"data.txt\", \"w\") as f:\n    f.write(\"Hi\")",
+          "puzzle": "___ open(\"data.txt\", \"w\") as f:\n    f.write(\"Hi\")",
+          "output": ""
+        },
+        {
+          "level": 220,
+          "topic": "Context manager protocol",
+          "syntax": "class Ctx:\n    def __enter__(self):\n        return self\n    def __exit__(self, *a):\n        pass\nwith Ctx():\n    print(\"Inside\")",
+          "puzzle": "class Ctx:\n    def ___(self):\n        return self\n    def ___exit___(self, *a):\n        pass\nwith Ctx():\n    print(\"Inside\")",
+          "output": "Inside"
+        },
+        {
+          "level": 221,
+          "topic": "__enter__ (context manager)",
+          "syntax": "class Ctx:\n    def __enter__(self):\n        print(\"Enter\")\n        return self\n    def __exit__(self, *a):\n        pass\nwith Ctx():\n    pass",
+          "puzzle": "class Ctx:\n    def ___(self):\n        print(\"Enter\")\n        return self\n    def ___exit___(self, *a):\n        pass\nwith Ctx():\n    pass",
+          "output": "Enter"
+        },
+        {
+          "level": 222,
+          "topic": "__exit__ (context manager)",
+          "syntax": "class Ctx:\n    def __enter__(self):\n        return self\n    def __exit__(self, *a):\n        print(\"Exit\")\nwith Ctx():\n    pass",
+          "puzzle": "class Ctx:\n    def ___enter___(self):\n        return self\n    def ___(self, *a):\n        print(\"Exit\")\nwith Ctx():\n    pass",
+          "output": "Exit"
+        },
+        {
+          "level": 223,
+          "topic": "Creating custom context managers",
+          "syntax": "class Timer:\n    def __enter__(self):\n        print(\"Start\")\n        return self\n    def __exit__(self, *a):\n        print(\"Stop\")\nwith Timer():\n    print(\"Work\")",
+          "puzzle": "class Timer:\n    ___ ___enter___(self):\n        print(\"Start\")\n        return self\n    def ___exit___(self, *a):\n        print(\"Stop\")\nwith Timer():\n    print(\"Work\")",
+          "output": "Start\nWork\nStop"
+        },
+        {
+          "level": 224,
+          "topic": "contextlib",
+          "syntax": "from contextlib import contextmanager\n@contextmanager\ndef ctx():\n    print(\"Enter\")\n    yield\n    print(\"Exit\")\nwith ctx():\n    print(\"Inside\")",
+          "puzzle": "from contextlib import ___\n@contextmanager\ndef ctx():\n    print(\"Enter\")\n    yield\n    print(\"Exit\")\nwith ctx():\n    print(\"Inside\")",
+          "output": "Enter\nInside\nExit"
+        },
+        {
+          "level": 225,
+          "topic": "contextmanager",
+          "syntax": "from contextlib import contextmanager\n@contextmanager\ndef simple():\n    yield \"value\"\nwith simple() as v:\n    print(v)",
+          "puzzle": "from contextlib import ___\n@contextmanager\ndef simple():\n    yield \"value\"\nwith simple() as v:\n    print(v)",
+          "output": "value"
+        },
+        {
+          "level": 226,
+          "topic": "Resource management",
+          "syntax": "with open(\"data.txt\", \"w\") as f:\n    f.write(\"data\")\nprint(f.closed)",
+          "puzzle": "___ open(\"data.txt\", \"w\") as f:\n    f.write(\"data\")\nprint(f.closed)",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "part": "Part 16 - Regular Expressions",
+      "items": [
+        {
+          "level": 227,
+          "topic": "What is Regex?",
+          "syntax": "import re\nprint(bool(re.match(\"h\", \"hello\")))",
+          "puzzle": "import re\nprint(bool(___(\"h\", \"hello\")))",
+          "output": "True"
+        },
+        {
+          "level": 228,
+          "topic": "re module",
+          "syntax": "import re\nprint(re.findall(\"[0-9]+\", \"a1b22\"))",
+          "puzzle": "import re\nprint(___findall(\"[0-9]+\", \"a1b22\"))",
+          "output": "['1', '22']"
+        },
+        {
+          "level": 229,
+          "topic": "Patterns",
+          "syntax": "import re\nprint(re.match(r\"\\d+\", \"123abc\").group())",
+          "puzzle": "import re\nprint(___match(r\"\\d+\", \"123abc\").group())",
+          "output": "123"
+        },
+        {
+          "level": 230,
+          "topic": "Character classes",
+          "syntax": "import re\nprint(re.findall(\"[aeiou]\", \"hello world\"))",
+          "puzzle": "import re\nprint(___findall(\"[aeiou]\", \"hello world\"))",
+          "output": "['e', 'o', 'o']"
+        },
+        {
+          "level": 231,
+          "topic": "Quantifiers",
+          "syntax": "import re\nprint(re.findall(\"a{2,}\", \"aaab\"))",
+          "puzzle": "import re\nprint(___findall(\"a{2,}\", \"aaab\"))",
+          "output": "['aaa']"
+        },
+        {
+          "level": 232,
+          "topic": "Groups",
+          "syntax": "import re\nm = re.match(r\"(\\d+)-(\\d+)\", \"12-34\")\nprint(m.group(1))",
+          "puzzle": "import re\nm = ___match(r\"(\\d+)-(\\d+)\", \"12-34\")\nprint(m.group(1))",
+          "output": "12"
+        },
+        {
+          "level": 233,
+          "topic": "Capturing groups",
+          "syntax": "import re\nm = re.match(r\"(\\w+)@(\\w+)\", \"user@site\")\nprint(m.groups())",
+          "puzzle": "import re\nm = ___match(r\"(\\w+)@(\\w+)\", \"user@site\")\nprint(m.groups())",
+          "output": "('user', 'site')"
+        },
+        {
+          "level": 234,
+          "topic": "Search",
+          "syntax": "import re\nprint(bool(re.search(\"world\", \"hello world\")))",
+          "puzzle": "import re\nprint(bool(___(\"world\", \"hello world\")))",
+          "output": "True"
+        },
+        {
+          "level": 235,
+          "topic": "Match",
+          "syntax": "import re\nprint(bool(re.match(\"hello\", \"hello world\")))",
+          "puzzle": "import re\nprint(bool(___(\"hello\", \"hello world\")))",
+          "output": "True"
+        },
+        {
+          "level": 236,
+          "topic": "Findall",
+          "syntax": "import re\nprint(re.findall(\"o\", \"foo bar\"))",
+          "puzzle": "import re\nprint(___(\"o\", \"foo bar\"))",
+          "output": "['o', 'o']"
+        },
+        {
+          "level": 237,
+          "topic": "Replace (regex)",
+          "syntax": "import re\nprint(re.sub(\"a\", \"o\", \"banana\"))",
+          "puzzle": "import re\nprint(___(\"a\", \"o\", \"banana\"))",
+          "output": "bonono"
+        },
+        {
+          "level": 238,
+          "topic": "Regex flags",
+          "syntax": "import re\nprint(bool(re.match(\"HELLO\", \"hello\", re.IGNORECASE)))",
+          "puzzle": "import re\nprint(bool(re.match(\"HELLO\", \"hello\", ___)))",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "part": "Part 17 - Python Standard Library",
+      "items": [
+        {
+          "level": 239,
+          "topic": "os",
+          "syntax": "import os\nprint(os.getcwd() != \"\")",
+          "puzzle": "import ___\nprint(os.getcwd() != \"\")",
+          "output": "True"
+        },
+        {
+          "level": 240,
+          "topic": "sys",
+          "syntax": "import sys\nprint(sys.version_info.major)",
+          "puzzle": "import ___\nprint(sys.version___info.major)",
+          "output": "3"
+        },
+        {
+          "level": 241,
+          "topic": "math",
+          "syntax": "import math\nprint(math.floor(4.7))",
+          "puzzle": "import ___\nprint(math.floor(4.7))",
+          "output": "4"
+        },
+        {
+          "level": 242,
+          "topic": "random",
+          "syntax": "import random\nprint(random.choice([1, 2, 3]) in [1, 2, 3])",
+          "puzzle": "import ___\nprint(random.choice([1, 2, 3]) in [1, 2, 3])",
+          "output": "True"
+        },
+        {
+          "level": 243,
+          "topic": "datetime",
+          "syntax": "from datetime import date\nprint(date(2026, 1, 1).year)",
+          "puzzle": "from ___ import date\nprint(date(2026, 1, 1).year)",
+          "output": "2026"
+        },
+        {
+          "level": 244,
+          "topic": "time",
+          "syntax": "import time\nprint(type(time.time()))",
+          "puzzle": "import ___\nprint(type(time.time()))",
+          "output": "<class 'float'>"
+        },
+        {
+          "level": 245,
+          "topic": "json (standard library)",
+          "syntax": "import json\nprint(json.loads('{\"a\": 1}'))",
+          "puzzle": "___ json\nprint(json.loads('{\"a\": 1}'))",
+          "output": "{'a': 1}"
+        },
+        {
+          "level": 246,
+          "topic": "collections",
+          "syntax": "from collections import Counter\nprint(Counter(\"aabbc\"))",
+          "puzzle": "from ___ import Counter\nprint(Counter(\"aabbc\"))",
+          "output": "Counter({'a': 2, 'b': 2, 'c': 1})"
+        },
+        {
+          "level": 247,
+          "topic": "itertools",
+          "syntax": "from itertools import permutations\nprint(list(permutations([1, 2])))",
+          "puzzle": "from ___ import permutations\nprint(list(permutations([1, 2])))",
+          "output": "[(1, 2), (2, 1)]"
+        },
+        {
+          "level": 248,
+          "topic": "functools",
+          "syntax": "from functools import lru_cache\n@lru_cache\ndef f(x):\n    return x * 2\nprint(f(4))",
+          "puzzle": "from ___ import lru___cache\n@lru___cache\ndef f(x):\n    return x * 2\nprint(f(4))",
+          "output": "8"
+        },
+        {
+          "level": 249,
+          "topic": "operator",
+          "syntax": "import operator\nprint(operator.add(2, 3))",
+          "puzzle": "import ___\nprint(operator.add(2, 3))",
+          "output": "5"
+        },
+        {
+          "level": 250,
+          "topic": "statistics",
+          "syntax": "import statistics\nprint(statistics.mean([1, 2, 3]))",
+          "puzzle": "import ___\nprint(statistics.mean([1, 2, 3]))",
+          "output": "2"
+        },
+        {
+          "level": 251,
+          "topic": "shutil",
+          "syntax": "import shutil\nprint(hasattr(shutil, \"copy\"))",
+          "puzzle": "import ___\nprint(hasattr(shutil, \"copy\"))",
+          "output": "True"
+        },
+        {
+          "level": 252,
+          "topic": "subprocess",
+          "syntax": "import subprocess\nresult = subprocess.run([\"echo\", \"hi\"], capture_output=True, text=True)\nprint(result.stdout.strip())",
+          "puzzle": "import ___\nresult = subprocess.run([\"echo\", \"hi\"], capture___output=True, text=True)\nprint(result.stdout.strip())",
+          "output": "hi"
+        },
+        {
+          "level": 253,
+          "topic": "logging (module)",
+          "syntax": "import logging\nlogging.warning(\"Careful!\")",
+          "puzzle": "___ logging\nlogging.warning(\"Careful!\")",
+          "output": "WARNING:root:Careful!"
+        },
+        {
+          "level": 254,
+          "topic": "argparse",
+          "syntax": "import argparse\nparser = argparse.ArgumentParser()\nprint(type(parser))",
+          "puzzle": "import ___\nparser = argparse.ArgumentParser()\nprint(type(parser))",
+          "output": "<class 'argparse.ArgumentParser'>"
+        },
+        {
+          "level": 255,
+          "topic": "sqlite3",
+          "syntax": "import sqlite3\nconn = sqlite3.connect(\":memory:\")\nprint(type(conn))",
+          "puzzle": "import ___\nconn = sqlite3.connect(\":memory:\")\nprint(type(conn))",
+          "output": "<class 'sqlite3.Connection'>"
+        },
+        {
+          "level": 256,
+          "topic": "threading",
+          "syntax": "import threading\nt = threading.Thread(target=lambda: None)\nprint(type(t))",
+          "puzzle": "import ___\nt = threading.Thread(target=lambda: None)\nprint(type(t))",
+          "output": "<class 'threading.Thread'>"
+        },
+        {
+          "level": 257,
+          "topic": "multiprocessing",
+          "syntax": "import multiprocessing\nprint(multiprocessing.cpu_count() > 0)",
+          "puzzle": "import ___\nprint(multiprocessing.cpu___count() > 0)",
+          "output": "True"
+        },
+        {
+          "level": 258,
+          "topic": "asyncio",
+          "syntax": "import asyncio\nasync def main():\n    return \"done\"\nprint(asyncio.run(main()))",
+          "puzzle": "import ___\nasync def main():\n    return \"done\"\nprint(asyncio.run(main()))",
+          "output": "done"
+        },
+        {
+          "level": 259,
+          "topic": "typing",
+          "syntax": "from typing import List\nnums: List[int] = [1, 2, 3]\nprint(nums)",
+          "puzzle": "from ___ import List\nnums: List[int] = [1, 2, 3]\nprint(nums)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 260,
+          "topic": "dataclasses (module)",
+          "syntax": "from dataclasses import dataclass\n@dataclass\nclass Point:\n    x: int\nprint(Point(5))",
+          "puzzle": "from dataclasses import dataclass\n@dataclass\n___ Point:\n    x: int\nprint(Point(5))",
+          "output": "Point(x=5)"
+        }
+      ]
+    },
+    {
+      "part": "Part 18 - Type Hints",
+      "items": [
+        {
+          "level": 261,
+          "topic": "Type annotations",
+          "syntax": "def add(a: int, b: int) -> int:\n    return a + b\nprint(add(2, 3))",
+          "puzzle": "___ add(a: int, b: int) -> int:\n    return a + b\nprint(add(2, 3))",
+          "output": "5"
+        },
+        {
+          "level": 262,
+          "topic": "int, str, float (type hints)",
+          "syntax": "name: str = \"Ava\"\nage: int = 21\nprint(name, age)",
+          "puzzle": "___: str = \"Ava\"\nage: int = 21\nprint(name, age)",
+          "output": "Ava 21"
+        },
+        {
+          "level": 263,
+          "topic": "list (type hints)",
+          "syntax": "nums: list[int] = [1, 2, 3]\nprint(nums)",
+          "puzzle": "___: list[int] = [1, 2, 3]\nprint(nums)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 264,
+          "topic": "dict (type hints)",
+          "syntax": "d: dict[str, int] = {\"a\": 1}\nprint(d)",
+          "puzzle": "___: dict[str, int] = {\"a\": 1}\nprint(d)",
+          "output": "{'a': 1}"
+        },
+        {
+          "level": 265,
+          "topic": "tuple (type hints)",
+          "syntax": "point: tuple[int, int] = (1, 2)\nprint(point)",
+          "puzzle": "___: tuple[int, int] = (1, 2)\nprint(point)",
+          "output": "(1, 2)"
+        },
+        {
+          "level": 266,
+          "topic": "set (type hints)",
+          "syntax": "s: set[int] = {1, 2}\nprint(s)",
+          "puzzle": "___: set[int] = {1, 2}\nprint(s)",
+          "output": "{1, 2}"
+        },
+        {
+          "level": 267,
+          "topic": "Optional",
+          "syntax": "from typing import Optional\ndef greet(name: Optional[str] = None):\n    return name or \"Guest\"\nprint(greet())",
+          "puzzle": "from typing import ___\ndef greet(name: Optional[str] = None):\n    return name or \"Guest\"\nprint(greet())",
+          "output": "Guest"
+        },
+        {
+          "level": 268,
+          "topic": "Union",
+          "syntax": "from typing import Union\ndef show(x: Union[int, str]):\n    print(x)\nshow(5)",
+          "puzzle": "from typing import ___\ndef show(x: Union[int, str]):\n    print(x)\nshow(5)",
+          "output": "5"
+        },
+        {
+          "level": 269,
+          "topic": "Any",
+          "syntax": "from typing import Any\nx: Any = \"could be anything\"\nprint(x)",
+          "puzzle": "from typing import ___\nx: Any = \"could be anything\"\nprint(x)",
+          "output": "could be anything"
+        },
+        {
+          "level": 270,
+          "topic": "Callable",
+          "syntax": "from typing import Callable\nf: Callable[[int], int] = lambda x: x * 2\nprint(f(5))",
+          "puzzle": "from typing import ___\nf: Callable[[int], int] = lambda x: x * 2\nprint(f(5))",
+          "output": "10"
+        },
+        {
+          "level": 271,
+          "topic": "Generics",
+          "syntax": "from typing import TypeVar, List\nT = TypeVar(\"T\")\ndef first(items: List[T]) -> T:\n    return items[0]\nprint(first([1, 2, 3]))",
+          "puzzle": "from typing import TypeVar, List\nT = TypeVar(\"T\")\n___ first(items: List[T]) -> T:\n    return items[0]\nprint(first([1, 2, 3]))",
+          "output": "1"
+        },
+        {
+          "level": 272,
+          "topic": "Type aliases",
+          "syntax": "Vector = list[float]\nv: Vector = [1.0, 2.0]\nprint(v)",
+          "puzzle": "___ = ___\nv: Vector = [1.0, 2.0]\nprint(v)",
+          "output": "[1.0, 2.0]"
+        },
+        {
+          "level": 273,
+          "topic": "TypedDict",
+          "syntax": "from typing import TypedDict\nclass Point(TypedDict):\n    x: int\n    y: int\np: Point = {\"x\": 1, \"y\": 2}\nprint(p)",
+          "puzzle": "from typing import ___\nclass Point(TypedDict):\n    x: int\n    y: int\np: Point = {\"x\": 1, \"y\": 2}\nprint(p)",
+          "output": "{'x': 1, 'y': 2}"
+        },
+        {
+          "level": 274,
+          "topic": "Protocol (typing)",
+          "syntax": "from typing import Protocol\nclass Speaker(Protocol):\n    def speak(self) -> str: ...\nclass Dog:\n    def speak(self) -> str:\n        return \"Woof\"\ndef make_speak(s: Speaker):\n    return s.speak()\nprint(make_speak(Dog()))",
+          "puzzle": "from ___ import Protocol\nclass Speaker(Protocol):\n    def speak(self) -> str: ...\nclass Dog:\n    def speak(self) -> str:\n        return \"Woof\"\ndef make___speak(s: Speaker):\n    return s.speak()\nprint(make___speak(Dog()))",
+          "output": "Woof"
+        },
+        {
+          "level": 275,
+          "topic": "Static type checking / mypy concepts",
+          "syntax": "def add(a: int, b: int) -> int:\n    return a + b\n# mypy script.py",
+          "puzzle": "___ add(a: int, b: int) -> int:\n    return a + b\n# mypy script.py",
+          "output": "Success: no issues found"
+        }
+      ]
+    },
+    {
+      "part": "Part 19 - Dataclasses & Enums",
+      "items": [
+        {
+          "level": 276,
+          "topic": "dataclass",
+          "syntax": "from dataclasses import dataclass\n@dataclass\nclass Point:\n    x: int\n    y: int\np = Point(1, 2)\nprint(p)",
+          "puzzle": "from ___es import dataclass\n@dataclass\nclass Point:\n    x: int\n    y: int\np = Point(1, 2)\nprint(p)",
+          "output": "Point(x=1, y=2)"
+        },
+        {
+          "level": 277,
+          "topic": "Fields",
+          "syntax": "from dataclasses import dataclass\n@dataclass\nclass User:\n    name: str\n    age: int\nu = User(\"Ava\", 21)\nprint(u.age)",
+          "puzzle": "from dataclasses import dataclass\n@dataclass\n___ User:\n    name: str\n    age: int\nu = User(\"Ava\", 21)\nprint(u.age)",
+          "output": "21"
+        },
+        {
+          "level": 278,
+          "topic": "Default values",
+          "syntax": "from dataclasses import dataclass\n@dataclass\nclass User:\n    name: str = \"Guest\"\nprint(User().name)",
+          "puzzle": "from dataclasses import dataclass\n@dataclass\n___ User:\n    name: str = \"Guest\"\nprint(User().name)",
+          "output": "Guest"
+        },
+        {
+          "level": 279,
+          "topic": "Frozen dataclasses",
+          "syntax": "from dataclasses import dataclass\n@dataclass(frozen=True)\nclass Point:\n    x: int\np = Point(5)\nprint(p.x)",
+          "puzzle": "from dataclasses import dataclass\n@dataclass(frozen=True)\n___ Point:\n    x: int\np = Point(5)\nprint(p.x)",
+          "output": "5"
+        },
+        {
+          "level": 280,
+          "topic": "Post initialization",
+          "syntax": "from dataclasses import dataclass, field\n@dataclass\nclass Box:\n    size: int\n    label: str = field(init=False)\n    def __post_init__(self):\n        self.label = f\"Box-{self.size}\"\nprint(Box(5).label)",
+          "puzzle": "from dataclasses import dataclass, field\n@dataclass\nclass Box:\n    size: int\n    label: str = field(init=False)\n    ___ ___post___init___(self):\n        self.label = f\"Box-{self.size}\"\nprint(Box(5).label)",
+          "output": "Box-5"
+        },
+        {
+          "level": 281,
+          "topic": "Enums",
+          "syntax": "from enum import Enum\nclass Color(Enum):\n    RED = 1\n    GREEN = 2\nprint(Color.RED)",
+          "puzzle": "from enum import Enum\n___ Color(Enum):\n    RED = 1\n    GREEN = 2\nprint(Color.RED)",
+          "output": "Color.RED"
+        },
+        {
+          "level": 282,
+          "topic": "Custom enum values",
+          "syntax": "from enum import Enum\nclass Status(Enum):\n    ACTIVE = \"active\"\n    INACTIVE = \"inactive\"\nprint(Status.ACTIVE.value)",
+          "puzzle": "from enum import Enum\n___ Status(Enum):\n    ACTIVE = \"active\"\n    INACTIVE = \"inactive\"\nprint(Status.ACTIVE.value)",
+          "output": "active"
+        }
+      ]
+    },
+    {
+      "part": "Part 20 - Memory Management",
+      "items": [
+        {
+          "level": 283,
+          "topic": "Python memory model",
+          "syntax": "x = 5\nprint(id(x) > 0)",
+          "puzzle": "___ = ___\nprint(id(x) > 0)",
+          "output": "True"
+        },
+        {
+          "level": 284,
+          "topic": "References",
+          "syntax": "a = [1, 2]\nb = a\nb.append(3)\nprint(a)",
+          "puzzle": "___ = ___\nb = a\nb.append(3)\nprint(a)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 285,
+          "topic": "Variables as references",
+          "syntax": "a = [1]\nb = a\nprint(a is b)",
+          "puzzle": "___ = ___\nb = a\nprint(a is b)",
+          "output": "True"
+        },
+        {
+          "level": 286,
+          "topic": "Mutable objects",
+          "syntax": "lst = [1, 2]\nlst.append(3)\nprint(lst)",
+          "puzzle": "___ = ___\nlst.append(3)\nprint(lst)",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 287,
+          "topic": "Immutable objects",
+          "syntax": "s = \"hi\"\nprint(s + \" there\")",
+          "puzzle": "___ = ___\nprint(s + \" there\")",
+          "output": "hi there"
+        },
+        {
+          "level": 288,
+          "topic": "Reference counting",
+          "syntax": "import sys\nx = []\nprint(sys.getrefcount(x) >= 1)",
+          "puzzle": "___ sys\nx = []\nprint(sys.getrefcount(x) >= 1)",
+          "output": "True"
+        },
+        {
+          "level": 289,
+          "topic": "Garbage collection",
+          "syntax": "import gc\nprint(gc.isenabled())",
+          "puzzle": "___ gc\nprint(gc.isenabled())",
+          "output": "True"
+        },
+        {
+          "level": 290,
+          "topic": "gc (module)",
+          "syntax": "import gc\ngc.collect()\nprint(\"Collected\")",
+          "puzzle": "___ gc\ngc.collect()\nprint(\"Collected\")",
+          "output": "Collected"
+        },
+        {
+          "level": 291,
+          "topic": "Shallow copy",
+          "syntax": "import copy\na = [1, [2, 3]]\nb = copy.copy(a)\nb[0] = 99\nprint(a[0])",
+          "puzzle": "___ copy\na = [1, [2, 3]]\nb = copy.copy(a)\nb[0] = 99\nprint(a[0])",
+          "output": "1"
+        },
+        {
+          "level": 292,
+          "topic": "Deep copy",
+          "syntax": "import copy\na = [1, [2, 3]]\nb = copy.deepcopy(a)\nb[1][0] = 99\nprint(a[1][0])",
+          "puzzle": "___ copy\na = [1, [2, 3]]\nb = copy.deepcopy(a)\nb[1][0] = 99\nprint(a[1][0])",
+          "output": "2"
+        },
+        {
+          "level": 293,
+          "topic": "Memory optimization",
+          "syntax": "class Point:\n    __slots__ = [\"x\", \"y\"]\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\np = Point(1, 2)\nprint(p.x)",
+          "puzzle": "class Point:\n    ___slots___ = [\"x\", \"y\"]\n    ___ ___init___(self, x, y):\n        self.x = x\n        self.y = y\np = Point(1, 2)\nprint(p.x)",
+          "output": "1"
+        }
+      ]
+    },
+    {
+      "part": "Part 21 - Debugging",
+      "items": [
+        {
+          "level": 294,
+          "topic": "Reading traceback",
+          "syntax": "1 / 0",
+          "puzzle": "___ / 0",
+          "output": "Traceback (most recent call last):\nZeroDivisionError: division by zero"
+        },
+        {
+          "level": 295,
+          "topic": "Debugging techniques",
+          "syntax": "x = 5\nassert x == 5, \"x should be 5\"\nprint(\"OK\")",
+          "puzzle": "x = 5\n___ x == 5, \"x should be 5\"\nprint(\"OK\")",
+          "output": "OK"
+        },
+        {
+          "level": 296,
+          "topic": "print() debugging",
+          "syntax": "x = 10\nprint(\"DEBUG x =\", x)",
+          "puzzle": "x = 10\n___(\"DEBUG x =\", x)",
+          "output": "DEBUG x = 10"
+        },
+        {
+          "level": 297,
+          "topic": "Python debugger (pdb)",
+          "syntax": "import pdb\nx = 5\n# pdb.set_trace()\nprint(x)",
+          "puzzle": "import ___\nx = 5\n# pdb.set___trace()\nprint(x)",
+          "output": "5"
+        },
+        {
+          "level": 298,
+          "topic": "Breakpoints",
+          "syntax": "x = 5\nbreakpoint()\nprint(x)",
+          "puzzle": "___ = ___\nbreakpoint()\nprint(x)",
+          "output": "5"
+        },
+        {
+          "level": 299,
+          "topic": "IDE debugging",
+          "syntax": "# Set a breakpoint in your IDE on this line\nx = 5\nprint(x)",
+          "puzzle": "# Set a breakpoint in your IDE on this line\n___ = ___\nprint(x)",
+          "output": "5"
+        },
+        {
+          "level": 300,
+          "topic": "Logging (debugging)",
+          "syntax": "import logging\nlogging.basicConfig(level=logging.DEBUG)\nlogging.debug(\"Value is 5\")",
+          "puzzle": "___ logging\nlogging.basicConfig(level=logging.DEBUG)\nlogging.debug(\"Value is 5\")",
+          "output": "DEBUG:root:Value is 5"
+        },
+        {
+          "level": 301,
+          "topic": "Error investigation",
+          "syntax": "try:\n    int(\"abc\")\nexcept ValueError as e:\n    print(\"Error:\", e)",
+          "puzzle": "___:\n    int(\"abc\")\nexcept ValueError as e:\n    print(\"Error:\", e)",
+          "output": "Error: invalid literal for int() with base 10: 'abc'"
+        },
+        {
+          "level": 302,
+          "topic": "Performance debugging",
+          "syntax": "import timeit\nprint(timeit.timeit(\"sum(range(100))\", number=1000) > 0)",
+          "puzzle": "___ timeit\nprint(timeit.timeit(\"sum(range(100))\", number=1000) > 0)",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "part": "Part 22 - Testing",
+      "items": [
+        {
+          "level": 303,
+          "topic": "Why testing?",
+          "syntax": "def add(a, b):\n    return a + b\nassert add(2, 3) == 5",
+          "puzzle": "___ add(a, b):\n    return a + b\nassert add(2, 3) == 5",
+          "output": ""
+        },
+        {
+          "level": 304,
+          "topic": "Unit testing",
+          "syntax": "import unittest\nclass TestAdd(unittest.TestCase):\n    def test_add(self):\n        self.assertEqual(1 + 1, 2)",
+          "puzzle": "import unittest\nclass TestAdd(unittest.TestCase):\n    ___ test___add(self):\n        self.assertEqual(1 + 1, 2)",
+          "output": ""
+        },
+        {
+          "level": 305,
+          "topic": "unittest",
+          "syntax": "import unittest\nclass Test(unittest.TestCase):\n    def test_ok(self):\n        self.assertTrue(True)\nunittest.main(argv=[\"\"], exit=False)",
+          "puzzle": "import ___\nclass Test(unittest.TestCase):\n    def test___ok(self):\n        self.assertTrue(True)\nunittest.main(argv=[\"\"], exit=False)",
+          "output": "Ran 1 test in 0.000s\n\nOK"
+        },
+        {
+          "level": 306,
+          "topic": "pytest",
+          "syntax": "def test_add():\n    assert 1 + 1 == 2\n\n# run: pytest test_file.py",
+          "puzzle": "def test___add():\n    assert 1 + 1 == 2\n\n# run: ___ test___file.py",
+          "output": "1 passed"
+        },
+        {
+          "level": 307,
+          "topic": "Assertions",
+          "syntax": "assert 5 > 3, \"5 should be greater than 3\"\nprint(\"Passed\")",
+          "puzzle": "___ 5 > 3, \"5 should be greater than 3\"\nprint(\"Passed\")",
+          "output": "Passed"
+        },
+        {
+          "level": 308,
+          "topic": "Test cases",
+          "syntax": "def test_multiply():\n    assert 2 * 3 == 6\ntest_multiply()\nprint(\"Test passed\")",
+          "puzzle": "___ test___multiply():\n    assert 2 * 3 == 6\ntest___multiply()\nprint(\"Test passed\")",
+          "output": "Test passed"
+        },
+        {
+          "level": 309,
+          "topic": "Fixtures",
+          "syntax": "import pytest\n@pytest.fixture\ndef sample_data():\n    return [1, 2, 3]\n\ndef test_len(sample_data):\n    assert len(sample_data) == 3",
+          "puzzle": "import pytest\n@pytest.fixture\n___ sample___data():\n    return [1, 2, 3]\n\ndef test___len(sample___data):\n    assert len(sample___data) == 3",
+          "output": "1 passed"
+        },
+        {
+          "level": 310,
+          "topic": "Mocking",
+          "syntax": "from unittest.mock import MagicMock\nfn = MagicMock(return_value=42)\nprint(fn())",
+          "puzzle": "from unittest.mock ___ MagicMock\nfn = MagicMock(return___value=42)\nprint(fn())",
+          "output": "42"
+        },
+        {
+          "level": 311,
+          "topic": "Integration testing",
+          "syntax": "def get_user():\n    return {\"name\": \"Ava\"}\ndef test_get_user():\n    assert get_user()[\"name\"] == \"Ava\"",
+          "puzzle": "___ get___user():\n    return {\"name\": \"Ava\"}\ndef test___get___user():\n    assert get___user()[\"name\"] == \"Ava\"",
+          "output": ""
+        },
+        {
+          "level": 312,
+          "topic": "Test coverage",
+          "syntax": "# terminal command\ncoverage run -m pytest\ncoverage report",
+          "puzzle": "# ___ command\ncoverage run -m pytest\ncoverage report",
+          "output": "TOTAL   50   45   90%"
+        }
+      ]
+    },
+    {
+      "part": "Part 23 - Logging",
+      "items": [
+        {
+          "level": 313,
+          "topic": "Why logging?",
+          "syntax": "import logging\nlogging.info(\"App started\")",
+          "puzzle": "___ logging\nlogging.info(\"App started\")",
+          "output": ""
+        },
+        {
+          "level": 314,
+          "topic": "Log levels",
+          "syntax": "import logging\nlogging.basicConfig(level=logging.INFO)\nlogging.info(\"Info message\")",
+          "puzzle": "___ logging\nlogging.basicConfig(level=logging.INFO)\nlogging.info(\"Info message\")",
+          "output": "INFO:root:Info message"
+        },
+        {
+          "level": 315,
+          "topic": "DEBUG",
+          "syntax": "import logging\nlogging.basicConfig(level=logging.DEBUG)\nlogging.debug(\"Debugging info\")",
+          "puzzle": "import logging\nlogging.basicConfig(level=logging.___)\nlogging.debug(\"Debugging info\")",
+          "output": "DEBUG:root:Debugging info"
+        },
+        {
+          "level": 316,
+          "topic": "INFO",
+          "syntax": "import logging\nlogging.basicConfig(level=logging.INFO)\nlogging.info(\"Server started\")",
+          "puzzle": "import logging\nlogging.basicConfig(level=logging.___)\nlogging.info(\"Server started\")",
+          "output": "INFO:root:Server started"
+        },
+        {
+          "level": 317,
+          "topic": "WARNING",
+          "syntax": "import logging\nlogging.warning(\"Low disk space\")",
+          "puzzle": "___ logging\nlogging.warning(\"Low disk space\")",
+          "output": "WARNING:root:Low disk space"
+        },
+        {
+          "level": 318,
+          "topic": "ERROR",
+          "syntax": "import logging\nlogging.error(\"Failed to connect\")",
+          "puzzle": "___ logging\nlogging.error(\"Failed to connect\")",
+          "output": "ERROR:root:Failed to connect"
+        },
+        {
+          "level": 319,
+          "topic": "CRITICAL",
+          "syntax": "import logging\nlogging.critical(\"System crash\")",
+          "puzzle": "___ logging\nlogging.critical(\"System crash\")",
+          "output": "CRITICAL:root:System crash"
+        },
+        {
+          "level": 320,
+          "topic": "Log files",
+          "syntax": "import logging\nlogging.basicConfig(filename=\"app.log\", level=logging.INFO)\nlogging.info(\"Written to file\")",
+          "puzzle": "___ logging\nlogging.basicConfig(filename=\"app.log\", level=logging.INFO)\nlogging.info(\"Written to file\")",
+          "output": ""
+        },
+        {
+          "level": 321,
+          "topic": "Formatting (logging)",
+          "syntax": "import logging\nlogging.basicConfig(format=\"%(levelname)s: %(message)s\")\nlogging.warning(\"Check this\")",
+          "puzzle": "import ___\nlogging.basicConfig(format=\"%(levelname)s: %(message)s\")\nlogging.warning(\"Check this\")",
+          "output": "WARNING: Check this"
+        },
+        {
+          "level": 322,
+          "topic": "Logging configuration",
+          "syntax": "import logging\nlogging.basicConfig(level=logging.DEBUG, format=\"%(asctime)s %(message)s\")\nlogging.info(\"Configured\")",
+          "puzzle": "___ logging\nlogging.basicConfig(level=logging.DEBUG, format=\"%(asctime)s %(message)s\")\nlogging.info(\"Configured\")",
+          "output": "2026-01-01 10:00:00 Configured"
+        }
+      ]
+    },
+    {
+      "part": "Part 24 - Virtual Environments & Package Management",
+      "items": [
+        {
+          "level": 323,
+          "topic": "pip",
+          "syntax": "pip install requests",
+          "puzzle": "___ install requests",
+          "output": "Successfully installed requests"
+        },
+        {
+          "level": 324,
+          "topic": "PyPI",
+          "syntax": "pip install numpy",
+          "puzzle": "___ install numpy",
+          "output": "Downloading numpy from PyPI..."
+        },
+        {
+          "level": 325,
+          "topic": "venv",
+          "syntax": "python -m venv myenv",
+          "puzzle": "python -m ___ myenv",
+          "output": ""
+        },
+        {
+          "level": 326,
+          "topic": "Virtual environments",
+          "syntax": "source myenv/bin/activate",
+          "puzzle": "source myenv/bin/___",
+          "output": "(myenv) $"
+        },
+        {
+          "level": 327,
+          "topic": "requirements.txt",
+          "syntax": "pip freeze > requirements.txt",
+          "puzzle": "___ freeze > requirements.txt",
+          "output": ""
+        },
+        {
+          "level": 328,
+          "topic": "Installing packages",
+          "syntax": "pip install -r requirements.txt",
+          "puzzle": "___ install -r requirements.txt",
+          "output": "Successfully installed flask-2.3.0"
+        },
+        {
+          "level": 329,
+          "topic": "Updating packages",
+          "syntax": "pip install --upgrade requests",
+          "puzzle": "___ install --upgrade requests",
+          "output": "Successfully installed requests-2.31.0"
+        },
+        {
+          "level": 330,
+          "topic": "Removing packages",
+          "syntax": "pip uninstall requests",
+          "puzzle": "___ uninstall requests",
+          "output": "Successfully uninstalled requests"
+        },
+        {
+          "level": 331,
+          "topic": "Dependency management",
+          "syntax": "pip list",
+          "puzzle": "___ list",
+          "output": "Package    Version\nrequests   2.31.0"
+        },
+        {
+          "level": 332,
+          "topic": "pip freeze",
+          "syntax": "pip freeze",
+          "puzzle": "___ freeze",
+          "output": "requests==2.31.0"
+        },
+        {
+          "level": 333,
+          "topic": "pyproject.toml",
+          "syntax": "[project]\nname = \"myapp\"\nversion = \"0.1.0\"",
+          "puzzle": "[project]\n___ = ___\nversion = \"0.1.0\"",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 25 - Database Programming",
+      "items": [
+        {
+          "level": 334,
+          "topic": "SQL basics",
+          "syntax": "SELECT * FROM users;",
+          "puzzle": "___ * FROM users;",
+          "output": "id | name\n1  | Ava"
+        },
+        {
+          "level": 335,
+          "topic": "SQLite",
+          "syntax": "import sqlite3\nconn = sqlite3.connect(\":memory:\")\nprint(\"Connected\")",
+          "puzzle": "___ sqlite3\nconn = sqlite3.connect(\":memory:\")\nprint(\"Connected\")",
+          "output": "Connected"
+        },
+        {
+          "level": 336,
+          "topic": "sqlite3 (python module)",
+          "syntax": "import sqlite3\nconn = sqlite3.connect(\":memory:\")\ncur = conn.cursor()\ncur.execute(\"CREATE TABLE t (id INT)\")\nprint(\"Table created\")",
+          "puzzle": "___ sqlite3\nconn = sqlite3.connect(\":memory:\")\ncur = conn.cursor()\ncur.execute(\"CREATE TABLE t (id INT)\")\nprint(\"Table created\")",
+          "output": "Table created"
+        },
+        {
+          "level": 337,
+          "topic": "CRUD",
+          "syntax": "cur.execute(\"INSERT INTO users VALUES (1, 'Ava')\")\nconn.commit()",
+          "puzzle": "___.execute(\"INSERT INTO users VALUES (1, 'Ava')\")\nconn.commit()",
+          "output": ""
+        },
+        {
+          "level": 338,
+          "topic": "Tables",
+          "syntax": "CREATE TABLE users (id INTEGER, name TEXT);",
+          "puzzle": "___ TABLE users (id INTEGER, name TEXT);",
+          "output": ""
+        },
+        {
+          "level": 339,
+          "topic": "Queries",
+          "syntax": "cur.execute(\"SELECT * FROM users\")\nprint(cur.fetchall())",
+          "puzzle": "___.execute(\"SELECT * FROM users\")\nprint(cur.fetchall())",
+          "output": "[(1, 'Ava')]"
+        },
+        {
+          "level": 340,
+          "topic": "Joins",
+          "syntax": "SELECT users.name, orders.item\nFROM users\nJOIN orders ON users.id = orders.user_id;",
+          "puzzle": "SELECT users.name, orders.item\nFROM users\n___ orders ON users.id = orders.user___id;",
+          "output": "Ava | Book"
+        },
+        {
+          "level": 341,
+          "topic": "Transactions",
+          "syntax": "conn.execute(\"BEGIN\")\nconn.execute(\"UPDATE users SET name='Sam' WHERE id=1\")\nconn.commit()",
+          "puzzle": "___.execute(\"BEGIN\")\nconn.execute(\"UPDATE users SET name='Sam' WHERE id=1\")\nconn.commit()",
+          "output": ""
+        },
+        {
+          "level": 342,
+          "topic": "Python + MySQL",
+          "syntax": "import mysql.connector\nconn = mysql.connector.connect(user=\"root\", database=\"test\")\nprint(\"Connected\")",
+          "puzzle": "___ mysql.connector\nconn = mysql.connector.connect(user=\"root\", database=\"test\")\nprint(\"Connected\")",
+          "output": "Connected"
+        },
+        {
+          "level": 343,
+          "topic": "Python + PostgreSQL",
+          "syntax": "import psycopg2\nconn = psycopg2.connect(dbname=\"test\")\nprint(\"Connected\")",
+          "puzzle": "___ psycopg2\nconn = psycopg2.connect(dbname=\"test\")\nprint(\"Connected\")",
+          "output": "Connected"
+        },
+        {
+          "level": 344,
+          "topic": "ORM concepts",
+          "syntax": "user = User.objects.get(id=1)\nprint(user.name)",
+          "puzzle": "___ = ___\nprint(user.name)",
+          "output": "Ava"
+        },
+        {
+          "level": 345,
+          "topic": "SQLAlchemy",
+          "syntax": "from sqlalchemy import create_engine\nengine = create_engine(\"sqlite:///:memory:\")\nprint(engine)",
+          "puzzle": "from sqlalchemy ___ create___engine\nengine = create___engine(\"sqlite:///:memory:\")\nprint(engine)",
+          "output": "Engine(sqlite:///:memory:)"
+        }
+      ]
+    },
+    {
+      "part": "Part 26 - APIs & Web Requests",
+      "items": [
+        {
+          "level": 346,
+          "topic": "HTTP basics",
+          "syntax": "GET /users HTTP/1.1\nHost: example.com",
+          "puzzle": "___ /users HTTP/1.1\nHost: example.com",
+          "output": "HTTP/1.1 200 OK"
+        },
+        {
+          "level": 347,
+          "topic": "REST API",
+          "syntax": "GET /api/users/1",
+          "puzzle": "___ /api/users/1",
+          "output": "{\"id\": 1, \"name\": \"Ava\"}"
+        },
+        {
+          "level": 348,
+          "topic": "GET",
+          "syntax": "import requests\nr = requests.get(\"https://api.example.com/users\")\nprint(r.status_code)",
+          "puzzle": "import requests\nr = ___(\"https://api.example.com/users\")\nprint(r.status___code)",
+          "output": "200"
+        },
+        {
+          "level": 349,
+          "topic": "POST",
+          "syntax": "import requests\nr = requests.post(\"https://api.example.com/users\", json={\"name\": \"Ava\"})\nprint(r.status_code)",
+          "puzzle": "import requests\nr = ___(\"https://api.example.com/users\", json={\"name\": \"Ava\"})\nprint(r.status___code)",
+          "output": "201"
+        },
+        {
+          "level": 350,
+          "topic": "PUT",
+          "syntax": "import requests\nr = requests.put(\"https://api.example.com/users/1\", json={\"name\": \"Sam\"})\nprint(r.status_code)",
+          "puzzle": "import requests\nr = ___(\"https://api.example.com/users/1\", json={\"name\": \"Sam\"})\nprint(r.status___code)",
+          "output": "200"
+        },
+        {
+          "level": 351,
+          "topic": "DELETE",
+          "syntax": "import requests\nr = requests.delete(\"https://api.example.com/users/1\")\nprint(r.status_code)",
+          "puzzle": "import requests\nr = ___(\"https://api.example.com/users/1\")\nprint(r.status___code)",
+          "output": "204"
+        },
+        {
+          "level": 352,
+          "topic": "JSON APIs",
+          "syntax": "import requests\nr = requests.get(\"https://api.example.com/users/1\")\nprint(r.json())",
+          "puzzle": "___ requests\nr = requests.get(\"https://api.example.com/users/1\")\nprint(r.json())",
+          "output": "{'id': 1, 'name': 'Ava'}"
+        },
+        {
+          "level": 353,
+          "topic": "requests (library)",
+          "syntax": "import requests\nr = requests.get(\"https://example.com\")\nprint(r.ok)",
+          "puzzle": "___ requests\nr = requests.get(\"https://example.com\")\nprint(r.ok)",
+          "output": "True"
+        },
+        {
+          "level": 354,
+          "topic": "Authentication (API)",
+          "syntax": "import requests\nr = requests.get(\"https://api.example.com/data\", auth=(\"user\", \"pass\"))\nprint(r.status_code)",
+          "puzzle": "___ requests\nr = requests.get(\"https://api.example.com/data\", auth=(\"user\", \"pass\"))\nprint(r.status___code)",
+          "output": "200"
+        },
+        {
+          "level": 355,
+          "topic": "API keys",
+          "syntax": "import requests\nheaders = {\"Authorization\": \"Bearer API_KEY\"}\nr = requests.get(\"https://api.example.com\", headers=headers)\nprint(r.status_code)",
+          "puzzle": "___ requests\nheaders = {\"Authorization\": \"Bearer API___KEY\"}\nr = requests.get(\"https://api.example.com\", headers=headers)\nprint(r.status___code)",
+          "output": "200"
+        },
+        {
+          "level": 356,
+          "topic": "Headers",
+          "syntax": "import requests\nr = requests.get(\"https://api.example.com\")\nprint(r.headers[\"Content-Type\"])",
+          "puzzle": "___ requests\nr = requests.get(\"https://api.example.com\")\nprint(r.headers[\"Content-Type\"])",
+          "output": "application/json"
+        },
+        {
+          "level": 357,
+          "topic": "Status codes",
+          "syntax": "import requests\nr = requests.get(\"https://api.example.com/missing\")\nprint(r.status_code)",
+          "puzzle": "___ requests\nr = requests.get(\"https://api.example.com/missing\")\nprint(r.status___code)",
+          "output": "404"
+        },
+        {
+          "level": 358,
+          "topic": "Building APIs (FastAPI)",
+          "syntax": "from fastapi import FastAPI\napp = FastAPI()\n@app.get(\"/\")\ndef home():\n    return {\"msg\": \"Hello\"}",
+          "puzzle": "from fastapi import ___\napp = FastAPI()\n@app.get(\"/\")\ndef home():\n    return {\"msg\": \"Hello\"}",
+          "output": "{\"msg\": \"Hello\"}"
+        }
+      ]
+    },
+    {
+      "part": "Part 27 - Web Development with Python",
+      "items": [
+        {
+          "level": 359,
+          "topic": "Flask basics",
+          "syntax": "from flask import Flask\napp = Flask(__name__)\n@app.route(\"/\")\ndef home():\n    return \"Hello\"",
+          "puzzle": "from flask import Flask\napp = Flask(___name___)\n@app.route(\"/\")\n___ home():\n    return \"Hello\"",
+          "output": "Hello"
+        },
+        {
+          "level": 360,
+          "topic": "Routes (Flask)",
+          "syntax": "@app.route(\"/about\")\ndef about():\n    return \"About page\"",
+          "puzzle": "@app.route(\"/about\")\n___ about():\n    return \"About page\"",
+          "output": "About page"
+        },
+        {
+          "level": 361,
+          "topic": "Templates (Flask)",
+          "syntax": "return render_template(\"index.html\", name=\"Ava\")",
+          "puzzle": "___ render___template(\"index.html\", name=\"Ava\")",
+          "output": "<h1>Hello Ava</h1>"
+        },
+        {
+          "level": 362,
+          "topic": "Jinja",
+          "syntax": "<p>Hello {{ name }}</p>",
+          "puzzle": "<___>Hello {{ name }}</p>",
+          "output": "<p>Hello Ava</p>"
+        },
+        {
+          "level": 363,
+          "topic": "Forms (Flask)",
+          "syntax": "name = request.form[\"name\"]\nprint(name)",
+          "puzzle": "___ = ___\nprint(name)",
+          "output": "Ava"
+        },
+        {
+          "level": 364,
+          "topic": "Sessions (Flask)",
+          "syntax": "session[\"user\"] = \"Ava\"\nprint(session[\"user\"])",
+          "puzzle": "___[\"user\"] = \"Ava\"\nprint(session[\"user\"])",
+          "output": "Ava"
+        },
+        {
+          "level": 365,
+          "topic": "Cookies",
+          "syntax": "resp.set_cookie(\"username\", \"Ava\")",
+          "puzzle": "___.set___cookie(\"username\", \"Ava\")",
+          "output": ""
+        },
+        {
+          "level": 366,
+          "topic": "Authentication (web)",
+          "syntax": "if check_password_hash(user.password, input_pw):\n    print(\"Login successful\")",
+          "puzzle": "___ check___password___hash(user.password, input___pw):\n    print(\"Login successful\")",
+          "output": "Login successful"
+        },
+        {
+          "level": 367,
+          "topic": "REST APIs (Flask)",
+          "syntax": "@app.route(\"/api/users\")\ndef users():\n    return jsonify([{\"id\": 1}])",
+          "puzzle": "@app.route(\"/api/users\")\n___ users():\n    return jsonify([{\"id\": 1}])",
+          "output": "[{\"id\": 1}]"
+        },
+        {
+          "level": 368,
+          "topic": "Database integration (Flask)",
+          "syntax": "user = User.query.get(1)\nprint(user.name)",
+          "puzzle": "___ = ___\nprint(user.name)",
+          "output": "Ava"
+        },
+        {
+          "level": 369,
+          "topic": "Django basics",
+          "syntax": "django-admin startproject myproject",
+          "puzzle": "___-admin startproject myproject",
+          "output": ""
+        },
+        {
+          "level": 370,
+          "topic": "Models (Django)",
+          "syntax": "class User(models.Model):\n    name = models.CharField(max_length=100)",
+          "puzzle": "___ User(models.Model):\n    name = models.CharField(max___length=100)",
+          "output": ""
+        },
+        {
+          "level": 371,
+          "topic": "Views (Django)",
+          "syntax": "def home(request):\n    return HttpResponse(\"Hello\")",
+          "puzzle": "___ home(request):\n    return HttpResponse(\"Hello\")",
+          "output": "Hello"
+        },
+        {
+          "level": 372,
+          "topic": "URLs (Django)",
+          "syntax": "urlpatterns = [path(\"\", views.home)]",
+          "puzzle": "___ = ___",
+          "output": ""
+        },
+        {
+          "level": 373,
+          "topic": "Forms (Django)",
+          "syntax": "class UserForm(forms.Form):\n    name = forms.CharField()",
+          "puzzle": "___ UserForm(forms.Form):\n    name = forms.CharField()",
+          "output": ""
+        },
+        {
+          "level": 374,
+          "topic": "Authentication (Django)",
+          "syntax": "user = authenticate(username=\"ava\", password=\"pass\")\nprint(user is not None)",
+          "puzzle": "user = authenticate(username=\"ava\", password=\"___\")\nprint(user is not None)",
+          "output": "True"
+        },
+        {
+          "level": 375,
+          "topic": "Django REST Framework",
+          "syntax": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = [\"id\", \"name\"]",
+          "puzzle": "___ UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = [\"id\", \"name\"]",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 28 - Concurrency",
+      "items": [
+        {
+          "level": 376,
+          "topic": "Processes",
+          "syntax": "import multiprocessing\np = multiprocessing.Process(target=lambda: None)\nprint(type(p))",
+          "puzzle": "___ multiprocessing\np = multiprocessing.Process(target=lambda: None)\nprint(type(p))",
+          "output": "<class 'multiprocessing.process.Process'>"
+        },
+        {
+          "level": 377,
+          "topic": "Threads",
+          "syntax": "import threading\nt = threading.Thread(target=lambda: None)\nprint(type(t))",
+          "puzzle": "___ threading\nt = threading.Thread(target=lambda: None)\nprint(type(t))",
+          "output": "<class 'threading.Thread'>"
+        },
+        {
+          "level": 378,
+          "topic": "threading (module)",
+          "syntax": "import threading\ndef task():\n    print(\"Running\")\nt = threading.Thread(target=task)\nt.start()\nt.join()",
+          "puzzle": "import threading\n___ task():\n    print(\"Running\")\nt = threading.Thread(target=task)\nt.start()\nt.join()",
+          "output": "Running"
+        },
+        {
+          "level": 379,
+          "topic": "multiprocessing (module)",
+          "syntax": "import multiprocessing\ndef square(x):\n    return x * x\nwith multiprocessing.Pool(2) as p:\n    print(p.map(square, [1, 2, 3]))",
+          "puzzle": "import multiprocessing\n___ square(x):\n    return x * x\nwith multiprocessing.Pool(2) as p:\n    print(p.map(square, [1, 2, 3]))",
+          "output": "[1, 4, 9]"
+        },
+        {
+          "level": 380,
+          "topic": "CPU-bound tasks",
+          "syntax": "def heavy_calc(n):\n    return sum(i*i for i in range(n))\nprint(heavy_calc(1000000) > 0)",
+          "puzzle": "___ heavy___calc(n):\n    return sum(i*i for i in range(n))\nprint(heavy___calc(1000000) > 0)",
+          "output": "True"
+        },
+        {
+          "level": 381,
+          "topic": "I/O-bound tasks",
+          "syntax": "import time\ndef fetch():\n    time.sleep(1)\n    return \"data\"\nprint(fetch())",
+          "puzzle": "import time\n___ fetch():\n    time.sleep(1)\n    return \"data\"\nprint(fetch())",
+          "output": "data"
+        },
+        {
+          "level": 382,
+          "topic": "Race conditions",
+          "syntax": "counter = 0\ndef increment():\n    global counter\n    counter += 1",
+          "puzzle": "counter = 0\n___ increment():\n    global counter\n    counter += 1",
+          "output": ""
+        },
+        {
+          "level": 383,
+          "topic": "Locks",
+          "syntax": "import threading\nlock = threading.Lock()\nwith lock:\n    print(\"Safe section\")",
+          "puzzle": "___ threading\nlock = threading.Lock()\nwith lock:\n    print(\"Safe section\")",
+          "output": "Safe section"
+        },
+        {
+          "level": 384,
+          "topic": "Semaphores",
+          "syntax": "import threading\nsem = threading.Semaphore(2)\nwith sem:\n    print(\"Access granted\")",
+          "puzzle": "___ threading\nsem = threading.Semaphore(2)\nwith sem:\n    print(\"Access granted\")",
+          "output": "Access granted"
+        },
+        {
+          "level": 385,
+          "topic": "Queues",
+          "syntax": "import queue\nq = queue.Queue()\nq.put(1)\nprint(q.get())",
+          "puzzle": "___ queue\nq = queue.Queue()\nq.put(1)\nprint(q.get())",
+          "output": "1"
+        },
+        {
+          "level": 386,
+          "topic": "Thread pools",
+          "syntax": "from concurrent.futures import ThreadPoolExecutor\nwith ThreadPoolExecutor() as ex:\n    result = ex.submit(lambda: 5).result()\nprint(result)",
+          "puzzle": "from concurrent.futures ___ ThreadPoolExecutor\nwith ThreadPoolExecutor() as ex:\n    result = ex.submit(lambda: 5).result()\nprint(result)",
+          "output": "5"
+        },
+        {
+          "level": 387,
+          "topic": "Process pools",
+          "syntax": "from concurrent.futures import ProcessPoolExecutor\nwith ProcessPoolExecutor() as ex:\n    result = ex.submit(lambda: 10).result()\nprint(result)",
+          "puzzle": "from concurrent.futures ___ ProcessPoolExecutor\nwith ProcessPoolExecutor() as ex:\n    result = ex.submit(lambda: 10).result()\nprint(result)",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 29 - Asynchronous Python",
+      "items": [
+        {
+          "level": 388,
+          "topic": "Synchronous vs asynchronous",
+          "syntax": "def sync_task():\n    return \"done\"\nprint(sync_task())",
+          "puzzle": "___ sync___task():\n    return \"done\"\nprint(sync___task())",
+          "output": "done"
+        },
+        {
+          "level": 389,
+          "topic": "async",
+          "syntax": "async def greet():\n    return \"Hi\"",
+          "puzzle": "___ def greet():\n    return \"Hi\"",
+          "output": ""
+        },
+        {
+          "level": 390,
+          "topic": "await",
+          "syntax": "import asyncio\nasync def main():\n    result = await asyncio.sleep(0, result=\"done\")\n    print(result)\nasyncio.run(main())",
+          "puzzle": "import asyncio\nasync def main():\n    result = ___ asyncio.sleep(0, result=\"done\")\n    print(result)\nasyncio.run(main())",
+          "output": "done"
+        },
+        {
+          "level": 391,
+          "topic": "Coroutines",
+          "syntax": "async def task():\n    return \"result\"\nimport asyncio\nprint(asyncio.run(task()))",
+          "puzzle": "async ___ task():\n    return \"result\"\nimport asyncio\nprint(asyncio.run(task()))",
+          "output": "result"
+        },
+        {
+          "level": 392,
+          "topic": "Event loop",
+          "syntax": "import asyncio\nloop = asyncio.new_event_loop()\nprint(type(loop))",
+          "puzzle": "___ asyncio\nloop = asyncio.new___event___loop()\nprint(type(loop))",
+          "output": "<class 'asyncio.unix_events._UnixSelectorEventLoop'>"
+        },
+        {
+          "level": 393,
+          "topic": "asyncio (async python)",
+          "syntax": "import asyncio\nasync def main():\n    print(\"Hello async\")\nasyncio.run(main())",
+          "puzzle": "import asyncio\nasync ___ main():\n    print(\"Hello async\")\nasyncio.run(main())",
+          "output": "Hello async"
+        },
+        {
+          "level": 394,
+          "topic": "Async tasks",
+          "syntax": "import asyncio\nasync def main():\n    task = asyncio.create_task(asyncio.sleep(0))\n    await task\n    print(\"Task done\")\nasyncio.run(main())",
+          "puzzle": "import asyncio\nasync ___ main():\n    task = asyncio.create___task(asyncio.sleep(0))\n    await task\n    print(\"Task done\")\nasyncio.run(main())",
+          "output": "Task done"
+        },
+        {
+          "level": 395,
+          "topic": "Async HTTP",
+          "syntax": "import aiohttp, asyncio\nasync def fetch():\n    async with aiohttp.ClientSession() as s:\n        async with s.get(\"https://example.com\") as r:\n            return r.status\nprint(asyncio.run(fetch()))",
+          "puzzle": "import aiohttp, asyncio\nasync ___ fetch():\n    async with aiohttp.ClientSession() as s:\n        async with s.get(\"https://example.com\") as r:\n            return r.status\nprint(asyncio.run(fetch()))",
+          "output": "200"
+        }
+      ]
+    },
+    {
+      "part": "Part 30 - Networking",
+      "items": [
+        {
+          "level": 396,
+          "topic": "IP addresses",
+          "syntax": "import socket\nprint(socket.gethostbyname(\"localhost\"))",
+          "puzzle": "___ socket\nprint(socket.gethostbyname(\"localhost\"))",
+          "output": "127.0.0.1"
+        },
+        {
+          "level": 397,
+          "topic": "Ports",
+          "syntax": "import socket\ns = socket.socket()\ns.bind((\"localhost\", 8080))\nprint(\"Bound to port 8080\")",
+          "puzzle": "___ socket\ns = socket.socket()\ns.bind((\"localhost\", 8080))\nprint(\"Bound to port 8080\")",
+          "output": "Bound to port 8080"
+        },
+        {
+          "level": 398,
+          "topic": "TCP",
+          "syntax": "import socket\ns = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\nprint(\"TCP socket created\")",
+          "puzzle": "import socket\ns = socket.socket(socket.AF___INET, socket.SOCK___STREAM)\nprint(\"___ socket created\")",
+          "output": "TCP socket created"
+        },
+        {
+          "level": 399,
+          "topic": "UDP",
+          "syntax": "import socket\ns = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)\nprint(\"UDP socket created\")",
+          "puzzle": "import socket\ns = socket.socket(socket.AF___INET, socket.SOCK___DGRAM)\nprint(\"___ socket created\")",
+          "output": "UDP socket created"
+        },
+        {
+          "level": 400,
+          "topic": "Sockets",
+          "syntax": "import socket\ns = socket.socket()\nprint(type(s))",
+          "puzzle": "___ socket\ns = socket.socket()\nprint(type(s))",
+          "output": "<class 'socket.socket'>"
+        },
+        {
+          "level": 401,
+          "topic": "Client-server architecture",
+          "syntax": "# server.py\ns.listen()\nconn, addr = s.accept()\nprint(\"Client connected\")",
+          "puzzle": "# ___.py\ns.listen()\nconn, addr = s.accept()\nprint(\"Client connected\")",
+          "output": "Client connected"
+        },
+        {
+          "level": 402,
+          "topic": "Python socket programming",
+          "syntax": "import socket\ns = socket.socket()\ns.connect((\"example.com\", 80))\nprint(\"Connected\")",
+          "puzzle": "___ socket\ns = socket.socket()\ns.connect((\"example.com\", 80))\nprint(\"Connected\")",
+          "output": "Connected"
+        },
+        {
+          "level": 403,
+          "topic": "HTTP (networking)",
+          "syntax": "import http.client\nconn = http.client.HTTPConnection(\"example.com\")\nconn.request(\"GET\", \"/\")\nprint(conn.getresponse().status)",
+          "puzzle": "___ http.client\nconn = http.client.HTTPConnection(\"example.com\")\nconn.request(\"GET\", \"/\")\nprint(conn.getresponse().status)",
+          "output": "200"
+        },
+        {
+          "level": 404,
+          "topic": "WebSockets",
+          "syntax": "import websockets, asyncio\nasync def handler(ws):\n    await ws.send(\"Hello\")\nprint(\"WebSocket handler ready\")",
+          "puzzle": "import websockets, asyncio\nasync ___ handler(ws):\n    await ws.send(\"Hello\")\nprint(\"WebSocket handler ready\")",
+          "output": "WebSocket handler ready"
+        },
+        {
+          "level": 405,
+          "topic": "Network automation",
+          "syntax": "import subprocess\nresult = subprocess.run([\"ping\", \"-c\", \"1\", \"localhost\"], capture_output=True, text=True)\nprint(\"1 packets transmitted\" in result.stdout)",
+          "puzzle": "___ subprocess\nresult = subprocess.run([\"ping\", \"-c\", \"1\", \"localhost\"], capture___output=True, text=True)\nprint(\"1 packets transmitted\" in result.stdout)",
+          "output": "True"
+        }
+      ]
+    },
+    {
+      "part": "Part 31 - Automation",
+      "items": [
+        {
+          "level": 406,
+          "topic": "File automation",
+          "syntax": "import os\nfor f in os.listdir(\".\"):\n    print(f)",
+          "puzzle": "___ os\nfor f in os.listdir(\".\"):\n    print(f)",
+          "output": "file1.txt\nfile2.txt"
+        },
+        {
+          "level": 407,
+          "topic": "Folder automation",
+          "syntax": "import os\nos.makedirs(\"new_folder\", exist_ok=True)\nprint(\"Folder created\")",
+          "puzzle": "___ os\nos.makedirs(\"new___folder\", exist___ok=True)\nprint(\"Folder created\")",
+          "output": "Folder created"
+        },
+        {
+          "level": 408,
+          "topic": "System automation",
+          "syntax": "import os\nos.system(\"echo Hello\")",
+          "puzzle": "___ os\nos.system(\"echo Hello\")",
+          "output": "Hello"
+        },
+        {
+          "level": 409,
+          "topic": "Process automation",
+          "syntax": "import subprocess\nsubprocess.run([\"echo\", \"Task done\"])",
+          "puzzle": "___ subprocess\nsubprocess.run([\"echo\", \"Task done\"])",
+          "output": "Task done"
+        },
+        {
+          "level": 410,
+          "topic": "Browser automation (Selenium)",
+          "syntax": "from selenium import webdriver\ndriver = webdriver.Chrome()\ndriver.get(\"https://example.com\")\nprint(driver.title)",
+          "puzzle": "from selenium ___ webdriver\ndriver = webdriver.Chrome()\ndriver.get(\"https://example.com\")\nprint(driver.title)",
+          "output": "Example Domain"
+        },
+        {
+          "level": 411,
+          "topic": "Selenium",
+          "syntax": "from selenium.webdriver.common.by import By\nelem = driver.find_element(By.TAG_NAME, \"h1\")\nprint(elem.text)",
+          "puzzle": "from selenium.webdriver.common.by ___ By\nelem = driver.find___element(By.TAG___NAME, \"h1\")\nprint(elem.text)",
+          "output": "Example Domain"
+        },
+        {
+          "level": 412,
+          "topic": "Playwright",
+          "syntax": "from playwright.sync_api import sync_playwright\nwith sync_playwright() as p:\n    browser = p.chromium.launch()\n    page = browser.new_page()\n    page.goto(\"https://example.com\")\n    print(page.title())",
+          "puzzle": "from playwright.sync___api ___ sync___playwright\nwith sync___playwright() as p:\n    browser = p.chromium.launch()\n    page = browser.new___page()\n    page.goto(\"https://example.com\")\n    print(page.title())",
+          "output": "Example Domain"
+        },
+        {
+          "level": 413,
+          "topic": "Keyboard/mouse automation",
+          "syntax": "import pyautogui\npyautogui.click(100, 200)\nprint(\"Clicked\")",
+          "puzzle": "___ pyautogui\npyautogui.click(100, 200)\nprint(\"Clicked\")",
+          "output": "Clicked"
+        },
+        {
+          "level": 414,
+          "topic": "Task scheduling",
+          "syntax": "import schedule\nschedule.every(10).seconds.do(lambda: print(\"Task run\"))",
+          "puzzle": "___ schedule\nschedule.every(10).seconds.do(lambda: print(\"Task run\"))",
+          "output": "Task run"
+        },
+        {
+          "level": 415,
+          "topic": "Windows automation",
+          "syntax": "import pyautogui\npyautogui.typewrite(\"Hello\")\nprint(\"Typed text\")",
+          "puzzle": "___ pyautogui\npyautogui.typewrite(\"Hello\")\nprint(\"Typed text\")",
+          "output": "Typed text"
+        },
+        {
+          "level": 416,
+          "topic": "subprocess (automation)",
+          "syntax": "import subprocess\nsubprocess.run([\"dir\"], shell=True)",
+          "puzzle": "___ subprocess\nsubprocess.run([\"dir\"], shell=True)",
+          "output": "file1.txt  file2.txt"
+        },
+        {
+          "level": 417,
+          "topic": "APIs for automation",
+          "syntax": "import requests\nrequests.post(\"https://api.example.com/trigger\")\nprint(\"Automation triggered\")",
+          "puzzle": "___ requests\nrequests.post(\"https://api.example.com/trigger\")\nprint(\"Automation triggered\")",
+          "output": "Automation triggered"
+        }
+      ]
+    },
+    {
+      "part": "Part 32 - Web Scraping",
+      "items": [
+        {
+          "level": 418,
+          "topic": "HTML basics",
+          "syntax": "<html><body><h1>Title</h1></body></html>",
+          "puzzle": "<html><body>___Title</h1></body></html>",
+          "output": "Title"
+        },
+        {
+          "level": 419,
+          "topic": "BeautifulSoup",
+          "syntax": "from bs4 import BeautifulSoup\nsoup = BeautifulSoup(\"<h1>Hi</h1>\", \"html.parser\")\nprint(soup.h1.text)",
+          "puzzle": "from bs4 import ___\nsoup = BeautifulSoup(\"<h1>Hi</h1>\", \"html.parser\")\nprint(soup.h1.text)",
+          "output": "Hi"
+        },
+        {
+          "level": 420,
+          "topic": "Requests + BeautifulSoup",
+          "syntax": "import requests\nfrom bs4 import BeautifulSoup\nr = requests.get(\"https://example.com\")\nsoup = BeautifulSoup(r.text, \"html.parser\")\nprint(soup.title.text)",
+          "puzzle": "___ requests\nfrom bs4 import BeautifulSoup\nr = requests.get(\"https://example.com\")\nsoup = BeautifulSoup(r.text, \"html.parser\")\nprint(soup.title.text)",
+          "output": "Example Domain"
+        },
+        {
+          "level": 421,
+          "topic": "CSS selectors",
+          "syntax": "soup.select(\"div.content > p\")",
+          "puzzle": "___.select(\"div.content > p\")",
+          "output": "[<p>Text</p>]"
+        },
+        {
+          "level": 422,
+          "topic": "XPath",
+          "syntax": "tree.xpath(\"//h1/text()\")",
+          "puzzle": "___.xpath(\"//h1/text()\")",
+          "output": "['Title']"
+        },
+        {
+          "level": 423,
+          "topic": "Selenium (scraping)",
+          "syntax": "driver.get(\"https://example.com\")\nprint(driver.find_element(By.TAG_NAME, \"h1\").text)",
+          "puzzle": "___.get(\"https://example.com\")\nprint(driver.find___element(By.TAG___NAME, \"h1\").text)",
+          "output": "Example Domain"
+        },
+        {
+          "level": 424,
+          "topic": "Pagination",
+          "syntax": "for page in range(1, 4):\n    r = requests.get(f\"https://example.com/page/{page}\")\n    print(r.status_code)",
+          "puzzle": "___ page in range(1, 4):\n    r = requests.get(f\"https://example.com/page/{page}\")\n    print(r.status___code)",
+          "output": "200\n200\n200"
+        },
+        {
+          "level": 425,
+          "topic": "Dynamic websites (scraping)",
+          "syntax": "driver.execute_script(\"window.scrollTo(0, document.body.scrollHeight)\")\nprint(\"Scrolled to load content\")",
+          "puzzle": "___.execute___script(\"window.scrollTo(0, document.body.scrollHeight)\")\nprint(\"Scrolled to load content\")",
+          "output": "Scrolled to load content"
+        },
+        {
+          "level": 426,
+          "topic": "Scraping ethics",
+          "syntax": "# Always check robots.txt before scraping\nimport requests\nprint(requests.get(\"https://example.com/robots.txt\").text[:20])",
+          "puzzle": "# Always check robots.txt before scraping\n___ requests\nprint(requests.get(\"https://example.com/robots.txt\").text[:20])",
+          "output": "User-agent: *"
+        },
+        {
+          "level": 427,
+          "topic": "Data cleaning (scraping)",
+          "syntax": "raw = \"  Price: $10.00 \"\nprint(raw.strip())",
+          "puzzle": "___ = ___\nprint(raw.strip())",
+          "output": "Price: $10.00"
+        },
+        {
+          "level": 428,
+          "topic": "Saving scraped data",
+          "syntax": "import csv\nwith open(\"data.csv\", \"w\") as f:\n    csv.writer(f).writerow([\"item\", \"price\"])",
+          "puzzle": "___ csv\nwith open(\"data.csv\", \"w\") as f:\n    csv.writer(f).writerow([\"item\", \"price\"])",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 33 - Python for Data Science",
+      "items": [
+        {
+          "level": 429,
+          "topic": "NumPy",
+          "syntax": "import numpy as np\narr = np.array([1, 2, 3])\nprint(arr * 2)",
+          "puzzle": "___ numpy as np\narr = np.array([1, 2, 3])\nprint(arr * 2)",
+          "output": "[2 4 6]"
+        },
+        {
+          "level": 430,
+          "topic": "Pandas",
+          "syntax": "import pandas as pd\ndf = pd.DataFrame({\"a\": [1, 2]})\nprint(df.shape)",
+          "puzzle": "___ pandas as pd\ndf = pd.DataFrame({\"a\": [1, 2]})\nprint(df.shape)",
+          "output": "(2, 1)"
+        },
+        {
+          "level": 431,
+          "topic": "Matplotlib",
+          "syntax": "import matplotlib.pyplot as plt\nplt.plot([1, 2, 3])\nplt.savefig(\"plot.png\")\nprint(\"Plot saved\")",
+          "puzzle": "___ matplotlib.pyplot as plt\nplt.plot([1, 2, 3])\nplt.savefig(\"plot.png\")\nprint(\"Plot saved\")",
+          "output": "Plot saved"
+        },
+        {
+          "level": 432,
+          "topic": "Seaborn",
+          "syntax": "import seaborn as sns\nsns.set_style(\"darkgrid\")\nprint(\"Style set\")",
+          "puzzle": "___ seaborn as sns\nsns.set___style(\"darkgrid\")\nprint(\"Style set\")",
+          "output": "Style set"
+        },
+        {
+          "level": 433,
+          "topic": "Data cleaning (data science)",
+          "syntax": "import pandas as pd\ndf = pd.DataFrame({\"a\": [1, None, 3]})\nprint(df.dropna().shape[0])",
+          "puzzle": "___ pandas as pd\ndf = pd.DataFrame({\"a\": [1, None, 3]})\nprint(df.dropna().shape[0])",
+          "output": "2"
+        },
+        {
+          "level": 434,
+          "topic": "Data preprocessing (data science)",
+          "syntax": "df[\"a\"] = df[\"a\"].fillna(0)\nprint(df[\"a\"].tolist())",
+          "puzzle": "___[\"a\"] = df[\"a\"].fillna(0)\nprint(df[\"a\"].tolist())",
+          "output": "[1.0, 0.0, 3.0]"
+        },
+        {
+          "level": 435,
+          "topic": "Exploratory Data Analysis",
+          "syntax": "import pandas as pd\ndf = pd.DataFrame({\"a\": [1, 2, 3]})\nprint(df.describe().loc[\"mean\", \"a\"])",
+          "puzzle": "___ pandas as pd\ndf = pd.DataFrame({\"a\": [1, 2, 3]})\nprint(df.describe().loc[\"mean\", \"a\"])",
+          "output": "2.0"
+        },
+        {
+          "level": 436,
+          "topic": "Statistical analysis (data science)",
+          "syntax": "import numpy as np\nprint(np.std([1, 2, 3, 4]))",
+          "puzzle": "___ numpy as np\nprint(np.std([1, 2, 3, 4]))",
+          "output": "1.118033988749895"
+        },
+        {
+          "level": 437,
+          "topic": "Data visualization (data science)",
+          "syntax": "import matplotlib.pyplot as plt\nplt.bar([\"A\", \"B\"], [10, 20])\nplt.savefig(\"bar.png\")",
+          "puzzle": "___ matplotlib.pyplot as plt\nplt.bar([\"A\", \"B\"], [10, 20])\nplt.savefig(\"bar.png\")",
+          "output": ""
+        },
+        {
+          "level": 438,
+          "topic": "Jupyter Notebook",
+          "syntax": "# In a Jupyter cell:\nprint(\"Hello from Jupyter\")",
+          "puzzle": "# ___ a Jupyter cell:\nprint(\"Hello from Jupyter\")",
+          "output": "Hello from Jupyter"
+        }
+      ]
+    },
+    {
+      "part": "Part 34 - Python for Machine Learning",
+      "items": [
+        {
+          "level": 439,
+          "topic": "NumPy (ML)",
+          "syntax": "import numpy as np\nX = np.array([[1, 2], [3, 4]])\nprint(X.shape)",
+          "puzzle": "___ numpy as np\nX = np.array([[1, 2], [3, 4]])\nprint(X.shape)",
+          "output": "(2, 2)"
+        },
+        {
+          "level": 440,
+          "topic": "Pandas (ML)",
+          "syntax": "import pandas as pd\ndf = pd.read_csv(\"data.csv\")\nprint(df.columns.tolist())",
+          "puzzle": "___ pandas as pd\ndf = pd.read___csv(\"data.csv\")\nprint(df.columns.tolist())",
+          "output": "['feature1', 'feature2', 'label']"
+        },
+        {
+          "level": 441,
+          "topic": "Scikit-learn",
+          "syntax": "from sklearn.linear_model import LinearRegression\nmodel = LinearRegression()\nprint(type(model))",
+          "puzzle": "from sklearn.linear___model ___ LinearRegression\nmodel = LinearRegression()\nprint(type(model))",
+          "output": "<class 'sklearn.linear_model._base.LinearRegression'>"
+        },
+        {
+          "level": 442,
+          "topic": "Data preprocessing (ML)",
+          "syntax": "from sklearn.preprocessing import StandardScaler\nscaler = StandardScaler()\nprint(type(scaler))",
+          "puzzle": "from sklearn.preprocessing ___ StandardScaler\nscaler = StandardScaler()\nprint(type(scaler))",
+          "output": "<class 'sklearn.preprocessing._data.StandardScaler'>"
+        },
+        {
+          "level": 443,
+          "topic": "Feature engineering",
+          "syntax": "df[\"total\"] = df[\"a\"] + df[\"b\"]\nprint(df[\"total\"].sum())",
+          "puzzle": "___[\"total\"] = df[\"a\"] + df[\"b\"]\nprint(df[\"total\"].sum())",
+          "output": "45"
+        },
+        {
+          "level": 444,
+          "topic": "Train/test split",
+          "syntax": "from sklearn.model_selection import train_test_split\nX_train, X_test = train_test_split([1,2,3,4], test_size=0.5)\nprint(len(X_train))",
+          "puzzle": "from sklearn.model___selection ___ train___test___split\nX___train, X___test = train___test___split([1,2,3,4], test___size=0.5)\nprint(len(X___train))",
+          "output": "2"
+        },
+        {
+          "level": 445,
+          "topic": "Regression",
+          "syntax": "model.fit(X_train, y_train)\nprint(model.predict([[5]]))",
+          "puzzle": "___.fit(X___train, y___train)\nprint(model.predict([[5]]))",
+          "output": "[10.2]"
+        },
+        {
+          "level": 446,
+          "topic": "Classification",
+          "syntax": "from sklearn.tree import DecisionTreeClassifier\nclf = DecisionTreeClassifier()\nclf.fit(X, y)\nprint(clf.predict([[1, 2]]))",
+          "puzzle": "from sklearn.tree ___ DecisionTreeClassifier\nclf = DecisionTreeClassifier()\nclf.fit(X, y)\nprint(clf.predict([[1, 2]]))",
+          "output": "[0]"
+        },
+        {
+          "level": 447,
+          "topic": "Clustering",
+          "syntax": "from sklearn.cluster import KMeans\nkm = KMeans(n_clusters=2)\nkm.fit(X)\nprint(km.labels_)",
+          "puzzle": "from sklearn.cluster ___ KMeans\nkm = KMeans(n___clusters=2)\nkm.fit(X)\nprint(km.labels___)",
+          "output": "[0 1 0 1]"
+        },
+        {
+          "level": 448,
+          "topic": "Dimensionality reduction",
+          "syntax": "from sklearn.decomposition import PCA\npca = PCA(n_components=1)\nreduced = pca.fit_transform(X)\nprint(reduced.shape)",
+          "puzzle": "from sklearn.decomposition ___ PCA\npca = PCA(n___components=1)\nreduced = pca.fit___transform(X)\nprint(reduced.shape)",
+          "output": "(2, 1)"
+        },
+        {
+          "level": 449,
+          "topic": "Model evaluation",
+          "syntax": "from sklearn.metrics import accuracy_score\nprint(accuracy_score([1, 0, 1], [1, 0, 0]))",
+          "puzzle": "from sklearn.metrics ___ accuracy___score\nprint(accuracy___score([1, 0, 1], [1, 0, 0]))",
+          "output": "0.6666666666666666"
+        },
+        {
+          "level": 450,
+          "topic": "Cross-validation",
+          "syntax": "from sklearn.model_selection import cross_val_score\nscores = cross_val_score(model, X, y, cv=3)\nprint(len(scores))",
+          "puzzle": "from sklearn.model___selection ___ cross___val___score\nscores = cross___val___score(model, X, y, cv=3)\nprint(len(scores))",
+          "output": "3"
+        },
+        {
+          "level": 451,
+          "topic": "Hyperparameter tuning",
+          "syntax": "from sklearn.model_selection import GridSearchCV\ngrid = GridSearchCV(model, {\"n_neighbors\": [1, 3]})\nprint(type(grid))",
+          "puzzle": "from sklearn.model___selection ___ GridSearchCV\ngrid = GridSearchCV(model, {\"n___neighbors\": [1, 3]})\nprint(type(grid))",
+          "output": "<class 'sklearn.model_selection._search.GridSearchCV'>"
+        },
+        {
+          "level": 452,
+          "topic": "Pipelines (ML)",
+          "syntax": "from sklearn.pipeline import Pipeline\npipe = Pipeline([(\"scaler\", StandardScaler())])\nprint(type(pipe))",
+          "puzzle": "from sklearn.pipeline ___ Pipeline\npipe = Pipeline([(\"scaler\", StandardScaler())])\nprint(type(pipe))",
+          "output": "<class 'sklearn.pipeline.Pipeline'>"
+        },
+        {
+          "level": 453,
+          "topic": "Model serialization / joblib",
+          "syntax": "import joblib\njoblib.dump(model, \"model.pkl\")\nprint(\"Model saved\")",
+          "puzzle": "___ joblib\njoblib.dump(model, \"model.pkl\")\nprint(\"Model saved\")",
+          "output": "Model saved"
+        }
+      ]
+    },
+    {
+      "part": "Part 35 - Python for AI",
+      "items": [
+        {
+          "level": 454,
+          "topic": "Neural networks",
+          "syntax": "import torch.nn as nn\nmodel = nn.Linear(10, 1)\nprint(model)",
+          "puzzle": "___ torch.nn as nn\nmodel = nn.Linear(10, 1)\nprint(model)",
+          "output": "Linear(in_features=10, out_features=1, bias=True)"
+        },
+        {
+          "level": 455,
+          "topic": "PyTorch",
+          "syntax": "import torch\nx = torch.tensor([1.0, 2.0])\nprint(x)",
+          "puzzle": "___ torch\nx = torch.tensor([1.0, 2.0])\nprint(x)",
+          "output": "tensor([1., 2.])"
+        },
+        {
+          "level": 456,
+          "topic": "TensorFlow",
+          "syntax": "import tensorflow as tf\nx = tf.constant([1, 2, 3])\nprint(x)",
+          "puzzle": "___ tensorflow as tf\nx = tf.constant([1, 2, 3])\nprint(x)",
+          "output": "tf.Tensor([1 2 3], shape=(3,), dtype=int32)"
+        },
+        {
+          "level": 457,
+          "topic": "Keras",
+          "syntax": "from tensorflow import keras\nmodel = keras.Sequential([keras.layers.Dense(1)])\nprint(type(model))",
+          "puzzle": "from tensorflow ___ keras\nmodel = keras.Sequential([keras.layers.Dense(1)])\nprint(type(model))",
+          "output": "<class 'keras.src.engine.sequential.Sequential'>"
+        },
+        {
+          "level": 458,
+          "topic": "Deep learning",
+          "syntax": "model.compile(optimizer=\"adam\", loss=\"mse\")\nprint(\"Model compiled\")",
+          "puzzle": "___.compile(optimizer=\"adam\", loss=\"mse\")\nprint(\"Model compiled\")",
+          "output": "Model compiled"
+        },
+        {
+          "level": 459,
+          "topic": "CNN",
+          "syntax": "from tensorflow.keras.layers import Conv2D\nlayer = Conv2D(32, (3, 3))\nprint(type(layer))",
+          "puzzle": "from tensorflow.keras.layers ___ Conv2D\nlayer = Conv2D(32, (3, 3))\nprint(type(layer))",
+          "output": "<class 'keras.src.layers.convolutional.conv2d.Conv2D'>"
+        },
+        {
+          "level": 460,
+          "topic": "RNN",
+          "syntax": "from tensorflow.keras.layers import SimpleRNN\nlayer = SimpleRNN(10)\nprint(type(layer))",
+          "puzzle": "from tensorflow.keras.layers import Simple___\nlayer = SimpleRNN(10)\nprint(type(layer))",
+          "output": "<class 'keras.src.layers.rnn.simple_rnn.SimpleRNN'>"
+        },
+        {
+          "level": 461,
+          "topic": "LSTM",
+          "syntax": "from tensorflow.keras.layers import LSTM\nlayer = LSTM(10)\nprint(type(layer))",
+          "puzzle": "from tensorflow.keras.layers import ___\nlayer = LSTM(10)\nprint(type(layer))",
+          "output": "<class 'keras.src.layers.rnn.lstm.LSTM'>"
+        },
+        {
+          "level": 462,
+          "topic": "Transformers",
+          "syntax": "from transformers import pipeline\nclf = pipeline(\"sentiment-analysis\")\nprint(clf(\"I love this!\"))",
+          "puzzle": "from transformers ___ pipeline\nclf = pipeline(\"sentiment-analysis\")\nprint(clf(\"I love this!\"))",
+          "output": "[{'label': 'POSITIVE', 'score': 0.999}]"
+        },
+        {
+          "level": 463,
+          "topic": "Hugging Face",
+          "syntax": "from transformers import AutoTokenizer\ntok = AutoTokenizer.from_pretrained(\"bert-base-uncased\")\nprint(tok.tokenize(\"hi\"))",
+          "puzzle": "from transformers ___ AutoTokenizer\ntok = AutoTokenizer.from___pretrained(\"bert-base-uncased\")\nprint(tok.tokenize(\"hi\"))",
+          "output": "['hi']"
+        },
+        {
+          "level": 464,
+          "topic": "NLP",
+          "syntax": "import nltk\ntokens = nltk.word_tokenize(\"Hello world\")\nprint(tokens)",
+          "puzzle": "___ nltk\ntokens = nltk.word___tokenize(\"Hello world\")\nprint(tokens)",
+          "output": "['Hello', 'world']"
+        },
+        {
+          "level": 465,
+          "topic": "Computer vision",
+          "syntax": "import cv2\nimg = cv2.imread(\"photo.jpg\")\nprint(img.shape)",
+          "puzzle": "___ cv2\nimg = cv2.imread(\"photo.jpg\")\nprint(img.shape)",
+          "output": "(480, 640, 3)"
+        },
+        {
+          "level": 466,
+          "topic": "Speech processing",
+          "syntax": "import speech_recognition as sr\nr = sr.Recognizer()\nprint(type(r))",
+          "puzzle": "___ speech___recognition as sr\nr = sr.Recognizer()\nprint(type(r))",
+          "output": "<class 'speech_recognition.Recognizer'>"
+        },
+        {
+          "level": 467,
+          "topic": "Generative AI",
+          "syntax": "response = model.generate(\"Write a poem\")\nprint(response[:20])",
+          "puzzle": "___ = ___\nprint(response[:20])",
+          "output": "Roses are red..."
+        },
+        {
+          "level": 468,
+          "topic": "LLMs",
+          "syntax": "from openai import OpenAI\nclient = OpenAI()\nprint(type(client))",
+          "puzzle": "from openai ___ OpenAI\nclient = OpenAI()\nprint(type(client))",
+          "output": "<class 'openai.OpenAI'>"
+        },
+        {
+          "level": 469,
+          "topic": "Embeddings",
+          "syntax": "from sentence_transformers import SentenceTransformer\nmodel = SentenceTransformer(\"all-MiniLM-L6-v2\")\nvec = model.encode(\"hello\")\nprint(vec.shape)",
+          "puzzle": "from sentence___transformers ___ SentenceTransformer\nmodel = SentenceTransformer(\"all-MiniLM-L6-v2\")\nvec = model.encode(\"hello\")\nprint(vec.shape)",
+          "output": "(384,)"
+        },
+        {
+          "level": 470,
+          "topic": "RAG",
+          "syntax": "docs = retriever.get_relevant_documents(\"query\")\nanswer = llm(docs, \"query\")\nprint(answer)",
+          "puzzle": "___ = ___\nanswer = llm(docs, \"query\")\nprint(answer)",
+          "output": "Generated answer based on retrieved docs"
+        },
+        {
+          "level": 471,
+          "topic": "Vector databases",
+          "syntax": "import faiss\nindex = faiss.IndexFlatL2(384)\nprint(index.ntotal)",
+          "puzzle": "___ faiss\nindex = faiss.IndexFlatL2(384)\nprint(index.ntotal)",
+          "output": "0"
+        },
+        {
+          "level": 472,
+          "topic": "AI agents",
+          "syntax": "agent = Agent(tools=[search_tool])\nresult = agent.run(\"Find today's weather\")\nprint(result)",
+          "puzzle": "___ = ___\nresult = agent.run(\"Find today's weather\")\nprint(result)",
+          "output": "The weather today is sunny"
+        }
+      ]
+    },
+    {
+      "part": "Part 36 - Advanced Python Performance",
+      "items": [
+        {
+          "level": 473,
+          "topic": "Time complexity",
+          "syntax": "# O(n) example\nfor i in range(n):\n    print(i)",
+          "puzzle": "# O(n) example\n___ i in range(n):\n    print(i)",
+          "output": "0\n1\n2\n..."
+        },
+        {
+          "level": 474,
+          "topic": "Space complexity",
+          "syntax": "# O(n) space\narr = [0] * n",
+          "puzzle": "# O(n) space\n___ = ___",
+          "output": ""
+        },
+        {
+          "level": 475,
+          "topic": "Big-O",
+          "syntax": "# Linear search is O(n)\ndef find(lst, target):\n    for x in lst:\n        if x == target:\n            return True\n    return False",
+          "puzzle": "# Linear search is O(n)\n___ find(lst, target):\n    for x in lst:\n        if x == target:\n            return True\n    return False",
+          "output": ""
+        },
+        {
+          "level": 476,
+          "topic": "Profiling",
+          "syntax": "import cProfile\ncProfile.run(\"sum(range(1000))\")",
+          "puzzle": "___ cProfile\ncProfile.run(\"sum(range(1000))\")",
+          "output": "1 function calls in 0.000 seconds"
+        },
+        {
+          "level": 477,
+          "topic": "timeit",
+          "syntax": "import timeit\nprint(timeit.timeit(\"sum(range(100))\", number=1000))",
+          "puzzle": "import ___\nprint(timeit.timeit(\"sum(range(100))\", number=1000))",
+          "output": "0.0123"
+        },
+        {
+          "level": 478,
+          "topic": "cProfile",
+          "syntax": "import cProfile\ncProfile.run(\"[x**2 for x in range(100)]\")",
+          "puzzle": "import ___\ncProfile.run(\"[x**2 for x in range(100)]\")",
+          "output": "1 function calls in 0.000 seconds"
+        },
+        {
+          "level": 479,
+          "topic": "Memory profiling",
+          "syntax": "from memory_profiler import profile\n@profile\ndef f():\n    return [0] * 1000000",
+          "puzzle": "from memory___profiler import profile\n@profile\n___ f():\n    return [0] * 1000000",
+          "output": "Line #    Mem usage"
+        },
+        {
+          "level": 480,
+          "topic": "Optimization",
+          "syntax": "result = sum(x*x for x in range(1000))\nprint(result)",
+          "puzzle": "result = sum(x*x ___ x in range(1000))\nprint(result)",
+          "output": "332833500"
+        },
+        {
+          "level": 481,
+          "topic": "Caching",
+          "syntax": "from functools import lru_cache\n@lru_cache\ndef fib(n):\n    return n if n < 2 else fib(n-1) + fib(n-2)\nprint(fib(10))",
+          "puzzle": "from functools import lru___cache\n@lru___cache\n___ fib(n):\n    return n if n < 2 else fib(n-1) + fib(n-2)\nprint(fib(10))",
+          "output": "55"
+        },
+        {
+          "level": 482,
+          "topic": "functools.lru_cache",
+          "syntax": "from functools import lru_cache\n@lru_cache(maxsize=None)\ndef square(x):\n    return x * x\nprint(square(5))",
+          "puzzle": "from functools import lru___cache\n@lru___cache(maxsize=None)\n___ square(x):\n    return x * x\nprint(square(5))",
+          "output": "25"
+        },
+        {
+          "level": 483,
+          "topic": "Efficient data structures",
+          "syntax": "from collections import deque\nq = deque([1, 2, 3])\nq.appendleft(0)\nprint(q)",
+          "puzzle": "from collections ___ deque\nq = deque([1, 2, 3])\nq.appendleft(0)\nprint(q)",
+          "output": "deque([0, 1, 2, 3])"
+        },
+        {
+          "level": 484,
+          "topic": "Vectorization",
+          "syntax": "import numpy as np\narr = np.array([1, 2, 3])\nprint(arr * 2)",
+          "puzzle": "___ numpy as np\narr = np.array([1, 2, 3])\nprint(arr * 2)",
+          "output": "[2 4 6]"
+        },
+        {
+          "level": 485,
+          "topic": "NumPy optimization",
+          "syntax": "import numpy as np\nprint(np.sum(np.arange(1000000)))",
+          "puzzle": "___ numpy as np\nprint(np.sum(np.arange(1000000)))",
+          "output": "499999500000"
+        }
+      ]
+    },
+    {
+      "part": "Part 37 - Professional Python Development",
+      "items": [
+        {
+          "level": 486,
+          "topic": "Clean code",
+          "syntax": "def calculate_total(prices):\n    return sum(prices)",
+          "puzzle": "___ calculate___total(prices):\n    return sum(prices)",
+          "output": ""
+        },
+        {
+          "level": 487,
+          "topic": "PEP 8",
+          "syntax": "def my_function(x, y):\n    return x + y",
+          "puzzle": "___ my___function(x, y):\n    return x + y",
+          "output": ""
+        },
+        {
+          "level": 488,
+          "topic": "Naming conventions (professional)",
+          "syntax": "MAX_RETRIES = 3\ndef fetch_data():\n    pass",
+          "puzzle": "___ = ___\ndef fetch___data():\n    pass",
+          "output": ""
+        },
+        {
+          "level": 489,
+          "topic": "Code organization",
+          "syntax": "project/\n  __init__.py\n  main.py\n  utils.py",
+          "puzzle": "___/\n  ___init___.py\n  main.py\n  utils.py",
+          "output": ""
+        },
+        {
+          "level": 490,
+          "topic": "Project architecture",
+          "syntax": "app/\n  models/\n  views/\n  services/",
+          "puzzle": "___/\n  models/\n  views/\n  services/",
+          "output": ""
+        },
+        {
+          "level": 491,
+          "topic": "Design patterns",
+          "syntax": "class Singleton:\n    _instance = None\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = super().__new__(cls)\n        return cls._instance\nprint(Singleton() is Singleton())",
+          "puzzle": "class Singleton:\n    ___instance = None\n    ___ ___new___(cls):\n        if cls.___instance is None:\n            cls.___instance = super().___new___(cls)\n        return cls.___instance\nprint(Singleton() is Singleton())",
+          "output": "True"
+        },
+        {
+          "level": 492,
+          "topic": "SOLID principles",
+          "syntax": "class Shape:\n    def area(self):\n        raise NotImplementedError",
+          "puzzle": "class Shape:\n    ___ area(self):\n        raise NotImplementedError",
+          "output": ""
+        },
+        {
+          "level": 493,
+          "topic": "Dependency injection",
+          "syntax": "class Service:\n    def __init__(self, repo):\n        self.repo = repo\nservice = Service(repo=FakeRepo())",
+          "puzzle": "class Service:\n    ___ ___init___(self, repo):\n        self.repo = repo\nservice = Service(repo=FakeRepo())",
+          "output": ""
+        },
+        {
+          "level": 494,
+          "topic": "Configuration management",
+          "syntax": "import os\nDEBUG = os.getenv(\"DEBUG\", \"False\")\nprint(DEBUG)",
+          "puzzle": "___ os\nDEBUG = os.getenv(\"DEBUG\", \"False\")\nprint(DEBUG)",
+          "output": "False"
+        },
+        {
+          "level": 495,
+          "topic": "Environment variables (.env)",
+          "syntax": "from dotenv import load_dotenv\nimport os\nload_dotenv()\nprint(os.getenv(\"API_KEY\"))",
+          "puzzle": "from dotenv ___ load___dotenv\nimport os\nload___dotenv()\nprint(os.getenv(\"API___KEY\"))",
+          "output": "your-api-key"
+        },
+        {
+          "level": 496,
+          "topic": "Security (professional)",
+          "syntax": "from werkzeug.security import generate_password_hash\nprint(generate_password_hash(\"secret\")[:10])",
+          "puzzle": "from werkzeug.security ___ generate___password___hash\nprint(generate___password___hash(\"secret\")[:10])",
+          "output": "pbkdf2:sha"
+        },
+        {
+          "level": 497,
+          "topic": "Documentation (professional)",
+          "syntax": "def add(a, b):\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b",
+          "puzzle": "___ add(a, b):\n    \"\"\"Return the sum of a and b.\"\"\"\n    return a + b",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 38 - Git & Python Projects",
+      "items": [
+        {
+          "level": 498,
+          "topic": "Git basics",
+          "syntax": "git init",
+          "puzzle": "___ init",
+          "output": "Initialized empty Git repository"
+        },
+        {
+          "level": 499,
+          "topic": "GitHub",
+          "syntax": "git remote add origin https://github.com/user/repo.git",
+          "puzzle": "___ remote add origin https://github.com/user/repo.git",
+          "output": ""
+        },
+        {
+          "level": 500,
+          "topic": "Repository structure",
+          "syntax": "repo/\n  .git/\n  README.md\n  src/",
+          "puzzle": "___/\n  .git/\n  README.md\n  src/",
+          "output": ""
+        },
+        {
+          "level": 501,
+          "topic": ".gitignore",
+          "syntax": "__pycache__/\n*.pyc\n.env",
+          "puzzle": "___pycache___/\n___\n.env",
+          "output": ""
+        },
+        {
+          "level": 502,
+          "topic": "Branches",
+          "syntax": "git checkout -b feature-branch",
+          "puzzle": "___ checkout -b feature-branch",
+          "output": "Switched to a new branch 'feature-branch'"
+        },
+        {
+          "level": 503,
+          "topic": "Commits",
+          "syntax": "git commit -m \"Add login feature\"",
+          "puzzle": "___ commit -m \"Add login feature\"",
+          "output": "[main 1a2b3c4] Add login feature"
+        },
+        {
+          "level": 504,
+          "topic": "Pull requests",
+          "syntax": "git push origin feature-branch",
+          "puzzle": "___ push origin feature-branch",
+          "output": "Create a pull request for 'feature-branch' on GitHub"
+        },
+        {
+          "level": 505,
+          "topic": "Versioning",
+          "syntax": "git tag v1.0.0",
+          "puzzle": "___ tag v1.0.0",
+          "output": ""
+        },
+        {
+          "level": 506,
+          "topic": "Releases",
+          "syntax": "git tag v1.0.0\ngit push origin v1.0.0",
+          "puzzle": "___ tag v1.0.0\ngit push origin v1.0.0",
+          "output": ""
+        },
+        {
+          "level": 507,
+          "topic": "GitHub Actions",
+          "syntax": "name: CI\non: [push]\njobs:\n  test:\n    runs-on: ubuntu-latest",
+          "puzzle": "___: CI\non: [push]\njobs:\n  test:\n    runs-on: ubuntu-latest",
+          "output": "Workflow run: success"
+        },
+        {
+          "level": 508,
+          "topic": "CI/CD",
+          "syntax": "steps:\n  - run: pytest\n  - run: docker build .",
+          "puzzle": "steps:\n  - run: ___\n  - run: docker build .",
+          "output": "Build succeeded"
+        }
+      ]
+    },
+    {
+      "part": "Part 39 - Deployment",
+      "items": [
+        {
+          "level": 509,
+          "topic": "Linux basics",
+          "syntax": "ls -la",
+          "puzzle": "___ -la",
+          "output": "total 8\ndrwxr-xr-x  2 user user 4096 main.py"
+        },
+        {
+          "level": 510,
+          "topic": "Environment variables (deployment)",
+          "syntax": "export FLASK_ENV=production",
+          "puzzle": "___ FLASK___ENV=production",
+          "output": ""
+        },
+        {
+          "level": 511,
+          "topic": "Docker",
+          "syntax": "docker build -t myapp .",
+          "puzzle": "___ build -t myapp .",
+          "output": "Successfully built myapp"
+        },
+        {
+          "level": 512,
+          "topic": "Docker Compose",
+          "syntax": "docker-compose up",
+          "puzzle": "___ up",
+          "output": "Starting myapp_web_1 ... done"
+        },
+        {
+          "level": 513,
+          "topic": "Gunicorn",
+          "syntax": "gunicorn app:app --bind 0.0.0.0:8000",
+          "puzzle": "___ app:app --bind 0.0.0.0:8000",
+          "output": "Booting worker with pid: 1234"
+        },
+        {
+          "level": 514,
+          "topic": "Nginx",
+          "syntax": "server {\n    listen 80;\n    location / {\n        proxy_pass http://localhost:8000;\n    }\n}",
+          "puzzle": "___ {\n    listen 80;\n    location / {\n        proxy___pass http://localhost:8000;\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 515,
+          "topic": "Cloud deployment",
+          "syntax": "heroku deploy",
+          "puzzle": "___ deploy",
+          "output": "App deployed to https://myapp.herokuapp.com"
+        },
+        {
+          "level": 516,
+          "topic": "Database deployment",
+          "syntax": "python manage.py migrate",
+          "puzzle": "python manage.py ___",
+          "output": "Applying migrations... OK"
+        },
+        {
+          "level": 517,
+          "topic": "API deployment",
+          "syntax": "uvicorn main:app --host 0.0.0.0 --port 80",
+          "puzzle": "___ main:app --host 0.0.0.0 --port 80",
+          "output": "Uvicorn running on http://0.0.0.0:80"
+        },
+        {
+          "level": 518,
+          "topic": "Flask deployment",
+          "syntax": "flask run --host=0.0.0.0",
+          "puzzle": "___ run --host=0.0.0.0",
+          "output": "Running on http://0.0.0.0:5000"
+        },
+        {
+          "level": 519,
+          "topic": "FastAPI deployment",
+          "syntax": "uvicorn main:app --reload",
+          "puzzle": "___ main:app --reload",
+          "output": "Uvicorn running on http://127.0.0.1:8000"
+        },
+        {
+          "level": 520,
+          "topic": "Monitoring",
+          "syntax": "import logging\nlogging.info(\"Health check OK\")",
+          "puzzle": "___ logging\nlogging.info(\"Health check OK\")",
+          "output": "INFO:root:Health check OK"
+        },
+        {
+          "level": 521,
+          "topic": "Application logs",
+          "syntax": "tail -f app.log",
+          "puzzle": "___ -f app.log",
+          "output": "2026-01-01 10:00:00 INFO Request handled"
+        }
+      ]
+    },
+    {
+      "part": "Part 40 - Python Internals (Advanced)",
+      "items": [
+        {
+          "level": 522,
+          "topic": "CPython",
+          "syntax": "import platform\nprint(platform.python_implementation())",
+          "puzzle": "___ platform\nprint(platform.python___implementation())",
+          "output": "CPython"
+        },
+        {
+          "level": 523,
+          "topic": "Python bytecode",
+          "syntax": "def f():\n    return 1 + 2\nprint(f.__code__.co_code[:1])",
+          "puzzle": "___ f():\n    return 1 + 2\nprint(f.___code___.co___code[:1])",
+          "output": "b'\\x97'"
+        },
+        {
+          "level": 524,
+          "topic": "Python Virtual Machine",
+          "syntax": "# CPython compiles source to bytecode, then the PVM executes it\nprint(\"Executed by the PVM\")",
+          "puzzle": "# ___ compiles source to bytecode, then the PVM executes it\nprint(\"Executed by the PVM\")",
+          "output": "Executed by the PVM"
+        },
+        {
+          "level": 525,
+          "topic": "dis (module)",
+          "syntax": "import dis\ndef f():\n    return 1 + 2\ndis.dis(f)",
+          "puzzle": "import dis\n___ f():\n    return 1 + 2\ndis.dis(f)",
+          "output": "  1 LOAD_CONST 3\n    RETURN_VALUE"
+        },
+        {
+          "level": 526,
+          "topic": "Garbage collector internals",
+          "syntax": "import gc\nprint(gc.get_threshold())",
+          "puzzle": "___ gc\nprint(gc.get___threshold())",
+          "output": "(700, 10, 10)"
+        },
+        {
+          "level": 527,
+          "topic": "Reference counting (internals)",
+          "syntax": "import sys\nx = []\nprint(sys.getrefcount(x))",
+          "puzzle": "___ sys\nx = []\nprint(sys.getrefcount(x))",
+          "output": "2"
+        },
+        {
+          "level": 528,
+          "topic": "GIL",
+          "syntax": "import sys\nprint(sys._getframe is not None)",
+          "puzzle": "___ sys\nprint(sys.___getframe is not None)",
+          "output": "True"
+        },
+        {
+          "level": 529,
+          "topic": "Memory allocation",
+          "syntax": "import sys\nprint(sys.getsizeof(5))",
+          "puzzle": "___ sys\nprint(sys.getsizeof(5))",
+          "output": "28"
+        },
+        {
+          "level": 530,
+          "topic": "Object model (internals)",
+          "syntax": "class A:\n    pass\nprint(type(A()).__mro__)",
+          "puzzle": "___ A:\n    pass\nprint(type(A()).___mro___)",
+          "output": "(<class '__main__.A'>, <class 'object'>)"
+        },
+        {
+          "level": 531,
+          "topic": "Descriptors",
+          "syntax": "class Descriptor:\n    def __get__(self, obj, owner):\n        return 42\nclass A:\n    x = Descriptor()\nprint(A().x)",
+          "puzzle": "class Descriptor:\n    ___ ___get___(self, obj, owner):\n        return 42\nclass A:\n    x = Descriptor()\nprint(A().x)",
+          "output": "42"
+        },
+        {
+          "level": 532,
+          "topic": "Metaclasses",
+          "syntax": "class Meta(type):\n    def __new__(cls, name, bases, dct):\n        return super().__new__(cls, name, bases, dct)\nclass A(metaclass=Meta):\n    pass\nprint(type(A))",
+          "puzzle": "class Meta(type):\n    ___ ___new___(cls, name, bases, dct):\n        return super().___new___(cls, name, bases, dct)\nclass A(metaclass=Meta):\n    pass\nprint(type(A))",
+          "output": "<class '__main__.Meta'>"
+        },
+        {
+          "level": 533,
+          "topic": "__slots__",
+          "syntax": "class Point:\n    __slots__ = [\"x\", \"y\"]\np = Point()\np.x = 1\nprint(p.x)",
+          "puzzle": "class Point:\n    ___ = [\"x\", \"y\"]\np = Point()\np.x = 1\nprint(p.x)",
+          "output": "1"
+        },
+        {
+          "level": 534,
+          "topic": "Import system",
+          "syntax": "import importlib\nmath = importlib.import_module(\"math\")\nprint(math.pi)",
+          "puzzle": "___ importlib\nmath = importlib.import___module(\"math\")\nprint(math.pi)",
+          "output": "3.141592653589793"
+        },
+        {
+          "level": 535,
+          "topic": "Abstract Base Classes",
+          "syntax": "from abc import ABC\nclass Shape(ABC):\n    pass\nprint(issubclass(Shape, ABC))",
+          "puzzle": "from abc import ABC\n___ Shape(ABC):\n    pass\nprint(issubclass(Shape, ABC))",
+          "output": "True"
+        },
+        {
+          "level": 536,
+          "topic": "MRO",
+          "syntax": "class A: pass\nclass B(A): pass\nprint(B.__mro__)",
+          "puzzle": "___ A: pass\nclass B(A): pass\nprint(B.___mro___)",
+          "output": "(<class '__main__.B'>, <class '__main__.A'>, <class 'object'>)"
+        },
+        {
+          "level": 537,
+          "topic": "C extensions",
+          "syntax": "import numpy\nprint(numpy.__file__.endswith(\".py\"))",
+          "puzzle": "___ numpy\nprint(numpy.___file___.endswith(\".py\"))",
+          "output": "False"
+        },
+        {
+          "level": 538,
+          "topic": "Python C API",
+          "syntax": "// C extension boilerplate\n#include <Python.h>\nPyObject* hello(PyObject* self) {\n    return PyUnicode_FromString(\"Hello from C\");\n}",
+          "puzzle": "// C extension boilerplate\n#include <Python.h>\nPyObject* hello(PyObject* self) {\n    ___ PyUnicode___FromString(\"Hello from C\");\n}",
+          "output": "Hello from C"
+        }
+      ]
+    },
+    {
+      "part": "Part 41 - Common Built-in Functions",
+      "items": [
+        {
+          "level": 539,
+          "topic": "len()",
+          "syntax": "print(len(\"hello\"))",
+          "puzzle": "print(___(\"hello\"))",
+          "output": "5"
+        },
+        {
+          "level": 540,
+          "topic": "sum()",
+          "syntax": "print(sum([1, 2, 3]))",
+          "puzzle": "print(___([1, 2, 3]))",
+          "output": "6"
+        },
+        {
+          "level": 541,
+          "topic": "max()",
+          "syntax": "print(max([3, 7, 2]))",
+          "puzzle": "print(___([3, 7, 2]))",
+          "output": "7"
+        },
+        {
+          "level": 542,
+          "topic": "min()",
+          "syntax": "print(min([3, 7, 2]))",
+          "puzzle": "print(___([3, 7, 2]))",
+          "output": "2"
+        },
+        {
+          "level": 543,
+          "topic": "abs()",
+          "syntax": "print(abs(-5))",
+          "puzzle": "print(___(-5))",
+          "output": "5"
+        },
+        {
+          "level": 544,
+          "topic": "round()",
+          "syntax": "print(round(3.567, 2))",
+          "puzzle": "print(___(3.567, 2))",
+          "output": "3.57"
+        },
+        {
+          "level": 545,
+          "topic": "reversed()",
+          "syntax": "print(list(reversed([1, 2, 3])))",
+          "puzzle": "print(list(___([1, 2, 3])))",
+          "output": "[3, 2, 1]"
+        },
+        {
+          "level": 546,
+          "topic": "isinstance()",
+          "syntax": "print(isinstance(\"hi\", str))",
+          "puzzle": "print(___(\"hi\", str))",
+          "output": "True"
+        },
+        {
+          "level": 547,
+          "topic": "format()",
+          "syntax": "print(format(3.14159, \".2f\"))",
+          "puzzle": "print(___(3.14159, \".2f\"))",
+          "output": "3.14"
+        },
+        {
+          "level": 548,
+          "topic": "chr() and ord()",
+          "syntax": "print(chr(65), ord(\"A\"))",
+          "puzzle": "print(___(65), ord(\"A\"))",
+          "output": "A 65"
+        },
+        {
+          "level": 549,
+          "topic": "divmod()",
+          "syntax": "print(divmod(9, 4))",
+          "puzzle": "print(___(9, 4))",
+          "output": "(2, 1)"
+        },
+        {
+          "level": 550,
+          "topic": "vars()",
+          "syntax": "class A:\n    def __init__(self):\n        self.x = 1\nprint(vars(A()))",
+          "puzzle": "class A:\n    def ___init___(self):\n        self.x = 1\nprint(___(A()))",
+          "output": "{'x': 1}"
+        }
+      ]
+    },
+    {
+      "part": "Part 42 - Common Design Patterns",
+      "items": [
+        {
+          "level": 551,
+          "topic": "Singleton pattern",
+          "syntax": "class Singleton:\n    _instance = None\n    def __new__(cls):\n        if not cls._instance:\n            cls._instance = super().__new__(cls)\n        return cls._instance\nprint(Singleton() is Singleton())",
+          "puzzle": "class Singleton:\n    ___instance = None\n    ___ ___new___(cls):\n        if not cls.___instance:\n            cls.___instance = super().___new___(cls)\n        return cls.___instance\nprint(Singleton() is Singleton())",
+          "output": "True"
+        },
+        {
+          "level": 552,
+          "topic": "Factory pattern",
+          "syntax": "def shape_factory(kind):\n    if kind == \"circle\":\n        return \"Circle\"\n    return \"Unknown\"\nprint(shape_factory(\"circle\"))",
+          "puzzle": "___ shape___factory(kind):\n    if kind == \"circle\":\n        return \"Circle\"\n    return \"Unknown\"\nprint(shape___factory(\"circle\"))",
+          "output": "Circle"
+        },
+        {
+          "level": 553,
+          "topic": "Observer pattern",
+          "syntax": "class Subject:\n    def __init__(self):\n        self.observers = []\n    def notify(self):\n        for o in self.observers:\n            o()\ns = Subject()\ns.observers.append(lambda: print(\"Notified\"))\ns.notify()",
+          "puzzle": "class Subject:\n    ___ ___init___(self):\n        self.observers = []\n    def notify(self):\n        for o in self.observers:\n            o()\ns = Subject()\ns.observers.append(lambda: print(\"Notified\"))\ns.notify()",
+          "output": "Notified"
+        },
+        {
+          "level": 554,
+          "topic": "Strategy pattern",
+          "syntax": "def add(a, b): return a + b\ndef multiply(a, b): return a * b\nstrategy = add\nprint(strategy(2, 3))",
+          "puzzle": "___ add(a, b): return a + b\ndef multiply(a, b): return a * b\nstrategy = add\nprint(strategy(2, 3))",
+          "output": "5"
+        },
+        {
+          "level": 555,
+          "topic": "Builder pattern",
+          "syntax": "class Burger:\n    def __init__(self):\n        self.toppings = []\n    def add(self, item):\n        self.toppings.append(item)\n        return self\nb = Burger().add(\"cheese\").add(\"lettuce\")\nprint(b.toppings)",
+          "puzzle": "class Burger:\n    ___ ___init___(self):\n        self.toppings = []\n    def add(self, item):\n        self.toppings.append(item)\n        return self\nb = Burger().add(\"cheese\").add(\"lettuce\")\nprint(b.toppings)",
+          "output": "['cheese', 'lettuce']"
+        },
+        {
+          "level": 556,
+          "topic": "Adapter pattern",
+          "syntax": "class OldSystem:\n    def old_method(self):\n        return \"Old\"\nclass Adapter:\n    def __init__(self, old):\n        self.old = old\n    def new_method(self):\n        return self.old.old_method()\nprint(Adapter(OldSystem()).new_method())",
+          "puzzle": "class OldSystem:\n    ___ old___method(self):\n        return \"Old\"\nclass Adapter:\n    def ___init___(self, old):\n        self.old = old\n    def new___method(self):\n        return self.old.old___method()\nprint(Adapter(OldSystem()).new___method())",
+          "output": "Old"
+        },
+        {
+          "level": 557,
+          "topic": "Decorator pattern (structural)",
+          "syntax": "class Coffee:\n    def cost(self):\n        return 5\nclass MilkDecorator:\n    def __init__(self, coffee):\n        self.coffee = coffee\n    def cost(self):\n        return self.coffee.cost() + 1\nprint(MilkDecorator(Coffee()).cost())",
+          "puzzle": "class Coffee:\n    ___ cost(self):\n        return 5\nclass MilkDecorator:\n    def ___init___(self, coffee):\n        self.coffee = coffee\n    def cost(self):\n        return self.coffee.cost() + 1\nprint(MilkDecorator(Coffee()).cost())",
+          "output": "6"
+        }
+      ]
+    },
+    {
+      "part": "Part 43 - Interview & Competitive Programming Patterns",
+      "items": [
+        {
+          "level": 558,
+          "topic": "Two pointers",
+          "syntax": "def two_sum_sorted(arr, target):\n    l, r = 0, len(arr) - 1\n    while l < r:\n        s = arr[l] + arr[r]\n        if s == target:\n            return (l, r)\n        elif s < target:\n            l += 1\n        else:\n            r -= 1\nprint(two_sum_sorted([1, 2, 3, 4, 6], 6))",
+          "puzzle": "___ two___sum___sorted(arr, target):\n    l, r = 0, len(arr) - 1\n    while l < r:\n        s = arr[l] + arr[r]\n        if s == target:\n            return (l, r)\n        elif s < target:\n            l += 1\n        else:\n            r -= 1\nprint(two___sum___sorted([1, 2, 3, 4, 6], 6))",
+          "output": "(1, 3)"
+        },
+        {
+          "level": 559,
+          "topic": "Sliding window",
+          "syntax": "def max_sum_window(arr, k):\n    window = sum(arr[:k])\n    best = window\n    for i in range(k, len(arr)):\n        window += arr[i] - arr[i - k]\n        best = max(best, window)\n    return best\nprint(max_sum_window([1, 2, 3, 4, 5], 2))",
+          "puzzle": "___ max___sum___window(arr, k):\n    window = sum(arr[:k])\n    best = window\n    for i in range(k, len(arr)):\n        window += arr[i] - arr[i - k]\n        best = max(best, window)\n    return best\nprint(max___sum___window([1, 2, 3, 4, 5], 2))",
+          "output": "9"
+        },
+        {
+          "level": 560,
+          "topic": "Binary search",
+          "syntax": "def binary_search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1\nprint(binary_search([1, 3, 5, 7], 5))",
+          "puzzle": "___ binary___search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1\nprint(binary___search([1, 3, 5, 7], 5))",
+          "output": "2"
+        },
+        {
+          "level": 561,
+          "topic": "Hash map frequency counting",
+          "syntax": "from collections import Counter\nprint(Counter(\"mississippi\").most_common(1))",
+          "puzzle": "from collections ___ Counter\nprint(Counter(\"mississippi\").most___common(1))",
+          "output": "[('i', 4)]"
+        },
+        {
+          "level": 562,
+          "topic": "Depth-first search (DFS)",
+          "syntax": "def dfs(graph, node, visited=None):\n    if visited is None:\n        visited = set()\n    visited.add(node)\n    for n in graph[node]:\n        if n not in visited:\n            dfs(graph, n, visited)\n    return visited\ngraph = {1: [2, 3], 2: [], 3: []}\nprint(dfs(graph, 1))",
+          "puzzle": "___ dfs(graph, node, visited=None):\n    if visited is None:\n        visited = set()\n    visited.add(node)\n    for n in graph[node]:\n        if n not in visited:\n            dfs(graph, n, visited)\n    return visited\ngraph = {1: [2, 3], 2: [], 3: []}\nprint(dfs(graph, 1))",
+          "output": "{1, 2, 3}"
+        },
+        {
+          "level": 563,
+          "topic": "Breadth-first search (BFS)",
+          "syntax": "from collections import deque\ndef bfs(graph, start):\n    visited = {start}\n    q = deque([start])\n    order = []\n    while q:\n        node = q.popleft()\n        order.append(node)\n        for n in graph[node]:\n            if n not in visited:\n                visited.add(n)\n                q.append(n)\n    return order\ngraph = {1: [2, 3], 2: [], 3: []}\nprint(bfs(graph, 1))",
+          "puzzle": "from collections import deque\n___ bfs(graph, start):\n    visited = {start}\n    q = deque([start])\n    order = []\n    while q:\n        node = q.popleft()\n        order.append(node)\n        for n in graph[node]:\n            if n not in visited:\n                visited.add(n)\n                q.append(n)\n    return order\ngraph = {1: [2, 3], 2: [], 3: []}\nprint(bfs(graph, 1))",
+          "output": "[1, 2, 3]"
+        },
+        {
+          "level": 564,
+          "topic": "Dynamic programming (memoization)",
+          "syntax": "from functools import lru_cache\n@lru_cache(maxsize=None)\ndef fib(n):\n    return n if n < 2 else fib(n-1) + fib(n-2)\nprint(fib(10))",
+          "puzzle": "from functools import lru___cache\n@lru___cache(maxsize=None)\n___ fib(n):\n    return n if n < 2 else fib(n-1) + fib(n-2)\nprint(fib(10))",
+          "output": "55"
+        }
+      ]
+    },
+    {
+      "part": "Part 44 - Practice variants",
+      "items": [
+        {
+          "level": 565,
+          "topic": "Python syntax - variant 1",
+          "syntax": "# Practice variant 1\nprint(\"Syntax matters in Python\")",
+          "puzzle": "# Practice variant 1\n___(\"Syntax matters in Python\")",
+          "output": "Syntax matters in Python"
+        },
+        {
+          "level": 566,
+          "topic": "Comments - variant 2",
+          "syntax": "# Practice variant 2\n# This is a comment\nprint(\"Comments are ignored\")",
+          "puzzle": "# Practice variant 2\n# This is a comment\n___(\"Comments are ignored\")",
+          "output": "Comments are ignored"
+        }
+      ]
+    }
+  ]
+}

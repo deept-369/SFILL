@@ -1,0 +1,23 @@
+in this project i want to make a home page were this game information and details are there 
+and on that place i want to make a 10 card for each under given language and as user select 
+any one it goes and play that language and in use data one user under it store and take information
+for each language for example if user in python 14 level java 3 c 30 it all store and it also
+show on his desboard which language he learn soo far in home page also make about section for user 
+can understand clearly connect all pages so it easy to move also there is one error when user login 
+and play game after comback next day page again ask user to login do like after user login that device 
+it stay alish 30 days so user not need to login everyday and login button also show on home page 
+
+Use top 10 programming languages 
+01 python
+02 java
+03 c
+04 c++
+05 react js 
+06 rust
+07 sql
+08 c#
+09 php
+10 golang-go
+
+
+

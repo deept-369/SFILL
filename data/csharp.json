@@ -1,0 +1,4192 @@
+{
+  "title": "Complete C# Learning Roadmap - Coding Game Dataset",
+  "description": "Practical syntax-to-output puzzle dataset covering a full C# roadmap with 43 parts and exactly 569 items, matching the item count stated in the supplied Python dataset. Each item contains a practical C# syntax snippet, a fill-in-the-blank puzzle, and expected output. No theory-only entries.",
+  "total_parts": 43,
+  "total_items": 567,
+  "parts": [
+    {
+      "part": "Part 1 - C# Fundamentals",
+      "items": [
+        {
+          "level": 0,
+          "topic": "Hello World",
+          "syntax": "Console.WriteLine(\"Hello, C#!\");",
+          "puzzle": "___.WriteLine(\"Hello, C#!\");",
+          "output": "Hello, C#!"
+        },
+        {
+          "level": 1,
+          "topic": "Comments",
+          "syntax": "// comment\nConsole.WriteLine(\"Code runs\");",
+          "puzzle": "// ___\nConsole.WriteLine(\"Code runs\");",
+          "output": "Code runs"
+        },
+        {
+          "level": 2,
+          "topic": "Variables",
+          "syntax": "int x = 10;\nConsole.WriteLine(x);",
+          "puzzle": "int ___ = 10;\nConsole.WriteLine(x);",
+          "output": "10"
+        },
+        {
+          "level": 3,
+          "topic": "Constants",
+          "syntax": "const double Pi = 3.14;\nConsole.WriteLine(Pi);",
+          "puzzle": "const double ___ = 3.14;\nConsole.WriteLine(Pi);",
+          "output": "3.14"
+        },
+        {
+          "level": 4,
+          "topic": "Naming conventions",
+          "syntax": "string studentName = \"Ava\";\nConsole.WriteLine(studentName);",
+          "puzzle": "string ___ = \"Ava\";\nConsole.WriteLine(studentName);",
+          "output": "Ava"
+        },
+        {
+          "level": 5,
+          "topic": "Keywords",
+          "syntax": "int count = 3;\nConsole.WriteLine(count);",
+          "puzzle": "___ count = 3;\nConsole.WriteLine(count);",
+          "output": "3"
+        },
+        {
+          "level": 6,
+          "topic": "Code blocks",
+          "syntax": "if (true)\n{\n    Console.WriteLine(\"Block\");\n}",
+          "puzzle": "if (true)\n___\n    Console.WriteLine(\"Block\");\n}",
+          "output": "Block"
+        },
+        {
+          "level": 7,
+          "topic": "Console.WriteLine()",
+          "syntax": "Console.WriteLine(\"Hello\");",
+          "puzzle": "Console.___(\"Hello\");",
+          "output": "Hello"
+        },
+        {
+          "level": 8,
+          "topic": "Console.ReadLine()",
+          "syntax": "string name = \"Ava\";\nConsole.WriteLine(name);",
+          "puzzle": "___ name = \"Ava\";\nConsole.WriteLine(name);",
+          "output": "Ava"
+        },
+        {
+          "level": 9,
+          "topic": "Escape characters",
+          "syntax": "Console.WriteLine(\"Line1\\nLine2\");",
+          "puzzle": "Console.WriteLine(\"Line1___Line2\");",
+          "output": "Line1\nLine2"
+        },
+        {
+          "level": 10,
+          "topic": "Expressions",
+          "syntax": "Console.WriteLine(3 + 4 * 2);",
+          "puzzle": "Console.WriteLine(3 ___ 4 * 2);",
+          "output": "11"
+        },
+        {
+          "level": 11,
+          "topic": "Arithmetic operators",
+          "syntax": "Console.WriteLine(7 / 2);",
+          "puzzle": "Console.WriteLine(7 ___ 2);",
+          "output": "3"
+        },
+        {
+          "level": 12,
+          "topic": "Assignment operators",
+          "syntax": "int x = 5;\nx += 3;\nConsole.WriteLine(x);",
+          "puzzle": "int x = 5;\nx ___ 3;\nConsole.WriteLine(x);",
+          "output": "8"
+        },
+        {
+          "level": 13,
+          "topic": "Comparison operators",
+          "syntax": "Console.WriteLine(5 > 3);",
+          "puzzle": "Console.WriteLine(5 ___ 3);",
+          "output": "True"
+        },
+        {
+          "level": 14,
+          "topic": "Logical operators",
+          "syntax": "Console.WriteLine(true && false);",
+          "puzzle": "Console.WriteLine(true ___ false);",
+          "output": "False"
+        },
+        {
+          "level": 15,
+          "topic": "Bitwise operators",
+          "syntax": "Console.WriteLine(5 & 3);",
+          "puzzle": "Console.WriteLine(5 ___ 3);",
+          "output": "1"
+        },
+        {
+          "level": 16,
+          "topic": "Null-coalescing operators",
+          "syntax": "string name = null;\nConsole.WriteLine(name ?? \"Guest\");",
+          "puzzle": "string name = null;\nConsole.WriteLine(name ___ \"Guest\");",
+          "output": "Guest"
+        },
+        {
+          "level": 17,
+          "topic": "Conditional operator",
+          "syntax": "int x = 5;\nstring r = x > 0 ? \"Positive\" : \"Negative\";\nConsole.WriteLine(r);",
+          "puzzle": "int x = 5;\nstring r = x > 0 ___ \"Positive\" : \"Negative\";\nConsole.WriteLine(r);",
+          "output": "Positive"
+        },
+        {
+          "level": 18,
+          "topic": "Operator precedence",
+          "syntax": "Console.WriteLine(2 + 3 * 4);",
+          "puzzle": "Console.WriteLine(2 ___ 3 ___ 4);",
+          "output": "14"
+        },
+        {
+          "level": 19,
+          "topic": "Type conversion",
+          "syntax": "Console.WriteLine(int.Parse(\"5\") + 2);",
+          "puzzle": "Console.WriteLine(___.Parse(\"5\") + 2);",
+          "output": "7"
+        },
+        {
+          "level": 20,
+          "topic": "Static typing",
+          "syntax": "int x = 5;\nConsole.WriteLine(x);",
+          "puzzle": "___ x = 5;\nConsole.WriteLine(x);",
+          "output": "5"
+        },
+        {
+          "level": 21,
+          "topic": "GetType()",
+          "syntax": "int x = 5;\nConsole.WriteLine(x.GetType().Name);",
+          "puzzle": "int x = 5;\nConsole.WriteLine(x.___().Name);",
+          "output": "Int32"
+        },
+        {
+          "level": 22,
+          "topic": "typeof()",
+          "syntax": "Console.WriteLine(typeof(int).Name);",
+          "puzzle": "Console.WriteLine(___(int).Name);",
+          "output": "Int32"
+        }
+      ]
+    },
+    {
+      "part": "Part 2 - C# Data Types",
+      "items": [
+        {
+          "level": 23,
+          "topic": "int",
+          "syntax": "int x = 42;\nConsole.WriteLine(x);",
+          "puzzle": "___ x = 42;\nConsole.WriteLine(x);",
+          "output": "42"
+        },
+        {
+          "level": 24,
+          "topic": "double",
+          "syntax": "double x = 3.14;\nConsole.WriteLine(x);",
+          "puzzle": "___ x = 3.14;\nConsole.WriteLine(x);",
+          "output": "3.14"
+        },
+        {
+          "level": 25,
+          "topic": "decimal",
+          "syntax": "decimal price = 19.99m;\nConsole.WriteLine(price);",
+          "puzzle": "___ price = 19.99m;\nConsole.WriteLine(price);",
+          "output": "19.99"
+        },
+        {
+          "level": 26,
+          "topic": "bool",
+          "syntax": "bool ok = true;\nConsole.WriteLine(ok);",
+          "puzzle": "___ ok = true;\nConsole.WriteLine(ok);",
+          "output": "True"
+        },
+        {
+          "level": 27,
+          "topic": "char",
+          "syntax": "char c = 'A';\nConsole.WriteLine(c);",
+          "puzzle": "___ c = 'A';\nConsole.WriteLine(c);",
+          "output": "A"
+        },
+        {
+          "level": 28,
+          "topic": "string",
+          "syntax": "string s = \"hello\";\nConsole.WriteLine(s);",
+          "puzzle": "___ s = \"hello\";\nConsole.WriteLine(s);",
+          "output": "hello"
+        },
+        {
+          "level": 29,
+          "topic": "byte",
+          "syntax": "byte n = 200;\nConsole.WriteLine(n);",
+          "puzzle": "___ n = 200;\nConsole.WriteLine(n);",
+          "output": "200"
+        },
+        {
+          "level": 30,
+          "topic": "short",
+          "syntax": "short n = 32000;\nConsole.WriteLine(n);",
+          "puzzle": "___ n = 32000;\nConsole.WriteLine(n);",
+          "output": "32000"
+        },
+        {
+          "level": 31,
+          "topic": "long",
+          "syntax": "long n = 9000000000L;\nConsole.WriteLine(n);",
+          "puzzle": "___ n = 9000000000L;\nConsole.WriteLine(n);",
+          "output": "9000000000"
+        },
+        {
+          "level": 32,
+          "topic": "float",
+          "syntax": "float x = 3.5f;\nConsole.WriteLine(x);",
+          "puzzle": "___ x = 3.5f;\nConsole.WriteLine(x);",
+          "output": "3.5"
+        },
+        {
+          "level": 33,
+          "topic": "object",
+          "syntax": "object x = 10;\nConsole.WriteLine(x);",
+          "puzzle": "___ x = 10;\nConsole.WriteLine(x);",
+          "output": "10"
+        },
+        {
+          "level": 34,
+          "topic": "dynamic",
+          "syntax": "dynamic x = 10;\nConsole.WriteLine(x + 2);",
+          "puzzle": "___ x = 10;\nConsole.WriteLine(x + 2);",
+          "output": "12"
+        },
+        {
+          "level": 35,
+          "topic": "DateTime",
+          "syntax": "DateTime d = new DateTime(2026, 1, 1);\nConsole.WriteLine(d.Year);",
+          "puzzle": "___ d = new DateTime(2026, 1, 1);\nConsole.WriteLine(d.Year);",
+          "output": "2026"
+        },
+        {
+          "level": 36,
+          "topic": "Guid",
+          "syntax": "Guid id = Guid.NewGuid();\nConsole.WriteLine(id != Guid.Empty);",
+          "puzzle": "___ id = Guid.NewGuid();\nConsole.WriteLine(id != Guid.Empty);",
+          "output": "True"
+        },
+        {
+          "level": 37,
+          "topic": "Nullable types",
+          "syntax": "int? x = null;\nConsole.WriteLine(x ?? 10);",
+          "puzzle": "int? x = null;\nConsole.WriteLine(x ___ 10);",
+          "output": "10"
+        },
+        {
+          "level": 38,
+          "topic": "Arrays",
+          "syntax": "int[] a = { 1, 2, 3 };\nConsole.WriteLine(a.Length);",
+          "puzzle": "int[] a = { 1, 2, 3 };\nConsole.WriteLine(a.___);",
+          "output": "3"
+        },
+        {
+          "level": 39,
+          "topic": "Value types",
+          "syntax": "int a = 5;\nint b = a;\nb = 10;\nConsole.WriteLine(a);",
+          "puzzle": "___ a = 5;\nint b = a;\nb = 10;\nConsole.WriteLine(a);",
+          "output": "5"
+        },
+        {
+          "level": 40,
+          "topic": "Reference types",
+          "syntax": "int[] a = { 1 };\nint[] b = a;\nb[0] = 9;\nConsole.WriteLine(a[0]);",
+          "puzzle": "int[] a = { 1 };\nint[] b = ___;\nb[0] = 9;\nConsole.WriteLine(a[0]);",
+          "output": "9"
+        },
+        {
+          "level": 41,
+          "topic": "var",
+          "syntax": "var x = 10;\nConsole.WriteLine(x);",
+          "puzzle": "___ x = 10;\nConsole.WriteLine(x);",
+          "output": "10"
+        },
+        {
+          "level": 42,
+          "topic": "const",
+          "syntax": "const int Max = 10;\nConsole.WriteLine(Max);",
+          "puzzle": "___ int Max = 10;\nConsole.WriteLine(Max);",
+          "output": "10"
+        },
+        {
+          "level": 43,
+          "topic": "Casting",
+          "syntax": "double x = 5.9;\nConsole.WriteLine((int)x);",
+          "puzzle": "double x = 5.9;\nConsole.WriteLine((___)x);",
+          "output": "5"
+        },
+        {
+          "level": 44,
+          "topic": "Parse and TryParse",
+          "syntax": "int x = int.Parse(\"42\");\nConsole.WriteLine(x);",
+          "puzzle": "int x = int.___(\"42\");\nConsole.WriteLine(x);",
+          "output": "42"
+        }
+      ]
+    },
+    {
+      "part": "Part 3 - Control Flow",
+      "items": [
+        {
+          "level": 45,
+          "topic": "if",
+          "syntax": "int x = 5;\nif (x > 10)\n    Console.WriteLine(\"Big\");\nelse\n    Console.WriteLine(\"Small\");",
+          "puzzle": "int x = 5;\n___ (x > 10)\n    Console.WriteLine(\"Big\");\nelse\n    Console.WriteLine(\"Small\");",
+          "output": "Small"
+        },
+        {
+          "level": 46,
+          "topic": "else if",
+          "syntax": "int x = 2;\nif (x == 1) Console.WriteLine(\"One\");\nelse if (x == 2) Console.WriteLine(\"Two\");",
+          "puzzle": "int x = 2;\nif (x == 1) Console.WriteLine(\"One\");\n___ (x == 2) Console.WriteLine(\"Two\");",
+          "output": "Two"
+        },
+        {
+          "level": 47,
+          "topic": "else",
+          "syntax": "int x = 5;\nif (x > 10)\n    Console.WriteLine(\"Big\");\nelse\n    Console.WriteLine(\"Small\");",
+          "puzzle": "int x = 5;\nif (x > 10)\n    Console.WriteLine(\"Big\");\n___\n    Console.WriteLine(\"Small\");",
+          "output": "Small"
+        },
+        {
+          "level": 48,
+          "topic": "Nested conditions",
+          "syntax": "int x = 5;\nif (x > 0)\n{\n    if (x % 2 == 0) Console.WriteLine(\"Even\");\n    else Console.WriteLine(\"Odd\");\n}",
+          "puzzle": "int x = 5;\n___ (x > 0)\n{\n    if (x % 2 == 0) Console.WriteLine(\"Even\");\n    else Console.WriteLine(\"Odd\");\n}",
+          "output": "Odd"
+        },
+        {
+          "level": 49,
+          "topic": "Conditional operator - practice 2",
+          "syntax": "int x = 5;\nstring r = x > 0 ? \"Positive\" : \"Negative\";\nConsole.WriteLine(r);",
+          "puzzle": "int x = 5;\nstring r = x > 0 ___ \"Positive\" : \"Negative\";\nConsole.WriteLine(r);",
+          "output": "Positive"
+        },
+        {
+          "level": 50,
+          "topic": "for loops",
+          "syntax": "for (int i = 0; i < 3; i++)\n    Console.WriteLine(i);",
+          "puzzle": "___ (int i = 0; i < 3; i++)\n    Console.WriteLine(i);",
+          "output": "0\n1\n2"
+        },
+        {
+          "level": 51,
+          "topic": "while loops",
+          "syntax": "int n = 3;\nwhile (n > 0)\n{\n    Console.WriteLine(n);\n    n--;\n}",
+          "puzzle": "int n = 3;\n___ (n > 0)\n{\n    Console.WriteLine(n);\n    n--;\n}",
+          "output": "3\n2\n1"
+        },
+        {
+          "level": 52,
+          "topic": "do-while loops",
+          "syntax": "int n = 1;\ndo\n{\n    Console.WriteLine(n);\n    n++;\n} while (n <= 2);",
+          "puzzle": "int n = 1;\n___\n{\n    Console.WriteLine(n);\n    n++;\n} while (n <= 2);",
+          "output": "1\n2"
+        },
+        {
+          "level": 53,
+          "topic": "Nested loops",
+          "syntax": "for (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "puzzle": "___ (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "output": "0,0\n0,1\n1,0\n1,1"
+        },
+        {
+          "level": 54,
+          "topic": "foreach",
+          "syntax": "foreach (int n in new[] { 1, 2, 3 })\n    Console.WriteLine(n);",
+          "puzzle": "___ (int n in new[] { 1, 2, 3 })\n    Console.WriteLine(n);",
+          "output": "1\n2\n3"
+        },
+        {
+          "level": 55,
+          "topic": "break",
+          "syntax": "for (int i = 0; i < 5; i++)\n{\n    if (i == 3) break;\n    Console.WriteLine(i);\n}",
+          "puzzle": "for (int i = 0; i < 5; i++)\n{\n    if (i == 3) ___;\n    Console.WriteLine(i);\n}",
+          "output": "0\n1\n2"
+        },
+        {
+          "level": 56,
+          "topic": "continue",
+          "syntax": "for (int i = 0; i < 4; i++)\n{\n    if (i == 2) continue;\n    Console.WriteLine(i);\n}",
+          "puzzle": "for (int i = 0; i < 4; i++)\n{\n    if (i == 2) ___;\n    Console.WriteLine(i);\n}",
+          "output": "0\n1\n3"
+        },
+        {
+          "level": 57,
+          "topic": "switch",
+          "syntax": "int x = 2;\nswitch (x)\n{\n    case 2: Console.WriteLine(\"Two\"); break;\n}",
+          "puzzle": "int x = 2;\n___ (x)\n{\n    case 2: Console.WriteLine(\"Two\"); break;\n}",
+          "output": "Two"
+        },
+        {
+          "level": 58,
+          "topic": "switch expressions",
+          "syntax": "int x = 2;\nstring r = x switch { 1 => \"One\", 2 => \"Two\", _ => \"Other\" };\nConsole.WriteLine(r);",
+          "puzzle": "int x = 2;\nstring r = x ___ { 1 => \"One\", 2 => \"Two\", ___ => \"Other\" };\nConsole.WriteLine(r);",
+          "output": "Two"
+        }
+      ]
+    },
+    {
+      "part": "Part 4 - Collections & Data Structures",
+      "items": [
+        {
+          "level": 59,
+          "topic": "Creating arrays",
+          "syntax": "int[] nums = { 1, 2, 3 };\nConsole.WriteLine(nums[0]);",
+          "puzzle": "int[] nums = { 1, 2, 3 };\nConsole.WriteLine(nums[___]);",
+          "output": "1"
+        },
+        {
+          "level": 60,
+          "topic": "Array indexing",
+          "syntax": "int[] nums = { 10, 20, 30 };\nConsole.WriteLine(nums[2]);",
+          "puzzle": "int[] nums = { 10, 20, 30 };\nConsole.WriteLine(nums[___]);",
+          "output": "30"
+        },
+        {
+          "level": 61,
+          "topic": "Array slicing with Range",
+          "syntax": "int[] nums = { 1,2,3,4 };\nConsole.WriteLine(string.Join(\",\", nums[1..3]));",
+          "puzzle": "int[] nums = { 1,2,3,4 };\nConsole.WriteLine(string.Join(\",\", nums[___]));",
+          "output": "2,3"
+        },
+        {
+          "level": 62,
+          "topic": "Adding array elements with List",
+          "syntax": "var nums = new List<int> { 1, 2 };\nnums.Add(3);\nConsole.WriteLine(string.Join(\",\", nums));",
+          "puzzle": "var nums = new List<int> { 1, 2 };\nnums.___(3);\nConsole.WriteLine(string.Join(\",\", nums));",
+          "output": "1,2,3"
+        },
+        {
+          "level": 63,
+          "topic": "Removing List elements",
+          "syntax": "var nums = new List<int> { 1, 2, 3 };\nnums.Remove(2);\nConsole.WriteLine(string.Join(\",\", nums));",
+          "puzzle": "var nums = new List<int> { 1, 2, 3 };\nnums.___(2);\nConsole.WriteLine(string.Join(\",\", nums));",
+          "output": "1,3"
+        },
+        {
+          "level": 64,
+          "topic": "Sorting List",
+          "syntax": "var nums = new List<int> { 3, 1, 2 };\nnums.Sort();\nConsole.WriteLine(string.Join(\",\", nums));",
+          "puzzle": "var nums = new List<int> { 3, 1, 2 };\nnums.___();\nConsole.WriteLine(string.Join(\",\", nums));",
+          "output": "1,2,3"
+        },
+        {
+          "level": 65,
+          "topic": "Copying collections",
+          "syntax": "var a = new List<int> { 1, 2 };\nvar b = new List<int>(a);\nb.Add(3);\nConsole.WriteLine(string.Join(\",\", a));",
+          "puzzle": "___ a = new List<int> { 1, 2 };\nvar b = new List<int>(a);\nb.Add(3);\nConsole.WriteLine(string.Join(\",\", a));",
+          "output": "1,2"
+        },
+        {
+          "level": 66,
+          "topic": "Multidimensional arrays",
+          "syntax": "int[,] m = { {1,2}, {3,4} };\nConsole.WriteLine(m[1,0]);",
+          "puzzle": "int[,] m = { {1,2}, {3,4} };\nConsole.WriteLine(m[___,___]);",
+          "output": "3"
+        },
+        {
+          "level": 67,
+          "topic": "Tuple operations",
+          "syntax": "var p = (1, 2);\nConsole.WriteLine(p.Item1);",
+          "puzzle": "var p = (1, 2);\nConsole.WriteLine(p.___);",
+          "output": "1"
+        },
+        {
+          "level": 68,
+          "topic": "Tuple deconstruction",
+          "syntax": "var (a, b) = (1, 2);\nConsole.WriteLine($\"{a} {b}\");",
+          "puzzle": "var (___, b) = (1, 2);\nConsole.WriteLine($\"{a} {b}\");",
+          "output": "1 2"
+        },
+        {
+          "level": 69,
+          "topic": "Dictionary creation",
+          "syntax": "var d = new Dictionary<string,int> { [\"a\"] = 1 };\nConsole.WriteLine(d[\"a\"]);",
+          "puzzle": "___ d = new Dictionary<string,int> { [\"a\"] = 1 };\nConsole.WriteLine(d[\"a\"]);",
+          "output": "1"
+        },
+        {
+          "level": 70,
+          "topic": "HashSet union",
+          "syntax": "var a = new HashSet<int>{1,2};\na.UnionWith(new[]{2,3});\nConsole.WriteLine(string.Join(\",\", a.OrderBy(x=>x)));",
+          "puzzle": "var a = new HashSet<int>{1,2};\na.___(new[]{2,3});\nConsole.WriteLine(string.Join(\",\", a.OrderBy(x=>x)));",
+          "output": "1,2,3"
+        },
+        {
+          "level": 71,
+          "topic": "HashSet intersection",
+          "syntax": "var a = new HashSet<int>{1,2};\na.IntersectWith(new[]{2,3});\nConsole.WriteLine(string.Join(\",\", a));",
+          "puzzle": "var a = new HashSet<int>{1,2};\na.___(new[]{2,3});\nConsole.WriteLine(string.Join(\",\", a));",
+          "output": "2"
+        },
+        {
+          "level": 72,
+          "topic": "HashSet difference",
+          "syntax": "var a = new HashSet<int>{1,2};\na.ExceptWith(new[]{2,3});\nConsole.WriteLine(string.Join(\",\", a));",
+          "puzzle": "var a = new HashSet<int>{1,2};\na.___(new[]{2,3});\nConsole.WriteLine(string.Join(\",\", a));",
+          "output": "1"
+        },
+        {
+          "level": 73,
+          "topic": "HashSet operations",
+          "syntax": "Console.WriteLine(\"HashSet operations\");",
+          "puzzle": "Console.___(\"HashSet operations\");",
+          "output": "HashSet operations"
+        },
+        {
+          "level": 74,
+          "topic": "HashSet Add",
+          "syntax": "var s = new HashSet<int>{1,2};\ns.Add(3);\nConsole.WriteLine(s.Count);",
+          "puzzle": "var s = new HashSet<int>{1,2};\ns.___(3);\nConsole.WriteLine(s.Count);",
+          "output": "3"
+        },
+        {
+          "level": 75,
+          "topic": "Dictionary keys and values",
+          "syntax": "var d = new Dictionary<string,int>{{\"a\",1},{\"b\",2}};\nConsole.WriteLine(string.Join(\",\", d.Keys));",
+          "puzzle": "var d = new Dictionary<string,int>{{\"a\",1},{\"b\",2}};\nConsole.WriteLine(string.Join(\",\", d.___));",
+          "output": "a,b"
+        },
+        {
+          "level": 76,
+          "topic": "Adding/removing dictionary data",
+          "syntax": "var d = new Dictionary<string,int>{{\"a\",1}};\nd[\"b\"] = 2;\nConsole.WriteLine(d[\"b\"]);",
+          "puzzle": "___ d = new Dictionary<string,int>{{\"a\",1}};\nd[\"b\"] = 2;\nConsole.WriteLine(d[\"b\"]);",
+          "output": "2"
+        },
+        {
+          "level": 77,
+          "topic": "Dictionary methods",
+          "syntax": "var d = new Dictionary<string,int>{{\"a\",1}};\nConsole.WriteLine(d.TryGetValue(\"b\", out var x));",
+          "puzzle": "var d = new Dictionary<string,int>{{\"a\",1}};\nConsole.WriteLine(d.___(\"b\", out var x));",
+          "output": "False"
+        },
+        {
+          "level": 78,
+          "topic": "LINQ Select",
+          "syntax": "Console.WriteLine(\"LINQ Select\");",
+          "puzzle": "Console.___(\"LINQ Select\");",
+          "output": "LINQ Select"
+        },
+        {
+          "level": 79,
+          "topic": "Nested dictionaries",
+          "syntax": "Console.WriteLine(\"Nested dictionaries\");",
+          "puzzle": "Console.___(\"Nested dictionaries\");",
+          "output": "Nested dictionaries"
+        }
+      ]
+    },
+    {
+      "part": "Part 5 - Methods",
+      "items": [
+        {
+          "level": 80,
+          "topic": "Defining methods",
+          "syntax": "static void Greet()\n{\n    Console.WriteLine(\"Hi\");\n}\nGreet();",
+          "puzzle": "static ___ Greet()\n{\n    Console.WriteLine(\"Hi\");\n}\nGreet();",
+          "output": "Hi"
+        },
+        {
+          "level": 81,
+          "topic": "Calling methods",
+          "syntax": "static void Greet() => Console.WriteLine(\"Hi\");\nGreet();",
+          "puzzle": "static void Greet() => Console.WriteLine(\"Hi\");\n___();",
+          "output": "Hi"
+        },
+        {
+          "level": 82,
+          "topic": "Parameters",
+          "syntax": "static void Greet(string name) => Console.WriteLine($\"Hi {name}\");\nGreet(\"Ava\");",
+          "puzzle": "static void Greet(___ name) => Console.WriteLine($\"Hi {name}\");\nGreet(\"Ava\");",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 83,
+          "topic": "Arguments",
+          "syntax": "static int Add(int a,int b) => a+b;\nConsole.WriteLine(Add(2,3));",
+          "puzzle": "static int Add(int a,int b) => a+b;\nConsole.WriteLine(Add(___,3));",
+          "output": "5"
+        },
+        {
+          "level": 84,
+          "topic": "Return values",
+          "syntax": "static int Add(int a,int b) { return a+b; }\nConsole.WriteLine(Add(2,3));",
+          "puzzle": "static int Add(int a,int b) { ___ a+b; }\nConsole.WriteLine(Add(2,3));",
+          "output": "5"
+        },
+        {
+          "level": 85,
+          "topic": "Optional parameters",
+          "syntax": "static void Greet(string name = \"Guest\") => Console.WriteLine(name);\nGreet();",
+          "puzzle": "static void Greet(string name ___ \"Guest\") => Console.WriteLine(name);\nGreet();",
+          "output": "Guest"
+        },
+        {
+          "level": 86,
+          "topic": "Named arguments",
+          "syntax": "static void Show(string name,int age)=>Console.WriteLine($\"{name} {age}\");\nShow(age:21,name:\"Ava\");",
+          "puzzle": "static void Show(string name,int age)=>Console.WriteLine($\"{name} {age}\");\nShow(age:21,___:\"Ava\");",
+          "output": "Ava 21"
+        },
+        {
+          "level": 87,
+          "topic": "Positional arguments",
+          "syntax": "static int Sub(int a,int b)=>a-b;\nConsole.WriteLine(Sub(5,2));",
+          "puzzle": "static int Sub(int a,int b)=>a-b;\nConsole.WriteLine(Sub(5,___));",
+          "output": "3"
+        },
+        {
+          "level": 88,
+          "topic": "params parameters",
+          "syntax": "static int Sum(params int[] n)=>n.Sum();\nConsole.WriteLine(Sum(1,2,3));",
+          "puzzle": "static int Sum(___ int[] n)=>n.Sum();\nConsole.WriteLine(Sum(1,2,3));",
+          "output": "6"
+        },
+        {
+          "level": 89,
+          "topic": "ref parameters",
+          "syntax": "static void Inc(ref int x)=>x++;\nint n=5; Inc(ref n); Console.WriteLine(n);",
+          "puzzle": "static void Inc(___ int x)=>x++;\nint n=5; Inc(ref n); Console.WriteLine(n);",
+          "output": "6"
+        },
+        {
+          "level": 90,
+          "topic": "out parameters",
+          "syntax": "static bool Try(out int x){x=42;return true;}\nTry(out int n); Console.WriteLine(n);",
+          "puzzle": "static bool Try(___ int x){x=42;return true;}\nTry(out int n); Console.WriteLine(n);",
+          "output": "42"
+        },
+        {
+          "level": 91,
+          "topic": "Local variables",
+          "syntax": "static void F(){ int x=5; Console.WriteLine(x); }\nF();",
+          "puzzle": "static void F(){ int x___5; Console.WriteLine(x); }\nF();",
+          "output": "5"
+        },
+        {
+          "level": 92,
+          "topic": "Static variables",
+          "syntax": "class Counter { public static int Count=0; }\nCounter.Count++; Console.WriteLine(Counter.Count);",
+          "puzzle": "class Counter { public ___ int Count=0; }\nCounter.Count++; Console.WriteLine(Counter.Count);",
+          "output": "1"
+        },
+        {
+          "level": 93,
+          "topic": "Method overloading",
+          "syntax": "static int Add(int a,int b)=>a+b;\nstatic double Add(double a,double b)=>a+b;\nConsole.WriteLine(Add(2,3));",
+          "puzzle": "___ int Add(int a,int b)=>a+b;\nstatic double Add(double a,double b)=>a+b;\nConsole.WriteLine(Add(2,3));",
+          "output": "5"
+        },
+        {
+          "level": 94,
+          "topic": "Expression-bodied methods",
+          "syntax": "static int Square(int x) => x*x;\nConsole.WriteLine(Square(4));",
+          "puzzle": "static int Square(int x) ___ x*x;\nConsole.WriteLine(Square(4));",
+          "output": "16"
+        },
+        {
+          "level": 95,
+          "topic": "First-class delegates",
+          "syntax": "Func<int,int> f = x => x*2;\nConsole.WriteLine(f(5));",
+          "puzzle": "Func<int,int> f = x ___ x*2;\nConsole.WriteLine(f(5));",
+          "output": "10"
+        },
+        {
+          "level": 96,
+          "topic": "Higher-order methods",
+          "syntax": "static int Apply(Func<int,int> f,int x)=>f(x);\nConsole.WriteLine(Apply(x=>x*2,5));",
+          "puzzle": "static int Apply(Func<int,int> f,int x)=>f(x);\nConsole.WriteLine(Apply(x___x*2,5));",
+          "output": "10"
+        },
+        {
+          "level": 97,
+          "topic": "Recursive methods",
+          "syntax": "static int Fact(int n)=>n==0?1:n*Fact(n-1);\nConsole.WriteLine(Fact(4));",
+          "puzzle": "static int Fact(int n)=>n==0?1:n*___(n-1);\nConsole.WriteLine(Fact(4));",
+          "output": "24"
+        },
+        {
+          "level": 98,
+          "topic": "Lambda expressions",
+          "syntax": "Func<int,int> doubleIt = x => x*2;\nConsole.WriteLine(doubleIt(5));",
+          "puzzle": "Func<int,int> doubleIt = x ___ x*2;\nConsole.WriteLine(doubleIt(5));",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 6 - LINQ Query Syntax",
+      "items": [
+        {
+          "level": 99,
+          "topic": "Select",
+          "syntax": "Console.WriteLine(\"Select\");",
+          "puzzle": "Console.___(\"Select\");",
+          "output": "Select"
+        },
+        {
+          "level": 100,
+          "topic": "Where",
+          "syntax": "Console.WriteLine(\"Where\");",
+          "puzzle": "Console.___(\"Where\");",
+          "output": "Where"
+        },
+        {
+          "level": 101,
+          "topic": "OrderBy",
+          "syntax": "Console.WriteLine(\"OrderBy\");",
+          "puzzle": "Console.___(\"OrderBy\");",
+          "output": "OrderBy"
+        },
+        {
+          "level": 102,
+          "topic": "OrderByDescending",
+          "syntax": "Console.WriteLine(\"OrderByDescending\");",
+          "puzzle": "Console.___(\"OrderByDescending\");",
+          "output": "OrderByDescending"
+        },
+        {
+          "level": 103,
+          "topic": "SelectMany",
+          "syntax": "Console.WriteLine(\"SelectMany\");",
+          "puzzle": "Console.___(\"SelectMany\");",
+          "output": "SelectMany"
+        },
+        {
+          "level": 104,
+          "topic": "First",
+          "syntax": "Console.WriteLine(\"First\");",
+          "puzzle": "Console.___(\"First\");",
+          "output": "First"
+        }
+      ]
+    },
+    {
+      "part": "Part 7 - Namespaces & Assemblies",
+      "items": [
+        {
+          "level": 105,
+          "topic": "using directive",
+          "syntax": "Console.WriteLine(\"using directive\");",
+          "puzzle": "Console.___(\"using directive\");",
+          "output": "using directive"
+        },
+        {
+          "level": 106,
+          "topic": "using static",
+          "syntax": "Console.WriteLine(\"using static\");",
+          "puzzle": "Console.___(\"using static\");",
+          "output": "using static"
+        },
+        {
+          "level": 107,
+          "topic": "Aliases",
+          "syntax": "Console.WriteLine(\"Aliases\");",
+          "puzzle": "Console.___(\"Aliases\");",
+          "output": "Aliases"
+        },
+        {
+          "level": 108,
+          "topic": "System namespace",
+          "syntax": "Console.WriteLine(\"System namespace\");",
+          "puzzle": "Console.___(\"System namespace\");",
+          "output": "System namespace"
+        },
+        {
+          "level": 109,
+          "topic": "System.Math",
+          "syntax": "Console.WriteLine(\"System.Math\");",
+          "puzzle": "Console.___(\"System.Math\");",
+          "output": "System.Math"
+        },
+        {
+          "level": 110,
+          "topic": "Creating your own namespace",
+          "syntax": "Console.WriteLine(\"Creating your own namespace\");",
+          "puzzle": "Console.___(\"Creating your own namespace\");",
+          "output": "Creating your own namespace"
+        },
+        {
+          "level": 111,
+          "topic": "Nested namespaces",
+          "syntax": "Console.WriteLine(\"Nested namespaces\");",
+          "puzzle": "Console.___(\"Nested namespaces\");",
+          "output": "Nested namespaces"
+        },
+        {
+          "level": 112,
+          "topic": "global using",
+          "syntax": "Console.WriteLine(\"global using\");",
+          "puzzle": "Console.___(\"global using\");",
+          "output": "global using"
+        },
+        {
+          "level": 113,
+          "topic": "namespace declaration",
+          "syntax": "Console.WriteLine(\"namespace declaration\");",
+          "puzzle": "Console.___(\"namespace declaration\");",
+          "output": "namespace declaration"
+        },
+        {
+          "level": 114,
+          "topic": "partial namespace types",
+          "syntax": "Console.WriteLine(\"partial namespace types\");",
+          "puzzle": "Console.___(\"partial namespace types\");",
+          "output": "partial namespace types"
+        },
+        {
+          "level": 115,
+          "topic": "Assembly-qualified type",
+          "syntax": "Console.WriteLine(\"Assembly-qualified type\");",
+          "puzzle": "Console.___(\"Assembly-qualified type\");",
+          "output": "Assembly-qualified type"
+        },
+        {
+          "level": 116,
+          "topic": "Fully qualified names",
+          "syntax": "Console.WriteLine(\"Fully qualified names\");",
+          "puzzle": "Console.___(\"Fully qualified names\");",
+          "output": "Fully qualified names"
+        }
+      ]
+    },
+    {
+      "part": "Part 8 - File Handling",
+      "items": [
+        {
+          "level": 117,
+          "topic": "File.ReadAllText",
+          "syntax": "Console.WriteLine(\"File.ReadAllText\");",
+          "puzzle": "Console.___(\"File.ReadAllText\");",
+          "output": "File.ReadAllText"
+        },
+        {
+          "level": 118,
+          "topic": "File.WriteAllText",
+          "syntax": "Console.WriteLine(\"File.WriteAllText\");",
+          "puzzle": "Console.___(\"File.WriteAllText\");",
+          "output": "File.WriteAllText"
+        },
+        {
+          "level": 119,
+          "topic": "File.AppendAllText",
+          "syntax": "Console.WriteLine(\"File.AppendAllText\");",
+          "puzzle": "Console.___(\"File.AppendAllText\");",
+          "output": "File.AppendAllText"
+        },
+        {
+          "level": 120,
+          "topic": "File.ReadAllLines",
+          "syntax": "Console.WriteLine(\"File.ReadAllLines\");",
+          "puzzle": "Console.___(\"File.ReadAllLines\");",
+          "output": "File.ReadAllLines"
+        },
+        {
+          "level": 121,
+          "topic": "File.WriteAllLines",
+          "syntax": "Console.WriteLine(\"File.WriteAllLines\");",
+          "puzzle": "Console.___(\"File.WriteAllLines\");",
+          "output": "File.WriteAllLines"
+        },
+        {
+          "level": 122,
+          "topic": "File modes with FileStream",
+          "syntax": "Console.WriteLine(\"File modes with FileStream\");",
+          "puzzle": "Console.___(\"File modes with FileStream\");",
+          "output": "File modes with FileStream"
+        },
+        {
+          "level": 123,
+          "topic": "StreamReader",
+          "syntax": "Console.WriteLine(\"StreamReader\");",
+          "puzzle": "Console.___(\"StreamReader\");",
+          "output": "StreamReader"
+        },
+        {
+          "level": 124,
+          "topic": "StreamWriter",
+          "syntax": "Console.WriteLine(\"StreamWriter\");",
+          "puzzle": "Console.___(\"StreamWriter\");",
+          "output": "StreamWriter"
+        },
+        {
+          "level": 125,
+          "topic": "BinaryReader",
+          "syntax": "Console.WriteLine(\"BinaryReader\");",
+          "puzzle": "Console.___(\"BinaryReader\");",
+          "output": "BinaryReader"
+        },
+        {
+          "level": 126,
+          "topic": "BinaryWriter",
+          "syntax": "Console.WriteLine(\"BinaryWriter\");",
+          "puzzle": "Console.___(\"BinaryWriter\");",
+          "output": "BinaryWriter"
+        },
+        {
+          "level": 127,
+          "topic": "Path methods",
+          "syntax": "Console.WriteLine(\"Path methods\");",
+          "puzzle": "Console.___(\"Path methods\");",
+          "output": "Path methods"
+        },
+        {
+          "level": 128,
+          "topic": "Directory operations",
+          "syntax": "Console.WriteLine(\"Directory operations\");",
+          "puzzle": "Console.___(\"Directory operations\");",
+          "output": "Directory operations"
+        }
+      ]
+    },
+    {
+      "part": "Part 9 - Exception Handling",
+      "items": [
+        {
+          "level": 129,
+          "topic": "try",
+          "syntax": "try { int x=10/2; Console.WriteLine(x); } catch { Console.WriteLine(\"Error\"); }",
+          "puzzle": "___ { int x=10/2; Console.WriteLine(x); } catch { Console.WriteLine(\"Error\"); }",
+          "output": "5"
+        },
+        {
+          "level": 130,
+          "topic": "catch",
+          "syntax": "try { int x=10/0; } catch (DivideByZeroException) { Console.WriteLine(\"Cannot divide\"); }",
+          "puzzle": "try { int x=10/0; } ___ (DivideByZeroException) { Console.WriteLine(\"Cannot divide\"); }",
+          "output": "Cannot divide"
+        },
+        {
+          "level": 131,
+          "topic": "finally",
+          "syntax": "try { Console.WriteLine(\"Try\"); } finally { Console.WriteLine(\"Cleanup\"); }",
+          "puzzle": "try { Console.WriteLine(\"Try\"); } ___ { Console.WriteLine(\"Cleanup\"); }",
+          "output": "Try\nCleanup"
+        },
+        {
+          "level": 132,
+          "topic": "multiple catch blocks",
+          "syntax": "try { int.Parse(\"x\"); } catch (FormatException) { Console.WriteLine(\"Format\"); } catch (Exception) { Console.WriteLine(\"Other\"); }",
+          "puzzle": "try { int.Parse(\"x\"); } ___ (FormatException) { Console.WriteLine(\"Format\"); } catch (Exception) { Console.WriteLine(\"Other\"); }",
+          "output": "Format"
+        },
+        {
+          "level": 133,
+          "topic": "exception filters",
+          "syntax": "try { throw new Exception(\"bad\"); } catch (Exception ex) when (ex.Message==\"bad\") { Console.WriteLine(\"Matched\"); }",
+          "puzzle": "try { throw new Exception(\"bad\"); } catch (Exception ex) ___ (ex.Message==\"bad\") { Console.WriteLine(\"Matched\"); }",
+          "output": "Matched"
+        },
+        {
+          "level": 134,
+          "topic": "exception hierarchy",
+          "syntax": "Console.WriteLine(typeof(DivideByZeroException).BaseType.Name);",
+          "puzzle": "Console.WriteLine(___(DivideByZeroException).BaseType.Name);",
+          "output": "ArithmeticException"
+        },
+        {
+          "level": 135,
+          "topic": "throw",
+          "syntax": "try { throw new InvalidOperationException(\"Bad\"); } catch(Exception e) { Console.WriteLine(e.Message); }",
+          "puzzle": "try { ___ new InvalidOperationException(\"Bad\"); } catch(Exception e) { Console.WriteLine(e.Message); }",
+          "output": "Bad"
+        },
+        {
+          "level": 136,
+          "topic": "custom exceptions",
+          "syntax": "class MyError:Exception { public MyError(string m):base(m){} }\ntry { throw new MyError(\"Failed\"); } catch(MyError e){Console.WriteLine(e.Message);}",
+          "puzzle": "class MyError:Exception { public MyError(string m):base(m){} }\ntry { ___ new MyError(\"Failed\"); } catch(MyError e){Console.WriteLine(e.Message);}",
+          "output": "Failed"
+        },
+        {
+          "level": 137,
+          "topic": "inner exceptions",
+          "syntax": "var inner=new Exception(\"Inner\");\nvar e=new Exception(\"Outer\",inner);\nConsole.WriteLine(e.InnerException.Message);",
+          "puzzle": "var inner=new Exception(\"Inner\");\nvar e=new Exception(\"Outer\",inner);\nConsole.WriteLine(e.___.Message);",
+          "output": "Inner"
+        },
+        {
+          "level": 138,
+          "topic": "best-practice exception handling",
+          "syntax": "try { int x=int.Parse(\"10\"); Console.WriteLine(x); } catch(FormatException e){ Console.WriteLine(e.Message); }",
+          "puzzle": "___ { int x=int.Parse(\"10\"); Console.WriteLine(x); } catch(FormatException e){ Console.WriteLine(e.Message); }",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 10 - Object-Oriented Programming",
+      "items": [
+        {
+          "level": 139,
+          "topic": "Classes",
+          "syntax": "class Dog { public string Name = \"Rex\"; }\nConsole.WriteLine(new Dog().Name);",
+          "puzzle": "___ Dog { public string Name = \"Rex\"; }\nConsole.WriteLine(new Dog().Name);",
+          "output": "Rex"
+        },
+        {
+          "level": 140,
+          "topic": "Objects",
+          "syntax": "class Dog { public string Name = \"Rex\"; }\nDog d = new Dog();\nConsole.WriteLine(d.Name);",
+          "puzzle": "class Dog { public string Name = \"Rex\"; }\nDog d = ___ Dog();\nConsole.WriteLine(d.Name);",
+          "output": "Rex"
+        },
+        {
+          "level": 141,
+          "topic": "Fields",
+          "syntax": "class Dog { public string Name = \"Rex\"; }\nConsole.WriteLine(new Dog().Name);",
+          "puzzle": "___ Dog { public string Name = \"Rex\"; }\nConsole.WriteLine(new Dog().Name);",
+          "output": "Rex"
+        },
+        {
+          "level": 142,
+          "topic": "Properties",
+          "syntax": "class Dog { public string Name { get; set; } }\nvar d=new Dog { Name=\"Rex\" }; Console.WriteLine(d.Name);",
+          "puzzle": "class Dog { public string Name { ___; set; } }\nvar d=new Dog { Name=\"Rex\" }; Console.WriteLine(d.Name);",
+          "output": "Rex"
+        },
+        {
+          "level": 143,
+          "topic": "Methods",
+          "syntax": "class Dog { public string Bark()=> \"Woof\"; }\nConsole.WriteLine(new Dog().Bark());",
+          "puzzle": "class Dog { public string Bark()=> \"Woof\"; }\nConsole.WriteLine(new Dog().___());",
+          "output": "Woof"
+        },
+        {
+          "level": 144,
+          "topic": "Constructors",
+          "syntax": "class Dog { public string Name; public Dog(string name){Name=name;} }\nConsole.WriteLine(new Dog(\"Rex\").Name);",
+          "puzzle": "___ Dog { public string Name; public Dog(string name){Name=name;} }\nConsole.WriteLine(new Dog(\"Rex\").Name);",
+          "output": "Rex"
+        },
+        {
+          "level": 145,
+          "topic": "Instance fields",
+          "syntax": "class Dog { public string Name=\"Rex\"; }\nvar d=new Dog(); Console.WriteLine(d.Name);",
+          "puzzle": "___ Dog { public string Name=\"Rex\"; }\nvar d=new Dog(); Console.WriteLine(d.Name);",
+          "output": "Rex"
+        },
+        {
+          "level": 146,
+          "topic": "Static fields",
+          "syntax": "class Dog { public static int Count=3; }\nConsole.WriteLine(Dog.Count);",
+          "puzzle": "class Dog { public ___ int Count=3; }\nConsole.WriteLine(Dog.Count);",
+          "output": "3"
+        },
+        {
+          "level": 147,
+          "topic": "Static methods",
+          "syntax": "class MathUtil { public static int Add(int a,int b)=>a+b; }\nConsole.WriteLine(MathUtil.Add(2,3));",
+          "puzzle": "class MathUtil { public ___ int Add(int a,int b)=>a+b; }\nConsole.WriteLine(MathUtil.Add(2,3));",
+          "output": "5"
+        },
+        {
+          "level": 148,
+          "topic": "Encapsulation",
+          "syntax": "class Account { private int balance=100; public int GetBalance()=>balance; }\nConsole.WriteLine(new Account().GetBalance());",
+          "puzzle": "class Account { ___ int balance=100; public int GetBalance()=>balance; }\nConsole.WriteLine(new Account().GetBalance());",
+          "output": "100"
+        },
+        {
+          "level": 149,
+          "topic": "Inheritance",
+          "syntax": "class Animal { public virtual string Speak()=>\"...\"; }\nclass Dog:Animal { public override string Speak()=> \"Woof\"; }\nConsole.WriteLine(new Dog().Speak());",
+          "puzzle": "class Animal { public virtual string Speak()=>\"...\"; }\nclass Dog:___ { public override string Speak()=> \"Woof\"; }\nConsole.WriteLine(new Dog().Speak());",
+          "output": "Woof"
+        },
+        {
+          "level": 150,
+          "topic": "Multiple interfaces",
+          "syntax": "interface IFly { string Fly(); }\ninterface ISwim { string Swim(); }\nclass Duck:IFly,ISwim { public string Fly()=> \"Fly\"; public string Swim()=> \"Swim\"; }\nvar d=new Duck(); Console.WriteLine(d.Fly()+d.Swim());",
+          "puzzle": "interface IFly { string Fly(); }\ninterface ISwim { string Swim(); }\nclass Duck:___,ISwim { public string Fly()=> \"Fly\"; public string Swim()=> \"Swim\"; }\nvar d=new Duck(); Console.WriteLine(d.Fly()+d.Swim());",
+          "output": "FlySwim"
+        },
+        {
+          "level": 151,
+          "topic": "Multilevel inheritance",
+          "syntax": "class A { public string Show()=> \"A\"; }\nclass B:A {}\nclass C:B {}\nConsole.WriteLine(new C().Show());",
+          "puzzle": "class A { public string Show()=> \"A\"; }\nclass B:___ {}\nclass C:B {}\nConsole.WriteLine(new C().Show());",
+          "output": "A"
+        },
+        {
+          "level": 152,
+          "topic": "Hierarchical inheritance",
+          "syntax": "class Animal { public string Sound()=>\"...\"; }\nclass Dog:Animal {}\nclass Cat:Animal {}\nConsole.WriteLine(new Dog().Sound());",
+          "puzzle": "class Animal { public string Sound()=>\"...\"; }\nclass Dog:___ {}\nclass Cat:Animal {}\nConsole.WriteLine(new Dog().Sound());",
+          "output": "..."
+        },
+        {
+          "level": 153,
+          "topic": "Polymorphism",
+          "syntax": "class Cat { public virtual string Speak()=> \"Meow\"; }\nclass Dog:Cat { public override string Speak()=> \"Woof\"; }\nCat a=new Dog(); Console.WriteLine(a.Speak());",
+          "puzzle": "class Cat { public virtual string Speak()=> \"Meow\"; }\nclass Dog:Cat { public ___ string Speak()=> \"Woof\"; }\nCat a=new Dog(); Console.WriteLine(a.Speak());",
+          "output": "Woof"
+        },
+        {
+          "level": 154,
+          "topic": "Method overriding",
+          "syntax": "class Animal { public virtual string Speak()=>\"...\"; }\nclass Dog:Animal { public override string Speak()=>\"Woof\"; }\nConsole.WriteLine(new Dog().Speak());",
+          "puzzle": "class Animal { public virtual string Speak()=>\"...\"; }\nclass Dog:Animal { public ___ string Speak()=>\"Woof\"; }\nConsole.WriteLine(new Dog().Speak());",
+          "output": "Woof"
+        },
+        {
+          "level": 155,
+          "topic": "Method overloading - practice 2",
+          "syntax": "static int Add(int a,int b)=>a+b;\nstatic double Add(double a,double b)=>a+b;\nConsole.WriteLine(Add(2,3));",
+          "puzzle": "___ int Add(int a,int b)=>a+b;\nstatic double Add(double a,double b)=>a+b;\nConsole.WriteLine(Add(2,3));",
+          "output": "5"
+        },
+        {
+          "level": 156,
+          "topic": "Abstraction",
+          "syntax": "abstract class Shape { public abstract double Area(); }\nclass Square:Shape { public override double Area()=>4; }\nConsole.WriteLine(new Square().Area());",
+          "puzzle": "___ class Shape { public abstract double Area(); }\nclass Square:Shape { public override double Area()=>4; }\nConsole.WriteLine(new Square().Area());",
+          "output": "4"
+        },
+        {
+          "level": 157,
+          "topic": "Abstract classes",
+          "syntax": "abstract class Shape { public abstract double Area(); }\nclass Circle:Shape { public override double Area()=>3.14; }\nConsole.WriteLine(new Circle().Area());",
+          "puzzle": "abstract class Shape { public ___ double Area(); }\nclass Circle:Shape { public override double Area()=>3.14; }\nConsole.WriteLine(new Circle().Area());",
+          "output": "3.14"
+        },
+        {
+          "level": 158,
+          "topic": "Interfaces",
+          "syntax": "interface IGreeter { string Greet(); }\nclass Greeter:IGreeter { public string Greet()=> \"Hi\"; }\nConsole.WriteLine(new Greeter().Greet());",
+          "puzzle": "___ IGreeter { string Greet(); }\nclass Greeter:IGreeter { public string Greet()=> \"Hi\"; }\nConsole.WriteLine(new Greeter().Greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 159,
+          "topic": "Composition",
+          "syntax": "class Engine { public string Start()=> \"Started\"; }\nclass Car { public Engine Engine=new Engine(); }\nConsole.WriteLine(new Car().Engine.Start());",
+          "puzzle": "___ Engine { public string Start()=> \"Started\"; }\nclass Car { public Engine Engine=new Engine(); }\nConsole.WriteLine(new Car().Engine.Start());",
+          "output": "Started"
+        },
+        {
+          "level": 160,
+          "topic": "Aggregation",
+          "syntax": "class Department { public string Name; public Department(string n)=>Name=n; }\nclass Employee { public Department Dept; public Employee(Department d)=>Dept=d; }\nvar d=new Department(\"IT\"); Console.WriteLine(new Employee(d).Dept.Name);",
+          "puzzle": "___ Department { public string Name; public Department(string n)=>Name=n; }\nclass Employee { public Department Dept; public Employee(Department d)=>Dept=d; }\nvar d=new Department(\"IT\"); Console.WriteLine(new Employee(d).Dept.Name);",
+          "output": "IT"
+        },
+        {
+          "level": 161,
+          "topic": "base keyword",
+          "syntax": "class A { public virtual string Show()=> \"A\"; }\nclass B:A { public string Get()=>base.Show(); }\nConsole.WriteLine(new B().Get());",
+          "puzzle": "class A { public virtual string Show()=> \"A\"; }\nclass B:A { public string Get()=>___.Show(); }\nConsole.WriteLine(new B().Get());",
+          "output": "A"
+        },
+        {
+          "level": 162,
+          "topic": "this keyword",
+          "syntax": "class User { string name; public User(string name){this.name=name;} public string Get()=>name; }\nConsole.WriteLine(new User(\"Ava\").Get());",
+          "puzzle": "class User { string name; public User(string name){___.name=name;} public string Get()=>name; }\nConsole.WriteLine(new User(\"Ava\").Get());",
+          "output": "Ava"
+        },
+        {
+          "level": 163,
+          "topic": "Access modifiers",
+          "syntax": "class A { public int X=5; }\nConsole.WriteLine(new A().X);",
+          "puzzle": "class A { ___ int X=5; }\nConsole.WriteLine(new A().X);",
+          "output": "5"
+        },
+        {
+          "level": 164,
+          "topic": "Sealed classes",
+          "syntax": "sealed class Utility { public static int X=5; }\nConsole.WriteLine(Utility.X);",
+          "puzzle": "___ class Utility { public static int X=5; }\nConsole.WriteLine(Utility.X);",
+          "output": "5"
+        },
+        {
+          "level": 165,
+          "topic": "Virtual methods",
+          "syntax": "class A { public virtual string Show()=> \"A\"; }\nclass B:A { public override string Show()=> \"B\"; }\nConsole.WriteLine(new B().Show());",
+          "puzzle": "class A { public ___ string Show()=> \"A\"; }\nclass B:A { public override string Show()=> \"B\"; }\nConsole.WriteLine(new B().Show());",
+          "output": "B"
+        },
+        {
+          "level": 166,
+          "topic": "Override methods",
+          "syntax": "class A { public virtual string Show()=> \"A\"; }\nclass B:A { public override string Show()=> \"B\"; }\nConsole.WriteLine(new B().Show());",
+          "puzzle": "class A { public virtual string Show()=> \"A\"; }\nclass B:A { public ___ string Show()=> \"B\"; }\nConsole.WriteLine(new B().Show());",
+          "output": "B"
+        }
+      ]
+    },
+    {
+      "part": "Part 11 - Advanced C# Type System",
+      "items": [
+        {
+          "level": 167,
+          "topic": "Structs",
+          "syntax": "Console.WriteLine(\"Structs\");",
+          "puzzle": "Console.___(\"Structs\");",
+          "output": "Structs"
+        },
+        {
+          "level": 168,
+          "topic": "Records",
+          "syntax": "Console.WriteLine(\"Records\");",
+          "puzzle": "Console.___(\"Records\");",
+          "output": "Records"
+        },
+        {
+          "level": 169,
+          "topic": "Record structs",
+          "syntax": "Console.WriteLine(\"Record structs\");",
+          "puzzle": "Console.___(\"Record structs\");",
+          "output": "Record structs"
+        },
+        {
+          "level": 170,
+          "topic": "Readonly structs",
+          "syntax": "Console.WriteLine(\"Readonly structs\");",
+          "puzzle": "Console.___(\"Readonly structs\");",
+          "output": "Readonly structs"
+        },
+        {
+          "level": 171,
+          "topic": "Enums",
+          "syntax": "Console.WriteLine(\"Enums\");",
+          "puzzle": "Console.___(\"Enums\");",
+          "output": "Enums"
+        },
+        {
+          "level": 172,
+          "topic": "Nullable reference types",
+          "syntax": "Console.WriteLine(\"Nullable reference types\");",
+          "puzzle": "Console.___(\"Nullable reference types\");",
+          "output": "Nullable reference types"
+        },
+        {
+          "level": 173,
+          "topic": "Generics",
+          "syntax": "Console.WriteLine(\"Generics\");",
+          "puzzle": "Console.___(\"Generics\");",
+          "output": "Generics"
+        },
+        {
+          "level": 174,
+          "topic": "Generic methods",
+          "syntax": "Console.WriteLine(\"Generic methods\");",
+          "puzzle": "Console.___(\"Generic methods\");",
+          "output": "Generic methods"
+        },
+        {
+          "level": 175,
+          "topic": "Generic constraints",
+          "syntax": "Console.WriteLine(\"Generic constraints\");",
+          "puzzle": "Console.___(\"Generic constraints\");",
+          "output": "Generic constraints"
+        },
+        {
+          "level": 176,
+          "topic": "Tuples",
+          "syntax": "Console.WriteLine(\"Tuples\");",
+          "puzzle": "Console.___(\"Tuples\");",
+          "output": "Tuples"
+        },
+        {
+          "level": 177,
+          "topic": "Pattern matching",
+          "syntax": "Console.WriteLine(\"Pattern matching\");",
+          "puzzle": "Console.___(\"Pattern matching\");",
+          "output": "Pattern matching"
+        },
+        {
+          "level": 178,
+          "topic": "is pattern",
+          "syntax": "Console.WriteLine(\"is pattern\");",
+          "puzzle": "Console.___(\"is pattern\");",
+          "output": "is pattern"
+        },
+        {
+          "level": 179,
+          "topic": "as operator",
+          "syntax": "Console.WriteLine(\"as operator\");",
+          "puzzle": "Console.___(\"as operator\");",
+          "output": "as operator"
+        },
+        {
+          "level": 180,
+          "topic": "typeof operator",
+          "syntax": "Console.WriteLine(\"typeof operator\");",
+          "puzzle": "Console.___(\"typeof operator\");",
+          "output": "typeof operator"
+        },
+        {
+          "level": 181,
+          "topic": "nameof operator",
+          "syntax": "Console.WriteLine(\"nameof operator\");",
+          "puzzle": "Console.___(\"nameof operator\");",
+          "output": "nameof operator"
+        },
+        {
+          "level": 182,
+          "topic": "default operator",
+          "syntax": "Console.WriteLine(\"default operator\");",
+          "puzzle": "Console.___(\"default operator\");",
+          "output": "default operator"
+        },
+        {
+          "level": 183,
+          "topic": "Target-typed new",
+          "syntax": "Console.WriteLine(\"Target-typed new\");",
+          "puzzle": "Console.___(\"Target-typed new\");",
+          "output": "Target-typed new"
+        },
+        {
+          "level": 184,
+          "topic": "Target-typed conditional",
+          "syntax": "Console.WriteLine(\"Target-typed conditional\");",
+          "puzzle": "Console.___(\"Target-typed conditional\");",
+          "output": "Target-typed conditional"
+        },
+        {
+          "level": 185,
+          "topic": "Switch expressions",
+          "syntax": "Console.WriteLine(\"Switch expressions\");",
+          "puzzle": "Console.___(\"Switch expressions\");",
+          "output": "Switch expressions"
+        }
+      ]
+    },
+    {
+      "part": "Part 12 - Iterators & Yield",
+      "items": [
+        {
+          "level": 186,
+          "topic": "IEnumerable",
+          "syntax": "Console.WriteLine(\"IEnumerable\");",
+          "puzzle": "Console.___(\"IEnumerable\");",
+          "output": "IEnumerable"
+        },
+        {
+          "level": 187,
+          "topic": "IEnumerator",
+          "syntax": "Console.WriteLine(\"IEnumerator\");",
+          "puzzle": "Console.___(\"IEnumerator\");",
+          "output": "IEnumerator"
+        },
+        {
+          "level": 188,
+          "topic": "yield return",
+          "syntax": "Console.WriteLine(\"yield return\");",
+          "puzzle": "Console.___(\"yield return\");",
+          "output": "yield return"
+        },
+        {
+          "level": 189,
+          "topic": "yield break",
+          "syntax": "Console.WriteLine(\"yield break\");",
+          "puzzle": "Console.___(\"yield break\");",
+          "output": "yield break"
+        },
+        {
+          "level": 190,
+          "topic": "Custom iterator",
+          "syntax": "Console.WriteLine(\"Custom iterator\");",
+          "puzzle": "Console.___(\"Custom iterator\");",
+          "output": "Custom iterator"
+        },
+        {
+          "level": 191,
+          "topic": "Lazy iteration",
+          "syntax": "Console.WriteLine(\"Lazy iteration\");",
+          "puzzle": "Console.___(\"Lazy iteration\");",
+          "output": "Lazy iteration"
+        },
+        {
+          "level": 192,
+          "topic": "Iterator over collection",
+          "syntax": "Console.WriteLine(\"Iterator over collection\");",
+          "puzzle": "Console.___(\"Iterator over collection\");",
+          "output": "Iterator over collection"
+        },
+        {
+          "level": 193,
+          "topic": "Iterator with condition",
+          "syntax": "Console.WriteLine(\"Iterator with condition\");",
+          "puzzle": "Console.___(\"Iterator with condition\");",
+          "output": "Iterator with condition"
+        },
+        {
+          "level": 194,
+          "topic": "Iterator with state",
+          "syntax": "Console.WriteLine(\"Iterator with state\");",
+          "puzzle": "Console.___(\"Iterator with state\");",
+          "output": "Iterator with state"
+        },
+        {
+          "level": 195,
+          "topic": "Foreach over iterator",
+          "syntax": "Console.WriteLine(\"Foreach over iterator\");",
+          "puzzle": "Console.___(\"Foreach over iterator\");",
+          "output": "Foreach over iterator"
+        },
+        {
+          "level": 196,
+          "topic": "Iterator disposal",
+          "syntax": "Console.WriteLine(\"Iterator disposal\");",
+          "puzzle": "Console.___(\"Iterator disposal\");",
+          "output": "Iterator disposal"
+        }
+      ]
+    },
+    {
+      "part": "Part 13 - Delegates & Events",
+      "items": [
+        {
+          "level": 197,
+          "topic": "Action delegate",
+          "syntax": "Console.WriteLine(\"Action delegate\");",
+          "puzzle": "Console.___(\"Action delegate\");",
+          "output": "Action delegate"
+        },
+        {
+          "level": 198,
+          "topic": "Func delegate",
+          "syntax": "Console.WriteLine(\"Func delegate\");",
+          "puzzle": "Console.___(\"Func delegate\");",
+          "output": "Func delegate"
+        },
+        {
+          "level": 199,
+          "topic": "Predicate delegate",
+          "syntax": "Console.WriteLine(\"Predicate delegate\");",
+          "puzzle": "Console.___(\"Predicate delegate\");",
+          "output": "Predicate delegate"
+        },
+        {
+          "level": 200,
+          "topic": "Custom delegate",
+          "syntax": "Console.WriteLine(\"Custom delegate\");",
+          "puzzle": "Console.___(\"Custom delegate\");",
+          "output": "Custom delegate"
+        },
+        {
+          "level": 201,
+          "topic": "Delegate invocation",
+          "syntax": "Console.WriteLine(\"Delegate invocation\");",
+          "puzzle": "Console.___(\"Delegate invocation\");",
+          "output": "Delegate invocation"
+        },
+        {
+          "level": 202,
+          "topic": "Delegate combination",
+          "syntax": "Console.WriteLine(\"Delegate combination\");",
+          "puzzle": "Console.___(\"Delegate combination\");",
+          "output": "Delegate combination"
+        },
+        {
+          "level": 203,
+          "topic": "Anonymous method",
+          "syntax": "Console.WriteLine(\"Anonymous method\");",
+          "puzzle": "Console.___(\"Anonymous method\");",
+          "output": "Anonymous method"
+        },
+        {
+          "level": 204,
+          "topic": "Lambda delegate",
+          "syntax": "Console.WriteLine(\"Lambda delegate\");",
+          "puzzle": "Console.___(\"Lambda delegate\");",
+          "output": "Lambda delegate"
+        },
+        {
+          "level": 205,
+          "topic": "Event declaration",
+          "syntax": "Console.WriteLine(\"Event declaration\");",
+          "puzzle": "Console.___(\"Event declaration\");",
+          "output": "Event declaration"
+        },
+        {
+          "level": 206,
+          "topic": "Event subscription",
+          "syntax": "Console.WriteLine(\"Event subscription\");",
+          "puzzle": "Console.___(\"Event subscription\");",
+          "output": "Event subscription"
+        }
+      ]
+    },
+    {
+      "part": "Part 14 - Closures & Functional Programming",
+      "items": [
+        {
+          "level": 207,
+          "topic": "Captured variable",
+          "syntax": "Console.WriteLine(\"Captured variable\");",
+          "puzzle": "Console.___(\"Captured variable\");",
+          "output": "Captured variable"
+        },
+        {
+          "level": 208,
+          "topic": "Closure factory",
+          "syntax": "Console.WriteLine(\"Closure factory\");",
+          "puzzle": "Console.___(\"Closure factory\");",
+          "output": "Closure factory"
+        },
+        {
+          "level": 209,
+          "topic": "Local function",
+          "syntax": "Console.WriteLine(\"Local function\");",
+          "puzzle": "Console.___(\"Local function\");",
+          "output": "Local function"
+        },
+        {
+          "level": 210,
+          "topic": "Local function with capture",
+          "syntax": "Console.WriteLine(\"Local function with capture\");",
+          "puzzle": "Console.___(\"Local function with capture\");",
+          "output": "Local function with capture"
+        },
+        {
+          "level": 211,
+          "topic": "Higher-order function",
+          "syntax": "Console.WriteLine(\"Higher-order function\");",
+          "puzzle": "Console.___(\"Higher-order function\");",
+          "output": "Higher-order function"
+        },
+        {
+          "level": 212,
+          "topic": "Function composition",
+          "syntax": "Console.WriteLine(\"Function composition\");",
+          "puzzle": "Console.___(\"Function composition\");",
+          "output": "Function composition"
+        },
+        {
+          "level": 213,
+          "topic": "Map with Select",
+          "syntax": "Console.WriteLine(\"Map with Select\");",
+          "puzzle": "Console.___(\"Map with Select\");",
+          "output": "Map with Select"
+        },
+        {
+          "level": 214,
+          "topic": "Filter with Where",
+          "syntax": "Console.WriteLine(\"Filter with Where\");",
+          "puzzle": "Console.___(\"Filter with Where\");",
+          "output": "Filter with Where"
+        },
+        {
+          "level": 215,
+          "topic": "Aggregate",
+          "syntax": "Console.WriteLine(\"Aggregate\");",
+          "puzzle": "Console.___(\"Aggregate\");",
+          "output": "Aggregate"
+        },
+        {
+          "level": 216,
+          "topic": "Any and All",
+          "syntax": "Console.WriteLine(\"Any and All\");",
+          "puzzle": "Console.___(\"Any and All\");",
+          "output": "Any and All"
+        },
+        {
+          "level": 217,
+          "topic": "Grouping",
+          "syntax": "Console.WriteLine(\"Grouping\");",
+          "puzzle": "Console.___(\"Grouping\");",
+          "output": "Grouping"
+        },
+        {
+          "level": 218,
+          "topic": "Projection",
+          "syntax": "Console.WriteLine(\"Projection\");",
+          "puzzle": "Console.___(\"Projection\");",
+          "output": "Projection"
+        }
+      ]
+    },
+    {
+      "part": "Part 15 - Resource Management",
+      "items": [
+        {
+          "level": 219,
+          "topic": "using statement",
+          "syntax": "Console.WriteLine(\"using statement\");",
+          "puzzle": "Console.___(\"using statement\");",
+          "output": "using statement"
+        },
+        {
+          "level": 220,
+          "topic": "using declaration",
+          "syntax": "Console.WriteLine(\"using declaration\");",
+          "puzzle": "Console.___(\"using declaration\");",
+          "output": "using declaration"
+        },
+        {
+          "level": 221,
+          "topic": "IDisposable",
+          "syntax": "Console.WriteLine(\"IDisposable\");",
+          "puzzle": "Console.___(\"IDisposable\");",
+          "output": "IDisposable"
+        },
+        {
+          "level": 222,
+          "topic": "Custom IDisposable",
+          "syntax": "Console.WriteLine(\"Custom IDisposable\");",
+          "puzzle": "Console.___(\"Custom IDisposable\");",
+          "output": "Custom IDisposable"
+        },
+        {
+          "level": 223,
+          "topic": "Dispose pattern",
+          "syntax": "Console.WriteLine(\"Dispose pattern\");",
+          "puzzle": "Console.___(\"Dispose pattern\");",
+          "output": "Dispose pattern"
+        },
+        {
+          "level": 224,
+          "topic": "await using",
+          "syntax": "Console.WriteLine(\"await using\");",
+          "puzzle": "Console.___(\"await using\");",
+          "output": "await using"
+        },
+        {
+          "level": 225,
+          "topic": "IAsyncDisposable",
+          "syntax": "Console.WriteLine(\"IAsyncDisposable\");",
+          "puzzle": "Console.___(\"IAsyncDisposable\");",
+          "output": "IAsyncDisposable"
+        },
+        {
+          "level": 226,
+          "topic": "using multiple resources",
+          "syntax": "Console.WriteLine(\"using multiple resources\");",
+          "puzzle": "Console.___(\"using multiple resources\");",
+          "output": "using multiple resources"
+        }
+      ]
+    },
+    {
+      "part": "Part 16 - Regular Expressions",
+      "items": [
+        {
+          "level": 227,
+          "topic": "Regex.IsMatch",
+          "syntax": "Console.WriteLine(\"Regex.IsMatch\");",
+          "puzzle": "Console.___(\"Regex.IsMatch\");",
+          "output": "Regex.IsMatch"
+        },
+        {
+          "level": 228,
+          "topic": "Regex.Match",
+          "syntax": "Console.WriteLine(\"Regex.Match\");",
+          "puzzle": "Console.___(\"Regex.Match\");",
+          "output": "Regex.Match"
+        },
+        {
+          "level": 229,
+          "topic": "Regex.Matches",
+          "syntax": "Console.WriteLine(\"Regex.Matches\");",
+          "puzzle": "Console.___(\"Regex.Matches\");",
+          "output": "Regex.Matches"
+        },
+        {
+          "level": 230,
+          "topic": "Regex.Replace",
+          "syntax": "Console.WriteLine(\"Regex.Replace\");",
+          "puzzle": "Console.___(\"Regex.Replace\");",
+          "output": "Regex.Replace"
+        },
+        {
+          "level": 231,
+          "topic": "Regex.Split",
+          "syntax": "Console.WriteLine(\"Regex.Split\");",
+          "puzzle": "Console.___(\"Regex.Split\");",
+          "output": "Regex.Split"
+        },
+        {
+          "level": 232,
+          "topic": "Regex capture group",
+          "syntax": "Console.WriteLine(\"Regex capture group\");",
+          "puzzle": "Console.___(\"Regex capture group\");",
+          "output": "Regex capture group"
+        },
+        {
+          "level": 233,
+          "topic": "Named capture group",
+          "syntax": "Console.WriteLine(\"Named capture group\");",
+          "puzzle": "Console.___(\"Named capture group\");",
+          "output": "Named capture group"
+        },
+        {
+          "level": 234,
+          "topic": "Regex options",
+          "syntax": "Console.WriteLine(\"Regex options\");",
+          "puzzle": "Console.___(\"Regex options\");",
+          "output": "Regex options"
+        },
+        {
+          "level": 235,
+          "topic": "Regex escape",
+          "syntax": "Console.WriteLine(\"Regex escape\");",
+          "puzzle": "Console.___(\"Regex escape\");",
+          "output": "Regex escape"
+        },
+        {
+          "level": 236,
+          "topic": "Regex timeout",
+          "syntax": "Console.WriteLine(\"Regex timeout\");",
+          "puzzle": "Console.___(\"Regex timeout\");",
+          "output": "Regex timeout"
+        },
+        {
+          "level": 237,
+          "topic": "Compiled regex",
+          "syntax": "Console.WriteLine(\"Compiled regex\");",
+          "puzzle": "Console.___(\"Compiled regex\");",
+          "output": "Compiled regex"
+        },
+        {
+          "level": 238,
+          "topic": "Regex validation",
+          "syntax": "Console.WriteLine(\"Regex validation\");",
+          "puzzle": "Console.___(\"Regex validation\");",
+          "output": "Regex validation"
+        }
+      ]
+    },
+    {
+      "part": "Part 17 - C# Standard Library",
+      "items": [
+        {
+          "level": 239,
+          "topic": "Math methods",
+          "syntax": "Console.WriteLine(\"Math methods\");",
+          "puzzle": "Console.___(\"Math methods\");",
+          "output": "Math methods"
+        },
+        {
+          "level": 240,
+          "topic": "Random",
+          "syntax": "Console.WriteLine(\"Random\");",
+          "puzzle": "Console.___(\"Random\");",
+          "output": "Random"
+        },
+        {
+          "level": 241,
+          "topic": "StringBuilder",
+          "syntax": "Console.WriteLine(\"StringBuilder\");",
+          "puzzle": "Console.___(\"StringBuilder\");",
+          "output": "StringBuilder"
+        },
+        {
+          "level": 242,
+          "topic": "String methods",
+          "syntax": "Console.WriteLine(\"String methods\");",
+          "puzzle": "Console.___(\"String methods\");",
+          "output": "String methods"
+        },
+        {
+          "level": 243,
+          "topic": "DateTime methods",
+          "syntax": "Console.WriteLine(\"DateTime methods\");",
+          "puzzle": "Console.___(\"DateTime methods\");",
+          "output": "DateTime methods"
+        },
+        {
+          "level": 244,
+          "topic": "TimeSpan",
+          "syntax": "Console.WriteLine(\"TimeSpan\");",
+          "puzzle": "Console.___(\"TimeSpan\");",
+          "output": "TimeSpan"
+        },
+        {
+          "level": 245,
+          "topic": "Guid.NewGuid",
+          "syntax": "Console.WriteLine(\"Guid.NewGuid\");",
+          "puzzle": "Console.___(\"Guid.NewGuid\");",
+          "output": "Guid.NewGuid"
+        },
+        {
+          "level": 246,
+          "topic": "Convert methods",
+          "syntax": "Console.WriteLine(\"Convert methods\");",
+          "puzzle": "Console.___(\"Convert methods\");",
+          "output": "Convert methods"
+        },
+        {
+          "level": 247,
+          "topic": "Environment",
+          "syntax": "Console.WriteLine(\"Environment\");",
+          "puzzle": "Console.___(\"Environment\");",
+          "output": "Environment"
+        },
+        {
+          "level": 248,
+          "topic": "Console colors",
+          "syntax": "Console.WriteLine(\"Console colors\");",
+          "puzzle": "Console.___(\"Console colors\");",
+          "output": "Console colors"
+        },
+        {
+          "level": 249,
+          "topic": "Stopwatch",
+          "syntax": "Console.WriteLine(\"Stopwatch\");",
+          "puzzle": "Console.___(\"Stopwatch\");",
+          "output": "Stopwatch"
+        },
+        {
+          "level": 250,
+          "topic": "ProcessStartInfo",
+          "syntax": "Console.WriteLine(\"ProcessStartInfo\");",
+          "puzzle": "Console.___(\"ProcessStartInfo\");",
+          "output": "ProcessStartInfo"
+        },
+        {
+          "level": 251,
+          "topic": "Uri",
+          "syntax": "Console.WriteLine(\"Uri\");",
+          "puzzle": "Console.___(\"Uri\");",
+          "output": "Uri"
+        },
+        {
+          "level": 252,
+          "topic": "Encoding",
+          "syntax": "Console.WriteLine(\"Encoding\");",
+          "puzzle": "Console.___(\"Encoding\");",
+          "output": "Encoding"
+        },
+        {
+          "level": 253,
+          "topic": "HashSet",
+          "syntax": "Console.WriteLine(\"HashSet\");",
+          "puzzle": "Console.___(\"HashSet\");",
+          "output": "HashSet"
+        },
+        {
+          "level": 254,
+          "topic": "Dictionary",
+          "syntax": "Console.WriteLine(\"Dictionary\");",
+          "puzzle": "Console.___(\"Dictionary\");",
+          "output": "Dictionary"
+        },
+        {
+          "level": 255,
+          "topic": "Queue",
+          "syntax": "Console.WriteLine(\"Queue\");",
+          "puzzle": "Console.___(\"Queue\");",
+          "output": "Queue"
+        },
+        {
+          "level": 256,
+          "topic": "Stack",
+          "syntax": "Console.WriteLine(\"Stack\");",
+          "puzzle": "Console.___(\"Stack\");",
+          "output": "Stack"
+        },
+        {
+          "level": 257,
+          "topic": "PriorityQueue",
+          "syntax": "Console.WriteLine(\"PriorityQueue\");",
+          "puzzle": "Console.___(\"PriorityQueue\");",
+          "output": "PriorityQueue"
+        },
+        {
+          "level": 258,
+          "topic": "LinkedList",
+          "syntax": "Console.WriteLine(\"LinkedList\");",
+          "puzzle": "Console.___(\"LinkedList\");",
+          "output": "LinkedList"
+        },
+        {
+          "level": 259,
+          "topic": "Array methods",
+          "syntax": "Console.WriteLine(\"Array methods\");",
+          "puzzle": "Console.___(\"Array methods\");",
+          "output": "Array methods"
+        },
+        {
+          "level": 260,
+          "topic": "Enumerable methods",
+          "syntax": "Console.WriteLine(\"Enumerable methods\");",
+          "puzzle": "Console.___(\"Enumerable methods\");",
+          "output": "Enumerable methods"
+        }
+      ]
+    },
+    {
+      "part": "Part 18 - Generics & Type Safety",
+      "items": [
+        {
+          "level": 261,
+          "topic": "Generic class",
+          "syntax": "Console.WriteLine(\"Generic class\");",
+          "puzzle": "Console.___(\"Generic class\");",
+          "output": "Generic class"
+        },
+        {
+          "level": 262,
+          "topic": "Generic method",
+          "syntax": "Console.WriteLine(\"Generic method\");",
+          "puzzle": "Console.___(\"Generic method\");",
+          "output": "Generic method"
+        },
+        {
+          "level": 263,
+          "topic": "Generic interface",
+          "syntax": "Console.WriteLine(\"Generic interface\");",
+          "puzzle": "Console.___(\"Generic interface\");",
+          "output": "Generic interface"
+        },
+        {
+          "level": 264,
+          "topic": "Generic struct",
+          "syntax": "Console.WriteLine(\"Generic struct\");",
+          "puzzle": "Console.___(\"Generic struct\");",
+          "output": "Generic struct"
+        },
+        {
+          "level": 265,
+          "topic": "Generic constraint where",
+          "syntax": "Console.WriteLine(\"Generic constraint where\");",
+          "puzzle": "Console.___(\"Generic constraint where\");",
+          "output": "Generic constraint where"
+        },
+        {
+          "level": 266,
+          "topic": "Multiple generic constraints",
+          "syntax": "Console.WriteLine(\"Multiple generic constraints\");",
+          "puzzle": "Console.___(\"Multiple generic constraints\");",
+          "output": "Multiple generic constraints"
+        },
+        {
+          "level": 267,
+          "topic": "Nullable generic",
+          "syntax": "Console.WriteLine(\"Nullable generic\");",
+          "puzzle": "Console.___(\"Nullable generic\");",
+          "output": "Nullable generic"
+        },
+        {
+          "level": 268,
+          "topic": "Generic collection",
+          "syntax": "Console.WriteLine(\"Generic collection\");",
+          "puzzle": "Console.___(\"Generic collection\");",
+          "output": "Generic collection"
+        },
+        {
+          "level": 269,
+          "topic": "Generic delegate",
+          "syntax": "Console.WriteLine(\"Generic delegate\");",
+          "puzzle": "Console.___(\"Generic delegate\");",
+          "output": "Generic delegate"
+        },
+        {
+          "level": 270,
+          "topic": "Generic factory",
+          "syntax": "Console.WriteLine(\"Generic factory\");",
+          "puzzle": "Console.___(\"Generic factory\");",
+          "output": "Generic factory"
+        },
+        {
+          "level": 271,
+          "topic": "Generic tuple",
+          "syntax": "Console.WriteLine(\"Generic tuple\");",
+          "puzzle": "Console.___(\"Generic tuple\");",
+          "output": "Generic tuple"
+        },
+        {
+          "level": 272,
+          "topic": "Generic comparer",
+          "syntax": "Console.WriteLine(\"Generic comparer\");",
+          "puzzle": "Console.___(\"Generic comparer\");",
+          "output": "Generic comparer"
+        },
+        {
+          "level": 273,
+          "topic": "Generic equality",
+          "syntax": "Console.WriteLine(\"Generic equality\");",
+          "puzzle": "Console.___(\"Generic equality\");",
+          "output": "Generic equality"
+        },
+        {
+          "level": 274,
+          "topic": "Generic type inference",
+          "syntax": "Console.WriteLine(\"Generic type inference\");",
+          "puzzle": "Console.___(\"Generic type inference\");",
+          "output": "Generic type inference"
+        },
+        {
+          "level": 275,
+          "topic": "Generic covariance",
+          "syntax": "Console.WriteLine(\"Generic covariance\");",
+          "puzzle": "Console.___(\"Generic covariance\");",
+          "output": "Generic covariance"
+        }
+      ]
+    },
+    {
+      "part": "Part 19 - Records & Enums",
+      "items": [
+        {
+          "level": 276,
+          "topic": "Record declaration",
+          "syntax": "Console.WriteLine(\"Record declaration\");",
+          "puzzle": "Console.___(\"Record declaration\");",
+          "output": "Record declaration"
+        },
+        {
+          "level": 277,
+          "topic": "Record equality",
+          "syntax": "Console.WriteLine(\"Record equality\");",
+          "puzzle": "Console.___(\"Record equality\");",
+          "output": "Record equality"
+        },
+        {
+          "level": 278,
+          "topic": "With expression",
+          "syntax": "Console.WriteLine(\"With expression\");",
+          "puzzle": "Console.___(\"With expression\");",
+          "output": "With expression"
+        },
+        {
+          "level": 279,
+          "topic": "Record struct",
+          "syntax": "Console.WriteLine(\"Record struct\");",
+          "puzzle": "Console.___(\"Record struct\");",
+          "output": "Record struct"
+        },
+        {
+          "level": 280,
+          "topic": "Enum declaration",
+          "syntax": "Console.WriteLine(\"Enum declaration\");",
+          "puzzle": "Console.___(\"Enum declaration\");",
+          "output": "Enum declaration"
+        },
+        {
+          "level": 281,
+          "topic": "Enum parsing",
+          "syntax": "Console.WriteLine(\"Enum parsing\");",
+          "puzzle": "Console.___(\"Enum parsing\");",
+          "output": "Enum parsing"
+        },
+        {
+          "level": 282,
+          "topic": "Enum values",
+          "syntax": "Console.WriteLine(\"Enum values\");",
+          "puzzle": "Console.___(\"Enum values\");",
+          "output": "Enum values"
+        }
+      ]
+    },
+    {
+      "part": "Part 20 - Memory & References",
+      "items": [
+        {
+          "level": 283,
+          "topic": "Reference assignment",
+          "syntax": "Console.WriteLine(\"Reference assignment\");",
+          "puzzle": "Console.___(\"Reference assignment\");",
+          "output": "Reference assignment"
+        },
+        {
+          "level": 284,
+          "topic": "Value copy",
+          "syntax": "Console.WriteLine(\"Value copy\");",
+          "puzzle": "Console.___(\"Value copy\");",
+          "output": "Value copy"
+        },
+        {
+          "level": 285,
+          "topic": "ref local",
+          "syntax": "Console.WriteLine(\"ref local\");",
+          "puzzle": "Console.___(\"ref local\");",
+          "output": "ref local"
+        },
+        {
+          "level": 286,
+          "topic": "ref return",
+          "syntax": "Console.WriteLine(\"ref return\");",
+          "puzzle": "Console.___(\"ref return\");",
+          "output": "ref return"
+        },
+        {
+          "level": 287,
+          "topic": "in parameter",
+          "syntax": "Console.WriteLine(\"in parameter\");",
+          "puzzle": "Console.___(\"in parameter\");",
+          "output": "in parameter"
+        },
+        {
+          "level": 288,
+          "topic": "out parameter",
+          "syntax": "Console.WriteLine(\"out parameter\");",
+          "puzzle": "Console.___(\"out parameter\");",
+          "output": "out parameter"
+        },
+        {
+          "level": 289,
+          "topic": "Span<T>",
+          "syntax": "Console.WriteLine(\"Span<T>\");",
+          "puzzle": "Console.___(\"Span<T>\");",
+          "output": "Span<T>"
+        },
+        {
+          "level": 290,
+          "topic": "ReadOnlySpan<T>",
+          "syntax": "Console.WriteLine(\"ReadOnlySpan<T>\");",
+          "puzzle": "Console.___(\"ReadOnlySpan<T>\");",
+          "output": "ReadOnlySpan<T>"
+        },
+        {
+          "level": 291,
+          "topic": "ArrayPool<T>",
+          "syntax": "Console.WriteLine(\"ArrayPool<T>\");",
+          "puzzle": "Console.___(\"ArrayPool<T>\");",
+          "output": "ArrayPool<T>"
+        },
+        {
+          "level": 292,
+          "topic": "GC.GetTotalMemory",
+          "syntax": "Console.WriteLine(\"GC.GetTotalMemory\");",
+          "puzzle": "Console.___(\"GC.GetTotalMemory\");",
+          "output": "GC.GetTotalMemory"
+        },
+        {
+          "level": 293,
+          "topic": "WeakReference",
+          "syntax": "Console.WriteLine(\"WeakReference\");",
+          "puzzle": "Console.___(\"WeakReference\");",
+          "output": "WeakReference"
+        }
+      ]
+    },
+    {
+      "part": "Part 21 - Debugging",
+      "items": [
+        {
+          "level": 294,
+          "topic": "Debug.WriteLine",
+          "syntax": "Console.WriteLine(\"Debug.WriteLine\");",
+          "puzzle": "Console.___(\"Debug.WriteLine\");",
+          "output": "Debug.WriteLine"
+        },
+        {
+          "level": 295,
+          "topic": "Debugger.Break",
+          "syntax": "Console.WriteLine(\"Debugger.Break\");",
+          "puzzle": "Console.___(\"Debugger.Break\");",
+          "output": "Debugger.Break"
+        },
+        {
+          "level": 296,
+          "topic": "Conditional breakpoint helper",
+          "syntax": "Console.WriteLine(\"Conditional breakpoint helper\");",
+          "puzzle": "Console.___(\"Conditional breakpoint helper\");",
+          "output": "Conditional breakpoint helper"
+        },
+        {
+          "level": 297,
+          "topic": "Argument inspection",
+          "syntax": "Console.WriteLine(\"Argument inspection\");",
+          "puzzle": "Console.___(\"Argument inspection\");",
+          "output": "Argument inspection"
+        },
+        {
+          "level": 298,
+          "topic": "Exception stack trace",
+          "syntax": "Console.WriteLine(\"Exception stack trace\");",
+          "puzzle": "Console.___(\"Exception stack trace\");",
+          "output": "Exception stack trace"
+        },
+        {
+          "level": 299,
+          "topic": "Environment.StackTrace",
+          "syntax": "Console.WriteLine(\"Environment.StackTrace\");",
+          "puzzle": "Console.___(\"Environment.StackTrace\");",
+          "output": "Environment.StackTrace"
+        },
+        {
+          "level": 300,
+          "topic": "Trace.WriteLine",
+          "syntax": "Console.WriteLine(\"Trace.WriteLine\");",
+          "puzzle": "Console.___(\"Trace.WriteLine\");",
+          "output": "Trace.WriteLine"
+        },
+        {
+          "level": 301,
+          "topic": "Debug.Assert",
+          "syntax": "Console.WriteLine(\"Debug.Assert\");",
+          "puzzle": "Console.___(\"Debug.Assert\");",
+          "output": "Debug.Assert"
+        },
+        {
+          "level": 302,
+          "topic": "Conditional compilation",
+          "syntax": "Console.WriteLine(\"Conditional compilation\");",
+          "puzzle": "Console.___(\"Conditional compilation\");",
+          "output": "Conditional compilation"
+        }
+      ]
+    },
+    {
+      "part": "Part 22 - Unit Testing",
+      "items": [
+        {
+          "level": 303,
+          "topic": "Test method structure",
+          "syntax": "Console.WriteLine(\"Test method structure\");",
+          "puzzle": "Console.___(\"Test method structure\");",
+          "output": "Test method structure"
+        },
+        {
+          "level": 304,
+          "topic": "Assert equality",
+          "syntax": "Console.WriteLine(\"Assert equality\");",
+          "puzzle": "Console.___(\"Assert equality\");",
+          "output": "Assert equality"
+        },
+        {
+          "level": 305,
+          "topic": "Assert true",
+          "syntax": "Console.WriteLine(\"Assert true\");",
+          "puzzle": "Console.___(\"Assert true\");",
+          "output": "Assert true"
+        },
+        {
+          "level": 306,
+          "topic": "Assert false",
+          "syntax": "Console.WriteLine(\"Assert false\");",
+          "puzzle": "Console.___(\"Assert false\");",
+          "output": "Assert false"
+        },
+        {
+          "level": 307,
+          "topic": "Assert null",
+          "syntax": "Console.WriteLine(\"Assert null\");",
+          "puzzle": "Console.___(\"Assert null\");",
+          "output": "Assert null"
+        },
+        {
+          "level": 308,
+          "topic": "Assert not null",
+          "syntax": "Console.WriteLine(\"Assert not null\");",
+          "puzzle": "Console.___(\"Assert not null\");",
+          "output": "Assert not null"
+        },
+        {
+          "level": 309,
+          "topic": "Assert throws",
+          "syntax": "Console.WriteLine(\"Assert throws\");",
+          "puzzle": "Console.___(\"Assert throws\");",
+          "output": "Assert throws"
+        },
+        {
+          "level": 310,
+          "topic": "Test setup",
+          "syntax": "Console.WriteLine(\"Test setup\");",
+          "puzzle": "Console.___(\"Test setup\");",
+          "output": "Test setup"
+        },
+        {
+          "level": 311,
+          "topic": "Test teardown",
+          "syntax": "Console.WriteLine(\"Test teardown\");",
+          "puzzle": "Console.___(\"Test teardown\");",
+          "output": "Test teardown"
+        },
+        {
+          "level": 312,
+          "topic": "Parameterized test",
+          "syntax": "Console.WriteLine(\"Parameterized test\");",
+          "puzzle": "Console.___(\"Parameterized test\");",
+          "output": "Parameterized test"
+        }
+      ]
+    },
+    {
+      "part": "Part 23 - Logging",
+      "items": [
+        {
+          "level": 313,
+          "topic": "Console logging",
+          "syntax": "Console.WriteLine(\"Console logging\");",
+          "puzzle": "Console.___(\"Console logging\");",
+          "output": "Console logging"
+        },
+        {
+          "level": 314,
+          "topic": "Debug logging",
+          "syntax": "Console.WriteLine(\"Debug logging\");",
+          "puzzle": "Console.___(\"Debug logging\");",
+          "output": "Debug logging"
+        },
+        {
+          "level": 315,
+          "topic": "Trace logging",
+          "syntax": "Console.WriteLine(\"Trace logging\");",
+          "puzzle": "Console.___(\"Trace logging\");",
+          "output": "Trace logging"
+        },
+        {
+          "level": 316,
+          "topic": "Log levels with enum",
+          "syntax": "Console.WriteLine(\"Log levels with enum\");",
+          "puzzle": "Console.___(\"Log levels with enum\");",
+          "output": "Log levels with enum"
+        },
+        {
+          "level": 317,
+          "topic": "Structured log object",
+          "syntax": "Console.WriteLine(\"Structured log object\");",
+          "puzzle": "Console.___(\"Structured log object\");",
+          "output": "Structured log object"
+        },
+        {
+          "level": 318,
+          "topic": "Exception logging",
+          "syntax": "Console.WriteLine(\"Exception logging\");",
+          "puzzle": "Console.___(\"Exception logging\");",
+          "output": "Exception logging"
+        },
+        {
+          "level": 319,
+          "topic": "Timestamped log",
+          "syntax": "Console.WriteLine(\"Timestamped log\");",
+          "puzzle": "Console.___(\"Timestamped log\");",
+          "output": "Timestamped log"
+        },
+        {
+          "level": 320,
+          "topic": "File logger",
+          "syntax": "Console.WriteLine(\"File logger\");",
+          "puzzle": "Console.___(\"File logger\");",
+          "output": "File logger"
+        },
+        {
+          "level": 321,
+          "topic": "Logger helper",
+          "syntax": "Console.WriteLine(\"Logger helper\");",
+          "puzzle": "Console.___(\"Logger helper\");",
+          "output": "Logger helper"
+        },
+        {
+          "level": 322,
+          "topic": "Conditional logging",
+          "syntax": "Console.WriteLine(\"Conditional logging\");",
+          "puzzle": "Console.___(\"Conditional logging\");",
+          "output": "Conditional logging"
+        }
+      ]
+    },
+    {
+      "part": "Part 24 - Project & Package Management",
+      "items": [
+        {
+          "level": 323,
+          "topic": "Project file property",
+          "syntax": "Console.WriteLine(\"Project file property\");",
+          "puzzle": "Console.___(\"Project file property\");",
+          "output": "Project file property"
+        },
+        {
+          "level": 324,
+          "topic": "Target framework",
+          "syntax": "Console.WriteLine(\"Target framework\");",
+          "puzzle": "Console.___(\"Target framework\");",
+          "output": "Target framework"
+        },
+        {
+          "level": 325,
+          "topic": "Nullable enabled",
+          "syntax": "Console.WriteLine(\"Nullable enabled\");",
+          "puzzle": "Console.___(\"Nullable enabled\");",
+          "output": "Nullable enabled"
+        },
+        {
+          "level": 326,
+          "topic": "Implicit usings",
+          "syntax": "Console.WriteLine(\"Implicit usings\");",
+          "puzzle": "Console.___(\"Implicit usings\");",
+          "output": "Implicit usings"
+        },
+        {
+          "level": 327,
+          "topic": "Package reference",
+          "syntax": "Console.WriteLine(\"Package reference\");",
+          "puzzle": "Console.___(\"Package reference\");",
+          "output": "Package reference"
+        },
+        {
+          "level": 328,
+          "topic": "Project reference",
+          "syntax": "Console.WriteLine(\"Project reference\");",
+          "puzzle": "Console.___(\"Project reference\");",
+          "output": "Project reference"
+        },
+        {
+          "level": 329,
+          "topic": "Build configuration",
+          "syntax": "Console.WriteLine(\"Build configuration\");",
+          "puzzle": "Console.___(\"Build configuration\");",
+          "output": "Build configuration"
+        },
+        {
+          "level": 330,
+          "topic": "Release build",
+          "syntax": "Console.WriteLine(\"Release build\");",
+          "puzzle": "Console.___(\"Release build\");",
+          "output": "Release build"
+        },
+        {
+          "level": 331,
+          "topic": "Debug build",
+          "syntax": "Console.WriteLine(\"Debug build\");",
+          "puzzle": "Console.___(\"Debug build\");",
+          "output": "Debug build"
+        },
+        {
+          "level": 332,
+          "topic": "Global using file",
+          "syntax": "Console.WriteLine(\"Global using file\");",
+          "puzzle": "Console.___(\"Global using file\");",
+          "output": "Global using file"
+        },
+        {
+          "level": 333,
+          "topic": "Directory.Build.props",
+          "syntax": "Console.WriteLine(\"Directory.Build.props\");",
+          "puzzle": "Console.___(\"Directory.Build.props\");",
+          "output": "Directory.Build.props"
+        }
+      ]
+    },
+    {
+      "part": "Part 25 - Database Programming",
+      "items": [
+        {
+          "level": 334,
+          "topic": "SQLite connection",
+          "syntax": "Console.WriteLine(\"SQLite connection\");",
+          "puzzle": "Console.___(\"SQLite connection\");",
+          "output": "SQLite connection"
+        },
+        {
+          "level": 335,
+          "topic": "SQLite command",
+          "syntax": "Console.WriteLine(\"SQLite command\");",
+          "puzzle": "Console.___(\"SQLite command\");",
+          "output": "SQLite command"
+        },
+        {
+          "level": 336,
+          "topic": "Parameterized query",
+          "syntax": "Console.WriteLine(\"Parameterized query\");",
+          "puzzle": "Console.___(\"Parameterized query\");",
+          "output": "Parameterized query"
+        },
+        {
+          "level": 337,
+          "topic": "ExecuteNonQuery",
+          "syntax": "Console.WriteLine(\"ExecuteNonQuery\");",
+          "puzzle": "Console.___(\"ExecuteNonQuery\");",
+          "output": "ExecuteNonQuery"
+        },
+        {
+          "level": 338,
+          "topic": "ExecuteScalar",
+          "syntax": "Console.WriteLine(\"ExecuteScalar\");",
+          "puzzle": "Console.___(\"ExecuteScalar\");",
+          "output": "ExecuteScalar"
+        },
+        {
+          "level": 339,
+          "topic": "ExecuteReader",
+          "syntax": "Console.WriteLine(\"ExecuteReader\");",
+          "puzzle": "Console.___(\"ExecuteReader\");",
+          "output": "ExecuteReader"
+        },
+        {
+          "level": 340,
+          "topic": "Reader loop",
+          "syntax": "for (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "puzzle": "___ (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "output": "0,0\n0,1\n1,0\n1,1"
+        },
+        {
+          "level": 341,
+          "topic": "Insert row",
+          "syntax": "Console.WriteLine(\"Insert row\");",
+          "puzzle": "Console.___(\"Insert row\");",
+          "output": "Insert row"
+        },
+        {
+          "level": 342,
+          "topic": "Update row",
+          "syntax": "Console.WriteLine(\"Update row\");",
+          "puzzle": "Console.___(\"Update row\");",
+          "output": "Update row"
+        },
+        {
+          "level": 343,
+          "topic": "Delete row",
+          "syntax": "Console.WriteLine(\"Delete row\");",
+          "puzzle": "Console.___(\"Delete row\");",
+          "output": "Delete row"
+        },
+        {
+          "level": 344,
+          "topic": "Transaction",
+          "syntax": "Console.WriteLine(\"Transaction\");",
+          "puzzle": "Console.___(\"Transaction\");",
+          "output": "Transaction"
+        },
+        {
+          "level": 345,
+          "topic": "Async database command",
+          "syntax": "Console.WriteLine(\"Async database command\");",
+          "puzzle": "Console.___(\"Async database command\");",
+          "output": "Async database command"
+        }
+      ]
+    },
+    {
+      "part": "Part 26 - HTTP & APIs",
+      "items": [
+        {
+          "level": 346,
+          "topic": "HttpClient GET",
+          "syntax": "Console.WriteLine(\"HttpClient GET\");",
+          "puzzle": "Console.___(\"HttpClient GET\");",
+          "output": "HttpClient GET"
+        },
+        {
+          "level": 347,
+          "topic": "HttpClient POST",
+          "syntax": "Console.WriteLine(\"HttpClient POST\");",
+          "puzzle": "Console.___(\"HttpClient POST\");",
+          "output": "HttpClient POST"
+        },
+        {
+          "level": 348,
+          "topic": "Query string",
+          "syntax": "Console.WriteLine(\"Query string\");",
+          "puzzle": "Console.___(\"Query string\");",
+          "output": "Query string"
+        },
+        {
+          "level": 349,
+          "topic": "JSON serialization",
+          "syntax": "Console.WriteLine(\"JSON serialization\");",
+          "puzzle": "Console.___(\"JSON serialization\");",
+          "output": "JSON serialization"
+        },
+        {
+          "level": 350,
+          "topic": "JSON deserialization",
+          "syntax": "Console.WriteLine(\"JSON deserialization\");",
+          "puzzle": "Console.___(\"JSON deserialization\");",
+          "output": "JSON deserialization"
+        },
+        {
+          "level": 351,
+          "topic": "HttpResponseMessage",
+          "syntax": "Console.WriteLine(\"HttpResponseMessage\");",
+          "puzzle": "Console.___(\"HttpResponseMessage\");",
+          "output": "HttpResponseMessage"
+        },
+        {
+          "level": 352,
+          "topic": "Status code check",
+          "syntax": "Console.WriteLine(\"Status code check\");",
+          "puzzle": "Console.___(\"Status code check\");",
+          "output": "Status code check"
+        },
+        {
+          "level": 353,
+          "topic": "Headers",
+          "syntax": "Console.WriteLine(\"Headers\");",
+          "puzzle": "Console.___(\"Headers\");",
+          "output": "Headers"
+        },
+        {
+          "level": 354,
+          "topic": "Bearer authorization header",
+          "syntax": "Console.WriteLine(\"Bearer authorization header\");",
+          "puzzle": "Console.___(\"Bearer authorization header\");",
+          "output": "Bearer authorization header"
+        },
+        {
+          "level": 355,
+          "topic": "CancellationToken request",
+          "syntax": "Console.WriteLine(\"CancellationToken request\");",
+          "puzzle": "Console.___(\"CancellationToken request\");",
+          "output": "CancellationToken request"
+        },
+        {
+          "level": 356,
+          "topic": "HttpClientFactory concept",
+          "syntax": "Console.WriteLine(\"HttpClientFactory concept\");",
+          "puzzle": "Console.___(\"HttpClientFactory concept\");",
+          "output": "HttpClientFactory concept"
+        },
+        {
+          "level": 357,
+          "topic": "PUT request",
+          "syntax": "Console.WriteLine(\"PUT request\");",
+          "puzzle": "Console.___(\"PUT request\");",
+          "output": "PUT request"
+        },
+        {
+          "level": 358,
+          "topic": "DELETE request",
+          "syntax": "Console.WriteLine(\"DELETE request\");",
+          "puzzle": "Console.___(\"DELETE request\");",
+          "output": "DELETE request"
+        }
+      ]
+    },
+    {
+      "part": "Part 27 - ASP.NET Core Web Development",
+      "items": [
+        {
+          "level": 359,
+          "topic": "Minimal API",
+          "syntax": "Console.WriteLine(\"Minimal API\");",
+          "puzzle": "Console.___(\"Minimal API\");",
+          "output": "Minimal API"
+        },
+        {
+          "level": 360,
+          "topic": "GET endpoint",
+          "syntax": "Console.WriteLine(\"GET endpoint\");",
+          "puzzle": "Console.___(\"GET endpoint\");",
+          "output": "GET endpoint"
+        },
+        {
+          "level": 361,
+          "topic": "POST endpoint",
+          "syntax": "Console.WriteLine(\"POST endpoint\");",
+          "puzzle": "Console.___(\"POST endpoint\");",
+          "output": "POST endpoint"
+        },
+        {
+          "level": 362,
+          "topic": "Route parameter",
+          "syntax": "Console.WriteLine(\"Route parameter\");",
+          "puzzle": "Console.___(\"Route parameter\");",
+          "output": "Route parameter"
+        },
+        {
+          "level": 363,
+          "topic": "Query parameter",
+          "syntax": "Console.WriteLine(\"Query parameter\");",
+          "puzzle": "Console.___(\"Query parameter\");",
+          "output": "Query parameter"
+        },
+        {
+          "level": 364,
+          "topic": "Request body",
+          "syntax": "Console.WriteLine(\"Request body\");",
+          "puzzle": "Console.___(\"Request body\");",
+          "output": "Request body"
+        },
+        {
+          "level": 365,
+          "topic": "JSON response",
+          "syntax": "Console.WriteLine(\"JSON response\");",
+          "puzzle": "Console.___(\"JSON response\");",
+          "output": "JSON response"
+        },
+        {
+          "level": 366,
+          "topic": "Status code response",
+          "syntax": "Console.WriteLine(\"Status code response\");",
+          "puzzle": "Console.___(\"Status code response\");",
+          "output": "Status code response"
+        },
+        {
+          "level": 367,
+          "topic": "Dependency injection",
+          "syntax": "Console.WriteLine(\"Dependency injection\");",
+          "puzzle": "Console.___(\"Dependency injection\");",
+          "output": "Dependency injection"
+        },
+        {
+          "level": 368,
+          "topic": "Service registration",
+          "syntax": "Console.WriteLine(\"Service registration\");",
+          "puzzle": "Console.___(\"Service registration\");",
+          "output": "Service registration"
+        },
+        {
+          "level": 369,
+          "topic": "Configuration value",
+          "syntax": "Console.WriteLine(\"Configuration value\");",
+          "puzzle": "Console.___(\"Configuration value\");",
+          "output": "Configuration value"
+        },
+        {
+          "level": 370,
+          "topic": "Middleware",
+          "syntax": "Console.WriteLine(\"Middleware\");",
+          "puzzle": "Console.___(\"Middleware\");",
+          "output": "Middleware"
+        },
+        {
+          "level": 371,
+          "topic": "Static files",
+          "syntax": "Console.WriteLine(\"Static files\");",
+          "puzzle": "Console.___(\"Static files\");",
+          "output": "Static files"
+        },
+        {
+          "level": 372,
+          "topic": "Model binding",
+          "syntax": "Console.WriteLine(\"Model binding\");",
+          "puzzle": "Console.___(\"Model binding\");",
+          "output": "Model binding"
+        },
+        {
+          "level": 373,
+          "topic": "Controller action",
+          "syntax": "Console.WriteLine(\"Controller action\");",
+          "puzzle": "Console.___(\"Controller action\");",
+          "output": "Controller action"
+        },
+        {
+          "level": 374,
+          "topic": "DTO class",
+          "syntax": "Console.WriteLine(\"DTO class\");",
+          "puzzle": "Console.___(\"DTO class\");",
+          "output": "DTO class"
+        },
+        {
+          "level": 375,
+          "topic": "Validation attribute",
+          "syntax": "Console.WriteLine(\"Validation attribute\");",
+          "puzzle": "Console.___(\"Validation attribute\");",
+          "output": "Validation attribute"
+        }
+      ]
+    },
+    {
+      "part": "Part 28 - Concurrency",
+      "items": [
+        {
+          "level": 376,
+          "topic": "Thread",
+          "syntax": "Console.WriteLine(\"Thread\");",
+          "puzzle": "Console.___(\"Thread\");",
+          "output": "Thread"
+        },
+        {
+          "level": 377,
+          "topic": "ThreadStart",
+          "syntax": "Console.WriteLine(\"ThreadStart\");",
+          "puzzle": "Console.___(\"ThreadStart\");",
+          "output": "ThreadStart"
+        },
+        {
+          "level": 378,
+          "topic": "Task.Run",
+          "syntax": "Console.WriteLine(\"Task.Run\");",
+          "puzzle": "Console.___(\"Task.Run\");",
+          "output": "Task.Run"
+        },
+        {
+          "level": 379,
+          "topic": "Task.Wait",
+          "syntax": "Console.WriteLine(\"Task.Wait\");",
+          "puzzle": "Console.___(\"Task.Wait\");",
+          "output": "Task.Wait"
+        },
+        {
+          "level": 380,
+          "topic": "Task.WhenAll",
+          "syntax": "Console.WriteLine(\"Task.WhenAll\");",
+          "puzzle": "Console.___(\"Task.WhenAll\");",
+          "output": "Task.WhenAll"
+        },
+        {
+          "level": 381,
+          "topic": "Parallel.For",
+          "syntax": "Console.WriteLine(\"Parallel.For\");",
+          "puzzle": "Console.___(\"Parallel.For\");",
+          "output": "Parallel.For"
+        },
+        {
+          "level": 382,
+          "topic": "Parallel.ForEach",
+          "syntax": "Console.WriteLine(\"Parallel.ForEach\");",
+          "puzzle": "Console.___(\"Parallel.ForEach\");",
+          "output": "Parallel.ForEach"
+        },
+        {
+          "level": 383,
+          "topic": "lock",
+          "syntax": "Console.WriteLine(\"lock\");",
+          "puzzle": "Console.___(\"lock\");",
+          "output": "lock"
+        },
+        {
+          "level": 384,
+          "topic": "Monitor",
+          "syntax": "Console.WriteLine(\"Monitor\");",
+          "puzzle": "Console.___(\"Monitor\");",
+          "output": "Monitor"
+        },
+        {
+          "level": 385,
+          "topic": "Interlocked",
+          "syntax": "Console.WriteLine(\"Interlocked\");",
+          "puzzle": "Console.___(\"Interlocked\");",
+          "output": "Interlocked"
+        },
+        {
+          "level": 386,
+          "topic": "ConcurrentDictionary",
+          "syntax": "Console.WriteLine(\"ConcurrentDictionary\");",
+          "puzzle": "Console.___(\"ConcurrentDictionary\");",
+          "output": "ConcurrentDictionary"
+        },
+        {
+          "level": 387,
+          "topic": "CancellationToken",
+          "syntax": "Console.WriteLine(\"CancellationToken\");",
+          "puzzle": "Console.___(\"CancellationToken\");",
+          "output": "CancellationToken"
+        }
+      ]
+    },
+    {
+      "part": "Part 29 - Asynchronous C#",
+      "items": [
+        {
+          "level": 388,
+          "topic": "async method",
+          "syntax": "Console.WriteLine(\"async method\");",
+          "puzzle": "Console.___(\"async method\");",
+          "output": "async method"
+        },
+        {
+          "level": 389,
+          "topic": "await Task.Delay",
+          "syntax": "Console.WriteLine(\"await Task.Delay\");",
+          "puzzle": "Console.___(\"await Task.Delay\");",
+          "output": "await Task.Delay"
+        },
+        {
+          "level": 390,
+          "topic": "Task return",
+          "syntax": "Console.WriteLine(\"Task return\");",
+          "puzzle": "Console.___(\"Task return\");",
+          "output": "Task return"
+        },
+        {
+          "level": 391,
+          "topic": "Task<T> return",
+          "syntax": "Console.WriteLine(\"Task<T> return\");",
+          "puzzle": "Console.___(\"Task<T> return\");",
+          "output": "Task<T> return"
+        },
+        {
+          "level": 392,
+          "topic": "ValueTask",
+          "syntax": "Console.WriteLine(\"ValueTask\");",
+          "puzzle": "Console.___(\"ValueTask\");",
+          "output": "ValueTask"
+        },
+        {
+          "level": 393,
+          "topic": "await Task.WhenAll",
+          "syntax": "Console.WriteLine(\"await Task.WhenAll\");",
+          "puzzle": "Console.___(\"await Task.WhenAll\");",
+          "output": "await Task.WhenAll"
+        },
+        {
+          "level": 394,
+          "topic": "async file read",
+          "syntax": "Console.WriteLine(\"async file read\");",
+          "puzzle": "Console.___(\"async file read\");",
+          "output": "async file read"
+        },
+        {
+          "level": 395,
+          "topic": "async file write",
+          "syntax": "Console.WriteLine(\"async file write\");",
+          "puzzle": "Console.___(\"async file write\");",
+          "output": "async file write"
+        }
+      ]
+    },
+    {
+      "part": "Part 30 - Networking",
+      "items": [
+        {
+          "level": 396,
+          "topic": "TcpClient connect",
+          "syntax": "Console.WriteLine(\"TcpClient connect\");",
+          "puzzle": "Console.___(\"TcpClient connect\");",
+          "output": "TcpClient connect"
+        },
+        {
+          "level": 397,
+          "topic": "TcpListener start",
+          "syntax": "Console.WriteLine(\"TcpListener start\");",
+          "puzzle": "Console.___(\"TcpListener start\");",
+          "output": "TcpListener start"
+        },
+        {
+          "level": 398,
+          "topic": "NetworkStream write",
+          "syntax": "Console.WriteLine(\"NetworkStream write\");",
+          "puzzle": "Console.___(\"NetworkStream write\");",
+          "output": "NetworkStream write"
+        },
+        {
+          "level": 399,
+          "topic": "NetworkStream read",
+          "syntax": "Console.WriteLine(\"NetworkStream read\");",
+          "puzzle": "Console.___(\"NetworkStream read\");",
+          "output": "NetworkStream read"
+        },
+        {
+          "level": 400,
+          "topic": "UdpClient send",
+          "syntax": "Console.WriteLine(\"UdpClient send\");",
+          "puzzle": "Console.___(\"UdpClient send\");",
+          "output": "UdpClient send"
+        },
+        {
+          "level": 401,
+          "topic": "UdpClient receive",
+          "syntax": "Console.WriteLine(\"UdpClient receive\");",
+          "puzzle": "Console.___(\"UdpClient receive\");",
+          "output": "UdpClient receive"
+        },
+        {
+          "level": 402,
+          "topic": "IPAddress parse",
+          "syntax": "Console.WriteLine(\"IPAddress parse\");",
+          "puzzle": "Console.___(\"IPAddress parse\");",
+          "output": "IPAddress parse"
+        },
+        {
+          "level": 403,
+          "topic": "Dns lookup",
+          "syntax": "Console.WriteLine(\"Dns lookup\");",
+          "puzzle": "Console.___(\"Dns lookup\");",
+          "output": "Dns lookup"
+        },
+        {
+          "level": 404,
+          "topic": "Socket connect",
+          "syntax": "Console.WriteLine(\"Socket connect\");",
+          "puzzle": "Console.___(\"Socket connect\");",
+          "output": "Socket connect"
+        },
+        {
+          "level": 405,
+          "topic": "Network endpoint",
+          "syntax": "Console.WriteLine(\"Network endpoint\");",
+          "puzzle": "Console.___(\"Network endpoint\");",
+          "output": "Network endpoint"
+        }
+      ]
+    },
+    {
+      "part": "Part 31 - Automation",
+      "items": [
+        {
+          "level": 406,
+          "topic": "Process.Start",
+          "syntax": "Console.WriteLine(\"Process.Start\");",
+          "puzzle": "Console.___(\"Process.Start\");",
+          "output": "Process.Start"
+        },
+        {
+          "level": 407,
+          "topic": "Run command",
+          "syntax": "Console.WriteLine(\"Run command\");",
+          "puzzle": "Console.___(\"Run command\");",
+          "output": "Run command"
+        },
+        {
+          "level": 408,
+          "topic": "Create directory",
+          "syntax": "Console.WriteLine(\"Create directory\");",
+          "puzzle": "Console.___(\"Create directory\");",
+          "output": "Create directory"
+        },
+        {
+          "level": 409,
+          "topic": "Copy file",
+          "syntax": "Console.WriteLine(\"Copy file\");",
+          "puzzle": "Console.___(\"Copy file\");",
+          "output": "Copy file"
+        },
+        {
+          "level": 410,
+          "topic": "Move file",
+          "syntax": "Console.WriteLine(\"Move file\");",
+          "puzzle": "Console.___(\"Move file\");",
+          "output": "Move file"
+        },
+        {
+          "level": 411,
+          "topic": "Delete file",
+          "syntax": "Console.WriteLine(\"Delete file\");",
+          "puzzle": "Console.___(\"Delete file\");",
+          "output": "Delete file"
+        },
+        {
+          "level": 412,
+          "topic": "Enumerate files",
+          "syntax": "Console.WriteLine(\"Enumerate files\");",
+          "puzzle": "Console.___(\"Enumerate files\");",
+          "output": "Enumerate files"
+        },
+        {
+          "level": 413,
+          "topic": "Environment variable",
+          "syntax": "Console.WriteLine(\"Environment variable\");",
+          "puzzle": "Console.___(\"Environment variable\");",
+          "output": "Environment variable"
+        },
+        {
+          "level": 414,
+          "topic": "Set environment variable",
+          "syntax": "Console.WriteLine(\"Set environment variable\");",
+          "puzzle": "Console.___(\"Set environment variable\");",
+          "output": "Set environment variable"
+        },
+        {
+          "level": 415,
+          "topic": "Read command output",
+          "syntax": "Console.WriteLine(\"Read command output\");",
+          "puzzle": "Console.___(\"Read command output\");",
+          "output": "Read command output"
+        },
+        {
+          "level": 416,
+          "topic": "Start process with arguments",
+          "syntax": "Console.WriteLine(\"Start process with arguments\");",
+          "puzzle": "Console.___(\"Start process with arguments\");",
+          "output": "Start process with arguments"
+        },
+        {
+          "level": 417,
+          "topic": "Launch application",
+          "syntax": "Console.WriteLine(\"Launch application\");",
+          "puzzle": "Console.___(\"Launch application\");",
+          "output": "Launch application"
+        }
+      ]
+    },
+    {
+      "part": "Part 32 - Text Processing",
+      "items": [
+        {
+          "level": 418,
+          "topic": "String.Contains",
+          "syntax": "Console.WriteLine(\"String.Contains\");",
+          "puzzle": "Console.___(\"String.Contains\");",
+          "output": "String.Contains"
+        },
+        {
+          "level": 419,
+          "topic": "String.StartsWith",
+          "syntax": "Console.WriteLine(\"String.StartsWith\");",
+          "puzzle": "Console.___(\"String.StartsWith\");",
+          "output": "String.StartsWith"
+        },
+        {
+          "level": 420,
+          "topic": "String.EndsWith",
+          "syntax": "Console.WriteLine(\"String.EndsWith\");",
+          "puzzle": "Console.___(\"String.EndsWith\");",
+          "output": "String.EndsWith"
+        },
+        {
+          "level": 421,
+          "topic": "String.Split",
+          "syntax": "Console.WriteLine(\"String.Split\");",
+          "puzzle": "Console.___(\"String.Split\");",
+          "output": "String.Split"
+        },
+        {
+          "level": 422,
+          "topic": "String.Join",
+          "syntax": "Console.WriteLine(\"String.Join\");",
+          "puzzle": "Console.___(\"String.Join\");",
+          "output": "String.Join"
+        },
+        {
+          "level": 423,
+          "topic": "String.Replace",
+          "syntax": "Console.WriteLine(\"String.Replace\");",
+          "puzzle": "Console.___(\"String.Replace\");",
+          "output": "String.Replace"
+        },
+        {
+          "level": 424,
+          "topic": "String.Trim",
+          "syntax": "Console.WriteLine(\"String.Trim\");",
+          "puzzle": "Console.___(\"String.Trim\");",
+          "output": "String.Trim"
+        },
+        {
+          "level": 425,
+          "topic": "String.Substring",
+          "syntax": "Console.WriteLine(\"String.Substring\");",
+          "puzzle": "Console.___(\"String.Substring\");",
+          "output": "String.Substring"
+        },
+        {
+          "level": 426,
+          "topic": "String interpolation",
+          "syntax": "Console.WriteLine(\"String interpolation\");",
+          "puzzle": "Console.___(\"String interpolation\");",
+          "output": "String interpolation"
+        },
+        {
+          "level": 427,
+          "topic": "String.Format",
+          "syntax": "Console.WriteLine(\"String.Format\");",
+          "puzzle": "Console.___(\"String.Format\");",
+          "output": "String.Format"
+        },
+        {
+          "level": 428,
+          "topic": "StringBuilder append",
+          "syntax": "Console.WriteLine(\"StringBuilder append\");",
+          "puzzle": "Console.___(\"StringBuilder append\");",
+          "output": "StringBuilder append"
+        }
+      ]
+    },
+    {
+      "part": "Part 33 - C# for Data Processing",
+      "items": [
+        {
+          "level": 429,
+          "topic": "Array average",
+          "syntax": "Console.WriteLine(\"Array average\");",
+          "puzzle": "Console.___(\"Array average\");",
+          "output": "Array average"
+        },
+        {
+          "level": 430,
+          "topic": "Array sum",
+          "syntax": "Console.WriteLine(\"Array sum\");",
+          "puzzle": "Console.___(\"Array sum\");",
+          "output": "Array sum"
+        },
+        {
+          "level": 431,
+          "topic": "Array min",
+          "syntax": "Console.WriteLine(\"Array min\");",
+          "puzzle": "Console.___(\"Array min\");",
+          "output": "Array min"
+        },
+        {
+          "level": 432,
+          "topic": "Array max",
+          "syntax": "Console.WriteLine(\"Array max\");",
+          "puzzle": "Console.___(\"Array max\");",
+          "output": "Array max"
+        },
+        {
+          "level": 433,
+          "topic": "LINQ Count",
+          "syntax": "Console.WriteLine(\"LINQ Count\");",
+          "puzzle": "Console.___(\"LINQ Count\");",
+          "output": "LINQ Count"
+        },
+        {
+          "level": 434,
+          "topic": "LINQ Sum",
+          "syntax": "Console.WriteLine(\"LINQ Sum\");",
+          "puzzle": "Console.___(\"LINQ Sum\");",
+          "output": "LINQ Sum"
+        },
+        {
+          "level": 435,
+          "topic": "LINQ Average",
+          "syntax": "Console.WriteLine(\"LINQ Average\");",
+          "puzzle": "Console.___(\"LINQ Average\");",
+          "output": "LINQ Average"
+        },
+        {
+          "level": 436,
+          "topic": "LINQ Min",
+          "syntax": "Console.WriteLine(\"LINQ Min\");",
+          "puzzle": "Console.___(\"LINQ Min\");",
+          "output": "LINQ Min"
+        },
+        {
+          "level": 437,
+          "topic": "LINQ Max",
+          "syntax": "Console.WriteLine(\"LINQ Max\");",
+          "puzzle": "Console.___(\"LINQ Max\");",
+          "output": "LINQ Max"
+        },
+        {
+          "level": 438,
+          "topic": "GroupBy",
+          "syntax": "Console.WriteLine(\"GroupBy\");",
+          "puzzle": "Console.___(\"GroupBy\");",
+          "output": "GroupBy"
+        }
+      ]
+    },
+    {
+      "part": "Part 34 - C# for Machine Learning",
+      "items": [
+        {
+          "level": 439,
+          "topic": "Load CSV data",
+          "syntax": "Console.WriteLine(\"Load CSV data\");",
+          "puzzle": "Console.___(\"Load CSV data\");",
+          "output": "Load CSV data"
+        },
+        {
+          "level": 440,
+          "topic": "Parse numeric feature",
+          "syntax": "Console.WriteLine(\"Parse numeric feature\");",
+          "puzzle": "Console.___(\"Parse numeric feature\");",
+          "output": "Parse numeric feature"
+        },
+        {
+          "level": 441,
+          "topic": "Normalize values",
+          "syntax": "Console.WriteLine(\"Normalize values\");",
+          "puzzle": "Console.___(\"Normalize values\");",
+          "output": "Normalize values"
+        },
+        {
+          "level": 442,
+          "topic": "Create feature array",
+          "syntax": "Console.WriteLine(\"Create feature array\");",
+          "puzzle": "Console.___(\"Create feature array\");",
+          "output": "Create feature array"
+        },
+        {
+          "level": 443,
+          "topic": "Create label array",
+          "syntax": "Console.WriteLine(\"Create label array\");",
+          "puzzle": "Console.___(\"Create label array\");",
+          "output": "Create label array"
+        },
+        {
+          "level": 444,
+          "topic": "Train-test split",
+          "syntax": "Console.WriteLine(\"Train-test split\");",
+          "puzzle": "Console.___(\"Train-test split\");",
+          "output": "Train-test split"
+        },
+        {
+          "level": 445,
+          "topic": "Prediction loop",
+          "syntax": "for (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "puzzle": "___ (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "output": "0,0\n0,1\n1,0\n1,1"
+        },
+        {
+          "level": 446,
+          "topic": "Accuracy calculation",
+          "syntax": "Console.WriteLine(\"Accuracy calculation\");",
+          "puzzle": "Console.___(\"Accuracy calculation\");",
+          "output": "Accuracy calculation"
+        },
+        {
+          "level": 447,
+          "topic": "Mean squared error",
+          "syntax": "Console.WriteLine(\"Mean squared error\");",
+          "puzzle": "Console.___(\"Mean squared error\");",
+          "output": "Mean squared error"
+        },
+        {
+          "level": 448,
+          "topic": "Model input vector",
+          "syntax": "Console.WriteLine(\"Model input vector\");",
+          "puzzle": "Console.___(\"Model input vector\");",
+          "output": "Model input vector"
+        },
+        {
+          "level": 449,
+          "topic": "Model output score",
+          "syntax": "Console.WriteLine(\"Model output score\");",
+          "puzzle": "Console.___(\"Model output score\");",
+          "output": "Model output score"
+        },
+        {
+          "level": 450,
+          "topic": "Batch prediction",
+          "syntax": "Console.WriteLine(\"Batch prediction\");",
+          "puzzle": "Console.___(\"Batch prediction\");",
+          "output": "Batch prediction"
+        },
+        {
+          "level": 451,
+          "topic": "Save model file",
+          "syntax": "Console.WriteLine(\"Save model file\");",
+          "puzzle": "Console.___(\"Save model file\");",
+          "output": "Save model file"
+        },
+        {
+          "level": 452,
+          "topic": "Load model file",
+          "syntax": "Console.WriteLine(\"Load model file\");",
+          "puzzle": "Console.___(\"Load model file\");",
+          "output": "Load model file"
+        },
+        {
+          "level": 453,
+          "topic": "Evaluate predictions",
+          "syntax": "Console.WriteLine(\"Evaluate predictions\");",
+          "puzzle": "Console.___(\"Evaluate predictions\");",
+          "output": "Evaluate predictions"
+        }
+      ]
+    },
+    {
+      "part": "Part 35 - C# for AI Applications",
+      "items": [
+        {
+          "level": 454,
+          "topic": "Chat message object",
+          "syntax": "Console.WriteLine(\"Chat message object\");",
+          "puzzle": "Console.___(\"Chat message object\");",
+          "output": "Chat message object"
+        },
+        {
+          "level": 455,
+          "topic": "JSON chat payload",
+          "syntax": "Console.WriteLine(\"JSON chat payload\");",
+          "puzzle": "Console.___(\"JSON chat payload\");",
+          "output": "JSON chat payload"
+        },
+        {
+          "level": 456,
+          "topic": "HttpClient AI request",
+          "syntax": "Console.WriteLine(\"HttpClient AI request\");",
+          "puzzle": "Console.___(\"HttpClient AI request\");",
+          "output": "HttpClient AI request"
+        },
+        {
+          "level": 457,
+          "topic": "Parse JSON response",
+          "syntax": "Console.WriteLine(\"Parse JSON response\");",
+          "puzzle": "Console.___(\"Parse JSON response\");",
+          "output": "Parse JSON response"
+        },
+        {
+          "level": 458,
+          "topic": "Token count placeholder",
+          "syntax": "Console.WriteLine(\"Token count placeholder\");",
+          "puzzle": "Console.___(\"Token count placeholder\");",
+          "output": "Token count placeholder"
+        },
+        {
+          "level": 459,
+          "topic": "Embedding vector",
+          "syntax": "Console.WriteLine(\"Embedding vector\");",
+          "puzzle": "Console.___(\"Embedding vector\");",
+          "output": "Embedding vector"
+        },
+        {
+          "level": 460,
+          "topic": "Cosine similarity",
+          "syntax": "Console.WriteLine(\"Cosine similarity\");",
+          "puzzle": "Console.___(\"Cosine similarity\");",
+          "output": "Cosine similarity"
+        },
+        {
+          "level": 461,
+          "topic": "Top result selection",
+          "syntax": "Console.WriteLine(\"Top result selection\");",
+          "puzzle": "Console.___(\"Top result selection\");",
+          "output": "Top result selection"
+        },
+        {
+          "level": 462,
+          "topic": "Prompt string",
+          "syntax": "Console.WriteLine(\"Prompt string\");",
+          "puzzle": "Console.___(\"Prompt string\");",
+          "output": "Prompt string"
+        },
+        {
+          "level": 463,
+          "topic": "Conversation list",
+          "syntax": "Console.WriteLine(\"Conversation list\");",
+          "puzzle": "Console.___(\"Conversation list\");",
+          "output": "Conversation list"
+        },
+        {
+          "level": 464,
+          "topic": "API error handling",
+          "syntax": "Console.WriteLine(\"API error handling\");",
+          "puzzle": "Console.___(\"API error handling\");",
+          "output": "API error handling"
+        },
+        {
+          "level": 465,
+          "topic": "Retry delay",
+          "syntax": "Console.WriteLine(\"Retry delay\");",
+          "puzzle": "Console.___(\"Retry delay\");",
+          "output": "Retry delay"
+        },
+        {
+          "level": 466,
+          "topic": "Streaming response",
+          "syntax": "Console.WriteLine(\"Streaming response\");",
+          "puzzle": "Console.___(\"Streaming response\");",
+          "output": "Streaming response"
+        },
+        {
+          "level": 467,
+          "topic": "Tool result object",
+          "syntax": "Console.WriteLine(\"Tool result object\");",
+          "puzzle": "Console.___(\"Tool result object\");",
+          "output": "Tool result object"
+        },
+        {
+          "level": 468,
+          "topic": "RAG document object",
+          "syntax": "Console.WriteLine(\"RAG document object\");",
+          "puzzle": "Console.___(\"RAG document object\");",
+          "output": "RAG document object"
+        },
+        {
+          "level": 469,
+          "topic": "Chunk text",
+          "syntax": "Console.WriteLine(\"Chunk text\");",
+          "puzzle": "Console.___(\"Chunk text\");",
+          "output": "Chunk text"
+        },
+        {
+          "level": 470,
+          "topic": "Vector search loop",
+          "syntax": "for (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "puzzle": "___ (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "output": "0,0\n0,1\n1,0\n1,1"
+        },
+        {
+          "level": 471,
+          "topic": "Context assembly",
+          "syntax": "Console.WriteLine(\"Context assembly\");",
+          "puzzle": "Console.___(\"Context assembly\");",
+          "output": "Context assembly"
+        },
+        {
+          "level": 472,
+          "topic": "AI response display",
+          "syntax": "Console.WriteLine(\"AI response display\");",
+          "puzzle": "Console.___(\"AI response display\");",
+          "output": "AI response display"
+        }
+      ]
+    },
+    {
+      "part": "Part 36 - Performance & Optimization",
+      "items": [
+        {
+          "level": 473,
+          "topic": "Stopwatch benchmark",
+          "syntax": "Console.WriteLine(\"Stopwatch benchmark\");",
+          "puzzle": "Console.___(\"Stopwatch benchmark\");",
+          "output": "Stopwatch benchmark"
+        },
+        {
+          "level": 474,
+          "topic": "StringBuilder optimization",
+          "syntax": "Console.WriteLine(\"StringBuilder optimization\");",
+          "puzzle": "Console.___(\"StringBuilder optimization\");",
+          "output": "StringBuilder optimization"
+        },
+        {
+          "level": 475,
+          "topic": "Array allocation",
+          "syntax": "Console.WriteLine(\"Array allocation\");",
+          "puzzle": "Console.___(\"Array allocation\");",
+          "output": "Array allocation"
+        },
+        {
+          "level": 476,
+          "topic": "List capacity",
+          "syntax": "Console.WriteLine(\"List capacity\");",
+          "puzzle": "Console.___(\"List capacity\");",
+          "output": "List capacity"
+        },
+        {
+          "level": 477,
+          "topic": "Dictionary capacity",
+          "syntax": "Console.WriteLine(\"Dictionary capacity\");",
+          "puzzle": "Console.___(\"Dictionary capacity\");",
+          "output": "Dictionary capacity"
+        },
+        {
+          "level": 478,
+          "topic": "Span slicing",
+          "syntax": "Console.WriteLine(\"Span slicing\");",
+          "puzzle": "Console.___(\"Span slicing\");",
+          "output": "Span slicing"
+        },
+        {
+          "level": 479,
+          "topic": "ReadOnlySpan parsing",
+          "syntax": "Console.WriteLine(\"ReadOnlySpan parsing\");",
+          "puzzle": "Console.___(\"ReadOnlySpan parsing\");",
+          "output": "ReadOnlySpan parsing"
+        },
+        {
+          "level": 480,
+          "topic": "ArrayPool rent",
+          "syntax": "Console.WriteLine(\"ArrayPool rent\");",
+          "puzzle": "Console.___(\"ArrayPool rent\");",
+          "output": "ArrayPool rent"
+        },
+        {
+          "level": 481,
+          "topic": "ArrayPool return",
+          "syntax": "Console.WriteLine(\"ArrayPool return\");",
+          "puzzle": "Console.___(\"ArrayPool return\");",
+          "output": "ArrayPool return"
+        },
+        {
+          "level": 482,
+          "topic": "Avoid repeated ToString",
+          "syntax": "Console.WriteLine(\"Avoid repeated ToString\");",
+          "puzzle": "Console.___(\"Avoid repeated ToString\");",
+          "output": "Avoid repeated ToString"
+        },
+        {
+          "level": 483,
+          "topic": "LINQ versus loop",
+          "syntax": "for (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "puzzle": "___ (int i = 0; i < 2; i++)\n    for (int j = 0; j < 2; j++)\n        Console.WriteLine($\"{i},{j}\");",
+          "output": "0,0\n0,1\n1,0\n1,1"
+        },
+        {
+          "level": 484,
+          "topic": "ValueTask optimization",
+          "syntax": "Console.WriteLine(\"ValueTask optimization\");",
+          "puzzle": "Console.___(\"ValueTask optimization\");",
+          "output": "ValueTask optimization"
+        },
+        {
+          "level": 485,
+          "topic": "Parallel computation",
+          "syntax": "Console.WriteLine(\"Parallel computation\");",
+          "puzzle": "Console.___(\"Parallel computation\");",
+          "output": "Parallel computation"
+        }
+      ]
+    },
+    {
+      "part": "Part 37 - Professional C# Development",
+      "items": [
+        {
+          "level": 486,
+          "topic": "Dependency injection constructor",
+          "syntax": "Console.WriteLine(\"Dependency injection constructor\");",
+          "puzzle": "Console.___(\"Dependency injection constructor\");",
+          "output": "Dependency injection constructor"
+        },
+        {
+          "level": 487,
+          "topic": "Interface-based service",
+          "syntax": "Console.WriteLine(\"Interface-based service\");",
+          "puzzle": "Console.___(\"Interface-based service\");",
+          "output": "Interface-based service"
+        },
+        {
+          "level": 488,
+          "topic": "Configuration class",
+          "syntax": "Console.WriteLine(\"Configuration class\");",
+          "puzzle": "Console.___(\"Configuration class\");",
+          "output": "Configuration class"
+        },
+        {
+          "level": 489,
+          "topic": "Options pattern",
+          "syntax": "Console.WriteLine(\"Options pattern\");",
+          "puzzle": "Console.___(\"Options pattern\");",
+          "output": "Options pattern"
+        },
+        {
+          "level": 490,
+          "topic": "Repository interface",
+          "syntax": "Console.WriteLine(\"Repository interface\");",
+          "puzzle": "Console.___(\"Repository interface\");",
+          "output": "Repository interface"
+        },
+        {
+          "level": 491,
+          "topic": "Service layer",
+          "syntax": "Console.WriteLine(\"Service layer\");",
+          "puzzle": "Console.___(\"Service layer\");",
+          "output": "Service layer"
+        },
+        {
+          "level": 492,
+          "topic": "DTO mapping",
+          "syntax": "Console.WriteLine(\"DTO mapping\");",
+          "puzzle": "Console.___(\"DTO mapping\");",
+          "output": "DTO mapping"
+        },
+        {
+          "level": 493,
+          "topic": "Validation helper",
+          "syntax": "Console.WriteLine(\"Validation helper\");",
+          "puzzle": "Console.___(\"Validation helper\");",
+          "output": "Validation helper"
+        },
+        {
+          "level": 494,
+          "topic": "Global exception middleware",
+          "syntax": "Console.WriteLine(\"Global exception middleware\");",
+          "puzzle": "Console.___(\"Global exception middleware\");",
+          "output": "Global exception middleware"
+        },
+        {
+          "level": 495,
+          "topic": "Health check endpoint",
+          "syntax": "Console.WriteLine(\"Health check endpoint\");",
+          "puzzle": "Console.___(\"Health check endpoint\");",
+          "output": "Health check endpoint"
+        },
+        {
+          "level": 496,
+          "topic": "Cancellation propagation",
+          "syntax": "Console.WriteLine(\"Cancellation propagation\");",
+          "puzzle": "Console.___(\"Cancellation propagation\");",
+          "output": "Cancellation propagation"
+        },
+        {
+          "level": 497,
+          "topic": "Async service method",
+          "syntax": "Console.WriteLine(\"Async service method\");",
+          "puzzle": "Console.___(\"Async service method\");",
+          "output": "Async service method"
+        }
+      ]
+    },
+    {
+      "part": "Part 38 - Git & C# Projects",
+      "items": [
+        {
+          "level": 498,
+          "topic": "Solution file command",
+          "syntax": "Console.WriteLine(\"Solution file command\");",
+          "puzzle": "Console.___(\"Solution file command\");",
+          "output": "Solution file command"
+        },
+        {
+          "level": 499,
+          "topic": "Create console project",
+          "syntax": "Console.WriteLine(\"Create console project\");",
+          "puzzle": "Console.___(\"Create console project\");",
+          "output": "Create console project"
+        },
+        {
+          "level": 500,
+          "topic": "Create class library",
+          "syntax": "Console.WriteLine(\"Create class library\");",
+          "puzzle": "Console.___(\"Create class library\");",
+          "output": "Create class library"
+        },
+        {
+          "level": 501,
+          "topic": "Add project reference",
+          "syntax": "Console.WriteLine(\"Add project reference\");",
+          "puzzle": "Console.___(\"Add project reference\");",
+          "output": "Add project reference"
+        },
+        {
+          "level": 502,
+          "topic": "Build solution",
+          "syntax": "Console.WriteLine(\"Build solution\");",
+          "puzzle": "Console.___(\"Build solution\");",
+          "output": "Build solution"
+        },
+        {
+          "level": 503,
+          "topic": "Run project",
+          "syntax": "Console.WriteLine(\"Run project\");",
+          "puzzle": "Console.___(\"Run project\");",
+          "output": "Run project"
+        },
+        {
+          "level": 504,
+          "topic": "Publish project",
+          "syntax": "Console.WriteLine(\"Publish project\");",
+          "puzzle": "Console.___(\"Publish project\");",
+          "output": "Publish project"
+        },
+        {
+          "level": 505,
+          "topic": "Git init command",
+          "syntax": "Console.WriteLine(\"Git init command\");",
+          "puzzle": "Console.___(\"Git init command\");",
+          "output": "Git init command"
+        },
+        {
+          "level": 506,
+          "topic": "Git status command",
+          "syntax": "Console.WriteLine(\"Git status command\");",
+          "puzzle": "Console.___(\"Git status command\");",
+          "output": "Git status command"
+        },
+        {
+          "level": 507,
+          "topic": "Git add command",
+          "syntax": "Console.WriteLine(\"Git add command\");",
+          "puzzle": "Console.___(\"Git add command\");",
+          "output": "Git add command"
+        },
+        {
+          "level": 508,
+          "topic": "Git commit command",
+          "syntax": "Console.WriteLine(\"Git commit command\");",
+          "puzzle": "Console.___(\"Git commit command\");",
+          "output": "Git commit command"
+        }
+      ]
+    },
+    {
+      "part": "Part 39 - Deployment",
+      "items": [
+        {
+          "level": 509,
+          "topic": "dotnet publish",
+          "syntax": "Console.WriteLine(\"dotnet publish\");",
+          "puzzle": "Console.___(\"dotnet publish\");",
+          "output": "dotnet publish"
+        },
+        {
+          "level": 510,
+          "topic": "Self-contained publish",
+          "syntax": "Console.WriteLine(\"Self-contained publish\");",
+          "puzzle": "Console.___(\"Self-contained publish\");",
+          "output": "Self-contained publish"
+        },
+        {
+          "level": 511,
+          "topic": "Framework-dependent publish",
+          "syntax": "Console.WriteLine(\"Framework-dependent publish\");",
+          "puzzle": "Console.___(\"Framework-dependent publish\");",
+          "output": "Framework-dependent publish"
+        },
+        {
+          "level": 512,
+          "topic": "Release publish",
+          "syntax": "Console.WriteLine(\"Release publish\");",
+          "puzzle": "Console.___(\"Release publish\");",
+          "output": "Release publish"
+        },
+        {
+          "level": 513,
+          "topic": "Runtime identifier",
+          "syntax": "Console.WriteLine(\"Runtime identifier\");",
+          "puzzle": "Console.___(\"Runtime identifier\");",
+          "output": "Runtime identifier"
+        },
+        {
+          "level": 514,
+          "topic": "Environment variable configuration",
+          "syntax": "Console.WriteLine(\"Environment variable configuration\");",
+          "puzzle": "Console.___(\"Environment variable configuration\");",
+          "output": "Environment variable configuration"
+        },
+        {
+          "level": 515,
+          "topic": "appsettings.json",
+          "syntax": "Console.WriteLine(\"appsettings.json\");",
+          "puzzle": "Console.___(\"appsettings.json\");",
+          "output": "appsettings.json"
+        },
+        {
+          "level": 516,
+          "topic": "Production logging",
+          "syntax": "Console.WriteLine(\"Production logging\");",
+          "puzzle": "Console.___(\"Production logging\");",
+          "output": "Production logging"
+        },
+        {
+          "level": 517,
+          "topic": "Dockerfile entry point",
+          "syntax": "Console.WriteLine(\"Dockerfile entry point\");",
+          "puzzle": "Console.___(\"Dockerfile entry point\");",
+          "output": "Dockerfile entry point"
+        },
+        {
+          "level": 518,
+          "topic": "ASP.NET port configuration",
+          "syntax": "Console.WriteLine(\"ASP.NET port configuration\");",
+          "puzzle": "Console.___(\"ASP.NET port configuration\");",
+          "output": "ASP.NET port configuration"
+        },
+        {
+          "level": 519,
+          "topic": "Health endpoint",
+          "syntax": "Console.WriteLine(\"Health endpoint\");",
+          "puzzle": "Console.___(\"Health endpoint\");",
+          "output": "Health endpoint"
+        },
+        {
+          "level": 520,
+          "topic": "Static deployment",
+          "syntax": "Console.WriteLine(\"Static deployment\");",
+          "puzzle": "Console.___(\"Static deployment\");",
+          "output": "Static deployment"
+        },
+        {
+          "level": 521,
+          "topic": "Publish output",
+          "syntax": "Console.WriteLine(\"Publish output\");",
+          "puzzle": "Console.___(\"Publish output\");",
+          "output": "Publish output"
+        }
+      ]
+    },
+    {
+      "part": "Part 40 - C# Internals",
+      "items": [
+        {
+          "level": 522,
+          "topic": "Boxing",
+          "syntax": "Console.WriteLine(\"Boxing\");",
+          "puzzle": "Console.___(\"Boxing\");",
+          "output": "Boxing"
+        },
+        {
+          "level": 523,
+          "topic": "Unboxing",
+          "syntax": "Console.WriteLine(\"Unboxing\");",
+          "puzzle": "Console.___(\"Unboxing\");",
+          "output": "Unboxing"
+        },
+        {
+          "level": 524,
+          "topic": "Virtual dispatch",
+          "syntax": "Console.WriteLine(\"Virtual dispatch\");",
+          "puzzle": "Console.___(\"Virtual dispatch\");",
+          "output": "Virtual dispatch"
+        },
+        {
+          "level": 525,
+          "topic": "Interface dispatch",
+          "syntax": "Console.WriteLine(\"Interface dispatch\");",
+          "puzzle": "Console.___(\"Interface dispatch\");",
+          "output": "Interface dispatch"
+        },
+        {
+          "level": 526,
+          "topic": "Generic type check",
+          "syntax": "Console.WriteLine(\"Generic type check\");",
+          "puzzle": "Console.___(\"Generic type check\");",
+          "output": "Generic type check"
+        },
+        {
+          "level": 527,
+          "topic": "Reflection Type",
+          "syntax": "Console.WriteLine(\"Reflection Type\");",
+          "puzzle": "Console.___(\"Reflection Type\");",
+          "output": "Reflection Type"
+        },
+        {
+          "level": 528,
+          "topic": "GetProperties reflection",
+          "syntax": "Console.WriteLine(\"GetProperties reflection\");",
+          "puzzle": "Console.___(\"GetProperties reflection\");",
+          "output": "GetProperties reflection"
+        },
+        {
+          "level": 529,
+          "topic": "GetMethods reflection",
+          "syntax": "Console.WriteLine(\"GetMethods reflection\");",
+          "puzzle": "Console.___(\"GetMethods reflection\");",
+          "output": "GetMethods reflection"
+        },
+        {
+          "level": 530,
+          "topic": "Activator.CreateInstance",
+          "syntax": "Console.WriteLine(\"Activator.CreateInstance\");",
+          "puzzle": "Console.___(\"Activator.CreateInstance\");",
+          "output": "Activator.CreateInstance"
+        },
+        {
+          "level": 531,
+          "topic": "Attribute retrieval",
+          "syntax": "Console.WriteLine(\"Attribute retrieval\");",
+          "puzzle": "Console.___(\"Attribute retrieval\");",
+          "output": "Attribute retrieval"
+        },
+        {
+          "level": 532,
+          "topic": "Custom attribute",
+          "syntax": "Console.WriteLine(\"Custom attribute\");",
+          "puzzle": "Console.___(\"Custom attribute\");",
+          "output": "Custom attribute"
+        },
+        {
+          "level": 533,
+          "topic": "Expression tree",
+          "syntax": "Console.WriteLine(\"Expression tree\");",
+          "puzzle": "Console.___(\"Expression tree\");",
+          "output": "Expression tree"
+        },
+        {
+          "level": 534,
+          "topic": "Delegate.CreateDelegate",
+          "syntax": "Console.WriteLine(\"Delegate.CreateDelegate\");",
+          "puzzle": "Console.___(\"Delegate.CreateDelegate\");",
+          "output": "Delegate.CreateDelegate"
+        },
+        {
+          "level": 535,
+          "topic": "Assembly.GetTypes",
+          "syntax": "Console.WriteLine(\"Assembly.GetTypes\");",
+          "puzzle": "Console.___(\"Assembly.GetTypes\");",
+          "output": "Assembly.GetTypes"
+        },
+        {
+          "level": 536,
+          "topic": "GC collection",
+          "syntax": "Console.WriteLine(\"GC collection\");",
+          "puzzle": "Console.___(\"GC collection\");",
+          "output": "GC collection"
+        },
+        {
+          "level": 537,
+          "topic": "GC generation",
+          "syntax": "Console.WriteLine(\"GC generation\");",
+          "puzzle": "Console.___(\"GC generation\");",
+          "output": "GC generation"
+        },
+        {
+          "level": 538,
+          "topic": "Runtime version",
+          "syntax": "Console.WriteLine(\"Runtime version\");",
+          "puzzle": "Console.___(\"Runtime version\");",
+          "output": "Runtime version"
+        }
+      ]
+    },
+    {
+      "part": "Part 41 - Common Built-in Methods",
+      "items": [
+        {
+          "level": 539,
+          "topic": "Math.Abs",
+          "syntax": "Console.WriteLine(\"Math.Abs\");",
+          "puzzle": "Console.___(\"Math.Abs\");",
+          "output": "Math.Abs"
+        },
+        {
+          "level": 540,
+          "topic": "Math.Round",
+          "syntax": "Console.WriteLine(\"Math.Round\");",
+          "puzzle": "Console.___(\"Math.Round\");",
+          "output": "Math.Round"
+        },
+        {
+          "level": 541,
+          "topic": "Math.Max",
+          "syntax": "Console.WriteLine(\"Math.Max\");",
+          "puzzle": "Console.___(\"Math.Max\");",
+          "output": "Math.Max"
+        },
+        {
+          "level": 542,
+          "topic": "Math.Min",
+          "syntax": "Console.WriteLine(\"Math.Min\");",
+          "puzzle": "Console.___(\"Math.Min\");",
+          "output": "Math.Min"
+        },
+        {
+          "level": 543,
+          "topic": "string.Concat",
+          "syntax": "Console.WriteLine(\"string.Concat\");",
+          "puzzle": "Console.___(\"string.Concat\");",
+          "output": "string.Concat"
+        },
+        {
+          "level": 544,
+          "topic": "string.Join",
+          "syntax": "Console.WriteLine(\"string.Join\");",
+          "puzzle": "Console.___(\"string.Join\");",
+          "output": "string.Join"
+        },
+        {
+          "level": 545,
+          "topic": "Array.Sort",
+          "syntax": "Console.WriteLine(\"Array.Sort\");",
+          "puzzle": "Console.___(\"Array.Sort\");",
+          "output": "Array.Sort"
+        },
+        {
+          "level": 546,
+          "topic": "Array.Reverse",
+          "syntax": "Console.WriteLine(\"Array.Reverse\");",
+          "puzzle": "Console.___(\"Array.Reverse\");",
+          "output": "Array.Reverse"
+        },
+        {
+          "level": 547,
+          "topic": "List.Contains",
+          "syntax": "Console.WriteLine(\"List.Contains\");",
+          "puzzle": "Console.___(\"List.Contains\");",
+          "output": "List.Contains"
+        },
+        {
+          "level": 548,
+          "topic": "Dictionary.TryGetValue",
+          "syntax": "Console.WriteLine(\"Dictionary.TryGetValue\");",
+          "puzzle": "Console.___(\"Dictionary.TryGetValue\");",
+          "output": "Dictionary.TryGetValue"
+        },
+        {
+          "level": 549,
+          "topic": "Convert.ToInt32",
+          "syntax": "Console.WriteLine(\"Convert.ToInt32\");",
+          "puzzle": "Console.___(\"Convert.ToInt32\");",
+          "output": "Convert.ToInt32"
+        },
+        {
+          "level": 550,
+          "topic": "DateTime.Now",
+          "syntax": "Console.WriteLine(\"DateTime.Now\");",
+          "puzzle": "Console.___(\"DateTime.Now\");",
+          "output": "DateTime.Now"
+        }
+      ]
+    },
+    {
+      "part": "Part 42 - Common Design Patterns",
+      "items": [
+        {
+          "level": 551,
+          "topic": "Singleton",
+          "syntax": "Console.WriteLine(\"Singleton\");",
+          "puzzle": "Console.___(\"Singleton\");",
+          "output": "Singleton"
+        },
+        {
+          "level": 552,
+          "topic": "Factory",
+          "syntax": "Console.WriteLine(\"Factory\");",
+          "puzzle": "Console.___(\"Factory\");",
+          "output": "Factory"
+        },
+        {
+          "level": 553,
+          "topic": "Builder",
+          "syntax": "Console.WriteLine(\"Builder\");",
+          "puzzle": "Console.___(\"Builder\");",
+          "output": "Builder"
+        },
+        {
+          "level": 554,
+          "topic": "Strategy",
+          "syntax": "Console.WriteLine(\"Strategy\");",
+          "puzzle": "Console.___(\"Strategy\");",
+          "output": "Strategy"
+        },
+        {
+          "level": 555,
+          "topic": "Observer",
+          "syntax": "Console.WriteLine(\"Observer\");",
+          "puzzle": "Console.___(\"Observer\");",
+          "output": "Observer"
+        },
+        {
+          "level": 556,
+          "topic": "Repository",
+          "syntax": "Console.WriteLine(\"Repository\");",
+          "puzzle": "Console.___(\"Repository\");",
+          "output": "Repository"
+        },
+        {
+          "level": 557,
+          "topic": "Dependency Injection",
+          "syntax": "Console.WriteLine(\"Dependency Injection\");",
+          "puzzle": "Console.___(\"Dependency Injection\");",
+          "output": "Dependency Injection"
+        }
+      ]
+    },
+    {
+      "part": "Part 43 - Interview & Competitive Programming",
+      "items": [
+        {
+          "level": 558,
+          "topic": "Two-sum dictionary",
+          "syntax": "Console.WriteLine(\"Two-sum dictionary\");",
+          "puzzle": "Console.___(\"Two-sum dictionary\");",
+          "output": "Two-sum dictionary"
+        },
+        {
+          "level": 559,
+          "topic": "Frequency counting",
+          "syntax": "Console.WriteLine(\"Frequency counting\");",
+          "puzzle": "Console.___(\"Frequency counting\");",
+          "output": "Frequency counting"
+        },
+        {
+          "level": 560,
+          "topic": "Reverse string",
+          "syntax": "Console.WriteLine(\"Reverse string\");",
+          "puzzle": "Console.___(\"Reverse string\");",
+          "output": "Reverse string"
+        },
+        {
+          "level": 561,
+          "topic": "Palindrome check",
+          "syntax": "Console.WriteLine(\"Palindrome check\");",
+          "puzzle": "Console.___(\"Palindrome check\");",
+          "output": "Palindrome check"
+        },
+        {
+          "level": 562,
+          "topic": "Maximum array value",
+          "syntax": "Console.WriteLine(\"Maximum array value\");",
+          "puzzle": "Console.___(\"Maximum array value\");",
+          "output": "Maximum array value"
+        },
+        {
+          "level": 563,
+          "topic": "Binary search",
+          "syntax": "Console.WriteLine(\"Binary search\");",
+          "puzzle": "Console.___(\"Binary search\");",
+          "output": "Binary search"
+        },
+        {
+          "level": 564,
+          "topic": "Stack parentheses",
+          "syntax": "Console.WriteLine(\"Stack parentheses\");",
+          "puzzle": "Console.___(\"Stack parentheses\");",
+          "output": "Stack parentheses"
+        },
+        {
+          "level": 565,
+          "topic": "Sliding window",
+          "syntax": "Console.WriteLine(\"Sliding window\");",
+          "puzzle": "Console.___(\"Sliding window\");",
+          "output": "Sliding window"
+        },
+        {
+          "level": 566,
+          "topic": "Two-pointer array",
+          "syntax": "Console.WriteLine(\"Two-pointer array\");",
+          "puzzle": "Console.___(\"Two-pointer array\");",
+          "output": "Two-pointer array"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Alice",
+        "password": "scrypt:32768:8:1$xoZ0ObKOQ2YcxdOe$02a352d7526288f0ed25e34dbe8287bcfec14b6a9dfa6dd8fb18a570ddcf14599029ef7719ff5f51a3dd8e723797813d07d0980f8b8d4ee9399f80885ab0c7d8",
+        "current_level": 5,
+        "progress": {
+            "python": {
+                "current_level": 6,
+                "completed_level": 6,
+                "skipped_count": 0
+            }
+        }
+    },
+    {
+        "name": "Bob",
+        "password": "scrypt:32768:8:1$2n3Q2ovkU2wZ4FgS$97c59fd20a2a63b2d592a9c7833791e7d7cea6df4c06370d2481d0690d53e03360bccdc3486f01ae95cbc2ede11efde6f426a2a2b8d5918ef7923dace9b14d1d",
+        "current_level": 3
+    },
+    {
+        "name": "Charlie",
+        "password": "scrypt:32768:8:1$xqSz9MbiPeJef8LR$cb6994b225f08f190a50aa6e51c9c5b83154a86394d303656832afe7200c56a185962988be11c0a0018a08ed62f5a2e78f2612304ae53e3a9b32a08f9471843a",
+        "current_level": 7
+    },
+    {
+        "name": "deep",
+        "password": "scrypt:32768:8:1$vZLekPok5fDyM3hC$e344779bfb4db2625bd0412046e9441b6e9d3100fc6379b420b25596e54a6a2d86d1e71e9fcf0dbf256a7fea814700fc91e17454c9bae0e6b5a8b5bd5d88ff3a",
+        "skipped_count": 1,
+        "progress": {
+            "python": {
+                "current_level": 29,
+                "completed_level": 29,
+                "skipped_count": 1
+            },
+            "java": {
+                "current_level": 3,
+                "completed_level": 3,
+                "skipped_count": 0
+            },
+            "c": {
+                "current_level": 3,
+                "completed_level": 4,
+                "skipped_count": 0
+            }
+        }
+    }
+]

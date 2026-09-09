@@ -1,0 +1,4197 @@
+{
+  "title": "Complete React.js Learning Roadmap - Coding Game Dataset",
+  "description": "Syntax-to-output puzzle dataset covering the full React.js roadmap (JavaScript fundamentals through advanced React patterns), formatted like the Python dataset. Each item has a topic name, a syntax snippet, and its expected output. Blanks in the 'puzzle' field always use a number of underscores equal to the exact length of the blanked-out keyword/token (e.g. 'print' -> 5 underscores in Python; here 'console.log' -> 11 underscores), so longer JS/React keywords get proportionally longer blanks.",
+  "total_parts": 44,
+  "total_items": 567,
+  "parts": [
+    {
+      "part": "Part 1 - JavaScript Fundamentals",
+      "items": [
+        {
+          "level": 0,
+          "topic": "console.log()",
+          "syntax": "console.log(\"Hello, World!\");",
+          "puzzle": "___(\"Hello, World!\");",
+          "output": "Hello, World!"
+        },
+        {
+          "level": 1,
+          "topic": "Comments",
+          "syntax": "// This is a comment\nconsole.log(\"Comments are ignored\");",
+          "puzzle": "___ This is a comment\nconsole.log(\"Comments are ignored\");",
+          "output": "Comments are ignored"
+        },
+        {
+          "level": 2,
+          "topic": "let",
+          "syntax": "let x = 10;\nconsole.log(x);",
+          "puzzle": "___ x = 10;\nconsole.log(x);",
+          "output": "10"
+        },
+        {
+          "level": 3,
+          "topic": "const",
+          "syntax": "const PI = 3.14;\nconsole.log(PI);",
+          "puzzle": "___ PI = 3.14;\nconsole.log(PI);",
+          "output": "3.14"
+        },
+        {
+          "level": 4,
+          "topic": "var",
+          "syntax": "var x = 5;\nconsole.log(x);",
+          "puzzle": "___ x = 5;\nconsole.log(x);",
+          "output": "5"
+        },
+        {
+          "level": 5,
+          "topic": "Naming conventions",
+          "syntax": "let studentName = \"Ava\";\nconsole.log(studentName);",
+          "puzzle": "let ___ = \"Ava\";\nconsole.log(studentName);",
+          "output": "Ava"
+        },
+        {
+          "level": 6,
+          "topic": "typeof operator",
+          "syntax": "console.log(typeof \"hello\");",
+          "puzzle": "console.log(___ \"hello\");",
+          "output": "string"
+        },
+        {
+          "level": 7,
+          "topic": "Template literals",
+          "syntax": "let name = \"Ava\";\nconsole.log(`Hi ${name}`);",
+          "puzzle": "let name = \"Ava\";\nconsole.log(___);",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 8,
+          "topic": "Escape characters",
+          "syntax": "console.log(\"Line1\\nLine2\");",
+          "puzzle": "console.log(\"Line1___Line2\");",
+          "output": "Line1\nLine2"
+        },
+        {
+          "level": 9,
+          "topic": "Expressions",
+          "syntax": "console.log(3 + 4 * 2);",
+          "puzzle": "___(3 + 4 * 2);",
+          "output": "11"
+        },
+        {
+          "level": 10,
+          "topic": "Strict mode",
+          "syntax": "\"use strict\";\nconsole.log(\"Strict mode on\");",
+          "puzzle": "___;\nconsole.log(\"Strict mode on\");",
+          "output": "Strict mode on"
+        },
+        {
+          "level": 11,
+          "topic": "Semicolons",
+          "syntax": "let x = 5;\nconsole.log(x);",
+          "puzzle": "let x = 5___\nconsole.log(x);",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "part": "Part 2 - JavaScript Data Types",
+      "items": [
+        {
+          "level": 12,
+          "topic": "Number",
+          "syntax": "let x = Number(\"42\");\nconsole.log(x);",
+          "puzzle": "let x = ___(\"42\");\nconsole.log(x);",
+          "output": "42"
+        },
+        {
+          "level": 13,
+          "topic": "String",
+          "syntax": "let s = String(42);\nconsole.log(s);",
+          "puzzle": "let s = ___(42);\nconsole.log(s);",
+          "output": "42"
+        },
+        {
+          "level": 14,
+          "topic": "Boolean",
+          "syntax": "let b = Boolean(1);\nconsole.log(b);",
+          "puzzle": "let b = ___(1);\nconsole.log(b);",
+          "output": "true"
+        },
+        {
+          "level": 15,
+          "topic": "Undefined",
+          "syntax": "let x;\nconsole.log(x);",
+          "puzzle": "___\nconsole.log(x);",
+          "output": "undefined"
+        },
+        {
+          "level": 16,
+          "topic": "Null",
+          "syntax": "let x = null;\nconsole.log(x);",
+          "puzzle": "let x = ___;\nconsole.log(x);",
+          "output": "null"
+        },
+        {
+          "level": 17,
+          "topic": "Object",
+          "syntax": "let obj = { a: 1 };\nconsole.log(obj);",
+          "puzzle": "let obj = ___;\nconsole.log(obj);",
+          "output": "{ a: 1 }"
+        },
+        {
+          "level": 18,
+          "topic": "Array",
+          "syntax": "let arr = [1, 2, 3];\nconsole.log(Array.isArray(arr));",
+          "puzzle": "let arr = [1, 2, 3];\nconsole.log(___.isArray(arr));",
+          "output": "true"
+        },
+        {
+          "level": 19,
+          "topic": "Symbol",
+          "syntax": "let s = Symbol(\"id\");\nconsole.log(typeof s);",
+          "puzzle": "let s = ___(\"id\");\nconsole.log(typeof s);",
+          "output": "symbol"
+        },
+        {
+          "level": 20,
+          "topic": "BigInt",
+          "syntax": "let big = BigInt(10);\nconsole.log(typeof big);",
+          "puzzle": "let big = ___(10);\nconsole.log(typeof big);",
+          "output": "bigint"
+        },
+        {
+          "level": 21,
+          "topic": "typeof operator (types)",
+          "syntax": "console.log(typeof 5);",
+          "puzzle": "console.log(___ 5);",
+          "output": "number"
+        },
+        {
+          "level": 22,
+          "topic": "Type coercion",
+          "syntax": "console.log(\"5\" + 2);",
+          "puzzle": "console.log(\"5\" ___ 2);",
+          "output": "52"
+        },
+        {
+          "level": 23,
+          "topic": "NaN",
+          "syntax": "console.log(Number(\"abc\"));",
+          "puzzle": "console.log(___(\"abc\"));",
+          "output": "NaN"
+        }
+      ]
+    },
+    {
+      "part": "Part 3 - Operators",
+      "items": [
+        {
+          "level": 24,
+          "topic": "Addition operator",
+          "syntax": "console.log(3 + 4 * 2);",
+          "puzzle": "console.log(3 ___ 4 * 2);",
+          "output": "11"
+        },
+        {
+          "level": 25,
+          "topic": "Modulo operator",
+          "syntax": "console.log(7 % 2);",
+          "puzzle": "console.log(7 ___ 2);",
+          "output": "1"
+        },
+        {
+          "level": 26,
+          "topic": "Exponent operator",
+          "syntax": "console.log(2 ** 3);",
+          "puzzle": "console.log(2 ___ 3);",
+          "output": "8"
+        },
+        {
+          "level": 27,
+          "topic": "Assignment operators",
+          "syntax": "let x = 5;\nx += 3;\nconsole.log(x);",
+          "puzzle": "let x = 5;\nx ___ 3;\nconsole.log(x);",
+          "output": "8"
+        },
+        {
+          "level": 28,
+          "topic": "Strict equality",
+          "syntax": "console.log(5 === \"5\");",
+          "puzzle": "console.log(5 ___ \"5\");",
+          "output": "false"
+        },
+        {
+          "level": 29,
+          "topic": "Loose equality",
+          "syntax": "console.log(5 == \"5\");",
+          "puzzle": "console.log(5 ___ \"5\");",
+          "output": "true"
+        },
+        {
+          "level": 30,
+          "topic": "Logical AND",
+          "syntax": "console.log(true && false);",
+          "puzzle": "console.log(true ___ false);",
+          "output": "false"
+        },
+        {
+          "level": 31,
+          "topic": "Logical OR",
+          "syntax": "console.log(false || true);",
+          "puzzle": "console.log(false ___ true);",
+          "output": "true"
+        },
+        {
+          "level": 32,
+          "topic": "Nullish coalescing",
+          "syntax": "let x = null;\nconsole.log(x ?? \"default\");",
+          "puzzle": "let x = null;\nconsole.log(x ___ \"default\");",
+          "output": "default"
+        },
+        {
+          "level": 33,
+          "topic": "Optional chaining",
+          "syntax": "let obj = {};\nconsole.log(obj?.name);",
+          "puzzle": "let obj = {};\nconsole.log(obj___name);",
+          "output": "undefined"
+        },
+        {
+          "level": 34,
+          "topic": "Ternary operator",
+          "syntax": "let x = 5;\nconsole.log(x > 3 ? \"big\" : \"small\");",
+          "puzzle": "let x = 5;\nconsole.log(x > 3 ___ \"big\" : \"small\");",
+          "output": "big"
+        },
+        {
+          "level": 35,
+          "topic": "typeof (operators)",
+          "syntax": "console.log(typeof null);",
+          "puzzle": "console.log(___ null);",
+          "output": "object"
+        }
+      ]
+    },
+    {
+      "part": "Part 4 - Control Flow",
+      "items": [
+        {
+          "level": 36,
+          "topic": "if",
+          "syntax": "if (5 > 3) {\n    console.log(\"Yes\");\n}",
+          "puzzle": "___ (5 > 3) {\n    console.log(\"Yes\");\n}",
+          "output": "Yes"
+        },
+        {
+          "level": 37,
+          "topic": "else if",
+          "syntax": "let x = 2;\nif (x === 1) {\n    console.log(\"One\");\n} else if (x === 2) {\n    console.log(\"Two\");\n}",
+          "puzzle": "let x = 2;\nif (x === 1) {\n    console.log(\"One\");\n} ___ (x === 2) {\n    console.log(\"Two\");\n}",
+          "output": "Two"
+        },
+        {
+          "level": 38,
+          "topic": "else",
+          "syntax": "let x = 5;\nif (x > 10) {\n    console.log(\"Big\");\n} else {\n    console.log(\"Small\");\n}",
+          "puzzle": "let x = 5;\nif (x > 10) {\n    console.log(\"Big\");\n} ___ {\n    console.log(\"Small\");\n}",
+          "output": "Small"
+        },
+        {
+          "level": 39,
+          "topic": "switch",
+          "syntax": "let day = 2;\nswitch (day) {\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n}",
+          "puzzle": "let day = 2;\n___ (day) {\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n}",
+          "output": "Tuesday"
+        },
+        {
+          "level": 40,
+          "topic": "for loop",
+          "syntax": "for (let i = 0; i < 3; i++) {\n    console.log(i);\n}",
+          "puzzle": "___ (let i = 0; i < 3; i++) {\n    console.log(i);\n}",
+          "output": "0\n1\n2"
+        },
+        {
+          "level": 41,
+          "topic": "for...of",
+          "syntax": "for (const n of [1, 2, 3]) {\n    console.log(n);\n}",
+          "puzzle": "for (const n ___ [1, 2, 3]) {\n    console.log(n);\n}",
+          "output": "1\n2\n3"
+        },
+        {
+          "level": 42,
+          "topic": "for...in",
+          "syntax": "let obj = { a: 1, b: 2 };\nfor (const key in obj) {\n    console.log(key);\n}",
+          "puzzle": "let obj = { a: 1, b: 2 };\nfor (const key ___ obj) {\n    console.log(key);\n}",
+          "output": "a\nb"
+        },
+        {
+          "level": 43,
+          "topic": "while",
+          "syntax": "let n = 3;\nwhile (n > 0) {\n    console.log(n);\n    n--;\n}",
+          "puzzle": "let n = 3;\n___ (n > 0) {\n    console.log(n);\n    n--;\n}",
+          "output": "3\n2\n1"
+        },
+        {
+          "level": 44,
+          "topic": "do...while",
+          "syntax": "let n = 0;\ndo {\n    console.log(n);\n    n++;\n} while (n < 1);",
+          "puzzle": "let n = 0;\n___ {\n    console.log(n);\n    n++;\n} while (n < 1);",
+          "output": "0"
+        },
+        {
+          "level": 45,
+          "topic": "break and continue",
+          "syntax": "for (let i = 0; i < 5; i++) {\n    if (i === 3) break;\n    console.log(i);\n}",
+          "puzzle": "for (let i = 0; i < 5; i++) {\n    if (i === 3) ___;\n    console.log(i);\n}",
+          "output": "0\n1\n2"
+        }
+      ]
+    },
+    {
+      "part": "Part 5 - Functions & Arrow Functions",
+      "items": [
+        {
+          "level": 46,
+          "topic": "Function declaration",
+          "syntax": "function greet() {\n    console.log(\"Hello\");\n}\ngreet();",
+          "puzzle": "___ greet() {\n    console.log(\"Hello\");\n}\ngreet();",
+          "output": "Hello"
+        },
+        {
+          "level": 47,
+          "topic": "Function expression",
+          "syntax": "const greet = function() {\n    return \"Hi\";\n};\nconsole.log(greet());",
+          "puzzle": "const greet = ___() {\n    return \"Hi\";\n};\nconsole.log(greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 48,
+          "topic": "Arrow function",
+          "syntax": "const square = (x) => x * x;\nconsole.log(square(4));",
+          "puzzle": "const square = (x) ___ x * x;\nconsole.log(square(4));",
+          "output": "16"
+        },
+        {
+          "level": 49,
+          "topic": "Default parameters",
+          "syntax": "function greet(name = \"Guest\") {\n    console.log(\"Hi \" + name);\n}\ngreet();",
+          "puzzle": "function greet(name ___) {\n    console.log(\"Hi \" + name);\n}\ngreet();",
+          "output": "Hi Guest"
+        },
+        {
+          "level": 50,
+          "topic": "Rest parameters",
+          "syntax": "function total(...nums) {\n    console.log(nums.reduce((a, b) => a + b));\n}\ntotal(1, 2, 3);",
+          "puzzle": "function total(___) {\n    console.log(nums.reduce((a, b) => a + b));\n}\ntotal(1, 2, 3);",
+          "output": "6"
+        },
+        {
+          "level": 51,
+          "topic": "Return values",
+          "syntax": "function add(a, b) {\n    return a + b;\n}\nconsole.log(add(2, 3));",
+          "puzzle": "function add(a, b) {\n    ___ a + b;\n}\nconsole.log(add(2, 3));",
+          "output": "5"
+        },
+        {
+          "level": 52,
+          "topic": "IIFE",
+          "syntax": "(function() {\n    console.log(\"Ran immediately\");\n})();",
+          "puzzle": "___;",
+          "output": "Ran immediately"
+        },
+        {
+          "level": 53,
+          "topic": "Callback functions",
+          "syntax": "function process(cb) {\n    cb();\n}\nprocess(() => console.log(\"Callback ran\"));",
+          "puzzle": "function process(cb) {\n    ___;\n}\nprocess(() => console.log(\"Callback ran\"));",
+          "output": "Callback ran"
+        },
+        {
+          "level": 54,
+          "topic": "Higher-order functions",
+          "syntax": "function apply(fn, x) {\n    return fn(x);\n}\nconsole.log(apply((x) => x * 2, 5));",
+          "puzzle": "function apply(fn, x) {\n    return ___;\n}\nconsole.log(apply((x) => x * 2, 5));",
+          "output": "10"
+        },
+        {
+          "level": 55,
+          "topic": "Closures",
+          "syntax": "function outer() {\n    let msg = \"Hi\";\n    return function() {\n        return msg;\n    };\n}\nconsole.log(outer()());",
+          "puzzle": "function outer() {\n    let msg = \"Hi\";\n    return function() {\n        ___;\n    };\n}\nconsole.log(outer()());",
+          "output": "Hi"
+        },
+        {
+          "level": 56,
+          "topic": "this keyword",
+          "syntax": "const obj = {\n    name: \"Ava\",\n    greet() {\n        return this.name;\n    }\n};\nconsole.log(obj.greet());",
+          "puzzle": "const obj = {\n    name: \"Ava\",\n    greet() {\n        return ___;\n    }\n};\nconsole.log(obj.greet());",
+          "output": "Ava"
+        },
+        {
+          "level": 57,
+          "topic": "arguments object",
+          "syntax": "function sum() {\n    return arguments.length;\n}\nconsole.log(sum(1, 2, 3));",
+          "puzzle": "function sum() {\n    return ___.length;\n}\nconsole.log(sum(1, 2, 3));",
+          "output": "3"
+        }
+      ]
+    },
+    {
+      "part": "Part 6 - Arrays",
+      "items": [
+        {
+          "level": 58,
+          "topic": "Array literal",
+          "syntax": "let nums = [1, 2, 3];\nconsole.log(nums);",
+          "puzzle": "let nums = ___;\nconsole.log(nums);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 59,
+          "topic": "Array indexing",
+          "syntax": "let nums = [10, 20, 30];\nconsole.log(nums[1]);",
+          "puzzle": "let nums = [10, 20, 30];\nconsole.log(___);",
+          "output": "20"
+        },
+        {
+          "level": 60,
+          "topic": "length property",
+          "syntax": "let nums = [1, 2, 3];\nconsole.log(nums.length);",
+          "puzzle": "let nums = [1, 2, 3];\nconsole.log(nums.___);",
+          "output": "3"
+        },
+        {
+          "level": 61,
+          "topic": "push()",
+          "syntax": "let nums = [1, 2];\nnums.push(3);\nconsole.log(nums);",
+          "puzzle": "let nums = [1, 2];\nnums.___(3);\nconsole.log(nums);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 62,
+          "topic": "pop()",
+          "syntax": "let nums = [1, 2, 3];\nnums.pop();\nconsole.log(nums);",
+          "puzzle": "let nums = [1, 2, 3];\nnums.___();\nconsole.log(nums);",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 63,
+          "topic": "shift()",
+          "syntax": "let nums = [1, 2, 3];\nnums.shift();\nconsole.log(nums);",
+          "puzzle": "let nums = [1, 2, 3];\nnums.___();\nconsole.log(nums);",
+          "output": "[ 2, 3 ]"
+        },
+        {
+          "level": 64,
+          "topic": "unshift()",
+          "syntax": "let nums = [2, 3];\nnums.unshift(1);\nconsole.log(nums);",
+          "puzzle": "let nums = [2, 3];\nnums.___(1);\nconsole.log(nums);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 65,
+          "topic": "slice()",
+          "syntax": "let nums = [1, 2, 3, 4];\nconsole.log(nums.slice(1, 3));",
+          "puzzle": "let nums = [1, 2, 3, 4];\nconsole.log(nums.___(1, 3));",
+          "output": "[ 2, 3 ]"
+        },
+        {
+          "level": 66,
+          "topic": "splice()",
+          "syntax": "let nums = [1, 2, 3];\nnums.splice(1, 1);\nconsole.log(nums);",
+          "puzzle": "let nums = [1, 2, 3];\nnums.___(1, 1);\nconsole.log(nums);",
+          "output": "[ 1, 3 ]"
+        },
+        {
+          "level": 67,
+          "topic": "map()",
+          "syntax": "let nums = [1, 2, 3];\nconsole.log(nums.map((x) => x * 2));",
+          "puzzle": "let nums = [1, 2, 3];\nconsole.log(nums.___((x) => x * 2));",
+          "output": "[ 2, 4, 6 ]"
+        },
+        {
+          "level": 68,
+          "topic": "filter()",
+          "syntax": "let nums = [1, 2, 3, 4];\nconsole.log(nums.filter((x) => x % 2 === 0));",
+          "puzzle": "let nums = [1, 2, 3, 4];\nconsole.log(nums.___((x) => x % 2 === 0));",
+          "output": "[ 2, 4 ]"
+        },
+        {
+          "level": 69,
+          "topic": "reduce()",
+          "syntax": "let nums = [1, 2, 3, 4];\nconsole.log(nums.reduce((a, b) => a + b));",
+          "puzzle": "let nums = [1, 2, 3, 4];\nconsole.log(nums.___((a, b) => a + b));",
+          "output": "10"
+        },
+        {
+          "level": 70,
+          "topic": "forEach()",
+          "syntax": "let nums = [1, 2, 3];\nnums.forEach((n) => console.log(n));",
+          "puzzle": "let nums = [1, 2, 3];\nnums.___((n) => console.log(n));",
+          "output": "1\n2\n3"
+        },
+        {
+          "level": 71,
+          "topic": "find()",
+          "syntax": "let nums = [1, 2, 3, 4];\nconsole.log(nums.find((x) => x > 2));",
+          "puzzle": "let nums = [1, 2, 3, 4];\nconsole.log(nums.___((x) => x > 2));",
+          "output": "3"
+        }
+      ]
+    },
+    {
+      "part": "Part 7 - Objects",
+      "items": [
+        {
+          "level": 72,
+          "topic": "Object literal",
+          "syntax": "let user = { name: \"Ava\", age: 21 };\nconsole.log(user);",
+          "puzzle": "let user = ___;\nconsole.log(user);",
+          "output": "{ name: 'Ava', age: 21 }"
+        },
+        {
+          "level": 73,
+          "topic": "Dot notation",
+          "syntax": "let user = { name: \"Ava\" };\nconsole.log(user.name);",
+          "puzzle": "let user = { name: \"Ava\" };\nconsole.log(___);",
+          "output": "Ava"
+        },
+        {
+          "level": 74,
+          "topic": "Bracket notation",
+          "syntax": "let user = { name: \"Ava\" };\nconsole.log(user[\"name\"]);",
+          "puzzle": "let user = { name: \"Ava\" };\nconsole.log(___);",
+          "output": "Ava"
+        },
+        {
+          "level": 75,
+          "topic": "Object.keys()",
+          "syntax": "let obj = { a: 1, b: 2 };\nconsole.log(Object.keys(obj));",
+          "puzzle": "let obj = { a: 1, b: 2 };\nconsole.log(___(obj));",
+          "output": "[ 'a', 'b' ]"
+        },
+        {
+          "level": 76,
+          "topic": "Object.values()",
+          "syntax": "let obj = { a: 1, b: 2 };\nconsole.log(Object.values(obj));",
+          "puzzle": "let obj = { a: 1, b: 2 };\nconsole.log(___(obj));",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 77,
+          "topic": "Object.entries()",
+          "syntax": "let obj = { a: 1 };\nconsole.log(Object.entries(obj));",
+          "puzzle": "let obj = { a: 1 };\nconsole.log(___(obj));",
+          "output": "[ [ 'a', 1 ] ]"
+        },
+        {
+          "level": 78,
+          "topic": "Object.assign()",
+          "syntax": "let a = { x: 1 };\nlet b = Object.assign({}, a, { y: 2 });\nconsole.log(b);",
+          "puzzle": "let a = { x: 1 };\nlet b = ___({}, a, { y: 2 });\nconsole.log(b);",
+          "output": "{ x: 1, y: 2 }"
+        },
+        {
+          "level": 79,
+          "topic": "Object methods",
+          "syntax": "let obj = {\n    greet() {\n        return \"Hi\";\n    }\n};\nconsole.log(obj.greet());",
+          "puzzle": "let obj = {\n    ___ {\n        return \"Hi\";\n    }\n};\nconsole.log(obj.greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 80,
+          "topic": "Nested objects",
+          "syntax": "let data = { user: { name: \"Ava\" } };\nconsole.log(data.user.name);",
+          "puzzle": "let data = { user: { name: \"Ava\" } };\nconsole.log(___);",
+          "output": "Ava"
+        },
+        {
+          "level": 81,
+          "topic": "delete operator",
+          "syntax": "let obj = { a: 1, b: 2 };\ndelete obj.a;\nconsole.log(obj);",
+          "puzzle": "let obj = { a: 1, b: 2 };\n___ obj.a;\nconsole.log(obj);",
+          "output": "{ b: 2 }"
+        }
+      ]
+    },
+    {
+      "part": "Part 8 - Destructuring & Spread/Rest",
+      "items": [
+        {
+          "level": 82,
+          "topic": "Array destructuring",
+          "syntax": "let [a, b] = [1, 2];\nconsole.log(a, b);",
+          "puzzle": "let ___ = [1, 2];\nconsole.log(a, b);",
+          "output": "1 2"
+        },
+        {
+          "level": 83,
+          "topic": "Object destructuring",
+          "syntax": "let { name } = { name: \"Ava\" };\nconsole.log(name);",
+          "puzzle": "let ___ = { name: \"Ava\" };\nconsole.log(name);",
+          "output": "Ava"
+        },
+        {
+          "level": 84,
+          "topic": "Default in destructuring",
+          "syntax": "let { name = \"Guest\" } = {};\nconsole.log(name);",
+          "puzzle": "let { name ___ } = {};\nconsole.log(name);",
+          "output": "Guest"
+        },
+        {
+          "level": 85,
+          "topic": "Spread in array",
+          "syntax": "let a = [1, 2];\nlet b = [...a, 3];\nconsole.log(b);",
+          "puzzle": "let a = [1, 2];\nlet b = [___, 3];\nconsole.log(b);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 86,
+          "topic": "Spread in object",
+          "syntax": "let a = { x: 1 };\nlet b = { ...a, y: 2 };\nconsole.log(b);",
+          "puzzle": "let a = { x: 1 };\nlet b = { ___, y: 2 };\nconsole.log(b);",
+          "output": "{ x: 1, y: 2 }"
+        },
+        {
+          "level": 87,
+          "topic": "Rest in function",
+          "syntax": "function total(...nums) {\n    return nums.length;\n}\nconsole.log(total(1, 2, 3));",
+          "puzzle": "function total(___) {\n    return nums.length;\n}\nconsole.log(total(1, 2, 3));",
+          "output": "3"
+        },
+        {
+          "level": 88,
+          "topic": "Rest in destructuring",
+          "syntax": "let [first, ...rest] = [1, 2, 3];\nconsole.log(rest);",
+          "puzzle": "let [first, ___] = [1, 2, 3];\nconsole.log(rest);",
+          "output": "[ 2, 3 ]"
+        },
+        {
+          "level": 89,
+          "topic": "Nested destructuring",
+          "syntax": "let { user: { name } } = { user: { name: \"Ava\" } };\nconsole.log(name);",
+          "puzzle": "let { user: ___ } = { user: { name: \"Ava\" } };\nconsole.log(name);",
+          "output": "Ava"
+        }
+      ]
+    },
+    {
+      "part": "Part 9 - Template Literals & Strings",
+      "items": [
+        {
+          "level": 90,
+          "topic": "Template literals - practice 2",
+          "syntax": "let x = 5;\nconsole.log(`Value: ${x}`);",
+          "puzzle": "let x = 5;\nconsole.log(___);",
+          "output": "Value: 5"
+        },
+        {
+          "level": 91,
+          "topic": "String interpolation",
+          "syntax": "let a = 2, b = 3;\nconsole.log(`${a} + ${b} = ${a + b}`);",
+          "puzzle": "let a = 2, b = 3;\nconsole.log(`${a} + ${b} = ___`);",
+          "output": "2 + 3 = 5"
+        },
+        {
+          "level": 92,
+          "topic": "Multi-line strings",
+          "syntax": "console.log(`Line1\nLine2`);",
+          "puzzle": "console.log(___);",
+          "output": "Line1\nLine2"
+        },
+        {
+          "level": 93,
+          "topic": "toUpperCase()",
+          "syntax": "let s = \"hello\";\nconsole.log(s.toUpperCase());",
+          "puzzle": "let s = \"hello\";\nconsole.log(s.___());",
+          "output": "HELLO"
+        },
+        {
+          "level": 94,
+          "topic": "includes()",
+          "syntax": "let s = \"hello world\";\nconsole.log(s.includes(\"world\"));",
+          "puzzle": "let s = \"hello world\";\nconsole.log(s.___(\"world\"));",
+          "output": "true"
+        },
+        {
+          "level": 95,
+          "topic": "split()",
+          "syntax": "let s = \"a,b,c\";\nconsole.log(s.split(\",\"));",
+          "puzzle": "let s = \"a,b,c\";\nconsole.log(s.___(\",\"));",
+          "output": "[ 'a', 'b', 'c' ]"
+        },
+        {
+          "level": 96,
+          "topic": "trim()",
+          "syntax": "let s = \"  hi  \";\nconsole.log(s.trim());",
+          "puzzle": "let s = \"  hi  \";\nconsole.log(s.___());",
+          "output": "hi"
+        },
+        {
+          "level": 97,
+          "topic": "padStart()",
+          "syntax": "let s = \"5\";\nconsole.log(s.padStart(3, \"0\"));",
+          "puzzle": "let s = \"5\";\nconsole.log(s.___(3, \"0\"));",
+          "output": "005"
+        }
+      ]
+    },
+    {
+      "part": "Part 10 - ES6+ Modules",
+      "items": [
+        {
+          "level": 98,
+          "topic": "export",
+          "syntax": "// utils.js\nexport function greet() {\n    return \"Hi\";\n}",
+          "puzzle": "// utils.js\n___ function greet() {\n    return \"Hi\";\n}",
+          "output": ""
+        },
+        {
+          "level": 99,
+          "topic": "export default",
+          "syntax": "// App.js\nexport default function App() {\n    return \"Hi\";\n}",
+          "puzzle": "// App.js\n___ function App() {\n    return \"Hi\";\n}",
+          "output": ""
+        },
+        {
+          "level": 100,
+          "topic": "import",
+          "syntax": "// main.js\nimport { greet } from \"./utils.js\";\nconsole.log(greet());",
+          "puzzle": "// main.js\n___ { greet } from \"./utils.js\";\nconsole.log(greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 101,
+          "topic": "Default import",
+          "syntax": "// main.js\nimport App from \"./App.js\";\nconsole.log(App());",
+          "puzzle": "// main.js\n___ from \"./App.js\";\nconsole.log(App());",
+          "output": "Hi"
+        },
+        {
+          "level": 102,
+          "topic": "import as",
+          "syntax": "import * as utils from \"./utils.js\";\nconsole.log(utils.greet());",
+          "puzzle": "import * ___ utils from \"./utils.js\";\nconsole.log(utils.greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 103,
+          "topic": "Re-exporting",
+          "syntax": "// index.js\nexport { greet } from \"./utils.js\";",
+          "puzzle": "// index.js\n___ { greet } from \"./utils.js\";",
+          "output": ""
+        },
+        {
+          "level": 104,
+          "topic": "Dynamic import",
+          "syntax": "import(\"./utils.js\").then((mod) => console.log(mod.greet()));",
+          "puzzle": "___.then((mod) => console.log(mod.greet()));",
+          "output": "Hi"
+        },
+        {
+          "level": 105,
+          "topic": "Named exports (multiple)",
+          "syntax": "export const a = 1;\nexport const b = 2;",
+          "puzzle": "___ = 1;\nexport const b = 2;",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 11 - Promises & Async/Await",
+      "items": [
+        {
+          "level": 106,
+          "topic": "Promise",
+          "syntax": "let p = new Promise((resolve) => resolve(5));\np.then((v) => console.log(v));",
+          "puzzle": "let p = new ___((resolve) => resolve(5));\np.then((v) => console.log(v));",
+          "output": "5"
+        },
+        {
+          "level": 107,
+          "topic": "resolve",
+          "syntax": "new Promise((resolve) => resolve(\"done\")).then((v) => console.log(v));",
+          "puzzle": "new Promise((___) => resolve(\"done\")).then((v) => console.log(v));",
+          "output": "done"
+        },
+        {
+          "level": 108,
+          "topic": "reject",
+          "syntax": "new Promise((_, reject) => reject(\"fail\")).catch((e) => console.log(e));",
+          "puzzle": "new Promise((___, ___) => reject(\"fail\")).catch((e) => console.log(e));",
+          "output": "fail"
+        },
+        {
+          "level": 109,
+          "topic": ".then()",
+          "syntax": "Promise.resolve(5).then((v) => console.log(v));",
+          "puzzle": "Promise.resolve(5).___((v) => console.log(v));",
+          "output": "5"
+        },
+        {
+          "level": 110,
+          "topic": ".catch()",
+          "syntax": "Promise.reject(\"error\").catch((e) => console.log(e));",
+          "puzzle": "Promise.reject(\"error\").___((e) => console.log(e));",
+          "output": "error"
+        },
+        {
+          "level": 111,
+          "topic": ".finally()",
+          "syntax": "Promise.resolve(1).finally(() => console.log(\"Done\"));",
+          "puzzle": "Promise.resolve(1).___(() => console.log(\"Done\"));",
+          "output": "Done"
+        },
+        {
+          "level": 112,
+          "topic": "async function",
+          "syntax": "async function greet() {\n    return \"Hi\";\n}\ngreet().then((v) => console.log(v));",
+          "puzzle": "___ function greet() {\n    return \"Hi\";\n}\ngreet().then((v) => console.log(v));",
+          "output": "Hi"
+        },
+        {
+          "level": 113,
+          "topic": "await",
+          "syntax": "async function main() {\n    let v = await Promise.resolve(10);\n    console.log(v);\n}\nmain();",
+          "puzzle": "async function main() {\n    let v = ___ Promise.resolve(10);\n    console.log(v);\n}\nmain();",
+          "output": "10"
+        },
+        {
+          "level": 114,
+          "topic": "Promise.all",
+          "syntax": "Promise.all([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "puzzle": "___([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 115,
+          "topic": "Promise.race",
+          "syntax": "Promise.race([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "puzzle": "___([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "output": "1"
+        },
+        {
+          "level": 116,
+          "topic": "try/catch with async",
+          "syntax": "async function main() {\n    try {\n        await Promise.reject(\"fail\");\n    } catch (e) {\n        console.log(e);\n    }\n}\nmain();",
+          "puzzle": "async function main() {\n    try {\n        await Promise.reject(\"fail\");\n    } ___ (e) {\n        console.log(e);\n    }\n}\nmain();",
+          "output": "fail"
+        },
+        {
+          "level": 117,
+          "topic": "fetch basics",
+          "syntax": "fetch(\"/api/users\").then((r) => r.json()).then((data) => console.log(data));",
+          "puzzle": "___(\"/api/users\").then((r) => r.json()).then((data) => console.log(data));",
+          "output": "{ id: 1 }"
+        }
+      ]
+    },
+    {
+      "part": "Part 12 - Error Handling (JavaScript)",
+      "items": [
+        {
+          "level": 118,
+          "topic": "try",
+          "syntax": "try {\n    console.log(1 / 1);\n} catch (e) {\n    console.log(\"Error\");\n}",
+          "puzzle": "___ {\n    console.log(1 / 1);\n} catch (e) {\n    console.log(\"Error\");\n}",
+          "output": "1"
+        },
+        {
+          "level": 119,
+          "topic": "catch",
+          "syntax": "try {\n    null.x;\n} catch (e) {\n    console.log(\"Caught error\");\n}",
+          "puzzle": "try {\n    null.x;\n} ___ (e) {\n    console.log(\"Caught error\");\n}",
+          "output": "Caught error"
+        },
+        {
+          "level": 120,
+          "topic": "finally",
+          "syntax": "try {\n    throw new Error(\"fail\");\n} catch (e) {\n    console.log(\"Error\");\n} finally {\n    console.log(\"Cleanup\");\n}",
+          "puzzle": "try {\n    throw new Error(\"fail\");\n} catch (e) {\n    console.log(\"Error\");\n} ___ {\n    console.log(\"Cleanup\");\n}",
+          "output": "Error\nCleanup"
+        },
+        {
+          "level": 121,
+          "topic": "throw",
+          "syntax": "function check(x) {\n    if (x < 0) throw new Error(\"Negative\");\n    return x;\n}\ntry { check(-1); } catch (e) { console.log(e.message); }",
+          "puzzle": "function check(x) {\n    if (x < 0) ___ new Error(\"Negative\");\n    return x;\n}\ntry { check(-1); } catch (e) { console.log(e.message); }",
+          "output": "Negative"
+        },
+        {
+          "level": 122,
+          "topic": "Custom error class",
+          "syntax": "class MyError extends Error {}\ntry {\n    throw new MyError(\"Custom fail\");\n} catch (e) {\n    console.log(e.message);\n}",
+          "puzzle": "class MyError ___ Error {}\ntry {\n    throw new MyError(\"Custom fail\");\n} catch (e) {\n    console.log(e.message);\n}",
+          "output": "Custom fail"
+        },
+        {
+          "level": 123,
+          "topic": "error.message",
+          "syntax": "try {\n    JSON.parse(\"{bad}\");\n} catch (e) {\n    console.log(typeof e.message);\n}",
+          "puzzle": "try {\n    JSON.parse(\"{bad}\");\n} catch (e) {\n    console.log(typeof e.___);\n}",
+          "output": "string"
+        },
+        {
+          "level": 124,
+          "topic": "instanceof Error",
+          "syntax": "try {\n    throw new TypeError(\"bad type\");\n} catch (e) {\n    console.log(e instanceof Error);\n}",
+          "puzzle": "try {\n    throw new TypeError(\"bad type\");\n} catch (e) {\n    console.log(e ___ Error);\n}",
+          "output": "true"
+        }
+      ]
+    },
+    {
+      "part": "Part 13 - Classes (JavaScript)",
+      "items": [
+        {
+          "level": 125,
+          "topic": "class declaration",
+          "syntax": "class Dog {}\nconsole.log(typeof Dog);",
+          "puzzle": "___ Dog {}\nconsole.log(typeof Dog);",
+          "output": "function"
+        },
+        {
+          "level": 126,
+          "topic": "constructor",
+          "syntax": "class Dog {\n    constructor(name) {\n        this.name = name;\n    }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "puzzle": "class Dog {\n    ___(name) {\n        this.name = name;\n    }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "output": "Rex"
+        },
+        {
+          "level": 127,
+          "topic": "Methods",
+          "syntax": "class Dog {\n    bark() {\n        return \"Woof\";\n    }\n}\nconsole.log(new Dog().bark());",
+          "puzzle": "class Dog {\n    ___ {\n        return \"Woof\";\n    }\n}\nconsole.log(new Dog().bark());",
+          "output": "Woof"
+        },
+        {
+          "level": 128,
+          "topic": "Inheritance (extends)",
+          "syntax": "class Animal {\n    speak() { return \"...\"; }\n}\nclass Dog extends Animal {\n    speak() { return \"Woof\"; }\n}\nconsole.log(new Dog().speak());",
+          "puzzle": "class Animal {\n    speak() { return \"...\"; }\n}\nclass Dog ___ Animal {\n    speak() { return \"Woof\"; }\n}\nconsole.log(new Dog().speak());",
+          "output": "Woof"
+        },
+        {
+          "level": 129,
+          "topic": "super()",
+          "syntax": "class Animal {\n    constructor(name) { this.name = name; }\n}\nclass Dog extends Animal {\n    constructor(name) { super(name); }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "puzzle": "class Animal {\n    constructor(name) { this.name = name; }\n}\nclass Dog extends Animal {\n    constructor(name) { ___; }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "output": "Rex"
+        },
+        {
+          "level": 130,
+          "topic": "Static methods",
+          "syntax": "class MathUtil {\n    static add(a, b) { return a + b; }\n}\nconsole.log(MathUtil.add(2, 3));",
+          "puzzle": "class MathUtil {\n    ___ add(a, b) { return a + b; }\n}\nconsole.log(MathUtil.add(2, 3));",
+          "output": "5"
+        },
+        {
+          "level": 131,
+          "topic": "Getters",
+          "syntax": "class Circle {\n    constructor(r) { this._r = r; }\n    get radius() { return this._r; }\n}\nconsole.log(new Circle(5).radius);",
+          "puzzle": "class Circle {\n    constructor(r) { this.___r = r; }\n    ___ radius() { return this.___r; }\n}\nconsole.log(new Circle(5).radius);",
+          "output": "5"
+        },
+        {
+          "level": 132,
+          "topic": "Setters",
+          "syntax": "class Circle {\n    constructor(r) { this._r = r; }\n    set radius(v) { this._r = v; }\n    get radius() { return this._r; }\n}\nlet c = new Circle(5);\nc.radius = 10;\nconsole.log(c.radius);",
+          "puzzle": "class Circle {\n    constructor(r) { this.___r = r; }\n    ___ radius(v) { this.___r = v; }\n    get radius() { return this.___r; }\n}\nlet c = new Circle(5);\nc.radius = 10;\nconsole.log(c.radius);",
+          "output": "10"
+        },
+        {
+          "level": 133,
+          "topic": "Private fields",
+          "syntax": "class Account {\n    #balance = 100;\n    getBalance() { return this.#balance; }\n}\nconsole.log(new Account().getBalance());",
+          "puzzle": "class Account {\n    ___ = 100;\n    getBalance() { return this.#balance; }\n}\nconsole.log(new Account().getBalance());",
+          "output": "100"
+        },
+        {
+          "level": 134,
+          "topic": "instanceof",
+          "syntax": "class Dog {}\nconsole.log(new Dog() instanceof Dog);",
+          "puzzle": "class Dog {}\nconsole.log(new Dog() ___ Dog);",
+          "output": "true"
+        }
+      ]
+    },
+    {
+      "part": "Part 14 - DOM & Events Basics",
+      "items": [
+        {
+          "level": 135,
+          "topic": "querySelector",
+          "syntax": "const el = document.querySelector(\"#title\");\nconsole.log(el.textContent);",
+          "puzzle": "const el = document.___(\"#title\");\nconsole.log(el.textContent);",
+          "output": "Hello"
+        },
+        {
+          "level": 136,
+          "topic": "getElementById",
+          "syntax": "const el = document.getElementById(\"title\");\nconsole.log(el.textContent);",
+          "puzzle": "const el = document.___(\"title\");\nconsole.log(el.textContent);",
+          "output": "Hello"
+        },
+        {
+          "level": 137,
+          "topic": "addEventListener",
+          "syntax": "btn.addEventListener(\"click\", () => console.log(\"Clicked\"));",
+          "puzzle": "btn.___(\"click\", () => console.log(\"Clicked\"));",
+          "output": "Clicked"
+        },
+        {
+          "level": 138,
+          "topic": "createElement",
+          "syntax": "const div = document.createElement(\"div\");\nconsole.log(div.tagName);",
+          "puzzle": "const div = document.___(\"div\");\nconsole.log(div.tagName);",
+          "output": "DIV"
+        },
+        {
+          "level": 139,
+          "topic": "appendChild",
+          "syntax": "parent.appendChild(child);\nconsole.log(parent.children.length);",
+          "puzzle": "parent.___(child);\nconsole.log(parent.children.length);",
+          "output": "1"
+        },
+        {
+          "level": 140,
+          "topic": "innerHTML",
+          "syntax": "div.innerHTML = \"<p>Hi</p>\";\nconsole.log(div.innerHTML);",
+          "puzzle": "div.___ = \"<p>Hi</p>\";\nconsole.log(div.innerHTML);",
+          "output": "<p>Hi</p>"
+        },
+        {
+          "level": 141,
+          "topic": "classList.add",
+          "syntax": "div.classList.add(\"active\");\nconsole.log(div.className);",
+          "puzzle": "div.___.add(\"active\");\nconsole.log(div.className);",
+          "output": "active"
+        },
+        {
+          "level": 142,
+          "topic": "event.target",
+          "syntax": "btn.addEventListener(\"click\", (e) => console.log(e.target.id));",
+          "puzzle": "btn.addEventListener(\"click\", (e) => console.log(___.id));",
+          "output": "submitBtn"
+        },
+        {
+          "level": 143,
+          "topic": "preventDefault",
+          "syntax": "form.addEventListener(\"submit\", (e) => {\n    e.preventDefault();\n    console.log(\"Submit blocked\");\n});",
+          "puzzle": "form.addEventListener(\"submit\", (e) => {\n    e.___();\n    console.log(\"Submit blocked\");\n});",
+          "output": "Submit blocked"
+        },
+        {
+          "level": 144,
+          "topic": "removeEventListener",
+          "syntax": "btn.removeEventListener(\"click\", handler);\nconsole.log(\"Listener removed\");",
+          "puzzle": "btn.___(\"click\", handler);\nconsole.log(\"Listener removed\");",
+          "output": "Listener removed"
+        }
+      ]
+    },
+    {
+      "part": "Part 15 - React Basics & JSX",
+      "items": [
+        {
+          "level": 145,
+          "topic": "JSX element",
+          "syntax": "const element = <h1>Hello, World!</h1>;\nconsole.log(element.type);",
+          "puzzle": "const element = ___;\nconsole.log(element.type);",
+          "output": "h1"
+        },
+        {
+          "level": 146,
+          "topic": "Embedding expressions",
+          "syntax": "const name = \"Ava\";\nconst el = <h1>Hi {name}</h1>;",
+          "puzzle": "const name = \"Ava\";\nconst el = <h1>Hi ___</h1>;",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 147,
+          "topic": "className attribute",
+          "syntax": "const el = <div className=\"card\">Hi</div>;",
+          "puzzle": "const el = <div ___=\"card\">Hi</div>;",
+          "output": "card"
+        },
+        {
+          "level": 148,
+          "topic": "Fragments",
+          "syntax": "const el = <>\n    <h1>Title</h1>\n    <p>Text</p>\n</>;",
+          "puzzle": "const el = ___\n    <h1>Title</h1>\n    <p>Text</p>\n</>;",
+          "output": "Title\nText"
+        },
+        {
+          "level": 149,
+          "topic": "ReactDOM.createRoot",
+          "syntax": "const root = ReactDOM.createRoot(document.getElementById(\"root\"));\nroot.render(<App />);",
+          "puzzle": "const root = ReactDOM.___(document.getElementById(\"root\"));\nroot.render(<App />);",
+          "output": "App rendered"
+        },
+        {
+          "level": 150,
+          "topic": "Single root element",
+          "syntax": "function App() {\n    return (\n        <div>\n            <h1>Title</h1>\n        </div>\n    );\n}",
+          "puzzle": "function App() {\n    return (\n        ___\n            <h1>Title</h1>\n        </div>\n    );\n}",
+          "output": "Title"
+        },
+        {
+          "level": 151,
+          "topic": "Self-closing tags",
+          "syntax": "const img = <img src=\"logo.png\" />;",
+          "puzzle": "const img = <img src=\"logo.png\" ___;",
+          "output": "logo.png"
+        },
+        {
+          "level": 152,
+          "topic": "Conditional className",
+          "syntax": "const el = <div className={isActive ? \"active\" : \"\"}>Hi</div>;",
+          "puzzle": "const el = <div className={___ ? \"active\" : \"\"}>Hi</div>;",
+          "output": "active"
+        },
+        {
+          "level": 153,
+          "topic": "Comments in JSX",
+          "syntax": "const el = (\n    <div>\n        {/* This is a comment */}\n        <p>Hi</p>\n    </div>\n);",
+          "puzzle": "const el = (\n    <div>\n        ___\n        <p>Hi</p>\n    </div>\n);",
+          "output": "Hi"
+        },
+        {
+          "level": 154,
+          "topic": "React import",
+          "syntax": "import React from \"react\";\nconst el = <h1>Hi</h1>;",
+          "puzzle": "___ from \"react\";\nconst el = <h1>Hi</h1>;",
+          "output": "Hi"
+        },
+        {
+          "level": 155,
+          "topic": "StrictMode",
+          "syntax": "<React.StrictMode>\n    <App />\n</React.StrictMode>;",
+          "puzzle": "<React.___>\n    <App />\n</React.StrictMode>;",
+          "output": "App"
+        }
+      ]
+    },
+    {
+      "part": "Part 16 - Components (Functional/Class)",
+      "items": [
+        {
+          "level": 156,
+          "topic": "Functional component",
+          "syntax": "function Greeting() {\n    return <h1>Hello</h1>;\n}\nconsole.log(typeof Greeting);",
+          "puzzle": "___ Greeting() {\n    return <h1>Hello</h1>;\n}\nconsole.log(typeof Greeting);",
+          "output": "function"
+        },
+        {
+          "level": 157,
+          "topic": "Class component",
+          "syntax": "class Greeting extends React.Component {\n    render() {\n        return <h1>Hello</h1>;\n    }\n}",
+          "puzzle": "class Greeting ___ {\n    render() {\n        return <h1>Hello</h1>;\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 158,
+          "topic": "render() method",
+          "syntax": "class Greeting extends React.Component {\n    render() {\n        return <h1>Hi</h1>;\n    }\n}",
+          "puzzle": "class Greeting extends React.Component {\n    ___ {\n        return <h1>Hi</h1>;\n    }\n}",
+          "output": "Hi"
+        },
+        {
+          "level": 159,
+          "topic": "Exporting a component",
+          "syntax": "export default function App() {\n    return <h1>App</h1>;\n}",
+          "puzzle": "___ function App() {\n    return <h1>App</h1>;\n}",
+          "output": "App"
+        },
+        {
+          "level": 160,
+          "topic": "Importing a component",
+          "syntax": "import Greeting from \"./Greeting\";\nfunction App() {\n    return <Greeting />;\n}",
+          "puzzle": "___ from \"./Greeting\";\nfunction App() {\n    return <Greeting />;\n}",
+          "output": ""
+        },
+        {
+          "level": 161,
+          "topic": "Component composition",
+          "syntax": "function App() {\n    return (\n        <div>\n            <Header />\n            <Footer />\n        </div>\n    );\n}",
+          "puzzle": "function App() {\n    return (\n        <div>\n            ___\n            <Footer />\n        </div>\n    );\n}",
+          "output": ""
+        },
+        {
+          "level": 162,
+          "topic": "children prop",
+          "syntax": "function Card({ children }) {\n    return <div className=\"card\">{children}</div>;\n}",
+          "puzzle": "function Card({ ___ }) {\n    return <div className=\"card\">{children}</div>;\n}",
+          "output": ""
+        },
+        {
+          "level": 163,
+          "topic": "Fragment shorthand",
+          "syntax": "function List() {\n    return (\n        <>\n            <li>A</li>\n            <li>B</li>\n        </>\n    );\n}",
+          "puzzle": "function List() {\n    return (\n        ___\n            <li>A</li>\n            <li>B</li>\n        </>\n    );\n}",
+          "output": "A\nB"
+        },
+        {
+          "level": 164,
+          "topic": "PureComponent",
+          "syntax": "class Greeting extends React.PureComponent {\n    render() {\n        return <h1>Hi</h1>;\n    }\n}",
+          "puzzle": "class Greeting extends React.___ {\n    render() {\n        return <h1>Hi</h1>;\n    }\n}",
+          "output": "Hi"
+        },
+        {
+          "level": 165,
+          "topic": "Component naming (capitalized)",
+          "syntax": "function myComponent() {\n    return <p>Hi</p>;\n}\n// Should be capitalized: MyComponent",
+          "puzzle": "function myComponent() {\n    return <p>Hi</p>;\n}\n// Should be capitalized: ___",
+          "output": "Hi"
+        }
+      ]
+    },
+    {
+      "part": "Part 17 - Props",
+      "items": [
+        {
+          "level": 166,
+          "topic": "Passing props",
+          "syntax": "function Greeting(props) {\n    return <h1>Hi {props.name}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "puzzle": "function Greeting(props) {\n    return <h1>Hi {___}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 167,
+          "topic": "Destructuring props",
+          "syntax": "function Greeting({ name }) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "puzzle": "function Greeting(___) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 168,
+          "topic": "Default props",
+          "syntax": "function Greeting({ name = \"Guest\" }) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting />;",
+          "puzzle": "function Greeting({ name ___ }) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting />;",
+          "output": "Hi Guest"
+        },
+        {
+          "level": 169,
+          "topic": "props.children",
+          "syntax": "function Card(props) {\n    return <div>{props.children}</div>;\n}\n<Card><p>Hi</p></Card>;",
+          "puzzle": "function Card(props) {\n    return <div>{___}</div>;\n}\n<Card><p>Hi</p></Card>;",
+          "output": "Hi"
+        },
+        {
+          "level": 170,
+          "topic": "PropTypes",
+          "syntax": "Greeting.propTypes = {\n    name: PropTypes.string\n};",
+          "puzzle": "Greeting.___ = {\n    name: PropTypes.string\n};",
+          "output": ""
+        },
+        {
+          "level": 171,
+          "topic": "Prop drilling",
+          "syntax": "function App() {\n    return <Parent user=\"Ava\" />;\n}\nfunction Parent({ user }) {\n    return <Child user={user} />;\n}",
+          "puzzle": "function App() {\n    return <Parent user=\"Ava\" />;\n}\nfunction Parent({ user }) {\n    return <Child ___ />;\n}",
+          "output": "Ava"
+        },
+        {
+          "level": 172,
+          "topic": "Read-only props",
+          "syntax": "function Greeting(props) {\n    // props.name = \"New\"; // not allowed\n    return <h1>{props.name}</h1>;\n}",
+          "puzzle": "function Greeting(props) {\n    // props.name = \"New\"; // ___\n    return <h1>{props.name}</h1>;\n}",
+          "output": ""
+        },
+        {
+          "level": 173,
+          "topic": "Spreading props",
+          "syntax": "function Button(props) {\n    return <button {...props} />;\n}\n<Button onClick={handleClick} />;",
+          "puzzle": "function Button(props) {\n    return <button ___ />;\n}\n<Button onClick={handleClick} />;",
+          "output": ""
+        },
+        {
+          "level": 174,
+          "topic": "Function as prop",
+          "syntax": "function Button({ onClick }) {\n    return <button onClick={onClick}>Click</button>;\n}",
+          "puzzle": "function Button({ ___ }) {\n    return <button onClick={onClick}>Click</button>;\n}",
+          "output": "Click"
+        },
+        {
+          "level": 175,
+          "topic": "Conditional prop",
+          "syntax": "function Button({ disabled }) {\n    return <button disabled={disabled}>Go</button>;\n}",
+          "puzzle": "function Button({ ___ }) {\n    return <button disabled={disabled}>Go</button>;\n}",
+          "output": "Go"
+        }
+      ]
+    },
+    {
+      "part": "Part 18 - State (useState)",
+      "items": [
+        {
+          "level": 176,
+          "topic": "useState import",
+          "syntax": "import { useState } from \"react\";\nconst [count, setCount] = useState(0);\nconsole.log(count);",
+          "puzzle": "import { ___ } from \"react\";\nconst [count, setCount] = useState(0);\nconsole.log(count);",
+          "output": "0"
+        },
+        {
+          "level": 177,
+          "topic": "useState initialization",
+          "syntax": "const [count, setCount] = useState(5);\nconsole.log(count);",
+          "puzzle": "const [count, setCount] = ___;\nconsole.log(count);",
+          "output": "5"
+        },
+        {
+          "level": 178,
+          "topic": "setState function",
+          "syntax": "const [count, setCount] = useState(0);\nsetCount(1);\nconsole.log(count);",
+          "puzzle": "const [count, ___] = useState(0);\nsetCount(1);\nconsole.log(count);",
+          "output": "0"
+        },
+        {
+          "level": 179,
+          "topic": "Updating state with function",
+          "syntax": "const [count, setCount] = useState(0);\nsetCount((prev) => prev + 1);",
+          "puzzle": "const [count, setCount] = useState(0);\nsetCount(___);",
+          "output": "1"
+        },
+        {
+          "level": 180,
+          "topic": "Multiple state variables",
+          "syntax": "const [name, setName] = useState(\"\");\nconst [age, setAge] = useState(0);\nconsole.log(name, age);",
+          "puzzle": "const [name, setName] = useState(\"\");\nconst [age, setAge] = ___;\nconsole.log(name, age);",
+          "output": " 0"
+        },
+        {
+          "level": 181,
+          "topic": "Object state update",
+          "syntax": "const [user, setUser] = useState({ name: \"Ava\" });\nsetUser({ ...user, age: 21 });",
+          "puzzle": "const [user, setUser] = useState({ name: \"Ava\" });\nsetUser({ ___, age: 21 });",
+          "output": ""
+        },
+        {
+          "level": 182,
+          "topic": "Array state update",
+          "syntax": "const [items, setItems] = useState([1, 2]);\nsetItems([...items, 3]);\nconsole.log(items);",
+          "puzzle": "const [items, setItems] = useState([1, 2]);\nsetItems([___, 3]);\nconsole.log(items);",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 183,
+          "topic": "Lazy initial state",
+          "syntax": "const [value] = useState(() => expensiveCalc());\nconsole.log(typeof value);",
+          "puzzle": "const [value] = useState(___);\nconsole.log(typeof value);",
+          "output": "number"
+        },
+        {
+          "level": 184,
+          "topic": "State immutability",
+          "syntax": "const arr = [1, 2];\nconst newArr = [...arr, 3];\nconsole.log(arr);",
+          "puzzle": "const arr = [1, 2];\nconst newArr = [___, 3];\nconsole.log(arr);",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 185,
+          "topic": "Re-render trigger",
+          "syntax": "const [count, setCount] = useState(0);\nreturn <button onClick={() => setCount(count + 1)}>{count}</button>;",
+          "puzzle": "const [count, setCount] = useState(0);\nreturn <button onClick={() => ___}>{count}</button>;",
+          "output": "0"
+        }
+      ]
+    },
+    {
+      "part": "Part 19 - Lifecycle & useEffect",
+      "items": [
+        {
+          "level": 186,
+          "topic": "useEffect import",
+          "syntax": "import { useEffect } from \"react\";\nuseEffect(() => console.log(\"Ran\"));",
+          "puzzle": "import { ___ } from \"react\";\nuseEffect(() => console.log(\"Ran\"));",
+          "output": "Ran"
+        },
+        {
+          "level": 187,
+          "topic": "useEffect basic",
+          "syntax": "useEffect(() => {\n    console.log(\"Effect ran\");\n});",
+          "puzzle": "___(() => {\n    console.log(\"Effect ran\");\n});",
+          "output": "Effect ran"
+        },
+        {
+          "level": 188,
+          "topic": "useEffect with dependency array",
+          "syntax": "useEffect(() => {\n    console.log(\"Count changed\");\n}, [count]);",
+          "puzzle": "useEffect(() => {\n    console.log(\"Count changed\");\n}, ___);",
+          "output": "Count changed"
+        },
+        {
+          "level": 189,
+          "topic": "useEffect empty array",
+          "syntax": "useEffect(() => {\n    console.log(\"Mounted once\");\n}, []);",
+          "puzzle": "useEffect(() => {\n    console.log(\"Mounted once\");\n}, ___);",
+          "output": "Mounted once"
+        },
+        {
+          "level": 190,
+          "topic": "Cleanup function",
+          "syntax": "useEffect(() => {\n    const id = setInterval(() => {}, 1000);\n    return () => clearInterval(id);\n}, []);",
+          "puzzle": "useEffect(() => {\n    const id = setInterval(() => {}, 1000);\n    ___;\n}, []);",
+          "output": ""
+        },
+        {
+          "level": 191,
+          "topic": "componentDidMount",
+          "syntax": "class App extends React.Component {\n    componentDidMount() {\n        console.log(\"Mounted\");\n    }\n}",
+          "puzzle": "class App extends React.Component {\n    ___() {\n        console.log(\"Mounted\");\n    }\n}",
+          "output": "Mounted"
+        },
+        {
+          "level": 192,
+          "topic": "componentDidUpdate",
+          "syntax": "class App extends React.Component {\n    componentDidUpdate() {\n        console.log(\"Updated\");\n    }\n}",
+          "puzzle": "class App extends React.Component {\n    ___() {\n        console.log(\"Updated\");\n    }\n}",
+          "output": "Updated"
+        },
+        {
+          "level": 193,
+          "topic": "componentWillUnmount",
+          "syntax": "class App extends React.Component {\n    componentWillUnmount() {\n        console.log(\"Unmounted\");\n    }\n}",
+          "puzzle": "class App extends React.Component {\n    ___() {\n        console.log(\"Unmounted\");\n    }\n}",
+          "output": "Unmounted"
+        },
+        {
+          "level": 194,
+          "topic": "useLayoutEffect",
+          "syntax": "import { useLayoutEffect } from \"react\";\nuseLayoutEffect(() => console.log(\"Layout effect\"));",
+          "puzzle": "import { ___ } from \"react\";\nuseLayoutEffect(() => console.log(\"Layout effect\"));",
+          "output": "Layout effect"
+        },
+        {
+          "level": 195,
+          "topic": "Effect dependencies",
+          "syntax": "useEffect(() => {\n    console.log(userId);\n}, [userId]);",
+          "puzzle": "useEffect(() => {\n    console.log(userId);\n}, ___);",
+          "output": ""
+        },
+        {
+          "level": 196,
+          "topic": "Multiple effects",
+          "syntax": "useEffect(() => console.log(\"First\"));\nuseEffect(() => console.log(\"Second\"));",
+          "puzzle": "useEffect(() => console.log(\"First\"));\n___;",
+          "output": "First\nSecond"
+        },
+        {
+          "level": 197,
+          "topic": "Data fetching in effect",
+          "syntax": "useEffect(() => {\n    fetch(\"/api/data\").then((r) => r.json()).then(setData);\n}, []);",
+          "puzzle": "useEffect(() => {\n    ___(\"/api/data\").then((r) => r.json()).then(setData);\n}, []);",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 20 - Event Handling in React",
+      "items": [
+        {
+          "level": 198,
+          "topic": "onClick",
+          "syntax": "function Button() {\n    return <button onClick={() => console.log(\"Clicked\")}>Go</button>;\n}",
+          "puzzle": "function Button() {\n    return <button ___={() => console.log(\"Clicked\")}>Go</button>;\n}",
+          "output": "Clicked"
+        },
+        {
+          "level": 199,
+          "topic": "onChange",
+          "syntax": "function Input() {\n    return <input onChange={(e) => console.log(e.target.value)} />;\n}",
+          "puzzle": "function Input() {\n    return <input ___={(e) => console.log(e.target.value)} />;\n}",
+          "output": ""
+        },
+        {
+          "level": 200,
+          "topic": "Event handler function",
+          "syntax": "function handleClick() {\n    console.log(\"Handled\");\n}\n<button onClick={handleClick}>Go</button>;",
+          "puzzle": "function ___() {\n    console.log(\"Handled\");\n}\n<button onClick={handleClick}>Go</button>;",
+          "output": "Handled"
+        },
+        {
+          "level": 201,
+          "topic": "Passing arguments to handler",
+          "syntax": "<button onClick={() => handleClick(5)}>Go</button>;",
+          "puzzle": "<button onClick={___}>Go</button>;",
+          "output": ""
+        },
+        {
+          "level": 202,
+          "topic": "Synthetic event",
+          "syntax": "function handle(e) {\n    console.log(e.type);\n}\n<button onClick={handle}>Go</button>;",
+          "puzzle": "function handle(e) {\n    console.log(___);\n}\n<button onClick={handle}>Go</button>;",
+          "output": "click"
+        },
+        {
+          "level": 203,
+          "topic": "preventDefault in React",
+          "syntax": "function handleSubmit(e) {\n    e.preventDefault();\n    console.log(\"Blocked\");\n}",
+          "puzzle": "function handleSubmit(e) {\n    e.___();\n    console.log(\"Blocked\");\n}",
+          "output": "Blocked"
+        },
+        {
+          "level": 204,
+          "topic": "onSubmit",
+          "syntax": "<form onSubmit={handleSubmit}>\n    <button type=\"submit\">Send</button>\n</form>;",
+          "puzzle": "<form ___={handleSubmit}>\n    <button type=\"submit\">Send</button>\n</form>;",
+          "output": ""
+        },
+        {
+          "level": 205,
+          "topic": "Inline handler",
+          "syntax": "<button onClick={() => console.log(\"Inline\")}>Go</button>;",
+          "puzzle": "<button onClick={___}>Go</button>;",
+          "output": "Inline"
+        }
+      ]
+    },
+    {
+      "part": "Part 21 - Conditional Rendering",
+      "items": [
+        {
+          "level": 206,
+          "topic": "Variable-based conditional",
+          "syntax": "let message;\nif (loggedIn) {\n    message = <h1>Welcome</h1>;\n} else {\n    message = <h1>Please log in</h1>;\n}",
+          "puzzle": "let message;\n___ (loggedIn) {\n    message = <h1>Welcome</h1>;\n} else {\n    message = <h1>Please log in</h1>;\n}",
+          "output": "Welcome"
+        },
+        {
+          "level": 207,
+          "topic": "Ternary in JSX",
+          "syntax": "<div>{isActive ? <p>Active</p> : <p>Inactive</p>}</div>;",
+          "puzzle": "<div>{isActive ___ <p>Active</p> : <p>Inactive</p>}</div>;",
+          "output": "Active"
+        },
+        {
+          "level": 208,
+          "topic": "Logical && rendering",
+          "syntax": "<div>{unreadCount > 0 && <span>{unreadCount} new</span>}</div>;",
+          "puzzle": "<div>{unreadCount > 0 ___ <span>{unreadCount} new</span>}</div>;",
+          "output": "3 new"
+        },
+        {
+          "level": 209,
+          "topic": "Switch-based rendering",
+          "syntax": "function render(status) {\n    switch (status) {\n        case \"loading\":\n            return <p>Loading...</p>;\n    }\n}",
+          "puzzle": "function render(status) {\n    ___ (status) {\n        case \"loading\":\n            return <p>Loading...</p>;\n    }\n}",
+          "output": "Loading..."
+        },
+        {
+          "level": 210,
+          "topic": "Rendering null",
+          "syntax": "function Banner({ show }) {\n    if (!show) return null;\n    return <div>Banner</div>;\n}",
+          "puzzle": "function Banner({ show }) {\n    if (!show) ___;\n    return <div>Banner</div>;\n}",
+          "output": ""
+        },
+        {
+          "level": 211,
+          "topic": "Short-circuit rendering",
+          "syntax": "<div>{items.length > 0 && <List items={items} />}</div>;",
+          "puzzle": "<div>{___ <List items={items} />}</div>;",
+          "output": ""
+        },
+        {
+          "level": 212,
+          "topic": "Conditional component rendering",
+          "syntax": "{isAdmin ? <AdminPanel /> : <UserPanel />}",
+          "puzzle": "{___ ? <AdminPanel /> : <UserPanel />}",
+          "output": ""
+        },
+        {
+          "level": 213,
+          "topic": "Guard clause pattern",
+          "syntax": "function Profile({ user }) {\n    if (!user) return <p>No user</p>;\n    return <p>{user.name}</p>;\n}",
+          "puzzle": "function Profile({ user }) {\n    ___ return <p>No user</p>;\n    return <p>{user.name}</p>;\n}",
+          "output": "No user"
+        }
+      ]
+    },
+    {
+      "part": "Part 22 - Lists & Keys",
+      "items": [
+        {
+          "level": 214,
+          "topic": "map() to render list",
+          "syntax": "const items = [1, 2, 3];\nconst list = items.map((n) => <li>{n}</li>);",
+          "puzzle": "const items = [1, 2, 3];\nconst list = items.___((n) => <li>{n}</li>);",
+          "output": ""
+        },
+        {
+          "level": 215,
+          "topic": "key prop",
+          "syntax": "items.map((item) => <li key={item.id}>{item.name}</li>);",
+          "puzzle": "items.map((item) => <li ___={item.id}>{item.name}</li>);",
+          "output": ""
+        },
+        {
+          "level": 216,
+          "topic": "Unique keys",
+          "syntax": "users.map((u) => <li key={u.id}>{u.name}</li>);",
+          "puzzle": "users.map((u) => <li key={___}>{u.name}</li>);",
+          "output": ""
+        },
+        {
+          "level": 217,
+          "topic": "Nested lists",
+          "syntax": "categories.map((c) => (\n    <ul key={c.id}>\n        {c.items.map((i) => <li key={i.id}>{i.name}</li>)}\n    </ul>\n));",
+          "puzzle": "categories.map((c) => (\n    <ul key={c.id}>\n        {___((i) => <li key={i.id}>{i.name}</li>)}\n    </ul>\n));",
+          "output": ""
+        },
+        {
+          "level": 218,
+          "topic": "Filtering before rendering",
+          "syntax": "items.filter((i) => i.active).map((i) => <li key={i.id}>{i.name}</li>);",
+          "puzzle": "items.___((i) => i.active).map((i) => <li key={i.id}>{i.name}</li>);",
+          "output": ""
+        },
+        {
+          "level": 219,
+          "topic": "Index as key (caution)",
+          "syntax": "items.map((item, index) => <li key={index}>{item}</li>);",
+          "puzzle": "items.map((item, ___) => <li key={index}>{item}</li>);",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 23 - Forms & Controlled Components",
+      "items": [
+        {
+          "level": 220,
+          "topic": "Controlled input",
+          "syntax": "const [value, setValue] = useState(\"\");\n<input value={value} onChange={(e) => setValue(e.target.value)} />;",
+          "puzzle": "const [value, setValue] = useState(\"\");\n<input ___ onChange={(e) => setValue(e.target.value)} />;",
+          "output": ""
+        },
+        {
+          "level": 221,
+          "topic": "value + onChange",
+          "syntax": "<input value={name} onChange={(e) => setName(e.target.value)} />;",
+          "puzzle": "<input value={name} ___={(e) => setName(e.target.value)} />;",
+          "output": ""
+        },
+        {
+          "level": 222,
+          "topic": "Controlled textarea",
+          "syntax": "<textarea value={text} onChange={(e) => setText(e.target.value)} />;",
+          "puzzle": "<___ value={text} onChange={(e) => setText(e.target.value)} />;",
+          "output": ""
+        },
+        {
+          "level": 223,
+          "topic": "Controlled select",
+          "syntax": "<select value={fruit} onChange={(e) => setFruit(e.target.value)}>\n    <option value=\"apple\">Apple</option>\n</select>;",
+          "puzzle": "<___ value={fruit} onChange={(e) => setFruit(e.target.value)}>\n    <option value=\"apple\">Apple</option>\n</select>;",
+          "output": ""
+        },
+        {
+          "level": 224,
+          "topic": "Controlled checkbox",
+          "syntax": "<input type=\"checkbox\" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} />;",
+          "puzzle": "<input type=\"checkbox\" ___={agreed} onChange={(e) => setAgreed(e.target.checked)} />;",
+          "output": ""
+        },
+        {
+          "level": 225,
+          "topic": "Form onSubmit",
+          "syntax": "<form onSubmit={(e) => {\n    e.preventDefault();\n    console.log(\"Submitted\");\n}}>\n</form>;",
+          "puzzle": "<form ___={(e) => {\n    e.preventDefault();\n    console.log(\"Submitted\");\n}}>\n</form>;",
+          "output": "Submitted"
+        },
+        {
+          "level": 226,
+          "topic": "Multiple inputs, one handler",
+          "syntax": "function handleChange(e) {\n    setForm({ ...form, [e.target.name]: e.target.value });\n}",
+          "puzzle": "function handleChange(e) {\n    setForm({ ...form, ___: e.target.value });\n}",
+          "output": ""
+        },
+        {
+          "level": 227,
+          "topic": "useState for form",
+          "syntax": "const [form, setForm] = useState({ name: \"\", email: \"\" });\nconsole.log(form);",
+          "puzzle": "const [form, setForm] = ___({ name: \"\", email: \"\" });\nconsole.log(form);",
+          "output": "{ name: '', email: '' }"
+        },
+        {
+          "level": 228,
+          "topic": "Basic form validation",
+          "syntax": "if (!email.includes(\"@\")) {\n    console.log(\"Invalid email\");\n}",
+          "puzzle": "if (!email.___(\"@\")) {\n    console.log(\"Invalid email\");\n}",
+          "output": "Invalid email"
+        },
+        {
+          "level": 229,
+          "topic": "Uncontrolled ref input",
+          "syntax": "const inputRef = useRef();\n<input ref={inputRef} />;\nconsole.log(inputRef.current.value);",
+          "puzzle": "const inputRef = useRef();\n<input ___={inputRef} />;\nconsole.log(inputRef.current.value);",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 24 - Hooks: useRef, useMemo, useCallback",
+      "items": [
+        {
+          "level": 230,
+          "topic": "useRef import",
+          "syntax": "import { useRef } from \"react\";\nconst ref = useRef(0);\nconsole.log(ref.current);",
+          "puzzle": "import { ___ } from \"react\";\nconst ref = useRef(0);\nconsole.log(ref.current);",
+          "output": "0"
+        },
+        {
+          "level": 231,
+          "topic": "useRef DOM reference",
+          "syntax": "const inputRef = useRef(null);\n<input ref={inputRef} />;\ninputRef.current.focus();",
+          "puzzle": "const inputRef = useRef(null);\n<input ref={inputRef} />;\n___.focus();",
+          "output": ""
+        },
+        {
+          "level": 232,
+          "topic": "useRef mutable value",
+          "syntax": "const renderCount = useRef(0);\nrenderCount.current += 1;\nconsole.log(renderCount.current);",
+          "puzzle": "const renderCount = useRef(0);\n___ += 1;\nconsole.log(renderCount.current);",
+          "output": "1"
+        },
+        {
+          "level": 233,
+          "topic": "useMemo import",
+          "syntax": "import { useMemo } from \"react\";\nconst value = useMemo(() => 2 + 2, []);\nconsole.log(value);",
+          "puzzle": "import { ___ } from \"react\";\nconst value = useMemo(() => 2 + 2, []);\nconsole.log(value);",
+          "output": "4"
+        },
+        {
+          "level": 234,
+          "topic": "useMemo basic",
+          "syntax": "const total = useMemo(() => items.reduce((a, b) => a + b, 0), [items]);",
+          "puzzle": "const total = ___(() => items.reduce((a, b) => a + b, 0), [items]);",
+          "output": ""
+        },
+        {
+          "level": 235,
+          "topic": "useCallback import",
+          "syntax": "import { useCallback } from \"react\";\nconst fn = useCallback(() => console.log(\"Called\"), []);\nfn();",
+          "puzzle": "import { ___ } from \"react\";\nconst fn = useCallback(() => console.log(\"Called\"), []);\nfn();",
+          "output": "Called"
+        },
+        {
+          "level": 236,
+          "topic": "useCallback basic",
+          "syntax": "const handleClick = useCallback(() => setCount(count + 1), [count]);",
+          "puzzle": "const handleClick = ___(() => setCount(count + 1), [count]);",
+          "output": ""
+        },
+        {
+          "level": 237,
+          "topic": "Memoization concept",
+          "syntax": "const expensive = useMemo(() => computeHeavy(data), [data]);",
+          "puzzle": "const expensive = ___(() => computeHeavy(data), [data]);",
+          "output": ""
+        },
+        {
+          "level": 238,
+          "topic": "Dependency array in useMemo",
+          "syntax": "const doubled = useMemo(() => x * 2, [x]);\nconsole.log(doubled);",
+          "puzzle": "const doubled = useMemo(() => x * 2, ___);\nconsole.log(doubled);",
+          "output": "10"
+        },
+        {
+          "level": 239,
+          "topic": "Avoiding re-renders",
+          "syntax": "const memoChild = React.memo(Child);",
+          "puzzle": "const memoChild = ___(Child);",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 25 - useContext & useReducer",
+      "items": [
+        {
+          "level": 240,
+          "topic": "createContext",
+          "syntax": "const ThemeContext = React.createContext(\"light\");\nconsole.log(ThemeContext._currentValue);",
+          "puzzle": "const ThemeContext = React.___(\"light\");\nconsole.log(ThemeContext.___currentValue);",
+          "output": "light"
+        },
+        {
+          "level": 241,
+          "topic": "Context.Provider",
+          "syntax": "<ThemeContext.Provider value=\"dark\">\n    <App />\n</ThemeContext.Provider>;",
+          "puzzle": "<ThemeContext.___ value=\"dark\">\n    <App />\n</ThemeContext.Provider>;",
+          "output": "dark"
+        },
+        {
+          "level": 242,
+          "topic": "useContext",
+          "syntax": "import { useContext } from \"react\";\nconst theme = useContext(ThemeContext);\nconsole.log(theme);",
+          "puzzle": "import { ___ } from \"react\";\nconst theme = useContext(ThemeContext);\nconsole.log(theme);",
+          "output": "light"
+        },
+        {
+          "level": 243,
+          "topic": "useReducer import",
+          "syntax": "import { useReducer } from \"react\";\nconst [state, dispatch] = useReducer(reducer, 0);\nconsole.log(state);",
+          "puzzle": "import { ___ } from \"react\";\nconst [state, dispatch] = useReducer(reducer, 0);\nconsole.log(state);",
+          "output": "0"
+        },
+        {
+          "level": 244,
+          "topic": "useReducer basic",
+          "syntax": "function reducer(state, action) {\n    return state + 1;\n}\nconst [count, dispatch] = useReducer(reducer, 0);",
+          "puzzle": "function ___(state, action) {\n    return state + 1;\n}\nconst [count, dispatch] = useReducer(reducer, 0);",
+          "output": ""
+        },
+        {
+          "level": 245,
+          "topic": "dispatch action",
+          "syntax": "dispatch({ type: \"increment\" });\nconsole.log(\"Dispatched\");",
+          "puzzle": "___({ type: \"increment\" });\nconsole.log(\"Dispatched\");",
+          "output": "Dispatched"
+        },
+        {
+          "level": 246,
+          "topic": "Reducer function",
+          "syntax": "function reducer(state, action) {\n    switch (action.type) {\n        case \"increment\":\n            return state + 1;\n        default:\n            return state;\n    }\n}",
+          "puzzle": "function reducer(state, action) {\n    ___ (action.type) {\n        case \"increment\":\n            return state + 1;\n        default:\n            return state;\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 247,
+          "topic": "Initial state (useReducer)",
+          "syntax": "const [state, dispatch] = useReducer(reducer, { count: 0 });\nconsole.log(state.count);",
+          "puzzle": "const [state, dispatch] = useReducer(reducer, ___);\nconsole.log(state.count);",
+          "output": "0"
+        }
+      ]
+    },
+    {
+      "part": "Part 26 - Custom Hooks",
+      "items": [
+        {
+          "level": 248,
+          "topic": "Custom hook naming",
+          "syntax": "function useCounter() {\n    const [count, setCount] = useState(0);\n    return { count, setCount };\n}",
+          "puzzle": "function ___() {\n    const [count, setCount] = useState(0);\n    return { count, setCount };\n}",
+          "output": ""
+        },
+        {
+          "level": 249,
+          "topic": "Custom hook basic",
+          "syntax": "function useToggle() {\n    const [on, setOn] = useState(false);\n    return [on, () => setOn(!on)];\n}\nconst [on, toggle] = useToggle();\nconsole.log(on);",
+          "puzzle": "function ___() {\n    const [on, setOn] = useState(false);\n    return [on, () => setOn(!on)];\n}\nconst [on, toggle] = useToggle();\nconsole.log(on);",
+          "output": "false"
+        },
+        {
+          "level": 250,
+          "topic": "Returning values",
+          "syntax": "function useName() {\n    const [name] = useState(\"Ava\");\n    return name;\n}\nconsole.log(useName());",
+          "puzzle": "function useName() {\n    const [name] = useState(\"Ava\");\n    ___;\n}\nconsole.log(useName());",
+          "output": "Ava"
+        },
+        {
+          "level": 251,
+          "topic": "Reusing state logic",
+          "syntax": "function useCounter(initial) {\n    const [count, setCount] = useState(initial);\n    return { count, setCount };\n}",
+          "puzzle": "function useCounter(___) {\n    const [count, setCount] = useState(initial);\n    return { count, setCount };\n}",
+          "output": ""
+        },
+        {
+          "level": 252,
+          "topic": "Custom hook with useEffect",
+          "syntax": "function useTitle(title) {\n    useEffect(() => {\n        document.title = title;\n    }, [title]);\n}",
+          "puzzle": "function useTitle(title) {\n    ___(() => {\n        document.title = title;\n    }, [title]);\n}",
+          "output": ""
+        },
+        {
+          "level": 253,
+          "topic": "Custom hook parameters",
+          "syntax": "function useFetch(url) {\n    const [data, setData] = useState(null);\n    useEffect(() => {\n        fetch(url).then((r) => r.json()).then(setData);\n    }, [url]);\n    return data;\n}",
+          "puzzle": "function useFetch(___) {\n    const [data, setData] = useState(null);\n    useEffect(() => {\n        fetch(url).then((r) => r.json()).then(setData);\n    }, [url]);\n    return data;\n}",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 27 - Redux & State Management",
+      "items": [
+        {
+          "level": 254,
+          "topic": "Redux store",
+          "syntax": "import { createStore } from \"redux\";\nconst store = createStore(reducer);\nconsole.log(store.getState());",
+          "puzzle": "import { ___ } from \"redux\";\nconst store = createStore(reducer);\nconsole.log(store.getState());",
+          "output": "0"
+        },
+        {
+          "level": 255,
+          "topic": "configureStore (RTK)",
+          "syntax": "import { configureStore } from \"@reduxjs/toolkit\";\nconst store = configureStore({ reducer });",
+          "puzzle": "import { ___ } from \"@reduxjs/toolkit\";\nconst store = configureStore({ reducer });",
+          "output": ""
+        },
+        {
+          "level": 256,
+          "topic": "Reducer (Redux)",
+          "syntax": "function counterReducer(state = 0, action) {\n    switch (action.type) {\n        case \"increment\":\n            return state + 1;\n        default:\n            return state;\n    }\n}",
+          "puzzle": "function ___(state = 0, action) {\n    switch (action.type) {\n        case \"increment\":\n            return state + 1;\n        default:\n            return state;\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 257,
+          "topic": "dispatch (Redux)",
+          "syntax": "store.dispatch({ type: \"increment\" });\nconsole.log(store.getState());",
+          "puzzle": "store.___({ type: \"increment\" });\nconsole.log(store.getState());",
+          "output": "1"
+        },
+        {
+          "level": 258,
+          "topic": "useSelector",
+          "syntax": "import { useSelector } from \"react-redux\";\nconst count = useSelector((state) => state.count);\nconsole.log(count);",
+          "puzzle": "import { ___ } from \"react-redux\";\nconst count = useSelector((state) => state.count);\nconsole.log(count);",
+          "output": "0"
+        },
+        {
+          "level": 259,
+          "topic": "useDispatch",
+          "syntax": "import { useDispatch } from \"react-redux\";\nconst dispatch = useDispatch();\ndispatch({ type: \"increment\" });",
+          "puzzle": "import { ___ } from \"react-redux\";\nconst dispatch = useDispatch();\ndispatch({ type: \"increment\" });",
+          "output": ""
+        },
+        {
+          "level": 260,
+          "topic": "Redux Provider",
+          "syntax": "<Provider store={store}>\n    <App />\n</Provider>;",
+          "puzzle": "<___ store={store}>\n    <App />\n</Provider>;",
+          "output": ""
+        },
+        {
+          "level": 261,
+          "topic": "Redux Toolkit slice",
+          "syntax": "const counterSlice = createSlice({\n    name: \"counter\",\n    initialState: 0,\n    reducers: {}\n});",
+          "puzzle": "const counterSlice = ___({\n    name: \"counter\",\n    initialState: 0,\n    reducers: {}\n});",
+          "output": ""
+        },
+        {
+          "level": 262,
+          "topic": "Action creators",
+          "syntax": "function increment() {\n    return { type: \"increment\" };\n}\nconsole.log(increment());",
+          "puzzle": "function ___() {\n    return { type: \"increment\" };\n}\nconsole.log(increment());",
+          "output": "{ type: 'increment' }"
+        },
+        {
+          "level": 263,
+          "topic": "combineReducers",
+          "syntax": "import { combineReducers } from \"redux\";\nconst rootReducer = combineReducers({ counter: counterReducer });",
+          "puzzle": "import { ___ } from \"redux\";\nconst rootReducer = combineReducers({ counter: counterReducer });",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 28 - React Router",
+      "items": [
+        {
+          "level": 264,
+          "topic": "BrowserRouter",
+          "syntax": "<BrowserRouter>\n    <App />\n</BrowserRouter>;",
+          "puzzle": "<___>\n    <App />\n</BrowserRouter>;",
+          "output": ""
+        },
+        {
+          "level": 265,
+          "topic": "Routes",
+          "syntax": "<Routes>\n    <Route path=\"/\" element={<Home />} />\n</Routes>;",
+          "puzzle": "<___>\n    <Route path=\"/\" element={<Home />} />\n</Routes>;",
+          "output": ""
+        },
+        {
+          "level": 266,
+          "topic": "Route",
+          "syntax": "<Route path=\"/about\" element={<About />} />;",
+          "puzzle": "<___ path=\"/about\" element={<About />} />;",
+          "output": ""
+        },
+        {
+          "level": 267,
+          "topic": "Link",
+          "syntax": "<Link to=\"/about\">About</Link>;",
+          "puzzle": "<___ to=\"/about\">About</Link>;",
+          "output": "About"
+        },
+        {
+          "level": 268,
+          "topic": "useNavigate",
+          "syntax": "const navigate = useNavigate();\nnavigate(\"/home\");\nconsole.log(\"Navigated\");",
+          "puzzle": "const navigate = ___();\nnavigate(\"/home\");\nconsole.log(\"Navigated\");",
+          "output": "Navigated"
+        },
+        {
+          "level": 269,
+          "topic": "useParams",
+          "syntax": "const { id } = useParams();\nconsole.log(id);",
+          "puzzle": "const { id } = ___();\nconsole.log(id);",
+          "output": ""
+        },
+        {
+          "level": 270,
+          "topic": "NavLink",
+          "syntax": "<NavLink to=\"/\" className={({ isActive }) => isActive ? \"active\" : \"\"}>Home</NavLink>;",
+          "puzzle": "<___ to=\"/\" className={({ isActive }) => isActive ? \"active\" : \"\"}>Home</NavLink>;",
+          "output": "Home"
+        },
+        {
+          "level": 271,
+          "topic": "Nested routes",
+          "syntax": "<Route path=\"/dashboard\" element={<Dashboard />}>\n    <Route path=\"settings\" element={<Settings />} />\n</Route>;",
+          "puzzle": "<Route path=\"/dashboard\" element={<Dashboard />}>\n    <Route path=\"___\" element={<Settings />} />\n</Route>;",
+          "output": ""
+        },
+        {
+          "level": 272,
+          "topic": "Navigate (redirect)",
+          "syntax": "<Navigate to=\"/login\" replace />;",
+          "puzzle": "<___ to=\"/login\" replace />;",
+          "output": ""
+        },
+        {
+          "level": 273,
+          "topic": "useLocation",
+          "syntax": "const location = useLocation();\nconsole.log(location.pathname);",
+          "puzzle": "const location = ___();\nconsole.log(location.pathname);",
+          "output": "/home"
+        }
+      ]
+    },
+    {
+      "part": "Part 29 - Styling in React",
+      "items": [
+        {
+          "level": 274,
+          "topic": "Inline styles",
+          "syntax": "<div style={{ color: \"red\" }}>Hi</div>;",
+          "puzzle": "<div ___={{ color: \"red\" }}>Hi</div>;",
+          "output": ""
+        },
+        {
+          "level": 275,
+          "topic": "className with CSS",
+          "syntax": "<div className=\"card\">Hi</div>;\n// .card { padding: 10px; }",
+          "puzzle": "<div ___=\"card\">Hi</div>;\n// .card { padding: 10px; }",
+          "output": ""
+        },
+        {
+          "level": 276,
+          "topic": "CSS Modules import",
+          "syntax": "import styles from \"./App.module.css\";\n<div className={styles.card}>Hi</div>;",
+          "puzzle": "import ___ from \"./App.module.css\";\n<div className={styles.card}>Hi</div>;",
+          "output": ""
+        },
+        {
+          "level": 277,
+          "topic": "styled-components basic",
+          "syntax": "const Button = styled.button`\n    color: blue;\n`;",
+          "puzzle": "const Button = ___.button`\n    color: blue;\n`;",
+          "output": ""
+        },
+        {
+          "level": 278,
+          "topic": "Conditional styling",
+          "syntax": "<div className={isActive ? \"active\" : \"inactive\"}>Hi</div>;",
+          "puzzle": "<div className={___ ? \"active\" : \"inactive\"}>Hi</div>;",
+          "output": ""
+        },
+        {
+          "level": 279,
+          "topic": "classnames library",
+          "syntax": "import classNames from \"classnames\";\n<div className={classNames(\"btn\", { active: isActive })} />;",
+          "puzzle": "import ___ from \"classnames\";\n<div className={classNames(\"btn\", { active: isActive })} />;",
+          "output": ""
+        },
+        {
+          "level": 280,
+          "topic": "CSS-in-JS",
+          "syntax": "const style = { color: theme.primary };\n<div style={style}>Hi</div>;",
+          "puzzle": "const ___ = { color: theme.primary };\n<div style={style}>Hi</div>;",
+          "output": ""
+        },
+        {
+          "level": 281,
+          "topic": "Tailwind className",
+          "syntax": "<div className=\"flex items-center justify-center\">Hi</div>;",
+          "puzzle": "<div className=\"___ items-center justify-center\">Hi</div>;",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 30 - Performance Optimization",
+      "items": [
+        {
+          "level": 282,
+          "topic": "React.memo",
+          "syntax": "const Child = React.memo(function Child({ value }) {\n    return <p>{value}</p>;\n});",
+          "puzzle": "const Child = ___(function Child({ value }) {\n    return <p>{value}</p>;\n});",
+          "output": ""
+        },
+        {
+          "level": 283,
+          "topic": "useMemo for expensive calc",
+          "syntax": "const result = useMemo(() => heavyCompute(n), [n]);",
+          "puzzle": "const result = ___(() => heavyCompute(n), [n]);",
+          "output": ""
+        },
+        {
+          "level": 284,
+          "topic": "useCallback for stable fn",
+          "syntax": "const onClick = useCallback(() => doSomething(), []);",
+          "puzzle": "const onClick = ___(() => doSomething(), []);",
+          "output": ""
+        },
+        {
+          "level": 285,
+          "topic": "React.lazy",
+          "syntax": "const About = React.lazy(() => import(\"./About\"));",
+          "puzzle": "const About = ___(() => import(\"./About\"));",
+          "output": ""
+        },
+        {
+          "level": 286,
+          "topic": "Suspense",
+          "syntax": "<Suspense fallback={<p>Loading...</p>}>\n    <About />\n</Suspense>;",
+          "puzzle": "<___ fallback={<p>Loading...</p>}>\n    <About />\n</Suspense>;",
+          "output": "Loading..."
+        },
+        {
+          "level": 287,
+          "topic": "Code splitting",
+          "syntax": "const Settings = lazy(() => import(\"./Settings\"));",
+          "puzzle": "const Settings = ___(() => import(\"./Settings\"));",
+          "output": ""
+        },
+        {
+          "level": 288,
+          "topic": "Key stability for performance",
+          "syntax": "items.map((item) => <Row key={item.id} data={item} />);",
+          "puzzle": "items.map((item) => <Row key={___} data={item} />);",
+          "output": ""
+        },
+        {
+          "level": 289,
+          "topic": "Avoiding inline functions",
+          "syntax": "const handleClick = useCallback(() => setCount((c) => c + 1), []);",
+          "puzzle": "const handleClick = ___(() => setCount((c) => c + 1), []);",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 31 - Error Boundaries",
+      "items": [
+        {
+          "level": 290,
+          "topic": "componentDidCatch",
+          "syntax": "class ErrorBoundary extends React.Component {\n    componentDidCatch(error, info) {\n        console.log(error.message);\n    }\n}",
+          "puzzle": "class ErrorBoundary extends React.Component {\n    ___(error, info) {\n        console.log(error.message);\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 291,
+          "topic": "getDerivedStateFromError",
+          "syntax": "class ErrorBoundary extends React.Component {\n    static getDerivedStateFromError(error) {\n        return { hasError: true };\n    }\n}",
+          "puzzle": "class ErrorBoundary extends React.Component {\n    static ___(error) {\n        return { hasError: true };\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 292,
+          "topic": "Error boundary class",
+          "syntax": "class ErrorBoundary extends React.Component {\n    state = { hasError: false };\n    render() {\n        return this.props.children;\n    }\n}",
+          "puzzle": "class ___ extends React.Component {\n    state = { hasError: false };\n    render() {\n        return this.props.children;\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 293,
+          "topic": "Fallback UI",
+          "syntax": "if (this.state.hasError) {\n    return <h1>Something went wrong</h1>;\n}",
+          "puzzle": "if (this.state.hasError) {\n    return <h1>___</h1>;\n}",
+          "output": ""
+        },
+        {
+          "level": 294,
+          "topic": "Wrapping components",
+          "syntax": "<ErrorBoundary>\n    <App />\n</ErrorBoundary>;",
+          "puzzle": "<___>\n    <App />\n</ErrorBoundary>;",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 32 - Testing (Jest / React Testing Library)",
+      "items": [
+        {
+          "level": 295,
+          "topic": "test()",
+          "syntax": "test(\"adds numbers\", () => {\n    expect(1 + 1).toBe(2);\n});",
+          "puzzle": "___(\"adds numbers\", () => {\n    expect(1 + 1).toBe(2);\n});",
+          "output": ""
+        },
+        {
+          "level": 296,
+          "topic": "expect()",
+          "syntax": "expect(sum(2, 3)).toBe(5);",
+          "puzzle": "___(sum(2, 3)).toBe(5);",
+          "output": ""
+        },
+        {
+          "level": 297,
+          "topic": "toBe()",
+          "syntax": "expect(add(2, 2)).toBe(4);",
+          "puzzle": "expect(add(2, 2)).___(4);",
+          "output": ""
+        },
+        {
+          "level": 298,
+          "topic": "render() from RTL",
+          "syntax": "render(<Greeting name=\"Ava\" />);\nscreen.getByText(\"Hi Ava\");",
+          "puzzle": "___(<Greeting name=\"Ava\" />);\nscreen.getByText(\"Hi Ava\");",
+          "output": ""
+        },
+        {
+          "level": 299,
+          "topic": "screen.getByText",
+          "syntax": "render(<h1>Hello</h1>);\nexpect(screen.getByText(\"Hello\")).toBeInTheDocument();",
+          "puzzle": "render(<h1>Hello</h1>);\nexpect(screen.___(\"Hello\")).toBeInTheDocument();",
+          "output": ""
+        },
+        {
+          "level": 300,
+          "topic": "fireEvent.click",
+          "syntax": "fireEvent.click(screen.getByText(\"Submit\"));",
+          "puzzle": "___.click(screen.getByText(\"Submit\"));",
+          "output": ""
+        },
+        {
+          "level": 301,
+          "topic": "describe block",
+          "syntax": "describe(\"Button\", () => {\n    test(\"renders\", () => {});\n});",
+          "puzzle": "___(\"Button\", () => {\n    test(\"renders\", () => {});\n});",
+          "output": ""
+        },
+        {
+          "level": 302,
+          "topic": "jest.fn()",
+          "syntax": "const mockFn = jest.fn();\nmockFn();\nexpect(mockFn).toHaveBeenCalled();",
+          "puzzle": "const mockFn = ___();\nmockFn();\nexpect(mockFn).toHaveBeenCalled();",
+          "output": ""
+        },
+        {
+          "level": 303,
+          "topic": "toHaveBeenCalled",
+          "syntax": "expect(mockOnClick).toHaveBeenCalledTimes(1);",
+          "puzzle": "expect(mockOnClick).___(1);",
+          "output": ""
+        },
+        {
+          "level": 304,
+          "topic": "Snapshot testing",
+          "syntax": "expect(component).toMatchSnapshot();",
+          "puzzle": "expect(component).___();",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 33 - Fetching Data / APIs in React",
+      "items": [
+        {
+          "level": 305,
+          "topic": "fetch GET",
+          "syntax": "fetch(\"/api/users\").then((r) => r.json()).then(console.log);",
+          "puzzle": "___(\"/api/users\").then((r) => r.json()).then(console.log);",
+          "output": ""
+        },
+        {
+          "level": 306,
+          "topic": "fetch POST",
+          "syntax": "fetch(\"/api/users\", { method: \"POST\", body: JSON.stringify(user) });",
+          "puzzle": "fetch(\"/api/users\", { method: \"___\", body: JSON.stringify(user) });",
+          "output": ""
+        },
+        {
+          "level": 307,
+          "topic": "async fetching in useEffect",
+          "syntax": "useEffect(() => {\n    async function load() {\n        const r = await fetch(\"/api/data\");\n        setData(await r.json());\n    }\n    load();\n}, []);",
+          "puzzle": "useEffect(() => {\n    async function load() {\n        const r = ___ fetch(\"/api/data\");\n        setData(await r.json());\n    }\n    load();\n}, []);",
+          "output": ""
+        },
+        {
+          "level": 308,
+          "topic": "axios.get",
+          "syntax": "axios.get(\"/api/users\").then((res) => console.log(res.data));",
+          "puzzle": "___(\"/api/users\").then((res) => console.log(res.data));",
+          "output": ""
+        },
+        {
+          "level": 309,
+          "topic": "axios.post",
+          "syntax": "axios.post(\"/api/users\", { name: \"Ava\" });",
+          "puzzle": "___(\"/api/users\", { name: \"Ava\" });",
+          "output": ""
+        },
+        {
+          "level": 310,
+          "topic": "Loading state",
+          "syntax": "const [loading, setLoading] = useState(true);\nfetch(url).finally(() => setLoading(false));",
+          "puzzle": "const [___, setLoading] = useState(true);\nfetch(url).finally(() => setLoading(false));",
+          "output": ""
+        },
+        {
+          "level": 311,
+          "topic": "Error state",
+          "syntax": "const [error, setError] = useState(null);\nfetch(url).catch((e) => setError(e.message));",
+          "puzzle": "const [___, setError] = useState(null);\nfetch(url).catch((e) => setError(e.message));",
+          "output": ""
+        },
+        {
+          "level": 312,
+          "topic": ".json() parsing",
+          "syntax": "const res = await fetch(url);\nconst data = await res.json();",
+          "puzzle": "const res = await fetch(url);\nconst data = await res.___();",
+          "output": ""
+        },
+        {
+          "level": 313,
+          "topic": "AbortController",
+          "syntax": "const controller = new AbortController();\nfetch(url, { signal: controller.signal });",
+          "puzzle": "const controller = new ___();\nfetch(url, { signal: controller.signal });",
+          "output": ""
+        },
+        {
+          "level": 314,
+          "topic": "React Query concept",
+          "syntax": "const { data } = useQuery([\"users\"], fetchUsers);",
+          "puzzle": "const { data } = ___([\"users\"], fetchUsers);",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 34 - TypeScript with React",
+      "items": [
+        {
+          "level": 315,
+          "topic": "Interface for props",
+          "syntax": "interface Props {\n    name: string;\n}\nfunction Greeting({ name }: Props) {\n    return <h1>{name}</h1>;\n}",
+          "puzzle": "___ Props {\n    name: string;\n}\nfunction Greeting({ name }: Props) {\n    return <h1>{name}</h1>;\n}",
+          "output": ""
+        },
+        {
+          "level": 316,
+          "topic": "Type for props",
+          "syntax": "type Props = { count: number };\nfunction Counter({ count }: Props) {\n    return <p>{count}</p>;\n}",
+          "puzzle": "___ Props = { count: number };\nfunction Counter({ count }: Props) {\n    return <p>{count}</p>;\n}",
+          "output": ""
+        },
+        {
+          "level": 317,
+          "topic": "useState with type",
+          "syntax": "const [count, setCount] = useState<number>(0);",
+          "puzzle": "const [count, setCount] = useState___(0);",
+          "output": ""
+        },
+        {
+          "level": 318,
+          "topic": "Typing event handlers",
+          "syntax": "function handleChange(e: React.ChangeEvent<HTMLInputElement>) {\n    console.log(e.target.value);\n}",
+          "puzzle": "function handleChange(e: ___<HTMLInputElement>) {\n    console.log(e.target.value);\n}",
+          "output": ""
+        },
+        {
+          "level": 319,
+          "topic": "Optional prop",
+          "syntax": "interface Props {\n    label?: string;\n}",
+          "puzzle": "interface Props {\n    label___: string;\n}",
+          "output": ""
+        },
+        {
+          "level": 320,
+          "topic": "React.FC type",
+          "syntax": "const App: React.FC = () => {\n    return <h1>Hi</h1>;\n};",
+          "puzzle": "const App: ___ = () => {\n    return <h1>Hi</h1>;\n};",
+          "output": ""
+        },
+        {
+          "level": 321,
+          "topic": "Generic component",
+          "syntax": "function List<T>({ items }: { items: T[] }) {\n    return <ul>{items.map((i) => <li>{String(i)}</li>)}</ul>;\n}",
+          "puzzle": "function List<T>({ items }: { items: ___ }) {\n    return <ul>{items.map((i) => <li>{String(i)}</li>)}</ul>;\n}",
+          "output": ""
+        },
+        {
+          "level": 322,
+          "topic": "Typing children",
+          "syntax": "interface Props {\n    children: React.ReactNode;\n}",
+          "puzzle": "interface Props {\n    children: ___;\n}",
+          "output": ""
+        },
+        {
+          "level": 323,
+          "topic": "Enum usage",
+          "syntax": "enum Status {\n    Active,\n    Inactive\n}\nconsole.log(Status.Active);",
+          "puzzle": "___ Status {\n    Active,\n    Inactive\n}\nconsole.log(Status.Active);",
+          "output": "0"
+        },
+        {
+          "level": 324,
+          "topic": "Type assertion (as)",
+          "syntax": "const input = event.target as HTMLInputElement;",
+          "puzzle": "const input = event.target ___ HTMLInputElement;",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 35 - Next.js Basics",
+      "items": [
+        {
+          "level": 325,
+          "topic": "File-based routing",
+          "syntax": "// pages/about.js\nexport default function About() {\n    return <h1>About</h1>;\n}",
+          "puzzle": "// ___\nexport default function About() {\n    return <h1>About</h1>;\n}",
+          "output": ""
+        },
+        {
+          "level": 326,
+          "topic": "getStaticProps",
+          "syntax": "export async function getStaticProps() {\n    return { props: { data: [] } };\n}",
+          "puzzle": "export async function ___() {\n    return { props: { data: [] } };\n}",
+          "output": ""
+        },
+        {
+          "level": 327,
+          "topic": "getServerSideProps",
+          "syntax": "export async function getServerSideProps() {\n    return { props: { user: null } };\n}",
+          "puzzle": "export async function ___() {\n    return { props: { user: null } };\n}",
+          "output": ""
+        },
+        {
+          "level": 328,
+          "topic": "next/link",
+          "syntax": "import Link from \"next/link\";\n<Link href=\"/about\">About</Link>;",
+          "puzzle": "import Link from \"___\";\n<Link href=\"/about\">About</Link>;",
+          "output": ""
+        },
+        {
+          "level": 329,
+          "topic": "next/image",
+          "syntax": "import Image from \"next/image\";\n<Image src=\"/logo.png\" width={100} height={100} />;",
+          "puzzle": "import Image from \"___\";\n<Image src=\"/logo.png\" width={100} height={100} />;",
+          "output": ""
+        },
+        {
+          "level": 330,
+          "topic": "useRouter",
+          "syntax": "import { useRouter } from \"next/router\";\nconst router = useRouter();\nconsole.log(router.pathname);",
+          "puzzle": "import { ___ } from \"next/router\";\nconst router = useRouter();\nconsole.log(router.pathname);",
+          "output": ""
+        },
+        {
+          "level": 331,
+          "topic": "API routes",
+          "syntax": "// pages/api/hello.js\nexport default function handler(req, res) {\n    res.status(200).json({ message: \"Hi\" });\n}",
+          "puzzle": "// pages/api/hello.js\nexport default function ___(req, res) {\n    res.status(200).json({ message: \"Hi\" });\n}",
+          "output": ""
+        },
+        {
+          "level": 332,
+          "topic": "\"use client\" directive",
+          "syntax": "\"use client\";\nexport default function Button() {\n    return <button>Click</button>;\n}",
+          "puzzle": "___;\nexport default function Button() {\n    return <button>Click</button>;\n}",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 36 - Build Tools (Webpack / Vite)",
+      "items": [
+        {
+          "level": 333,
+          "topic": "npm install",
+          "syntax": "npm install react react-dom",
+          "puzzle": "___ react react-dom",
+          "output": "added 2 packages"
+        },
+        {
+          "level": 334,
+          "topic": "npm run dev",
+          "syntax": "npm run dev",
+          "puzzle": "___",
+          "output": "Local: http://localhost:5173"
+        },
+        {
+          "level": 335,
+          "topic": "vite.config.js",
+          "syntax": "export default {\n    plugins: [react()]\n};",
+          "puzzle": "export default {\n    ___: [react()]\n};",
+          "output": ""
+        },
+        {
+          "level": 336,
+          "topic": "webpack.config.js",
+          "syntax": "module.exports = {\n    entry: \"./src/index.js\"\n};",
+          "puzzle": "module.exports = {\n    ___: \"./src/index.js\"\n};",
+          "output": ""
+        },
+        {
+          "level": 337,
+          "topic": "npm run build",
+          "syntax": "npm run build",
+          "puzzle": "___",
+          "output": "Build complete"
+        },
+        {
+          "level": 338,
+          "topic": "package.json scripts",
+          "syntax": "\"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\"\n}",
+          "puzzle": "\"___\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\"\n}",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 37 - Deployment",
+      "items": [
+        {
+          "level": 339,
+          "topic": "Build output (dist/)",
+          "syntax": "npm run build\n# outputs to dist/",
+          "puzzle": "npm run build\n# outputs to ___",
+          "output": ""
+        },
+        {
+          "level": 340,
+          "topic": "Vercel deploy",
+          "syntax": "vercel deploy",
+          "puzzle": "___ deploy",
+          "output": "Deployed to https://myapp.vercel.app"
+        },
+        {
+          "level": 341,
+          "topic": "Netlify deploy",
+          "syntax": "netlify deploy --prod",
+          "puzzle": "___ deploy --prod",
+          "output": "Deployed to https://myapp.netlify.app"
+        },
+        {
+          "level": 342,
+          "topic": "Environment variables",
+          "syntax": "const apiKey = import.meta.env.VITE_API_KEY;\nconsole.log(apiKey);",
+          "puzzle": "const apiKey = ___.VITE___API___KEY;\nconsole.log(apiKey);",
+          "output": "your-api-key"
+        },
+        {
+          "level": 343,
+          "topic": "GitHub Pages deploy",
+          "syntax": "npm run deploy",
+          "puzzle": "npm run ___",
+          "output": "Published"
+        },
+        {
+          "level": 344,
+          "topic": "Docker for React app",
+          "syntax": "FROM node:18\nCOPY . .\nRUN npm install && npm run build",
+          "puzzle": "___ node:18\nCOPY . .\nRUN npm install && npm run build",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 38 - Advanced Patterns",
+      "items": [
+        {
+          "level": 345,
+          "topic": "Higher-Order Component",
+          "syntax": "function withLogger(Component) {\n    return function(props) {\n        console.log(\"Rendering\");\n        return <Component {...props} />;\n    };\n}",
+          "puzzle": "function ___(Component) {\n    return function(props) {\n        console.log(\"Rendering\");\n        return <Component {...props} />;\n    };\n}",
+          "output": "Rendering"
+        },
+        {
+          "level": 346,
+          "topic": "Render props pattern",
+          "syntax": "<DataProvider render={(data) => <p>{data}</p>} />;",
+          "puzzle": "<DataProvider ___={(data) => <p>{data}</p>} />;",
+          "output": ""
+        },
+        {
+          "level": 347,
+          "topic": "Compound components",
+          "syntax": "<Menu>\n    <Menu.Item>Home</Menu.Item>\n</Menu>;",
+          "puzzle": "<Menu>\n    <___>Home</Menu.Item>\n</Menu>;",
+          "output": "Home"
+        },
+        {
+          "level": 348,
+          "topic": "Controlled vs uncontrolled",
+          "syntax": "const [value, setValue] = useState(\"\");\n// controlled: value is driven by state",
+          "puzzle": "const [value, setValue] = useState(\"\");\n// ___: value is driven by state",
+          "output": ""
+        },
+        {
+          "level": 349,
+          "topic": "Provider pattern",
+          "syntax": "function AuthProvider({ children }) {\n    return <AuthContext.Provider value={user}>{children}</AuthContext.Provider>;\n}",
+          "puzzle": "function AuthProvider({ children }) {\n    return <___ value={user}>{children}</AuthContext.Provider>;\n}",
+          "output": ""
+        },
+        {
+          "level": 350,
+          "topic": "Container/Presentational",
+          "syntax": "function UserContainer() {\n    const [user] = useState({ name: \"Ava\" });\n    return <UserView user={user} />;\n}",
+          "puzzle": "function UserContainer() {\n    const [user] = useState({ name: \"Ava\" });\n    return <___ user={user} />;\n}",
+          "output": ""
+        },
+        {
+          "level": 351,
+          "topic": "Hooks replacing HOC",
+          "syntax": "function useAuth() {\n    return useContext(AuthContext);\n}",
+          "puzzle": "function ___() {\n    return useContext(AuthContext);\n}",
+          "output": ""
+        },
+        {
+          "level": 352,
+          "topic": "Custom hook composition",
+          "syntax": "function useUserData() {\n    const auth = useAuth();\n    const data = useFetch(`/api/users/${auth.id}`);\n    return data;\n}",
+          "puzzle": "function useUserData() {\n    const auth = useAuth();\n    const data = ___(`/api/users/${auth.id}`);\n    return data;\n}",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 39 - React Internals",
+      "items": [
+        {
+          "level": 353,
+          "topic": "Virtual DOM concept",
+          "syntax": "// React builds a virtual DOM tree to diff efficiently\nconsole.log(\"Virtual DOM diffing\");",
+          "puzzle": "// React builds a virtual DOM tree to diff efficiently\nconsole.log(\"___ diffing\");",
+          "output": "Virtual DOM diffing"
+        },
+        {
+          "level": 354,
+          "topic": "Reconciliation",
+          "syntax": "// React compares the new tree with the old one: reconciliation\nconsole.log(\"Reconciled\");",
+          "puzzle": "// React compares the new tree with the old one: ___\nconsole.log(\"Reconciled\");",
+          "output": "Reconciled"
+        },
+        {
+          "level": 355,
+          "topic": "React Fiber",
+          "syntax": "// Fiber is React's reconciliation engine since React 16\nconsole.log(\"Fiber architecture\");",
+          "puzzle": "// ___ is React's reconciliation engine since React 16\nconsole.log(\"Fiber architecture\");",
+          "output": "Fiber architecture"
+        },
+        {
+          "level": 356,
+          "topic": "key diffing",
+          "syntax": "items.map((item) => <li key={item.id}>{item.name}</li>);\n// keys help React identify which items changed",
+          "puzzle": "items.map((item) => <li ___>{item.name}</li>);\n// keys help React identify which items changed",
+          "output": ""
+        },
+        {
+          "level": 357,
+          "topic": "Batching updates",
+          "syntax": "setCount(c => c + 1);\nsetFlag(f => !f);\n// React batches both into a single re-render",
+          "puzzle": "setCount(c => c + 1);\nsetFlag(f => !f);\n// React ___ both into a single re-render",
+          "output": ""
+        },
+        {
+          "level": 358,
+          "topic": "React.createElement",
+          "syntax": "const el = React.createElement(\"h1\", null, \"Hello\");\nconsole.log(el.type);",
+          "puzzle": "const el = React.___(\"h1\", null, \"Hello\");\nconsole.log(el.type);",
+          "output": "h1"
+        },
+        {
+          "level": 359,
+          "topic": "ReactDOM.createRoot - practice 2",
+          "syntax": "const root = ReactDOM.createRoot(document.getElementById(\"root\"));",
+          "puzzle": "const root = ___(document.getElementById(\"root\"));",
+          "output": ""
+        },
+        {
+          "level": 360,
+          "topic": "StrictMode double render",
+          "syntax": "<React.StrictMode>\n    <App />\n</React.StrictMode>;\n// intentionally double-invokes some functions in dev",
+          "puzzle": "<React.___>\n    <App />\n</React.StrictMode>;\n// intentionally double-invokes some functions in dev",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 40 - Common Built-in Methods used in React",
+      "items": [
+        {
+          "level": 361,
+          "topic": "Array.isArray",
+          "syntax": "console.log(Array.isArray([1, 2, 3]));",
+          "puzzle": "console.log(___([1, 2, 3]));",
+          "output": "true"
+        },
+        {
+          "level": 362,
+          "topic": "JSON.stringify",
+          "syntax": "console.log(JSON.stringify({ a: 1 }));",
+          "puzzle": "console.log(___({ a: 1 }));",
+          "output": "{\"a\":1}"
+        },
+        {
+          "level": 363,
+          "topic": "JSON.parse",
+          "syntax": "console.log(JSON.parse('{\"a\":1}'));",
+          "puzzle": "console.log(___('{\"a\":1}'));",
+          "output": "{ a: 1 }"
+        },
+        {
+          "level": 364,
+          "topic": "Object.freeze",
+          "syntax": "const obj = Object.freeze({ a: 1 });\nobj.a = 2;\nconsole.log(obj.a);",
+          "puzzle": "const obj = ___({ a: 1 });\nobj.a = 2;\nconsole.log(obj.a);",
+          "output": "1"
+        },
+        {
+          "level": 365,
+          "topic": "Array.from",
+          "syntax": "console.log(Array.from({ length: 3 }, (_, i) => i));",
+          "puzzle": "console.log(___({ length: 3 }, (___, i) => i));",
+          "output": "[ 0, 1, 2 ]"
+        },
+        {
+          "level": 366,
+          "topic": "Number()",
+          "syntax": "console.log(Number(\"42\"));",
+          "puzzle": "console.log(___(\"42\"));",
+          "output": "42"
+        },
+        {
+          "level": 367,
+          "topic": "String()",
+          "syntax": "console.log(String(42));",
+          "puzzle": "console.log(___(42));",
+          "output": "42"
+        },
+        {
+          "level": 368,
+          "topic": "Boolean()",
+          "syntax": "console.log(Boolean(0));",
+          "puzzle": "console.log(___(0));",
+          "output": "false"
+        },
+        {
+          "level": 369,
+          "topic": "Math.random",
+          "syntax": "console.log(typeof Math.random());",
+          "puzzle": "console.log(typeof ___());",
+          "output": "number"
+        },
+        {
+          "level": 370,
+          "topic": "Math.floor",
+          "syntax": "console.log(Math.floor(4.7));",
+          "puzzle": "console.log(___(4.7));",
+          "output": "4"
+        }
+      ]
+    },
+    {
+      "part": "Part 41 - Design Patterns in React",
+      "items": [
+        {
+          "level": 371,
+          "topic": "Module pattern (singleton)",
+          "syntax": "const config = (function() {\n    let instance;\n    return () => instance || (instance = { theme: \"dark\" });\n})();",
+          "puzzle": "const config = (function() {\n    let ___;\n    return () => instance || (instance = { theme: \"dark\" });\n})();",
+          "output": ""
+        },
+        {
+          "level": 372,
+          "topic": "Factory function pattern",
+          "syntax": "function createUser(name) {\n    return { name, active: true };\n}\nconsole.log(createUser(\"Ava\"));",
+          "puzzle": "function ___(name) {\n    return { name, active: true };\n}\nconsole.log(createUser(\"Ava\"));",
+          "output": "{ name: 'Ava', active: true }"
+        },
+        {
+          "level": 373,
+          "topic": "Observer pattern (pub-sub)",
+          "syntax": "const listeners = [];\nfunction subscribe(fn) { listeners.push(fn); }\nfunction publish(data) { listeners.forEach((fn) => fn(data)); }",
+          "puzzle": "const listeners = [];\nfunction ___(fn) { listeners.push(fn); }\nfunction publish(data) { listeners.forEach((fn) => fn(data)); }",
+          "output": ""
+        },
+        {
+          "level": 374,
+          "topic": "Provider pattern - practice 2",
+          "syntax": "function ThemeProvider({ children }) {\n    return <ThemeContext.Provider value=\"dark\">{children}</ThemeContext.Provider>;\n}",
+          "puzzle": "function ___({ children }) {\n    return <ThemeContext.Provider value=\"dark\">{children}</ThemeContext.Provider>;\n}",
+          "output": ""
+        },
+        {
+          "level": 375,
+          "topic": "Container pattern",
+          "syntax": "function TodoContainer() {\n    const [todos] = useState([]);\n    return <TodoList todos={todos} />;\n}",
+          "puzzle": "function ___() {\n    const [todos] = useState([]);\n    return <TodoList todos={todos} />;\n}",
+          "output": ""
+        },
+        {
+          "level": 376,
+          "topic": "Hook factory pattern",
+          "syntax": "function createUseFetch(baseUrl) {\n    return function useFetch(path) {\n        return fetch(`${baseUrl}${path}`);\n    };\n}",
+          "puzzle": "function ___(baseUrl) {\n    return function useFetch(path) {\n        return fetch(`${baseUrl}${path}`);\n    };\n}",
+          "output": ""
+        },
+        {
+          "level": 377,
+          "topic": "Memoization pattern",
+          "syntax": "const cache = new Map();\nfunction memoize(fn) {\n    return (x) => cache.get(x) ?? cache.set(x, fn(x)).get(x);\n}",
+          "puzzle": "const cache = new Map();\nfunction ___(fn) {\n    return (x) => cache.get(x) ?? cache.set(x, fn(x)).get(x);\n}",
+          "output": ""
+        },
+        {
+          "level": 378,
+          "topic": "Compound component pattern",
+          "syntax": "function Tabs({ children }) {\n    return <div className=\"tabs\">{children}</div>;\n}\nTabs.Tab = function Tab({ children }) {\n    return <div className=\"tab\">{children}</div>;\n};",
+          "puzzle": "function Tabs({ children }) {\n    return <div className=\"tabs\">{children}</div>;\n}\n___ = function Tab({ children }) {\n    return <div className=\"tab\">{children}</div>;\n};",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 42 - Git & React Projects",
+      "items": [
+        {
+          "level": 379,
+          "topic": "git init",
+          "syntax": "git init",
+          "puzzle": "___",
+          "output": "Initialized empty Git repository"
+        },
+        {
+          "level": 380,
+          "topic": "git add",
+          "syntax": "git add .",
+          "puzzle": "___ .",
+          "output": ""
+        },
+        {
+          "level": 381,
+          "topic": "git commit",
+          "syntax": "git commit -m \"Initial commit\"",
+          "puzzle": "___ -m \"Initial commit\"",
+          "output": "[main 1a2b3c4] Initial commit"
+        },
+        {
+          "level": 382,
+          "topic": "git push",
+          "syntax": "git push origin main",
+          "puzzle": "___ origin main",
+          "output": ""
+        },
+        {
+          "level": 383,
+          "topic": ".gitignore for node_modules",
+          "syntax": "node_modules/\ndist/\n.env",
+          "puzzle": "___\ndist/\n.env",
+          "output": ""
+        },
+        {
+          "level": 384,
+          "topic": "npm create vite@latest",
+          "syntax": "npm create vite@latest my-app -- --template react",
+          "puzzle": "___ my-app -- --template react",
+          "output": "Scaffolding project in ./my-app"
+        }
+      ]
+    },
+    {
+      "part": "Part 43 - Interview & Coding Patterns",
+      "items": [
+        {
+          "level": 385,
+          "topic": "Debounce function",
+          "syntax": "function debounce(fn, delay) {\n    let timer;\n    return (...args) => {\n        clearTimeout(timer);\n        timer = setTimeout(() => fn(...args), delay);\n    };\n}",
+          "puzzle": "function ___(fn, delay) {\n    let timer;\n    return (...args) => {\n        clearTimeout(timer);\n        timer = setTimeout(() => fn(...args), delay);\n    };\n}",
+          "output": ""
+        },
+        {
+          "level": 386,
+          "topic": "Throttle function",
+          "syntax": "function throttle(fn, limit) {\n    let inThrottle;\n    return (...args) => {\n        if (!inThrottle) {\n            fn(...args);\n            inThrottle = true;\n            setTimeout(() => (inThrottle = false), limit);\n        }\n    };\n}",
+          "puzzle": "function ___(fn, limit) {\n    let inThrottle;\n    return (...args) => {\n        if (!inThrottle) {\n            fn(...args);\n            inThrottle = true;\n            setTimeout(() => (inThrottle = false), limit);\n        }\n    };\n}",
+          "output": ""
+        },
+        {
+          "level": 387,
+          "topic": "Two pointers",
+          "syntax": "function twoSumSorted(arr, target) {\n    let l = 0, r = arr.length - 1;\n    while (l < r) {\n        const sum = arr[l] + arr[r];\n        if (sum === target) return [l, r];\n        sum < target ? l++ : r--;\n    }\n}\nconsole.log(twoSumSorted([1, 2, 3, 4, 6], 6));",
+          "puzzle": "function ___(arr, target) {\n    let l = 0, r = arr.length - 1;\n    while (l < r) {\n        const sum = arr[l] + arr[r];\n        if (sum === target) return [l, r];\n        sum < target ? l++ : r--;\n    }\n}\nconsole.log(twoSumSorted([1, 2, 3, 4, 6], 6));",
+          "output": "[ 1, 3 ]"
+        },
+        {
+          "level": 388,
+          "topic": "Binary search",
+          "syntax": "function binarySearch(arr, target) {\n    let lo = 0, hi = arr.length - 1;\n    while (lo <= hi) {\n        const mid = Math.floor((lo + hi) / 2);\n        if (arr[mid] === target) return mid;\n        arr[mid] < target ? (lo = mid + 1) : (hi = mid - 1);\n    }\n    return -1;\n}\nconsole.log(binarySearch([1, 3, 5, 7], 5));",
+          "puzzle": "function ___(arr, target) {\n    let lo = 0, hi = arr.length - 1;\n    while (lo <= hi) {\n        const mid = Math.floor((lo + hi) / 2);\n        if (arr[mid] === target) return mid;\n        arr[mid] < target ? (lo = mid + 1) : (hi = mid - 1);\n    }\n    return -1;\n}\nconsole.log(binarySearch([1, 3, 5, 7], 5));",
+          "output": "2"
+        },
+        {
+          "level": 389,
+          "topic": "Recursion (factorial)",
+          "syntax": "function factorial(n) {\n    if (n === 0) return 1;\n    return n * factorial(n - 1);\n}\nconsole.log(factorial(4));",
+          "puzzle": "function ___(n) {\n    if (n === 0) return 1;\n    return n * factorial(n - 1);\n}\nconsole.log(factorial(4));",
+          "output": "24"
+        },
+        {
+          "level": 390,
+          "topic": "Array flattening",
+          "syntax": "function flatten(arr) {\n    return arr.flat(Infinity);\n}\nconsole.log(flatten([1, [2, [3, 4]]]));",
+          "puzzle": "function ___ten(arr) {\n    return arr.flat(Infinity);\n}\nconsole.log(flatten([1, [2, [3, 4]]]));",
+          "output": "[ 1, 2, 3, 4 ]"
+        },
+        {
+          "level": 391,
+          "topic": "Deep clone",
+          "syntax": "const original = { a: { b: 1 } };\nconst clone = structuredClone(original);\nconsole.log(clone);",
+          "puzzle": "const original = { a: { b: 1 } };\nconst clone = ___(original);\nconsole.log(clone);",
+          "output": "{ a: { b: 1 } }"
+        },
+        {
+          "level": 392,
+          "topic": "Memoized fibonacci",
+          "syntax": "const memo = {};\nfunction fib(n) {\n    if (n in memo) return memo[n];\n    if (n < 2) return n;\n    return (memo[n] = fib(n - 1) + fib(n - 2));\n}\nconsole.log(fib(10));",
+          "puzzle": "const ___ = {};\nfunction fib(n) {\n    if (n in memo) return memo[n];\n    if (n < 2) return n;\n    return (memo[n] = fib(n - 1) + fib(n - 2));\n}\nconsole.log(fib(10));",
+          "output": "55"
+        },
+        {
+          "level": 393,
+          "topic": "Currying",
+          "syntax": "function add(a) {\n    return (b) => a + b;\n}\nconsole.log(add(2)(3));",
+          "puzzle": "function add(a) {\n    return (b) => a + b;\n}\nconsole.log(___);",
+          "output": "5"
+        },
+        {
+          "level": 394,
+          "topic": "Event loop order",
+          "syntax": "console.log(\"1\");\nsetTimeout(() => console.log(\"2\"), 0);\nconsole.log(\"3\");",
+          "puzzle": "console.log(\"1\");\n___(() => console.log(\"2\"), 0);\nconsole.log(\"3\");",
+          "output": "1\n3\n2"
+        }
+      ]
+    },
+    {
+      "part": "Part 44 - Practice variants",
+      "items": [
+        {
+          "level": 395,
+          "topic": "console.log() - variant 1",
+          "syntax": "// Practice variant 1\nconsole.log(\"Hello, World!\");",
+          "puzzle": "// Practice variant 1\n___(\"Hello, World!\");",
+          "output": "Hello, World!"
+        },
+        {
+          "level": 396,
+          "topic": "Comments - variant 2",
+          "syntax": "// Practice variant 2\n// This is a comment\nconsole.log(\"Comments are ignored\");",
+          "puzzle": "// Practice variant 2\n___ This is a comment\nconsole.log(\"Comments are ignored\");",
+          "output": "Comments are ignored"
+        },
+        {
+          "level": 397,
+          "topic": "let - variant 3",
+          "syntax": "// Practice variant 3\nlet x = 10;\nconsole.log(x);",
+          "puzzle": "// Practice variant 3\n___ x = 10;\nconsole.log(x);",
+          "output": "10"
+        },
+        {
+          "level": 398,
+          "topic": "const - variant 4",
+          "syntax": "// Practice variant 4\nconst PI = 3.14;\nconsole.log(PI);",
+          "puzzle": "// Practice variant 4\n___ PI = 3.14;\nconsole.log(PI);",
+          "output": "3.14"
+        },
+        {
+          "level": 399,
+          "topic": "var - variant 5",
+          "syntax": "// Practice variant 5\nvar x = 5;\nconsole.log(x);",
+          "puzzle": "// Practice variant 5\n___ x = 5;\nconsole.log(x);",
+          "output": "5"
+        },
+        {
+          "level": 400,
+          "topic": "Naming conventions - variant 6",
+          "syntax": "// Practice variant 6\nlet studentName = \"Ava\";\nconsole.log(studentName);",
+          "puzzle": "// Practice variant 6\nlet ___ = \"Ava\";\nconsole.log(studentName);",
+          "output": "Ava"
+        },
+        {
+          "level": 401,
+          "topic": "typeof operator - variant 7",
+          "syntax": "// Practice variant 7\nconsole.log(typeof \"hello\");",
+          "puzzle": "// Practice variant 7\nconsole.log(___ \"hello\");",
+          "output": "string"
+        },
+        {
+          "level": 402,
+          "topic": "Template literals - variant 8",
+          "syntax": "// Practice variant 8\nlet name = \"Ava\";\nconsole.log(`Hi ${name}`);",
+          "puzzle": "// Practice variant 8\nlet name = \"Ava\";\nconsole.log(___);",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 403,
+          "topic": "Escape characters - variant 9",
+          "syntax": "// Practice variant 9\nconsole.log(\"Line1\\nLine2\");",
+          "puzzle": "// Practice variant 9\nconsole.log(\"Line1___Line2\");",
+          "output": "Line1\nLine2"
+        },
+        {
+          "level": 404,
+          "topic": "Expressions - variant 10",
+          "syntax": "// Practice variant 10\nconsole.log(3 + 4 * 2);",
+          "puzzle": "// Practice variant 10\n___(3 + 4 * 2);",
+          "output": "11"
+        },
+        {
+          "level": 405,
+          "topic": "Strict mode - variant 11",
+          "syntax": "// Practice variant 11\n\"use strict\";\nconsole.log(\"Strict mode on\");",
+          "puzzle": "// Practice variant 11\n___;\nconsole.log(\"Strict mode on\");",
+          "output": "Strict mode on"
+        },
+        {
+          "level": 406,
+          "topic": "Semicolons - variant 12",
+          "syntax": "// Practice variant 12\nlet x = 5;\nconsole.log(x);",
+          "puzzle": "// Practice variant 12\nlet x = 5___\nconsole.log(x);",
+          "output": "5"
+        },
+        {
+          "level": 407,
+          "topic": "Number - variant 13",
+          "syntax": "// Practice variant 13\nlet x = Number(\"42\");\nconsole.log(x);",
+          "puzzle": "// Practice variant 13\nlet x = ___(\"42\");\nconsole.log(x);",
+          "output": "42"
+        },
+        {
+          "level": 408,
+          "topic": "String - variant 14",
+          "syntax": "// Practice variant 14\nlet s = String(42);\nconsole.log(s);",
+          "puzzle": "// Practice variant 14\nlet s = ___(42);\nconsole.log(s);",
+          "output": "42"
+        },
+        {
+          "level": 409,
+          "topic": "Boolean - variant 15",
+          "syntax": "// Practice variant 15\nlet b = Boolean(1);\nconsole.log(b);",
+          "puzzle": "// Practice variant 15\nlet b = ___(1);\nconsole.log(b);",
+          "output": "true"
+        },
+        {
+          "level": 410,
+          "topic": "Undefined - variant 16",
+          "syntax": "// Practice variant 16\nlet x;\nconsole.log(x);",
+          "puzzle": "// Practice variant 16\n___\nconsole.log(x);",
+          "output": "undefined"
+        },
+        {
+          "level": 411,
+          "topic": "Null - variant 17",
+          "syntax": "// Practice variant 17\nlet x = null;\nconsole.log(x);",
+          "puzzle": "// Practice variant 17\nlet x = ___;\nconsole.log(x);",
+          "output": "null"
+        },
+        {
+          "level": 412,
+          "topic": "Object - variant 18",
+          "syntax": "// Practice variant 18\nlet obj = { a: 1 };\nconsole.log(obj);",
+          "puzzle": "// Practice variant 18\nlet obj = ___;\nconsole.log(obj);",
+          "output": "{ a: 1 }"
+        },
+        {
+          "level": 413,
+          "topic": "Array - variant 19",
+          "syntax": "// Practice variant 19\nlet arr = [1, 2, 3];\nconsole.log(Array.isArray(arr));",
+          "puzzle": "// Practice variant 19\nlet arr = [1, 2, 3];\nconsole.log(___.isArray(arr));",
+          "output": "true"
+        },
+        {
+          "level": 414,
+          "topic": "Symbol - variant 20",
+          "syntax": "// Practice variant 20\nlet s = Symbol(\"id\");\nconsole.log(typeof s);",
+          "puzzle": "// Practice variant 20\nlet s = ___(\"id\");\nconsole.log(typeof s);",
+          "output": "symbol"
+        },
+        {
+          "level": 415,
+          "topic": "BigInt - variant 21",
+          "syntax": "// Practice variant 21\nlet big = BigInt(10);\nconsole.log(typeof big);",
+          "puzzle": "// Practice variant 21\nlet big = ___(10);\nconsole.log(typeof big);",
+          "output": "bigint"
+        },
+        {
+          "level": 416,
+          "topic": "typeof operator (types) - variant 22",
+          "syntax": "// Practice variant 22\nconsole.log(typeof 5);",
+          "puzzle": "// Practice variant 22\nconsole.log(___ 5);",
+          "output": "number"
+        },
+        {
+          "level": 417,
+          "topic": "Type coercion - variant 23",
+          "syntax": "// Practice variant 23\nconsole.log(\"5\" + 2);",
+          "puzzle": "// Practice variant 23\nconsole.log(\"5\" ___ 2);",
+          "output": "52"
+        },
+        {
+          "level": 418,
+          "topic": "NaN - variant 24",
+          "syntax": "// Practice variant 24\nconsole.log(Number(\"abc\"));",
+          "puzzle": "// Practice variant 24\nconsole.log(___(\"abc\"));",
+          "output": "NaN"
+        },
+        {
+          "level": 419,
+          "topic": "Addition operator - variant 25",
+          "syntax": "// Practice variant 25\nconsole.log(3 + 4 * 2);",
+          "puzzle": "// Practice variant 25\nconsole.log(3 ___ 4 * 2);",
+          "output": "11"
+        },
+        {
+          "level": 420,
+          "topic": "Modulo operator - variant 26",
+          "syntax": "// Practice variant 26\nconsole.log(7 % 2);",
+          "puzzle": "// Practice variant 26\nconsole.log(7 ___ 2);",
+          "output": "1"
+        },
+        {
+          "level": 421,
+          "topic": "Exponent operator - variant 27",
+          "syntax": "// Practice variant 27\nconsole.log(2 ** 3);",
+          "puzzle": "// Practice variant 27\nconsole.log(2 ___ 3);",
+          "output": "8"
+        },
+        {
+          "level": 422,
+          "topic": "Assignment operators - variant 28",
+          "syntax": "// Practice variant 28\nlet x = 5;\nx += 3;\nconsole.log(x);",
+          "puzzle": "// Practice variant 28\nlet x = 5;\nx ___ 3;\nconsole.log(x);",
+          "output": "8"
+        },
+        {
+          "level": 423,
+          "topic": "Strict equality - variant 29",
+          "syntax": "// Practice variant 29\nconsole.log(5 === \"5\");",
+          "puzzle": "// Practice variant 29\nconsole.log(5 ___ \"5\");",
+          "output": "false"
+        },
+        {
+          "level": 424,
+          "topic": "Loose equality - variant 30",
+          "syntax": "// Practice variant 30\nconsole.log(5 == \"5\");",
+          "puzzle": "// Practice variant 30\nconsole.log(5 ___ \"5\");",
+          "output": "true"
+        },
+        {
+          "level": 425,
+          "topic": "Logical AND - variant 31",
+          "syntax": "// Practice variant 31\nconsole.log(true && false);",
+          "puzzle": "// Practice variant 31\nconsole.log(true ___ false);",
+          "output": "false"
+        },
+        {
+          "level": 426,
+          "topic": "Logical OR - variant 32",
+          "syntax": "// Practice variant 32\nconsole.log(false || true);",
+          "puzzle": "// Practice variant 32\nconsole.log(false ___ true);",
+          "output": "true"
+        },
+        {
+          "level": 427,
+          "topic": "Nullish coalescing - variant 33",
+          "syntax": "// Practice variant 33\nlet x = null;\nconsole.log(x ?? \"default\");",
+          "puzzle": "// Practice variant 33\nlet x = null;\nconsole.log(x ___ \"default\");",
+          "output": "default"
+        },
+        {
+          "level": 428,
+          "topic": "Optional chaining - variant 34",
+          "syntax": "// Practice variant 34\nlet obj = {};\nconsole.log(obj?.name);",
+          "puzzle": "// Practice variant 34\nlet obj = {};\nconsole.log(obj___name);",
+          "output": "undefined"
+        },
+        {
+          "level": 429,
+          "topic": "Ternary operator - variant 35",
+          "syntax": "// Practice variant 35\nlet x = 5;\nconsole.log(x > 3 ? \"big\" : \"small\");",
+          "puzzle": "// Practice variant 35\nlet x = 5;\nconsole.log(x > 3 ___ \"big\" : \"small\");",
+          "output": "big"
+        },
+        {
+          "level": 430,
+          "topic": "typeof (operators) - variant 36",
+          "syntax": "// Practice variant 36\nconsole.log(typeof null);",
+          "puzzle": "// Practice variant 36\nconsole.log(___ null);",
+          "output": "object"
+        },
+        {
+          "level": 431,
+          "topic": "if - variant 37",
+          "syntax": "// Practice variant 37\nif (5 > 3) {\n    console.log(\"Yes\");\n}",
+          "puzzle": "// Practice variant 37\n___ (5 > 3) {\n    console.log(\"Yes\");\n}",
+          "output": "Yes"
+        },
+        {
+          "level": 432,
+          "topic": "else if - variant 38",
+          "syntax": "// Practice variant 38\nlet x = 2;\nif (x === 1) {\n    console.log(\"One\");\n} else if (x === 2) {\n    console.log(\"Two\");\n}",
+          "puzzle": "// Practice variant 38\nlet x = 2;\nif (x === 1) {\n    console.log(\"One\");\n} ___ (x === 2) {\n    console.log(\"Two\");\n}",
+          "output": "Two"
+        },
+        {
+          "level": 433,
+          "topic": "else - variant 39",
+          "syntax": "// Practice variant 39\nlet x = 5;\nif (x > 10) {\n    console.log(\"Big\");\n} else {\n    console.log(\"Small\");\n}",
+          "puzzle": "// Practice variant 39\nlet x = 5;\nif (x > 10) {\n    console.log(\"Big\");\n} ___ {\n    console.log(\"Small\");\n}",
+          "output": "Small"
+        },
+        {
+          "level": 434,
+          "topic": "switch - variant 40",
+          "syntax": "// Practice variant 40\nlet day = 2;\nswitch (day) {\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n}",
+          "puzzle": "// Practice variant 40\nlet day = 2;\n___ (day) {\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n}",
+          "output": "Tuesday"
+        },
+        {
+          "level": 435,
+          "topic": "for loop - variant 41",
+          "syntax": "// Practice variant 41\nfor (let i = 0; i < 3; i++) {\n    console.log(i);\n}",
+          "puzzle": "// Practice variant 41\n___ (let i = 0; i < 3; i++) {\n    console.log(i);\n}",
+          "output": "0\n1\n2"
+        },
+        {
+          "level": 436,
+          "topic": "for...of - variant 42",
+          "syntax": "// Practice variant 42\nfor (const n of [1, 2, 3]) {\n    console.log(n);\n}",
+          "puzzle": "// Practice variant 42\nfor (const n ___ [1, 2, 3]) {\n    console.log(n);\n}",
+          "output": "1\n2\n3"
+        },
+        {
+          "level": 437,
+          "topic": "for...in - variant 43",
+          "syntax": "// Practice variant 43\nlet obj = { a: 1, b: 2 };\nfor (const key in obj) {\n    console.log(key);\n}",
+          "puzzle": "// Practice variant 43\nlet obj = { a: 1, b: 2 };\nfor (const key ___ obj) {\n    console.log(key);\n}",
+          "output": "a\nb"
+        },
+        {
+          "level": 438,
+          "topic": "while - variant 44",
+          "syntax": "// Practice variant 44\nlet n = 3;\nwhile (n > 0) {\n    console.log(n);\n    n--;\n}",
+          "puzzle": "// Practice variant 44\nlet n = 3;\n___ (n > 0) {\n    console.log(n);\n    n--;\n}",
+          "output": "3\n2\n1"
+        },
+        {
+          "level": 439,
+          "topic": "do...while - variant 45",
+          "syntax": "// Practice variant 45\nlet n = 0;\ndo {\n    console.log(n);\n    n++;\n} while (n < 1);",
+          "puzzle": "// Practice variant 45\nlet n = 0;\n___ {\n    console.log(n);\n    n++;\n} while (n < 1);",
+          "output": "0"
+        },
+        {
+          "level": 440,
+          "topic": "break and continue - variant 46",
+          "syntax": "// Practice variant 46\nfor (let i = 0; i < 5; i++) {\n    if (i === 3) break;\n    console.log(i);\n}",
+          "puzzle": "// Practice variant 46\nfor (let i = 0; i < 5; i++) {\n    if (i === 3) ___;\n    console.log(i);\n}",
+          "output": "0\n1\n2"
+        },
+        {
+          "level": 441,
+          "topic": "Function declaration - variant 47",
+          "syntax": "// Practice variant 47\nfunction greet() {\n    console.log(\"Hello\");\n}\ngreet();",
+          "puzzle": "// Practice variant 47\n___ greet() {\n    console.log(\"Hello\");\n}\ngreet();",
+          "output": "Hello"
+        },
+        {
+          "level": 442,
+          "topic": "Function expression - variant 48",
+          "syntax": "// Practice variant 48\nconst greet = function() {\n    return \"Hi\";\n};\nconsole.log(greet());",
+          "puzzle": "// Practice variant 48\nconst greet = ___() {\n    return \"Hi\";\n};\nconsole.log(greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 443,
+          "topic": "Arrow function - variant 49",
+          "syntax": "// Practice variant 49\nconst square = (x) => x * x;\nconsole.log(square(4));",
+          "puzzle": "// Practice variant 49\nconst square = (x) ___ x * x;\nconsole.log(square(4));",
+          "output": "16"
+        },
+        {
+          "level": 444,
+          "topic": "Default parameters - variant 50",
+          "syntax": "// Practice variant 50\nfunction greet(name = \"Guest\") {\n    console.log(\"Hi \" + name);\n}\ngreet();",
+          "puzzle": "// Practice variant 50\nfunction greet(name ___) {\n    console.log(\"Hi \" + name);\n}\ngreet();",
+          "output": "Hi Guest"
+        },
+        {
+          "level": 445,
+          "topic": "Rest parameters - variant 51",
+          "syntax": "// Practice variant 51\nfunction total(...nums) {\n    console.log(nums.reduce((a, b) => a + b));\n}\ntotal(1, 2, 3);",
+          "puzzle": "// Practice variant 51\nfunction total(___) {\n    console.log(nums.reduce((a, b) => a + b));\n}\ntotal(1, 2, 3);",
+          "output": "6"
+        },
+        {
+          "level": 446,
+          "topic": "Return values - variant 52",
+          "syntax": "// Practice variant 52\nfunction add(a, b) {\n    return a + b;\n}\nconsole.log(add(2, 3));",
+          "puzzle": "// Practice variant 52\nfunction add(a, b) {\n    ___ a + b;\n}\nconsole.log(add(2, 3));",
+          "output": "5"
+        },
+        {
+          "level": 447,
+          "topic": "IIFE - variant 53",
+          "syntax": "// Practice variant 53\n(function() {\n    console.log(\"Ran immediately\");\n})();",
+          "puzzle": "// Practice variant 53\n___;",
+          "output": "Ran immediately"
+        },
+        {
+          "level": 448,
+          "topic": "Callback functions - variant 54",
+          "syntax": "// Practice variant 54\nfunction process(cb) {\n    cb();\n}\nprocess(() => console.log(\"Callback ran\"));",
+          "puzzle": "// Practice variant 54\nfunction process(cb) {\n    ___;\n}\nprocess(() => console.log(\"Callback ran\"));",
+          "output": "Callback ran"
+        },
+        {
+          "level": 449,
+          "topic": "Higher-order functions - variant 55",
+          "syntax": "// Practice variant 55\nfunction apply(fn, x) {\n    return fn(x);\n}\nconsole.log(apply((x) => x * 2, 5));",
+          "puzzle": "// Practice variant 55\nfunction apply(fn, x) {\n    return ___;\n}\nconsole.log(apply((x) => x * 2, 5));",
+          "output": "10"
+        },
+        {
+          "level": 450,
+          "topic": "Closures - variant 56",
+          "syntax": "// Practice variant 56\nfunction outer() {\n    let msg = \"Hi\";\n    return function() {\n        return msg;\n    };\n}\nconsole.log(outer()());",
+          "puzzle": "// Practice variant 56\nfunction outer() {\n    let msg = \"Hi\";\n    return function() {\n        ___;\n    };\n}\nconsole.log(outer()());",
+          "output": "Hi"
+        },
+        {
+          "level": 451,
+          "topic": "this keyword - variant 57",
+          "syntax": "// Practice variant 57\nconst obj = {\n    name: \"Ava\",\n    greet() {\n        return this.name;\n    }\n};\nconsole.log(obj.greet());",
+          "puzzle": "// Practice variant 57\nconst obj = {\n    name: \"Ava\",\n    greet() {\n        return ___;\n    }\n};\nconsole.log(obj.greet());",
+          "output": "Ava"
+        },
+        {
+          "level": 452,
+          "topic": "arguments object - variant 58",
+          "syntax": "// Practice variant 58\nfunction sum() {\n    return arguments.length;\n}\nconsole.log(sum(1, 2, 3));",
+          "puzzle": "// Practice variant 58\nfunction sum() {\n    return ___.length;\n}\nconsole.log(sum(1, 2, 3));",
+          "output": "3"
+        },
+        {
+          "level": 453,
+          "topic": "Array literal - variant 59",
+          "syntax": "// Practice variant 59\nlet nums = [1, 2, 3];\nconsole.log(nums);",
+          "puzzle": "// Practice variant 59\nlet nums = ___;\nconsole.log(nums);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 454,
+          "topic": "Array indexing - variant 60",
+          "syntax": "// Practice variant 60\nlet nums = [10, 20, 30];\nconsole.log(nums[1]);",
+          "puzzle": "// Practice variant 60\nlet nums = [10, 20, 30];\nconsole.log(___);",
+          "output": "20"
+        },
+        {
+          "level": 455,
+          "topic": "length property - variant 61",
+          "syntax": "// Practice variant 61\nlet nums = [1, 2, 3];\nconsole.log(nums.length);",
+          "puzzle": "// Practice variant 61\nlet nums = [1, 2, 3];\nconsole.log(nums.___);",
+          "output": "3"
+        },
+        {
+          "level": 456,
+          "topic": "push() - variant 62",
+          "syntax": "// Practice variant 62\nlet nums = [1, 2];\nnums.push(3);\nconsole.log(nums);",
+          "puzzle": "// Practice variant 62\nlet nums = [1, 2];\nnums.___(3);\nconsole.log(nums);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 457,
+          "topic": "pop() - variant 63",
+          "syntax": "// Practice variant 63\nlet nums = [1, 2, 3];\nnums.pop();\nconsole.log(nums);",
+          "puzzle": "// Practice variant 63\nlet nums = [1, 2, 3];\nnums.___();\nconsole.log(nums);",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 458,
+          "topic": "shift() - variant 64",
+          "syntax": "// Practice variant 64\nlet nums = [1, 2, 3];\nnums.shift();\nconsole.log(nums);",
+          "puzzle": "// Practice variant 64\nlet nums = [1, 2, 3];\nnums.___();\nconsole.log(nums);",
+          "output": "[ 2, 3 ]"
+        },
+        {
+          "level": 459,
+          "topic": "unshift() - variant 65",
+          "syntax": "// Practice variant 65\nlet nums = [2, 3];\nnums.unshift(1);\nconsole.log(nums);",
+          "puzzle": "// Practice variant 65\nlet nums = [2, 3];\nnums.___(1);\nconsole.log(nums);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 460,
+          "topic": "slice() - variant 66",
+          "syntax": "// Practice variant 66\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.slice(1, 3));",
+          "puzzle": "// Practice variant 66\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.___(1, 3));",
+          "output": "[ 2, 3 ]"
+        },
+        {
+          "level": 461,
+          "topic": "splice() - variant 67",
+          "syntax": "// Practice variant 67\nlet nums = [1, 2, 3];\nnums.splice(1, 1);\nconsole.log(nums);",
+          "puzzle": "// Practice variant 67\nlet nums = [1, 2, 3];\nnums.___(1, 1);\nconsole.log(nums);",
+          "output": "[ 1, 3 ]"
+        },
+        {
+          "level": 462,
+          "topic": "map() - variant 68",
+          "syntax": "// Practice variant 68\nlet nums = [1, 2, 3];\nconsole.log(nums.map((x) => x * 2));",
+          "puzzle": "// Practice variant 68\nlet nums = [1, 2, 3];\nconsole.log(nums.___((x) => x * 2));",
+          "output": "[ 2, 4, 6 ]"
+        },
+        {
+          "level": 463,
+          "topic": "filter() - variant 69",
+          "syntax": "// Practice variant 69\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.filter((x) => x % 2 === 0));",
+          "puzzle": "// Practice variant 69\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.___((x) => x % 2 === 0));",
+          "output": "[ 2, 4 ]"
+        },
+        {
+          "level": 464,
+          "topic": "reduce() - variant 70",
+          "syntax": "// Practice variant 70\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.reduce((a, b) => a + b));",
+          "puzzle": "// Practice variant 70\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.___((a, b) => a + b));",
+          "output": "10"
+        },
+        {
+          "level": 465,
+          "topic": "forEach() - variant 71",
+          "syntax": "// Practice variant 71\nlet nums = [1, 2, 3];\nnums.forEach((n) => console.log(n));",
+          "puzzle": "// Practice variant 71\nlet nums = [1, 2, 3];\nnums.___((n) => console.log(n));",
+          "output": "1\n2\n3"
+        },
+        {
+          "level": 466,
+          "topic": "find() - variant 72",
+          "syntax": "// Practice variant 72\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.find((x) => x > 2));",
+          "puzzle": "// Practice variant 72\nlet nums = [1, 2, 3, 4];\nconsole.log(nums.___((x) => x > 2));",
+          "output": "3"
+        },
+        {
+          "level": 467,
+          "topic": "Object literal - variant 73",
+          "syntax": "// Practice variant 73\nlet user = { name: \"Ava\", age: 21 };\nconsole.log(user);",
+          "puzzle": "// Practice variant 73\nlet user = ___;\nconsole.log(user);",
+          "output": "{ name: 'Ava', age: 21 }"
+        },
+        {
+          "level": 468,
+          "topic": "Dot notation - variant 74",
+          "syntax": "// Practice variant 74\nlet user = { name: \"Ava\" };\nconsole.log(user.name);",
+          "puzzle": "// Practice variant 74\nlet user = { name: \"Ava\" };\nconsole.log(___);",
+          "output": "Ava"
+        },
+        {
+          "level": 469,
+          "topic": "Bracket notation - variant 75",
+          "syntax": "// Practice variant 75\nlet user = { name: \"Ava\" };\nconsole.log(user[\"name\"]);",
+          "puzzle": "// Practice variant 75\nlet user = { name: \"Ava\" };\nconsole.log(___);",
+          "output": "Ava"
+        },
+        {
+          "level": 470,
+          "topic": "Object.keys() - variant 76",
+          "syntax": "// Practice variant 76\nlet obj = { a: 1, b: 2 };\nconsole.log(Object.keys(obj));",
+          "puzzle": "// Practice variant 76\nlet obj = { a: 1, b: 2 };\nconsole.log(___(obj));",
+          "output": "[ 'a', 'b' ]"
+        },
+        {
+          "level": 471,
+          "topic": "Object.values() - variant 77",
+          "syntax": "// Practice variant 77\nlet obj = { a: 1, b: 2 };\nconsole.log(Object.values(obj));",
+          "puzzle": "// Practice variant 77\nlet obj = { a: 1, b: 2 };\nconsole.log(___(obj));",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 472,
+          "topic": "Object.entries() - variant 78",
+          "syntax": "// Practice variant 78\nlet obj = { a: 1 };\nconsole.log(Object.entries(obj));",
+          "puzzle": "// Practice variant 78\nlet obj = { a: 1 };\nconsole.log(___(obj));",
+          "output": "[ [ 'a', 1 ] ]"
+        },
+        {
+          "level": 473,
+          "topic": "Object.assign() - variant 79",
+          "syntax": "// Practice variant 79\nlet a = { x: 1 };\nlet b = Object.assign({}, a, { y: 2 });\nconsole.log(b);",
+          "puzzle": "// Practice variant 79\nlet a = { x: 1 };\nlet b = ___({}, a, { y: 2 });\nconsole.log(b);",
+          "output": "{ x: 1, y: 2 }"
+        },
+        {
+          "level": 474,
+          "topic": "Object methods - variant 80",
+          "syntax": "// Practice variant 80\nlet obj = {\n    greet() {\n        return \"Hi\";\n    }\n};\nconsole.log(obj.greet());",
+          "puzzle": "// Practice variant 80\nlet obj = {\n    ___ {\n        return \"Hi\";\n    }\n};\nconsole.log(obj.greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 475,
+          "topic": "Nested objects - variant 81",
+          "syntax": "// Practice variant 81\nlet data = { user: { name: \"Ava\" } };\nconsole.log(data.user.name);",
+          "puzzle": "// Practice variant 81\nlet data = { user: { name: \"Ava\" } };\nconsole.log(___);",
+          "output": "Ava"
+        },
+        {
+          "level": 476,
+          "topic": "delete operator - variant 82",
+          "syntax": "// Practice variant 82\nlet obj = { a: 1, b: 2 };\ndelete obj.a;\nconsole.log(obj);",
+          "puzzle": "// Practice variant 82\nlet obj = { a: 1, b: 2 };\n___ obj.a;\nconsole.log(obj);",
+          "output": "{ b: 2 }"
+        },
+        {
+          "level": 477,
+          "topic": "Array destructuring - variant 83",
+          "syntax": "// Practice variant 83\nlet [a, b] = [1, 2];\nconsole.log(a, b);",
+          "puzzle": "// Practice variant 83\nlet ___ = [1, 2];\nconsole.log(a, b);",
+          "output": "1 2"
+        },
+        {
+          "level": 478,
+          "topic": "Object destructuring - variant 84",
+          "syntax": "// Practice variant 84\nlet { name } = { name: \"Ava\" };\nconsole.log(name);",
+          "puzzle": "// Practice variant 84\nlet ___ = { name: \"Ava\" };\nconsole.log(name);",
+          "output": "Ava"
+        },
+        {
+          "level": 479,
+          "topic": "Default in destructuring - variant 85",
+          "syntax": "// Practice variant 85\nlet { name = \"Guest\" } = {};\nconsole.log(name);",
+          "puzzle": "// Practice variant 85\nlet { name ___ } = {};\nconsole.log(name);",
+          "output": "Guest"
+        },
+        {
+          "level": 480,
+          "topic": "Spread in array - variant 86",
+          "syntax": "// Practice variant 86\nlet a = [1, 2];\nlet b = [...a, 3];\nconsole.log(b);",
+          "puzzle": "// Practice variant 86\nlet a = [1, 2];\nlet b = [___, 3];\nconsole.log(b);",
+          "output": "[ 1, 2, 3 ]"
+        },
+        {
+          "level": 481,
+          "topic": "Spread in object - variant 87",
+          "syntax": "// Practice variant 87\nlet a = { x: 1 };\nlet b = { ...a, y: 2 };\nconsole.log(b);",
+          "puzzle": "// Practice variant 87\nlet a = { x: 1 };\nlet b = { ___, y: 2 };\nconsole.log(b);",
+          "output": "{ x: 1, y: 2 }"
+        },
+        {
+          "level": 482,
+          "topic": "Rest in function - variant 88",
+          "syntax": "// Practice variant 88\nfunction total(...nums) {\n    return nums.length;\n}\nconsole.log(total(1, 2, 3));",
+          "puzzle": "// Practice variant 88\nfunction total(___) {\n    return nums.length;\n}\nconsole.log(total(1, 2, 3));",
+          "output": "3"
+        },
+        {
+          "level": 483,
+          "topic": "Rest in destructuring - variant 89",
+          "syntax": "// Practice variant 89\nlet [first, ...rest] = [1, 2, 3];\nconsole.log(rest);",
+          "puzzle": "// Practice variant 89\nlet [first, ___] = [1, 2, 3];\nconsole.log(rest);",
+          "output": "[ 2, 3 ]"
+        },
+        {
+          "level": 484,
+          "topic": "Nested destructuring - variant 90",
+          "syntax": "// Practice variant 90\nlet { user: { name } } = { user: { name: \"Ava\" } };\nconsole.log(name);",
+          "puzzle": "// Practice variant 90\nlet { user: ___ } = { user: { name: \"Ava\" } };\nconsole.log(name);",
+          "output": "Ava"
+        },
+        {
+          "level": 485,
+          "topic": "Template literals - variant 91",
+          "syntax": "// Practice variant 91\nlet x = 5;\nconsole.log(`Value: ${x}`);",
+          "puzzle": "// Practice variant 91\nlet x = 5;\nconsole.log(___);",
+          "output": "Value: 5"
+        },
+        {
+          "level": 486,
+          "topic": "String interpolation - variant 92",
+          "syntax": "// Practice variant 92\nlet a = 2, b = 3;\nconsole.log(`${a} + ${b} = ${a + b}`);",
+          "puzzle": "// Practice variant 92\nlet a = 2, b = 3;\nconsole.log(`${a} + ${b} = ___`);",
+          "output": "2 + 3 = 5"
+        },
+        {
+          "level": 487,
+          "topic": "Multi-line strings - variant 93",
+          "syntax": "// Practice variant 93\nconsole.log(`Line1\nLine2`);",
+          "puzzle": "// Practice variant 93\nconsole.log(___);",
+          "output": "Line1\nLine2"
+        },
+        {
+          "level": 488,
+          "topic": "toUpperCase() - variant 94",
+          "syntax": "// Practice variant 94\nlet s = \"hello\";\nconsole.log(s.toUpperCase());",
+          "puzzle": "// Practice variant 94\nlet s = \"hello\";\nconsole.log(s.___());",
+          "output": "HELLO"
+        },
+        {
+          "level": 489,
+          "topic": "includes() - variant 95",
+          "syntax": "// Practice variant 95\nlet s = \"hello world\";\nconsole.log(s.includes(\"world\"));",
+          "puzzle": "// Practice variant 95\nlet s = \"hello world\";\nconsole.log(s.___(\"world\"));",
+          "output": "true"
+        },
+        {
+          "level": 490,
+          "topic": "split() - variant 96",
+          "syntax": "// Practice variant 96\nlet s = \"a,b,c\";\nconsole.log(s.split(\",\"));",
+          "puzzle": "// Practice variant 96\nlet s = \"a,b,c\";\nconsole.log(s.___(\",\"));",
+          "output": "[ 'a', 'b', 'c' ]"
+        },
+        {
+          "level": 491,
+          "topic": "trim() - variant 97",
+          "syntax": "// Practice variant 97\nlet s = \"  hi  \";\nconsole.log(s.trim());",
+          "puzzle": "// Practice variant 97\nlet s = \"  hi  \";\nconsole.log(s.___());",
+          "output": "hi"
+        },
+        {
+          "level": 492,
+          "topic": "padStart() - variant 98",
+          "syntax": "// Practice variant 98\nlet s = \"5\";\nconsole.log(s.padStart(3, \"0\"));",
+          "puzzle": "// Practice variant 98\nlet s = \"5\";\nconsole.log(s.___(3, \"0\"));",
+          "output": "005"
+        },
+        {
+          "level": 493,
+          "topic": "export - variant 99",
+          "syntax": "// Practice variant 99\n// utils.js\nexport function greet() {\n    return \"Hi\";\n}",
+          "puzzle": "// Practice variant 99\n// utils.js\n___ function greet() {\n    return \"Hi\";\n}",
+          "output": ""
+        },
+        {
+          "level": 494,
+          "topic": "export default - variant 100",
+          "syntax": "// Practice variant 100\n// App.js\nexport default function App() {\n    return \"Hi\";\n}",
+          "puzzle": "// Practice variant 100\n// App.js\n___ function App() {\n    return \"Hi\";\n}",
+          "output": ""
+        },
+        {
+          "level": 495,
+          "topic": "import - variant 101",
+          "syntax": "// Practice variant 101\n// main.js\nimport { greet } from \"./utils.js\";\nconsole.log(greet());",
+          "puzzle": "// Practice variant 101\n// main.js\n___ { greet } from \"./utils.js\";\nconsole.log(greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 496,
+          "topic": "Default import - variant 102",
+          "syntax": "// Practice variant 102\n// main.js\nimport App from \"./App.js\";\nconsole.log(App());",
+          "puzzle": "// Practice variant 102\n// main.js\n___ from \"./App.js\";\nconsole.log(App());",
+          "output": "Hi"
+        },
+        {
+          "level": 497,
+          "topic": "import as - variant 103",
+          "syntax": "// Practice variant 103\nimport * as utils from \"./utils.js\";\nconsole.log(utils.greet());",
+          "puzzle": "// Practice variant 103\nimport * ___ utils from \"./utils.js\";\nconsole.log(utils.greet());",
+          "output": "Hi"
+        },
+        {
+          "level": 498,
+          "topic": "Re-exporting - variant 104",
+          "syntax": "// Practice variant 104\n// index.js\nexport { greet } from \"./utils.js\";",
+          "puzzle": "// Practice variant 104\n// index.js\n___ { greet } from \"./utils.js\";",
+          "output": ""
+        },
+        {
+          "level": 499,
+          "topic": "Dynamic import - variant 105",
+          "syntax": "// Practice variant 105\nimport(\"./utils.js\").then((mod) => console.log(mod.greet()));",
+          "puzzle": "// Practice variant 105\n___.then((mod) => console.log(mod.greet()));",
+          "output": "Hi"
+        },
+        {
+          "level": 500,
+          "topic": "Named exports (multiple) - variant 106",
+          "syntax": "// Practice variant 106\nexport const a = 1;\nexport const b = 2;",
+          "puzzle": "// Practice variant 106\n___ = 1;\nexport const b = 2;",
+          "output": ""
+        },
+        {
+          "level": 501,
+          "topic": "Promise - variant 107",
+          "syntax": "// Practice variant 107\nlet p = new Promise((resolve) => resolve(5));\np.then((v) => console.log(v));",
+          "puzzle": "// Practice variant 107\nlet p = new ___((resolve) => resolve(5));\np.then((v) => console.log(v));",
+          "output": "5"
+        },
+        {
+          "level": 502,
+          "topic": "resolve - variant 108",
+          "syntax": "// Practice variant 108\nnew Promise((resolve) => resolve(\"done\")).then((v) => console.log(v));",
+          "puzzle": "// Practice variant 108\nnew Promise((___) => resolve(\"done\")).then((v) => console.log(v));",
+          "output": "done"
+        },
+        {
+          "level": 503,
+          "topic": "reject - variant 109",
+          "syntax": "// Practice variant 109\nnew Promise((_, reject) => reject(\"fail\")).catch((e) => console.log(e));",
+          "puzzle": "// Practice variant 109\nnew Promise((___, ___) => reject(\"fail\")).catch((e) => console.log(e));",
+          "output": "fail"
+        },
+        {
+          "level": 504,
+          "topic": ".then() - variant 110",
+          "syntax": "// Practice variant 110\nPromise.resolve(5).then((v) => console.log(v));",
+          "puzzle": "// Practice variant 110\nPromise.resolve(5).___((v) => console.log(v));",
+          "output": "5"
+        },
+        {
+          "level": 505,
+          "topic": ".catch() - variant 111",
+          "syntax": "// Practice variant 111\nPromise.reject(\"error\").catch((e) => console.log(e));",
+          "puzzle": "// Practice variant 111\nPromise.reject(\"error\").___((e) => console.log(e));",
+          "output": "error"
+        },
+        {
+          "level": 506,
+          "topic": ".finally() - variant 112",
+          "syntax": "// Practice variant 112\nPromise.resolve(1).finally(() => console.log(\"Done\"));",
+          "puzzle": "// Practice variant 112\nPromise.resolve(1).___(() => console.log(\"Done\"));",
+          "output": "Done"
+        },
+        {
+          "level": 507,
+          "topic": "async function - variant 113",
+          "syntax": "// Practice variant 113\nasync function greet() {\n    return \"Hi\";\n}\ngreet().then((v) => console.log(v));",
+          "puzzle": "// Practice variant 113\n___ function greet() {\n    return \"Hi\";\n}\ngreet().then((v) => console.log(v));",
+          "output": "Hi"
+        },
+        {
+          "level": 508,
+          "topic": "await - variant 114",
+          "syntax": "// Practice variant 114\nasync function main() {\n    let v = await Promise.resolve(10);\n    console.log(v);\n}\nmain();",
+          "puzzle": "// Practice variant 114\nasync function main() {\n    let v = ___ Promise.resolve(10);\n    console.log(v);\n}\nmain();",
+          "output": "10"
+        },
+        {
+          "level": 509,
+          "topic": "Promise.all - variant 115",
+          "syntax": "// Practice variant 115\nPromise.all([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "puzzle": "// Practice variant 115\n___([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "output": "[ 1, 2 ]"
+        },
+        {
+          "level": 510,
+          "topic": "Promise.race - variant 116",
+          "syntax": "// Practice variant 116\nPromise.race([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "puzzle": "// Practice variant 116\n___([Promise.resolve(1), Promise.resolve(2)]).then((v) => console.log(v));",
+          "output": "1"
+        },
+        {
+          "level": 511,
+          "topic": "try/catch with async - variant 117",
+          "syntax": "// Practice variant 117\nasync function main() {\n    try {\n        await Promise.reject(\"fail\");\n    } catch (e) {\n        console.log(e);\n    }\n}\nmain();",
+          "puzzle": "// Practice variant 117\nasync function main() {\n    try {\n        await Promise.reject(\"fail\");\n    } ___ (e) {\n        console.log(e);\n    }\n}\nmain();",
+          "output": "fail"
+        },
+        {
+          "level": 512,
+          "topic": "fetch basics - variant 118",
+          "syntax": "// Practice variant 118\nfetch(\"/api/users\").then((r) => r.json()).then((data) => console.log(data));",
+          "puzzle": "// Practice variant 118\n___(\"/api/users\").then((r) => r.json()).then((data) => console.log(data));",
+          "output": "{ id: 1 }"
+        },
+        {
+          "level": 513,
+          "topic": "try - variant 119",
+          "syntax": "// Practice variant 119\ntry {\n    console.log(1 / 1);\n} catch (e) {\n    console.log(\"Error\");\n}",
+          "puzzle": "// Practice variant 119\n___ {\n    console.log(1 / 1);\n} catch (e) {\n    console.log(\"Error\");\n}",
+          "output": "1"
+        },
+        {
+          "level": 514,
+          "topic": "catch - variant 120",
+          "syntax": "// Practice variant 120\ntry {\n    null.x;\n} catch (e) {\n    console.log(\"Caught error\");\n}",
+          "puzzle": "// Practice variant 120\ntry {\n    null.x;\n} ___ (e) {\n    console.log(\"Caught error\");\n}",
+          "output": "Caught error"
+        },
+        {
+          "level": 515,
+          "topic": "finally - variant 121",
+          "syntax": "// Practice variant 121\ntry {\n    throw new Error(\"fail\");\n} catch (e) {\n    console.log(\"Error\");\n} finally {\n    console.log(\"Cleanup\");\n}",
+          "puzzle": "// Practice variant 121\ntry {\n    throw new Error(\"fail\");\n} catch (e) {\n    console.log(\"Error\");\n} ___ {\n    console.log(\"Cleanup\");\n}",
+          "output": "Error\nCleanup"
+        },
+        {
+          "level": 516,
+          "topic": "throw - variant 122",
+          "syntax": "// Practice variant 122\nfunction check(x) {\n    if (x < 0) throw new Error(\"Negative\");\n    return x;\n}\ntry { check(-1); } catch (e) { console.log(e.message); }",
+          "puzzle": "// Practice variant 122\nfunction check(x) {\n    if (x < 0) ___ new Error(\"Negative\");\n    return x;\n}\ntry { check(-1); } catch (e) { console.log(e.message); }",
+          "output": "Negative"
+        },
+        {
+          "level": 517,
+          "topic": "Custom error class - variant 123",
+          "syntax": "// Practice variant 123\nclass MyError extends Error {}\ntry {\n    throw new MyError(\"Custom fail\");\n} catch (e) {\n    console.log(e.message);\n}",
+          "puzzle": "// Practice variant 123\nclass MyError ___ Error {}\ntry {\n    throw new MyError(\"Custom fail\");\n} catch (e) {\n    console.log(e.message);\n}",
+          "output": "Custom fail"
+        },
+        {
+          "level": 518,
+          "topic": "error.message - variant 124",
+          "syntax": "// Practice variant 124\ntry {\n    JSON.parse(\"{bad}\");\n} catch (e) {\n    console.log(typeof e.message);\n}",
+          "puzzle": "// Practice variant 124\ntry {\n    JSON.parse(\"{bad}\");\n} catch (e) {\n    console.log(typeof e.___);\n}",
+          "output": "string"
+        },
+        {
+          "level": 519,
+          "topic": "instanceof Error - variant 125",
+          "syntax": "// Practice variant 125\ntry {\n    throw new TypeError(\"bad type\");\n} catch (e) {\n    console.log(e instanceof Error);\n}",
+          "puzzle": "// Practice variant 125\ntry {\n    throw new TypeError(\"bad type\");\n} catch (e) {\n    console.log(e ___ Error);\n}",
+          "output": "true"
+        },
+        {
+          "level": 520,
+          "topic": "class declaration - variant 126",
+          "syntax": "// Practice variant 126\nclass Dog {}\nconsole.log(typeof Dog);",
+          "puzzle": "// Practice variant 126\n___ Dog {}\nconsole.log(typeof Dog);",
+          "output": "function"
+        },
+        {
+          "level": 521,
+          "topic": "constructor - variant 127",
+          "syntax": "// Practice variant 127\nclass Dog {\n    constructor(name) {\n        this.name = name;\n    }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "puzzle": "// Practice variant 127\nclass Dog {\n    ___(name) {\n        this.name = name;\n    }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "output": "Rex"
+        },
+        {
+          "level": 522,
+          "topic": "Methods - variant 128",
+          "syntax": "// Practice variant 128\nclass Dog {\n    bark() {\n        return \"Woof\";\n    }\n}\nconsole.log(new Dog().bark());",
+          "puzzle": "// Practice variant 128\nclass Dog {\n    ___ {\n        return \"Woof\";\n    }\n}\nconsole.log(new Dog().bark());",
+          "output": "Woof"
+        },
+        {
+          "level": 523,
+          "topic": "Inheritance (extends) - variant 129",
+          "syntax": "// Practice variant 129\nclass Animal {\n    speak() { return \"...\"; }\n}\nclass Dog extends Animal {\n    speak() { return \"Woof\"; }\n}\nconsole.log(new Dog().speak());",
+          "puzzle": "// Practice variant 129\nclass Animal {\n    speak() { return \"...\"; }\n}\nclass Dog ___ Animal {\n    speak() { return \"Woof\"; }\n}\nconsole.log(new Dog().speak());",
+          "output": "Woof"
+        },
+        {
+          "level": 524,
+          "topic": "super() - variant 130",
+          "syntax": "// Practice variant 130\nclass Animal {\n    constructor(name) { this.name = name; }\n}\nclass Dog extends Animal {\n    constructor(name) { super(name); }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "puzzle": "// Practice variant 130\nclass Animal {\n    constructor(name) { this.name = name; }\n}\nclass Dog extends Animal {\n    constructor(name) { ___; }\n}\nconsole.log(new Dog(\"Rex\").name);",
+          "output": "Rex"
+        },
+        {
+          "level": 525,
+          "topic": "Static methods - variant 131",
+          "syntax": "// Practice variant 131\nclass MathUtil {\n    static add(a, b) { return a + b; }\n}\nconsole.log(MathUtil.add(2, 3));",
+          "puzzle": "// Practice variant 131\nclass MathUtil {\n    ___ add(a, b) { return a + b; }\n}\nconsole.log(MathUtil.add(2, 3));",
+          "output": "5"
+        },
+        {
+          "level": 526,
+          "topic": "Getters - variant 132",
+          "syntax": "// Practice variant 132\nclass Circle {\n    constructor(r) { this._r = r; }\n    get radius() { return this._r; }\n}\nconsole.log(new Circle(5).radius);",
+          "puzzle": "// Practice variant 132\nclass Circle {\n    constructor(r) { this.___r = r; }\n    ___ radius() { return this.___r; }\n}\nconsole.log(new Circle(5).radius);",
+          "output": "5"
+        },
+        {
+          "level": 527,
+          "topic": "Setters - variant 133",
+          "syntax": "// Practice variant 133\nclass Circle {\n    constructor(r) { this._r = r; }\n    set radius(v) { this._r = v; }\n    get radius() { return this._r; }\n}\nlet c = new Circle(5);\nc.radius = 10;\nconsole.log(c.radius);",
+          "puzzle": "// Practice variant 133\nclass Circle {\n    constructor(r) { this.___r = r; }\n    ___ radius(v) { this.___r = v; }\n    get radius() { return this.___r; }\n}\nlet c = new Circle(5);\nc.radius = 10;\nconsole.log(c.radius);",
+          "output": "10"
+        },
+        {
+          "level": 528,
+          "topic": "Private fields - variant 134",
+          "syntax": "// Practice variant 134\nclass Account {\n    #balance = 100;\n    getBalance() { return this.#balance; }\n}\nconsole.log(new Account().getBalance());",
+          "puzzle": "// Practice variant 134\nclass Account {\n    ___ = 100;\n    getBalance() { return this.#balance; }\n}\nconsole.log(new Account().getBalance());",
+          "output": "100"
+        },
+        {
+          "level": 529,
+          "topic": "instanceof - variant 135",
+          "syntax": "// Practice variant 135\nclass Dog {}\nconsole.log(new Dog() instanceof Dog);",
+          "puzzle": "// Practice variant 135\nclass Dog {}\nconsole.log(new Dog() ___ Dog);",
+          "output": "true"
+        },
+        {
+          "level": 530,
+          "topic": "querySelector - variant 136",
+          "syntax": "// Practice variant 136\nconst el = document.querySelector(\"#title\");\nconsole.log(el.textContent);",
+          "puzzle": "// Practice variant 136\nconst el = document.___(\"#title\");\nconsole.log(el.textContent);",
+          "output": "Hello"
+        },
+        {
+          "level": 531,
+          "topic": "getElementById - variant 137",
+          "syntax": "// Practice variant 137\nconst el = document.getElementById(\"title\");\nconsole.log(el.textContent);",
+          "puzzle": "// Practice variant 137\nconst el = document.___(\"title\");\nconsole.log(el.textContent);",
+          "output": "Hello"
+        },
+        {
+          "level": 532,
+          "topic": "addEventListener - variant 138",
+          "syntax": "// Practice variant 138\nbtn.addEventListener(\"click\", () => console.log(\"Clicked\"));",
+          "puzzle": "// Practice variant 138\nbtn.___(\"click\", () => console.log(\"Clicked\"));",
+          "output": "Clicked"
+        },
+        {
+          "level": 533,
+          "topic": "createElement - variant 139",
+          "syntax": "// Practice variant 139\nconst div = document.createElement(\"div\");\nconsole.log(div.tagName);",
+          "puzzle": "// Practice variant 139\nconst div = document.___(\"div\");\nconsole.log(div.tagName);",
+          "output": "DIV"
+        },
+        {
+          "level": 534,
+          "topic": "appendChild - variant 140",
+          "syntax": "// Practice variant 140\nparent.appendChild(child);\nconsole.log(parent.children.length);",
+          "puzzle": "// Practice variant 140\nparent.___(child);\nconsole.log(parent.children.length);",
+          "output": "1"
+        },
+        {
+          "level": 535,
+          "topic": "innerHTML - variant 141",
+          "syntax": "// Practice variant 141\ndiv.innerHTML = \"<p>Hi</p>\";\nconsole.log(div.innerHTML);",
+          "puzzle": "// Practice variant 141\ndiv.___ = \"<p>Hi</p>\";\nconsole.log(div.innerHTML);",
+          "output": "<p>Hi</p>"
+        },
+        {
+          "level": 536,
+          "topic": "classList.add - variant 142",
+          "syntax": "// Practice variant 142\ndiv.classList.add(\"active\");\nconsole.log(div.className);",
+          "puzzle": "// Practice variant 142\ndiv.___.add(\"active\");\nconsole.log(div.className);",
+          "output": "active"
+        },
+        {
+          "level": 537,
+          "topic": "event.target - variant 143",
+          "syntax": "// Practice variant 143\nbtn.addEventListener(\"click\", (e) => console.log(e.target.id));",
+          "puzzle": "// Practice variant 143\nbtn.addEventListener(\"click\", (e) => console.log(___.id));",
+          "output": "submitBtn"
+        },
+        {
+          "level": 538,
+          "topic": "preventDefault - variant 144",
+          "syntax": "// Practice variant 144\nform.addEventListener(\"submit\", (e) => {\n    e.preventDefault();\n    console.log(\"Submit blocked\");\n});",
+          "puzzle": "// Practice variant 144\nform.addEventListener(\"submit\", (e) => {\n    e.___();\n    console.log(\"Submit blocked\");\n});",
+          "output": "Submit blocked"
+        },
+        {
+          "level": 539,
+          "topic": "removeEventListener - variant 145",
+          "syntax": "// Practice variant 145\nbtn.removeEventListener(\"click\", handler);\nconsole.log(\"Listener removed\");",
+          "puzzle": "// Practice variant 145\nbtn.___(\"click\", handler);\nconsole.log(\"Listener removed\");",
+          "output": "Listener removed"
+        },
+        {
+          "level": 540,
+          "topic": "JSX element - variant 146",
+          "syntax": "// Practice variant 146\nconst element = <h1>Hello, World!</h1>;\nconsole.log(element.type);",
+          "puzzle": "// Practice variant 146\nconst element = ___;\nconsole.log(element.type);",
+          "output": "h1"
+        },
+        {
+          "level": 541,
+          "topic": "Embedding expressions - variant 147",
+          "syntax": "// Practice variant 147\nconst name = \"Ava\";\nconst el = <h1>Hi {name}</h1>;",
+          "puzzle": "// Practice variant 147\nconst name = \"Ava\";\nconst el = <h1>Hi ___</h1>;",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 542,
+          "topic": "className attribute - variant 148",
+          "syntax": "// Practice variant 148\nconst el = <div className=\"card\">Hi</div>;",
+          "puzzle": "// Practice variant 148\nconst el = <div ___=\"card\">Hi</div>;",
+          "output": "card"
+        },
+        {
+          "level": 543,
+          "topic": "Fragments - variant 149",
+          "syntax": "// Practice variant 149\nconst el = <>\n    <h1>Title</h1>\n    <p>Text</p>\n</>;",
+          "puzzle": "// Practice variant 149\nconst el = ___\n    <h1>Title</h1>\n    <p>Text</p>\n</>;",
+          "output": "Title\nText"
+        },
+        {
+          "level": 544,
+          "topic": "ReactDOM.createRoot - variant 150",
+          "syntax": "// Practice variant 150\nconst root = ReactDOM.createRoot(document.getElementById(\"root\"));\nroot.render(<App />);",
+          "puzzle": "// Practice variant 150\nconst root = ReactDOM.___(document.getElementById(\"root\"));\nroot.render(<App />);",
+          "output": "App rendered"
+        },
+        {
+          "level": 545,
+          "topic": "Single root element - variant 151",
+          "syntax": "// Practice variant 151\nfunction App() {\n    return (\n        <div>\n            <h1>Title</h1>\n        </div>\n    );\n}",
+          "puzzle": "// Practice variant 151\nfunction App() {\n    return (\n        ___\n            <h1>Title</h1>\n        </div>\n    );\n}",
+          "output": "Title"
+        },
+        {
+          "level": 546,
+          "topic": "Self-closing tags - variant 152",
+          "syntax": "// Practice variant 152\nconst img = <img src=\"logo.png\" />;",
+          "puzzle": "// Practice variant 152\nconst img = <img src=\"logo.png\" ___;",
+          "output": "logo.png"
+        },
+        {
+          "level": 547,
+          "topic": "Conditional className - variant 153",
+          "syntax": "// Practice variant 153\nconst el = <div className={isActive ? \"active\" : \"\"}>Hi</div>;",
+          "puzzle": "// Practice variant 153\nconst el = <div className={___ ? \"active\" : \"\"}>Hi</div>;",
+          "output": "active"
+        },
+        {
+          "level": 548,
+          "topic": "Comments in JSX - variant 154",
+          "syntax": "// Practice variant 154\nconst el = (\n    <div>\n        {/* This is a comment */}\n        <p>Hi</p>\n    </div>\n);",
+          "puzzle": "// Practice variant 154\nconst el = (\n    <div>\n        ___\n        <p>Hi</p>\n    </div>\n);",
+          "output": "Hi"
+        },
+        {
+          "level": 549,
+          "topic": "React import - variant 155",
+          "syntax": "// Practice variant 155\nimport React from \"react\";\nconst el = <h1>Hi</h1>;",
+          "puzzle": "// Practice variant 155\n___ from \"react\";\nconst el = <h1>Hi</h1>;",
+          "output": "Hi"
+        },
+        {
+          "level": 550,
+          "topic": "StrictMode - variant 156",
+          "syntax": "// Practice variant 156\n<React.StrictMode>\n    <App />\n</React.StrictMode>;",
+          "puzzle": "// Practice variant 156\n<React.___>\n    <App />\n</React.StrictMode>;",
+          "output": "App"
+        },
+        {
+          "level": 551,
+          "topic": "Functional component - variant 157",
+          "syntax": "// Practice variant 157\nfunction Greeting() {\n    return <h1>Hello</h1>;\n}\nconsole.log(typeof Greeting);",
+          "puzzle": "// Practice variant 157\n___ Greeting() {\n    return <h1>Hello</h1>;\n}\nconsole.log(typeof Greeting);",
+          "output": "function"
+        },
+        {
+          "level": 552,
+          "topic": "Class component - variant 158",
+          "syntax": "// Practice variant 158\nclass Greeting extends React.Component {\n    render() {\n        return <h1>Hello</h1>;\n    }\n}",
+          "puzzle": "// Practice variant 158\nclass Greeting ___ {\n    render() {\n        return <h1>Hello</h1>;\n    }\n}",
+          "output": ""
+        },
+        {
+          "level": 553,
+          "topic": "render() method - variant 159",
+          "syntax": "// Practice variant 159\nclass Greeting extends React.Component {\n    render() {\n        return <h1>Hi</h1>;\n    }\n}",
+          "puzzle": "// Practice variant 159\nclass Greeting extends React.Component {\n    ___ {\n        return <h1>Hi</h1>;\n    }\n}",
+          "output": "Hi"
+        },
+        {
+          "level": 554,
+          "topic": "Exporting a component - variant 160",
+          "syntax": "// Practice variant 160\nexport default function App() {\n    return <h1>App</h1>;\n}",
+          "puzzle": "// Practice variant 160\n___ function App() {\n    return <h1>App</h1>;\n}",
+          "output": "App"
+        },
+        {
+          "level": 555,
+          "topic": "Importing a component - variant 161",
+          "syntax": "// Practice variant 161\nimport Greeting from \"./Greeting\";\nfunction App() {\n    return <Greeting />;\n}",
+          "puzzle": "// Practice variant 161\n___ from \"./Greeting\";\nfunction App() {\n    return <Greeting />;\n}",
+          "output": ""
+        },
+        {
+          "level": 556,
+          "topic": "Component composition - variant 162",
+          "syntax": "// Practice variant 162\nfunction App() {\n    return (\n        <div>\n            <Header />\n            <Footer />\n        </div>\n    );\n}",
+          "puzzle": "// Practice variant 162\nfunction App() {\n    return (\n        <div>\n            ___\n            <Footer />\n        </div>\n    );\n}",
+          "output": ""
+        },
+        {
+          "level": 557,
+          "topic": "children prop - variant 163",
+          "syntax": "// Practice variant 163\nfunction Card({ children }) {\n    return <div className=\"card\">{children}</div>;\n}",
+          "puzzle": "// Practice variant 163\nfunction Card({ ___ }) {\n    return <div className=\"card\">{children}</div>;\n}",
+          "output": ""
+        },
+        {
+          "level": 558,
+          "topic": "Fragment shorthand - variant 164",
+          "syntax": "// Practice variant 164\nfunction List() {\n    return (\n        <>\n            <li>A</li>\n            <li>B</li>\n        </>\n    );\n}",
+          "puzzle": "// Practice variant 164\nfunction List() {\n    return (\n        ___\n            <li>A</li>\n            <li>B</li>\n        </>\n    );\n}",
+          "output": "A\nB"
+        },
+        {
+          "level": 559,
+          "topic": "PureComponent - variant 165",
+          "syntax": "// Practice variant 165\nclass Greeting extends React.PureComponent {\n    render() {\n        return <h1>Hi</h1>;\n    }\n}",
+          "puzzle": "// Practice variant 165\nclass Greeting extends React.___ {\n    render() {\n        return <h1>Hi</h1>;\n    }\n}",
+          "output": "Hi"
+        },
+        {
+          "level": 560,
+          "topic": "Component naming (capitalized) - variant 166",
+          "syntax": "// Practice variant 166\nfunction myComponent() {\n    return <p>Hi</p>;\n}\n// Should be capitalized: MyComponent",
+          "puzzle": "// Practice variant 166\nfunction myComponent() {\n    return <p>Hi</p>;\n}\n// Should be capitalized: ___",
+          "output": "Hi"
+        },
+        {
+          "level": 561,
+          "topic": "Passing props - variant 167",
+          "syntax": "// Practice variant 167\nfunction Greeting(props) {\n    return <h1>Hi {props.name}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "puzzle": "// Practice variant 167\nfunction Greeting(props) {\n    return <h1>Hi {___}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 562,
+          "topic": "Destructuring props - variant 168",
+          "syntax": "// Practice variant 168\nfunction Greeting({ name }) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "puzzle": "// Practice variant 168\nfunction Greeting(___) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting name=\"Ava\" />;",
+          "output": "Hi Ava"
+        },
+        {
+          "level": 563,
+          "topic": "Default props - variant 169",
+          "syntax": "// Practice variant 169\nfunction Greeting({ name = \"Guest\" }) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting />;",
+          "puzzle": "// Practice variant 169\nfunction Greeting({ name ___ }) {\n    return <h1>Hi {name}</h1>;\n}\n<Greeting />;",
+          "output": "Hi Guest"
+        },
+        {
+          "level": 564,
+          "topic": "props.children - variant 170",
+          "syntax": "// Practice variant 170\nfunction Card(props) {\n    return <div>{props.children}</div>;\n}\n<Card><p>Hi</p></Card>;",
+          "puzzle": "// Practice variant 170\nfunction Card(props) {\n    return <div>{___}</div>;\n}\n<Card><p>Hi</p></Card>;",
+          "output": "Hi"
+        },
+        {
+          "level": 565,
+          "topic": "PropTypes - variant 171",
+          "syntax": "// Practice variant 171\nGreeting.propTypes = {\n    name: PropTypes.string\n};",
+          "puzzle": "// Practice variant 171\nGreeting.___ = {\n    name: PropTypes.string\n};",
+          "output": ""
+        },
+        {
+          "level": 566,
+          "topic": "Prop drilling - variant 172",
+          "syntax": "// Practice variant 172\nfunction App() {\n    return <Parent user=\"Ava\" />;\n}\nfunction Parent({ user }) {\n    return <Child user={user} />;\n}",
+          "puzzle": "// Practice variant 172\nfunction App() {\n    return <Parent user=\"Ava\" />;\n}\nfunction Parent({ user }) {\n    return <Child ___ />;\n}",
+          "output": "Ava"
+        }
+      ]
+    }
+  ]
+}

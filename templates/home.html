@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SFILL is interactive coding practice with fill-in-the-blank programming exercises. Practice Python, C, C++, C#, Java, Golang, PHP, React JS, Rust, and SQL with instant feedback." />
+    <meta
+      name="keywords"
+      content="coding practice, coding exercises, programming practice, programming exercises, coding challenges, interactive coding exercises, syntax practice, fill in the blank coding, coding practice for beginners, online coding exercises" />
+    <title>SFILL | Fill the missing code | Build real skill.</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='sfilllogo.png') }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body class="home-page">
+    <header class="site-header">
+      <a class="logo" href="{{ url_for('index') }}" aria-label="SFILL home"
+        ><span class="logo-mark"
+          ><img
+            src="{{ url_for('static', filename='sfilllogo.png') }}"
+            alt="SFILL Logo" /></span
+      ></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="nav-item active" href="{{ url_for('index') }}">HOME</a
+        ><a class="nav-item" href="#languages">LANGUAGES</a
+        ><a class="nav-item" href="#about">ABOUT</a>
+      </nav>
+      <div class="header-actions">
+        {% if user %}<a
+          class="avatar-link"
+          href="{{ url_for('profile') }}"
+          aria-label="Open your dashboard"
+          title="Open dashboard"
+          ><div class="avatar">{{ user.name[0]|upper }}</div></a
+        >
+        {% else %}<a class="login-link" href="{{ url_for('login') }}"
+          >Log in <span aria-hidden="true">&#8594;</span></a
+        >{% endif %}
+      </div>
+    </header>
+
+    <main>
+      <section class="home-hero">
+        <div>
+          <span class="challenge-kicker">Interactive coding practice</span>
+          <h1>Fill the missing code.<br /><em>Build real skill.</em></h1>
+          <p>
+            {% if user %}Welcome back, {{ user.name }}. {% endif %}Practice
+            programming syntax with short, practical fill-in-the-blank coding
+            exercises. Choose a language, complete the missing piece, and get
+            instant feedback as you learn.
+          </p>
+          <a class="btn hero-button" href="#languages"
+            >Start practicing <span aria-hidden="true">&#8595;</span></a
+          >
+        </div>
+        <div class="hero-note">
+          <span class="hero-note-mark">01</span>
+          <strong>Learn by doing</strong>
+          <p>Read the pattern. Fill the gap. Make it yours.</p>
+        </div>
+      </section>
+
+      <section class="language-section" id="languages">
+        <div class="section-heading">
+          <div>
+            <span class="challenge-kicker">Choose your practice language</span>
+            <h2>Ten ways to sharpen your syntax.</h2>
+          </div>
+          <span class="section-count">{{ languages|length }} languages</span>
+        </div>
+        <div class="language-grid">
+          {% for language in languages %}
+          <article class="language-card" data-accent="{{ language.color }}">
+            <div class="language-top">
+              <span class="language-number">{{ loop.index }}</span
+              ><span class="language-dot"></span>
+            </div>
+            <h3>{{ language.name }}</h3>
+            <p>{{ language.description }}</p>
+            <div class="card-progress">
+              <div>
+                <span
+                  >{{ language.completed }} / {{ language.total }} levels</span
+                ><strong>{{ language.percentage }}%</strong>
+              </div>
+              <div class="card-progress-track">
+                <span data-width="{{ language.percentage }}"></span>
+              </div>
+            </div>
+            <a
+              class="card-link"
+              href="{{ url_for('play', language=language.slug) if user else url_for('login') }}"
+              >{{ 'Continue' if language.completed else 'Start learning' }}
+              <span aria-hidden="true">&#8594;</span></a
+            >
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+      <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+
+      <section class="about-section" id="about">
+        <div class="about-intro">
+          <span class="challenge-kicker">About SFILL</span>
+          <h2>Practice programming,<br /><em>not just theory.</em></h2>
+          <p>
+            SFILL is an interactive coding practice platform for learners who
+            want to become comfortable writing real code. Every challenge
+            removes an important piece of a working example, so you learn syntax
+            through repetition, problem solving, and instant feedback.
+          </p>
+        </div>
+        <div class="about-steps">
+          <div class="about-step">
+            <span>01</span>
+            <div>
+              <h3>Choose a language</h3>
+              <p>
+                Start with Python, C, C++, C#, Java, React JS, Rust, SQL, PHP,
+                or Golang.
+              </p>
+            </div>
+          </div>
+          <div class="about-step">
+            <span>02</span>
+            <div>
+              <h3>Fill the missing code</h3>
+              <p>
+                Use context to complete variables, conditions, loops, functions,
+                and more.
+              </p>
+            </div>
+          </div>
+          <div class="about-step">
+            <span>03</span>
+            <div>
+              <h3>Get instant feedback</h3>
+              <p>
+                Check your answer, keep your progress, and move through
+                increasingly useful challenges.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about-bottom">
+          <p class="about-topics">
+            <strong>Practice topics</strong> Syntax · variables · data types ·
+            conditionals · loops · functions · collections · classes · practical
+            code patterns
+          </p>
+          {% if user %}<a class="text-link" href="{{ url_for('profile') }}"
+            >View your dashboard <span aria-hidden="true">&#8594;</span></a
+          >{% else %}<a class="text-link" href="{{ url_for('login') }}"
+            >Create your practice path
+            <span aria-hidden="true">&#8594;</span></a
+          >{% endif %}
+        </div>
+      </section>
+    </main>
+    <footer class="home-footer">
+      <span>&copy; SFILL</span
+      ><span>Don't just read the code. Fill it. Solve it. Learn it.</span>
+    </footer>
+  </body>
+</html>

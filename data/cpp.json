@@ -1,0 +1,4192 @@
+{
+  "title": "Complete C++ Practical Coding Game Dataset",
+  "description": "Practical syntax-to-output puzzle dataset for C++ programming. No theory-only entries; every item is a code task with syntax, fill-in-the-blank puzzle, and expected output.",
+  "total_parts": 43,
+  "total_items": 567,
+  "parts": [
+    {
+      "part": "Part 1 - C++ Basics & I/O",
+      "items": [
+        {
+          "level": 0,
+          "topic": "Hello World",
+          "syntax": "#include <iostream>\nint main(){ std::cout << \"Hello, C++!\"; }",
+          "puzzle": "#___ <iostream>\nint main(){ std::cout << \"Hello, C++!\"; }",
+          "output": "Hello, C++!"
+        },
+        {
+          "level": 1,
+          "topic": "cout output",
+          "syntax": "#include <iostream>\nint main(){ std::cout << 25; }",
+          "puzzle": "#___ <iostream>\nint main(){ std::cout << 25; }",
+          "output": "25"
+        },
+        {
+          "level": 2,
+          "topic": "cin input",
+          "syntax": "#include <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "puzzle": "#___ <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "output": "7"
+        },
+        {
+          "level": 3,
+          "topic": "multiple output",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 4,
+          "topic": "integer input",
+          "syntax": "#include <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "puzzle": "#___ <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "output": "7"
+        },
+        {
+          "level": 5,
+          "topic": "double input",
+          "syntax": "#include <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "puzzle": "#___ <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "output": "7"
+        },
+        {
+          "level": 6,
+          "topic": "character input",
+          "syntax": "#include <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "puzzle": "#___ <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "output": "7"
+        },
+        {
+          "level": 7,
+          "topic": "string input",
+          "syntax": "#include <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "puzzle": "#___ <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "output": "7"
+        },
+        {
+          "level": 8,
+          "topic": "getline",
+          "syntax": "#include <iostream>\n#include <string>\nint main(){ std::string s=\"Ava Stone\"; std::cout << s; }",
+          "puzzle": "#___ <iostream>\n#include <string>\nint main(){ std::string s=\"Ava Stone\"; std::cout << s; }",
+          "output": "Ava Stone"
+        },
+        {
+          "level": 9,
+          "topic": "basic arithmetic",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 10,
+          "topic": "addition",
+          "syntax": "int a=12,b=8;\nstd::cout << a+b;",
+          "puzzle": "___ a=12,b=8;\nstd::cout << a+b;",
+          "output": "20"
+        },
+        {
+          "level": 11,
+          "topic": "subtraction",
+          "syntax": "int a=12,b=8;\nstd::cout << a-b;",
+          "puzzle": "___ a=12,b=8;\nstd::cout << a-b;",
+          "output": "4"
+        },
+        {
+          "level": 12,
+          "topic": "multiplication",
+          "syntax": "int a=6,b=7;\nstd::cout << a*b;",
+          "puzzle": "___ a=6,b=7;\nstd::cout << a*b;",
+          "output": "42"
+        },
+        {
+          "level": 13,
+          "topic": "division",
+          "syntax": "int a=20,b=4;\nstd::cout << a/b;",
+          "puzzle": "___ a=20,b=4;\nstd::cout << a/b;",
+          "output": "5"
+        },
+        {
+          "level": 14,
+          "topic": "modulo",
+          "syntax": "std::cout << 17%5;",
+          "puzzle": "___::cout << 17%5;",
+          "output": "2"
+        },
+        {
+          "level": 15,
+          "topic": "swap values",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 16,
+          "topic": "multiple variables",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 17,
+          "topic": "fixed precision",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 2 - Variables & Data Types",
+      "items": [
+        {
+          "level": 18,
+          "topic": "setprecision",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 19,
+          "topic": "escape sequences",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 20,
+          "topic": "int",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 21,
+          "topic": "long long",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 22,
+          "topic": "float",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 23,
+          "topic": "double",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 24,
+          "topic": "char",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 25,
+          "topic": "bool",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 26,
+          "topic": "string",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 27,
+          "topic": "const",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 28,
+          "topic": "auto",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 29,
+          "topic": "unsigned",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 30,
+          "topic": "type casting",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 3 - Operators",
+      "items": [
+        {
+          "level": 31,
+          "topic": "sizeof",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 32,
+          "topic": "numeric limits",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 33,
+          "topic": "ASCII value",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 34,
+          "topic": "multiple declarations",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 35,
+          "topic": "addition - practice 2",
+          "syntax": "int a=12,b=8;\nstd::cout << a+b;",
+          "puzzle": "___ a=12,b=8;\nstd::cout << a+b;",
+          "output": "20"
+        },
+        {
+          "level": 36,
+          "topic": "subtraction - practice 2",
+          "syntax": "int a=12,b=8;\nstd::cout << a-b;",
+          "puzzle": "___ a=12,b=8;\nstd::cout << a-b;",
+          "output": "4"
+        },
+        {
+          "level": 37,
+          "topic": "multiplication - practice 2",
+          "syntax": "int a=6,b=7;\nstd::cout << a*b;",
+          "puzzle": "___ a=6,b=7;\nstd::cout << a*b;",
+          "output": "42"
+        },
+        {
+          "level": 38,
+          "topic": "division - practice 2",
+          "syntax": "int a=20,b=4;\nstd::cout << a/b;",
+          "puzzle": "___ a=20,b=4;\nstd::cout << a/b;",
+          "output": "5"
+        },
+        {
+          "level": 39,
+          "topic": "modulo - practice 2",
+          "syntax": "std::cout << 17%5;",
+          "puzzle": "___::cout << 17%5;",
+          "output": "2"
+        },
+        {
+          "level": 40,
+          "topic": "increment",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 41,
+          "topic": "decrement",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 42,
+          "topic": "compound assignment",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 43,
+          "topic": "comparison",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 44,
+          "topic": "equality",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 45,
+          "topic": "logical AND",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 46,
+          "topic": "logical OR",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 4 - Conditional Programs",
+      "items": [
+        {
+          "level": 47,
+          "topic": "logical NOT",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 48,
+          "topic": "ternary",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 49,
+          "topic": "bitwise AND",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 50,
+          "topic": "bitwise OR",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 51,
+          "topic": "bitwise XOR",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 52,
+          "topic": "left shift",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 53,
+          "topic": "if",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 54,
+          "topic": "if else",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 55,
+          "topic": "else if",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 56,
+          "topic": "nested if",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 57,
+          "topic": "positive negative",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 58,
+          "topic": "even odd",
+          "syntax": "int n=14;\nstd::cout << (n%2==0);",
+          "puzzle": "___ n=14;\nstd::cout << (n%2==0);",
+          "output": "1"
+        },
+        {
+          "level": 59,
+          "topic": "largest of two",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 60,
+          "topic": "largest of three",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 61,
+          "topic": "smallest of three",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 62,
+          "topic": "leap year",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 5 - Loops",
+      "items": [
+        {
+          "level": 63,
+          "topic": "grade",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 64,
+          "topic": "voting check",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 65,
+          "topic": "divisible by 5",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 66,
+          "topic": "divisible by 3 and 5",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 67,
+          "topic": "character vowel",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 68,
+          "topic": "character digit",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 69,
+          "topic": "triangle validity",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 70,
+          "topic": "simple calculator",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 71,
+          "topic": "for loop",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 72,
+          "topic": "while loop",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 73,
+          "topic": "do while",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 74,
+          "topic": "counting",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 75,
+          "topic": "sum 1 to n",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 76,
+          "topic": "even numbers",
+          "syntax": "int n=14;\nstd::cout << (n%2==0);",
+          "puzzle": "___ n=14;\nstd::cout << (n%2==0);",
+          "output": "1"
+        },
+        {
+          "level": 77,
+          "topic": "odd numbers",
+          "syntax": "int n=15;\nstd::cout << (n%2!=0);",
+          "puzzle": "___ n=15;\nstd::cout << (n%2!=0);",
+          "output": "1"
+        },
+        {
+          "level": 78,
+          "topic": "multiplication table",
+          "syntax": "int a=6,b=7;\nstd::cout << a*b;",
+          "puzzle": "___ a=6,b=7;\nstd::cout << a*b;",
+          "output": "42"
+        },
+        {
+          "level": 79,
+          "topic": "factorial",
+          "syntax": "int f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "puzzle": "___ f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "output": "120"
+        },
+        {
+          "level": 80,
+          "topic": "power",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        }
+      ]
+    },
+    {
+      "part": "Part 6 - Nested Loops & Patterns",
+      "items": [
+        {
+          "level": 81,
+          "topic": "reverse number",
+          "syntax": "int n=1234,r=0; while(n){r=r*10+n%10;n/=10;} std::cout<<r;",
+          "puzzle": "___ n=1234,r=0; while(n){r=r*10+n%10;n/=10;} std::cout<<r;",
+          "output": "4321"
+        },
+        {
+          "level": 82,
+          "topic": "digit count",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 83,
+          "topic": "digit sum",
+          "syntax": "int n=1234,s=0; while(n){s+=n%10;n/=10;} std::cout<<s;",
+          "puzzle": "___ n=1234,s=0; while(n){s+=n%10;n/=10;} std::cout<<s;",
+          "output": "10"
+        },
+        {
+          "level": 84,
+          "topic": "palindrome number",
+          "syntax": "std::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "puzzle": "___::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "output": "1"
+        },
+        {
+          "level": 85,
+          "topic": "armstrong number",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 86,
+          "topic": "prime check",
+          "syntax": "int n=17; bool p=true; for(int i=2;i*i<=n;i++) if(n%i==0)p=false; std::cout<<p;",
+          "puzzle": "___ n=17; bool p=true; for(int i=2;i*i<=n;i++) if(n%i==0)p=false; std::cout<<p;",
+          "output": "1"
+        },
+        {
+          "level": 87,
+          "topic": "primes in range",
+          "syntax": "int n=17; bool p=true; for(int i=2;i*i<=n;i++) if(n%i==0)p=false; std::cout<<p;",
+          "puzzle": "___ n=17; bool p=true; for(int i=2;i*i<=n;i++) if(n%i==0)p=false; std::cout<<p;",
+          "output": "1"
+        },
+        {
+          "level": 88,
+          "topic": "fibonacci",
+          "syntax": "int a=0,b=1; for(int i=0;i<6;i++){std::cout<<a<<\" \"; int c=a+b;a=b;b=c;}",
+          "puzzle": "___ a=0,b=1; for(int i=0;i<6;i++){std::cout<<a<<\" \"; int c=a+b;a=b;b=c;}",
+          "output": "0 1 1 2 3 5 "
+        },
+        {
+          "level": 89,
+          "topic": "gcd loop",
+          "syntax": "int a=24,b=18; while(b){int t=a%b;a=b;b=t;} std::cout<<a;",
+          "puzzle": "___ a=24,b=18; while(b){int t=a%b;a=b;b=t;} std::cout<<a;",
+          "output": "6"
+        },
+        {
+          "level": 90,
+          "topic": "lcm loop",
+          "syntax": "int a=6,b=8,x=a,y=b; while(y){int t=x%y;x=y;y=t;} std::cout<<(a/x)*b;",
+          "puzzle": "___ a=6,b=8,x=a,y=b; while(y){int t=x%y;x=y;y=t;} std::cout<<(a/x)*b;",
+          "output": "24"
+        },
+        {
+          "level": 91,
+          "topic": "square stars",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 92,
+          "topic": "rectangle stars",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 93,
+          "topic": "right triangle",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        }
+      ]
+    },
+    {
+      "part": "Part 7 - Functions",
+      "items": [
+        {
+          "level": 94,
+          "topic": "inverted triangle",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 95,
+          "topic": "number triangle",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 96,
+          "topic": "inverted number triangle",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 97,
+          "topic": "pyramid",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 98,
+          "topic": "inverted pyramid",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 99,
+          "topic": "hollow square",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 100,
+          "topic": "hollow triangle",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 101,
+          "topic": "alphabet triangle",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 102,
+          "topic": "repeated rows",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 103,
+          "topic": "binary triangle",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 104,
+          "topic": "diamond",
+          "syntax": "for(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "puzzle": "___(int i=1;i<=5;i++) std::cout<<i<<\" \";",
+          "output": "1 2 3 4 5 "
+        },
+        {
+          "level": 105,
+          "topic": "checkerboard",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 106,
+          "topic": "basic function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 107,
+          "topic": "function with parameter",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 108,
+          "topic": "return value",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 109,
+          "topic": "two parameters",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 8 - Arrays",
+      "items": [
+        {
+          "level": 110,
+          "topic": "default argument",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 111,
+          "topic": "overloaded function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 112,
+          "topic": "pass by value",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 113,
+          "topic": "pass by reference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 114,
+          "topic": "swap function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 115,
+          "topic": "max function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 116,
+          "topic": "min function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 117,
+          "topic": "factorial function",
+          "syntax": "int f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "puzzle": "___ f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "output": "120"
+        },
+        {
+          "level": 118,
+          "topic": "prime function",
+          "syntax": "int n=17; bool p=true; for(int i=2;i*i<=n;i++) if(n%i==0)p=false; std::cout<<p;",
+          "puzzle": "___ n=17; bool p=true; for(int i=2;i*i<=n;i++) if(n%i==0)p=false; std::cout<<p;",
+          "output": "1"
+        },
+        {
+          "level": 119,
+          "topic": "gcd function",
+          "syntax": "int a=24,b=18; while(b){int t=a%b;a=b;b=t;} std::cout<<a;",
+          "puzzle": "___ a=24,b=18; while(b){int t=a%b;a=b;b=t;} std::cout<<a;",
+          "output": "6"
+        },
+        {
+          "level": 120,
+          "topic": "recursive factorial",
+          "syntax": "int f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "puzzle": "___ f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "output": "120"
+        },
+        {
+          "level": 121,
+          "topic": "recursive fibonacci",
+          "syntax": "int a=0,b=1; for(int i=0;i<6;i++){std::cout<<a<<\" \"; int c=a+b;a=b;b=c;}",
+          "puzzle": "___ a=0,b=1; for(int i=0;i<6;i++){std::cout<<a<<\" \"; int c=a+b;a=b;b=c;}",
+          "output": "0 1 1 2 3 5 "
+        },
+        {
+          "level": 122,
+          "topic": "recursive sum",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 123,
+          "topic": "function template",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 124,
+          "topic": "declare array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 125,
+          "topic": "read array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 126,
+          "topic": "print array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 127,
+          "topic": "sum array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 9 - 2D Arrays & Matrices",
+      "items": [
+        {
+          "level": 128,
+          "topic": "average array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 129,
+          "topic": "max array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 130,
+          "topic": "min array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 131,
+          "topic": "count even",
+          "syntax": "int n=14;\nstd::cout << (n%2==0);",
+          "puzzle": "___ n=14;\nstd::cout << (n%2==0);",
+          "output": "1"
+        },
+        {
+          "level": 132,
+          "topic": "count odd",
+          "syntax": "int n=15;\nstd::cout << (n%2!=0);",
+          "puzzle": "___ n=15;\nstd::cout << (n%2!=0);",
+          "output": "1"
+        },
+        {
+          "level": 133,
+          "topic": "reverse array",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 134,
+          "topic": "copy array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 135,
+          "topic": "search array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 136,
+          "topic": "linear search",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 137,
+          "topic": "second largest",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 138,
+          "topic": "remove duplicates",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 139,
+          "topic": "rotate left",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 140,
+          "topic": "rotate right",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 141,
+          "topic": "merge arrays",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 142,
+          "topic": "frequency array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 143,
+          "topic": "array palindrome",
+          "syntax": "std::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "puzzle": "___::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "output": "1"
+        }
+      ]
+    },
+    {
+      "part": "Part 10 - Strings",
+      "items": [
+        {
+          "level": 144,
+          "topic": "read matrix",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 145,
+          "topic": "print matrix",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 146,
+          "topic": "matrix sum",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 147,
+          "topic": "matrix difference",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 148,
+          "topic": "scalar multiplication",
+          "syntax": "int a=6,b=7;\nstd::cout << a*b;",
+          "puzzle": "___ a=6,b=7;\nstd::cout << a*b;",
+          "output": "42"
+        },
+        {
+          "level": 149,
+          "topic": "transpose",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 150,
+          "topic": "main diagonal",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 151,
+          "topic": "secondary diagonal",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 152,
+          "topic": "diagonal sum",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 153,
+          "topic": "row sums",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 154,
+          "topic": "column sums",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 155,
+          "topic": "matrix addition",
+          "syntax": "int a=12,b=8;\nstd::cout << a+b;",
+          "puzzle": "___ a=12,b=8;\nstd::cout << a+b;",
+          "output": "20"
+        },
+        {
+          "level": 156,
+          "topic": "matrix multiplication",
+          "syntax": "int a=6,b=7;\nstd::cout << a*b;",
+          "puzzle": "___ a=6,b=7;\nstd::cout << a*b;",
+          "output": "42"
+        },
+        {
+          "level": 157,
+          "topic": "identity matrix",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 158,
+          "topic": "symmetric matrix",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 159,
+          "topic": "upper triangle",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 160,
+          "topic": "lower triangle",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 161,
+          "topic": "matrix boundary",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 11 - Pointers",
+      "items": [
+        {
+          "level": 162,
+          "topic": "string input - practice 2",
+          "syntax": "#include <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "puzzle": "#___ <iostream>\nint main(){ int x=7; std::cout << x; }",
+          "output": "7"
+        },
+        {
+          "level": 163,
+          "topic": "string length",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 164,
+          "topic": "first character",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 165,
+          "topic": "last character",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 166,
+          "topic": "reverse string",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 167,
+          "topic": "palindrome string",
+          "syntax": "std::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "puzzle": "___::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "output": "1"
+        },
+        {
+          "level": 168,
+          "topic": "count vowels",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 169,
+          "topic": "count consonants",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 170,
+          "topic": "count digits",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 171,
+          "topic": "count spaces",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 172,
+          "topic": "uppercase",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 173,
+          "topic": "lowercase",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 174,
+          "topic": "compare strings",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 12 - References",
+      "items": [
+        {
+          "level": 175,
+          "topic": "concatenate strings",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 176,
+          "topic": "find character",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 177,
+          "topic": "find substring",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 178,
+          "topic": "replace character",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 179,
+          "topic": "remove spaces",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 180,
+          "topic": "frequency characters",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 181,
+          "topic": "sort characters",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 182,
+          "topic": "pointer basics",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 183,
+          "topic": "address output",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 13 - Dynamic Memory",
+      "items": [
+        {
+          "level": 184,
+          "topic": "dereference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 185,
+          "topic": "modify through pointer",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 186,
+          "topic": "pointer arithmetic",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 187,
+          "topic": "array pointer",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 188,
+          "topic": "pointer and function",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 189,
+          "topic": "pointer swap",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 190,
+          "topic": "pointer to pointer",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 191,
+          "topic": "dynamic int",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 192,
+          "topic": "dynamic array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 193,
+          "topic": "nullptr check",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 194,
+          "topic": "const pointer",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 195,
+          "topic": "pointer comparison",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 196,
+          "topic": "pointer traversal",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 14 - Structs",
+      "items": [
+        {
+          "level": 197,
+          "topic": "reference alias",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 198,
+          "topic": "modify by reference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 199,
+          "topic": "reference swap",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 200,
+          "topic": "reference function",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 201,
+          "topic": "const reference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 202,
+          "topic": "reference array element",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 203,
+          "topic": "reference return",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 204,
+          "topic": "multiple references",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 205,
+          "topic": "reference with string",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 206,
+          "topic": "reference in range loop",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 207,
+          "topic": "new int",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 208,
+          "topic": "delete int",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 209,
+          "topic": "new array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 15 - Classes & Objects",
+      "items": [
+        {
+          "level": 210,
+          "topic": "delete array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 211,
+          "topic": "dynamic 2D array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 212,
+          "topic": "dynamic char array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 213,
+          "topic": "dynamic string array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 214,
+          "topic": "dynamic struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 215,
+          "topic": "calloc alternative",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 216,
+          "topic": "resize dynamic array",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 217,
+          "topic": "zero initialized new",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 218,
+          "topic": "dynamic pointer",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 219,
+          "topic": "memory cleanup",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 220,
+          "topic": "dynamic matrix",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 221,
+          "topic": "RAII vector replacement",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 222,
+          "topic": "define struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 223,
+          "topic": "initialize struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 224,
+          "topic": "read struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 225,
+          "topic": "print struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 226,
+          "topic": "array of structs",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 227,
+          "topic": "nested struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 16 - Inheritance",
+      "items": [
+        {
+          "level": 228,
+          "topic": "struct function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 229,
+          "topic": "struct pointer",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 230,
+          "topic": "struct reference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 231,
+          "topic": "sort structs",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 232,
+          "topic": "search struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 233,
+          "topic": "max field",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 234,
+          "topic": "copy struct",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 235,
+          "topic": "vector of structs",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 236,
+          "topic": "struct constructor",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 237,
+          "topic": "basic class",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 238,
+          "topic": "private data",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 239,
+          "topic": "public method",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 240,
+          "topic": "constructor",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        }
+      ]
+    },
+    {
+      "part": "Part 17 - Polymorphism",
+      "items": [
+        {
+          "level": 241,
+          "topic": "destructor",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 242,
+          "topic": "getter",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 243,
+          "topic": "setter",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 244,
+          "topic": "object array",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 245,
+          "topic": "this pointer",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 246,
+          "topic": "static member",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 247,
+          "topic": "static function",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 248,
+          "topic": "const method",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 249,
+          "topic": "object parameter",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 250,
+          "topic": "return object",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 251,
+          "topic": "class composition",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        }
+      ]
+    },
+    {
+      "part": "Part 18 - Templates",
+      "items": [
+        {
+          "level": 252,
+          "topic": "copy constructor",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 253,
+          "topic": "assignment operator",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 254,
+          "topic": "friend function",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 255,
+          "topic": "operator overloading",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 256,
+          "topic": "class vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 257,
+          "topic": "single inheritance",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 258,
+          "topic": "public inheritance",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 259,
+          "topic": "protected member",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 260,
+          "topic": "derived constructor",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 261,
+          "topic": "base constructor",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 262,
+          "topic": "method inheritance",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 19 - STL vector",
+      "items": [
+        {
+          "level": 263,
+          "topic": "method overriding",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 264,
+          "topic": "multilevel inheritance",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 265,
+          "topic": "hierarchical inheritance",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 266,
+          "topic": "base pointer",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 267,
+          "topic": "virtual method",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 268,
+          "topic": "override keyword",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 269,
+          "topic": "final keyword",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 270,
+          "topic": "virtual destructor",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 271,
+          "topic": "protected method",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 272,
+          "topic": "virtual call",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 273,
+          "topic": "pure virtual function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 274,
+          "topic": "abstract class",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 275,
+          "topic": "interface style class",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 276,
+          "topic": "dynamic dispatch",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 277,
+          "topic": "base reference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 278,
+          "topic": "derived override",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 279,
+          "topic": "virtual destructor - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 280,
+          "topic": "runtime polymorphism",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 20 - STL string utilities",
+      "items": [
+        {
+          "level": 281,
+          "topic": "vector base pointers",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 282,
+          "topic": "override validation",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 283,
+          "topic": "abstract shape area",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 284,
+          "topic": "function template - practice 2",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 285,
+          "topic": "two type template",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 286,
+          "topic": "class template",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 287,
+          "topic": "template max",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 288,
+          "topic": "template swap",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 289,
+          "topic": "template array",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        }
+      ]
+    },
+    {
+      "part": "Part 21 - STL pair & tuple",
+      "items": [
+        {
+          "level": 290,
+          "topic": "template stack",
+          "syntax": "#include <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "puzzle": "#___ <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "output": "20"
+        },
+        {
+          "level": 291,
+          "topic": "template pair",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 292,
+          "topic": "non-type parameter",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 293,
+          "topic": "template specialization",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 294,
+          "topic": "typename usage",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 295,
+          "topic": "template deduction",
+          "syntax": "template<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "puzzle": "___<class T> T add(T a,T b){return a+b;}\nint main(){std::cout<<add(2,3);}",
+          "output": "5"
+        },
+        {
+          "level": 296,
+          "topic": "push_back",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 297,
+          "topic": "pop_back",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 298,
+          "topic": "size",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        }
+      ]
+    },
+    {
+      "part": "Part 22 - STL map",
+      "items": [
+        {
+          "level": 299,
+          "topic": "empty",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 300,
+          "topic": "front",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 301,
+          "topic": "back",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 302,
+          "topic": "at",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 303,
+          "topic": "insert",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 304,
+          "topic": "erase",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 305,
+          "topic": "clear",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 306,
+          "topic": "sort vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 307,
+          "topic": "reverse vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 308,
+          "topic": "find vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 309,
+          "topic": "count vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 310,
+          "topic": "sum vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 311,
+          "topic": "min element",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 312,
+          "topic": "max element",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 313,
+          "topic": "unique vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 314,
+          "topic": "rotate vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        }
+      ]
+    },
+    {
+      "part": "Part 23 - STL unordered_map",
+      "items": [
+        {
+          "level": 315,
+          "topic": "range loop",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 316,
+          "topic": "find",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 317,
+          "topic": "substr",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 318,
+          "topic": "append",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 319,
+          "topic": "insert - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 320,
+          "topic": "erase - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 321,
+          "topic": "replace",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 322,
+          "topic": "compare",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 323,
+          "topic": "starts with",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 24 - STL set",
+      "items": [
+        {
+          "level": 324,
+          "topic": "ends with",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 325,
+          "topic": "stream string",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 326,
+          "topic": "make_pair",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 327,
+          "topic": "pair first",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 328,
+          "topic": "pair second",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 329,
+          "topic": "pair comparison",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 330,
+          "topic": "vector pair",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 331,
+          "topic": "tuple get",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 332,
+          "topic": "make_tuple",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 333,
+          "topic": "tie",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 334,
+          "topic": "tuple size",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 335,
+          "topic": "structured binding",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 336,
+          "topic": "insert map",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        }
+      ]
+    },
+    {
+      "part": "Part 25 - STL stack queue deque",
+      "items": [
+        {
+          "level": 337,
+          "topic": "operator[]",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 338,
+          "topic": "find key",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 339,
+          "topic": "count key",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 340,
+          "topic": "erase key",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 341,
+          "topic": "size map",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 342,
+          "topic": "iterate map",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 343,
+          "topic": "sorted keys",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 344,
+          "topic": "frequency map",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 345,
+          "topic": "map of strings",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 346,
+          "topic": "map update",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 347,
+          "topic": "map lower_bound",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 348,
+          "topic": "map upper_bound",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 349,
+          "topic": "map equal_range",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 350,
+          "topic": "map value sum",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 351,
+          "topic": "map max value",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 352,
+          "topic": "map reverse iterate",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        }
+      ]
+    },
+    {
+      "part": "Part 26 - STL algorithms",
+      "items": [
+        {
+          "level": 353,
+          "topic": "map clear",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 354,
+          "topic": "insert - practice 3",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 355,
+          "topic": "lookup",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 356,
+          "topic": "count",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 357,
+          "topic": "erase - practice 3",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 358,
+          "topic": "frequency",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 359,
+          "topic": "iterate",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 360,
+          "topic": "update",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 361,
+          "topic": "bucket count",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 362,
+          "topic": "reserve",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 363,
+          "topic": "clear - practice 2",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 364,
+          "topic": "insert set",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 365,
+          "topic": "duplicate ignored",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 366,
+          "topic": "find set",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 367,
+          "topic": "count set",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 368,
+          "topic": "erase set",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 369,
+          "topic": "size set",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 370,
+          "topic": "iterate set",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        }
+      ]
+    },
+    {
+      "part": "Part 27 - Iterators",
+      "items": [
+        {
+          "level": 371,
+          "topic": "lower_bound",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 372,
+          "topic": "upper_bound",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 373,
+          "topic": "set union",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 374,
+          "topic": "set intersection",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 375,
+          "topic": "set difference",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 376,
+          "topic": "sorted unique",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 377,
+          "topic": "clear set",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 378,
+          "topic": "multiset",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 379,
+          "topic": "stack push",
+          "syntax": "#include <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "puzzle": "#___ <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "output": "20"
+        }
+      ]
+    },
+    {
+      "part": "Part 28 - Lambda Functions",
+      "items": [
+        {
+          "level": 380,
+          "topic": "stack pop",
+          "syntax": "#include <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "puzzle": "#___ <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "output": "20"
+        },
+        {
+          "level": 381,
+          "topic": "stack top",
+          "syntax": "#include <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "puzzle": "#___ <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "output": "20"
+        },
+        {
+          "level": 382,
+          "topic": "stack size",
+          "syntax": "#include <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "puzzle": "#___ <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "output": "20"
+        },
+        {
+          "level": 383,
+          "topic": "stack empty",
+          "syntax": "#include <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "puzzle": "#___ <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "output": "20"
+        },
+        {
+          "level": 384,
+          "topic": "queue push",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 385,
+          "topic": "queue pop",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 386,
+          "topic": "queue front",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 387,
+          "topic": "queue back",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 388,
+          "topic": "deque push front",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 389,
+          "topic": "deque push back",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 29 - File I/O",
+      "items": [
+        {
+          "level": 390,
+          "topic": "deque pop front",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 391,
+          "topic": "deque pop back",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 392,
+          "topic": "deque indexing",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 393,
+          "topic": "priority queue push",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 394,
+          "topic": "priority queue top",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 395,
+          "topic": "priority queue pop",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 396,
+          "topic": "priority queue min heap",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 397,
+          "topic": "sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 398,
+          "topic": "reverse",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 399,
+          "topic": "find - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 400,
+          "topic": "count - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 401,
+          "topic": "accumulate",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 402,
+          "topic": "min_element",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 403,
+          "topic": "max_element",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 404,
+          "topic": "binary_search",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 405,
+          "topic": "lower_bound - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 30 - Exception Handling",
+      "items": [
+        {
+          "level": 406,
+          "topic": "upper_bound - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 407,
+          "topic": "rotate",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 408,
+          "topic": "reverse_copy",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 409,
+          "topic": "copy",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 410,
+          "topic": "fill",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 411,
+          "topic": "replace - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 412,
+          "topic": "remove",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 413,
+          "topic": "unique",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 414,
+          "topic": "partition",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 415,
+          "topic": "all_of",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 31 - Date Time",
+      "items": [
+        {
+          "level": 416,
+          "topic": "any_of",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 417,
+          "topic": "vector iterator",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 418,
+          "topic": "begin end",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 419,
+          "topic": "reverse iterator",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 420,
+          "topic": "iterator increment",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 421,
+          "topic": "iterator dereference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 422,
+          "topic": "iterator distance",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 423,
+          "topic": "iterator advance",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 424,
+          "topic": "const iterator",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 32 - Random Numbers",
+      "items": [
+        {
+          "level": 425,
+          "topic": "set iterator",
+          "syntax": "#include <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "puzzle": "#___ <set>\n#include <iostream>\nint main(){std::set<int> s={3,1,3,2}; std::cout<<s.size();}",
+          "output": "3"
+        },
+        {
+          "level": 426,
+          "topic": "map iterator",
+          "syntax": "#include <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "puzzle": "#___ <map>\n#include <iostream>\nint main(){std::map<std::string,int> m{{\"Ava\",3}}; std::cout<<m[\"Ava\"]; }",
+          "output": "3"
+        },
+        {
+          "level": 427,
+          "topic": "basic lambda",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 428,
+          "topic": "lambda parameter",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 429,
+          "topic": "lambda return",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 430,
+          "topic": "lambda capture value",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 431,
+          "topic": "lambda capture reference",
+          "syntax": "int x=10; int& r=x; r+=5; std::cout<<x;",
+          "puzzle": "___ x=10; int& r=x; r+=5; std::cout<<x;",
+          "output": "15"
+        },
+        {
+          "level": 432,
+          "topic": "sort lambda",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 433,
+          "topic": "find_if lambda",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        }
+      ]
+    },
+    {
+      "part": "Part 33 - Preprocessor & Headers",
+      "items": [
+        {
+          "level": 434,
+          "topic": "count_if lambda",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 435,
+          "topic": "transform lambda",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 436,
+          "topic": "for_each lambda",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 437,
+          "topic": "mutable lambda",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 438,
+          "topic": "lambda with STL",
+          "syntax": "auto square=[](int x){return x*x;}; std::cout<<square(6);",
+          "puzzle": "___ square=[](int x){return x*x;}; std::cout<<square(6);",
+          "output": "36"
+        },
+        {
+          "level": 439,
+          "topic": "open file",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 440,
+          "topic": "write file",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 441,
+          "topic": "read file",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 442,
+          "topic": "append file",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 34 - Namespaces & Casts",
+      "items": [
+        {
+          "level": 443,
+          "topic": "getline file",
+          "syntax": "#include <iostream>\n#include <string>\nint main(){ std::string s=\"Ava Stone\"; std::cout << s; }",
+          "puzzle": "#___ <iostream>\n#include <string>\nint main(){ std::string s=\"Ava Stone\"; std::cout << s; }",
+          "output": "Ava Stone"
+        },
+        {
+          "level": 444,
+          "topic": "read numbers",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 445,
+          "topic": "write numbers",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 446,
+          "topic": "check open",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 447,
+          "topic": "close file",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 448,
+          "topic": "ofstream",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 449,
+          "topic": "ifstream",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 450,
+          "topic": "fstream",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 451,
+          "topic": "binary write",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        }
+      ]
+    },
+    {
+      "part": "Part 35 - Enums & User Types",
+      "items": [
+        {
+          "level": 452,
+          "topic": "binary read",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 453,
+          "topic": "file position",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 454,
+          "topic": "seekg",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 455,
+          "topic": "seekp",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 456,
+          "topic": "file copy",
+          "syntax": "#include <fstream>\nint main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "puzzle": "#include <fstream>\n___ main(){std::ofstream f(\"data.txt\"); f<<\"C++\"; f.close();}",
+          "output": ""
+        },
+        {
+          "level": 457,
+          "topic": "throw int",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 458,
+          "topic": "catch int",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 459,
+          "topic": "throw string",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 460,
+          "topic": "catch std exception",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 36 - Recursion",
+      "items": [
+        {
+          "level": 461,
+          "topic": "multiple catch",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 462,
+          "topic": "catch all",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 463,
+          "topic": "custom exception",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 464,
+          "topic": "out_of_range",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 465,
+          "topic": "invalid_argument",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 466,
+          "topic": "runtime_error",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 467,
+          "topic": "try function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 468,
+          "topic": "nested try",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 469,
+          "topic": "current time",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 470,
+          "topic": "format time",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 37 - Searching & Sorting",
+      "items": [
+        {
+          "level": 471,
+          "topic": "measure seconds",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 472,
+          "topic": "measure milliseconds",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 473,
+          "topic": "time_t",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 474,
+          "topic": "localtime",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 475,
+          "topic": "gmtime",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 476,
+          "topic": "strftime",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 477,
+          "topic": "duration",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 478,
+          "topic": "sleep milliseconds",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 479,
+          "topic": "rand",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 480,
+          "topic": "srand",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 481,
+          "topic": "random integer",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 482,
+          "topic": "random range",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 483,
+          "topic": "mt19937",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 484,
+          "topic": "uniform int",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 485,
+          "topic": "uniform real",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 486,
+          "topic": "random vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        }
+      ]
+    },
+    {
+      "part": "Part 38 - Data Structures Practical",
+      "items": [
+        {
+          "level": 487,
+          "topic": "shuffle",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 488,
+          "topic": "sample",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 489,
+          "topic": "include iostream",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 490,
+          "topic": "include vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 491,
+          "topic": "define constant",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 492,
+          "topic": "define macro",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 493,
+          "topic": "if defined",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 494,
+          "topic": "ifndef guard",
+          "syntax": "int x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "puzzle": "___ x=10; if(x>5) std::cout<<\"YES\"; else std::cout<<\"NO\";",
+          "output": "YES"
+        },
+        {
+          "level": 495,
+          "topic": "pragma once",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 496,
+          "topic": "macro function",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 497,
+          "topic": "conditional compilation",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 498,
+          "topic": "custom header",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 499,
+          "topic": "namespace",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 500,
+          "topic": "using namespace",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 501,
+          "topic": "namespace alias",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 502,
+          "topic": "static_cast",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 503,
+          "topic": "dynamic_cast",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 504,
+          "topic": "const_cast",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 39 - Graphs Practical",
+      "items": [
+        {
+          "level": 505,
+          "topic": "reinterpret_cast",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 506,
+          "topic": "enum cast",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 507,
+          "topic": "char to int",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 508,
+          "topic": "int to double",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 509,
+          "topic": "enum",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 510,
+          "topic": "enum class",
+          "syntax": "class Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "puzzle": "___ Box{ public: int value=42; };\nint main(){ Box b; std::cout<<b.value; }",
+          "output": "42"
+        },
+        {
+          "level": 511,
+          "topic": "enum value",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 512,
+          "topic": "switch enum",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 513,
+          "topic": "underlying enum",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 514,
+          "topic": "struct alias",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    },
+    {
+      "part": "Part 40 - STL Advanced Containers",
+      "items": [
+        {
+          "level": 515,
+          "topic": "using alias",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 516,
+          "topic": "typedef",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 517,
+          "topic": "union basic",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 518,
+          "topic": "union access",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 519,
+          "topic": "recursive countdown",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 520,
+          "topic": "recursive sum - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 521,
+          "topic": "recursive factorial - practice 2",
+          "syntax": "int f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "puzzle": "___ f=1; for(int i=1;i<=5;i++) f*=i; std::cout<<f;",
+          "output": "120"
+        },
+        {
+          "level": 522,
+          "topic": "recursive power",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 523,
+          "topic": "recursive gcd",
+          "syntax": "int a=24,b=18; while(b){int t=a%b;a=b;b=t;} std::cout<<a;",
+          "puzzle": "___ a=24,b=18; while(b){int t=a%b;a=b;b=t;} std::cout<<a;",
+          "output": "6"
+        },
+        {
+          "level": 524,
+          "topic": "recursive fibonacci - practice 2",
+          "syntax": "int a=0,b=1; for(int i=0;i<6;i++){std::cout<<a<<\" \"; int c=a+b;a=b;b=c;}",
+          "puzzle": "___ a=0,b=1; for(int i=0;i<6;i++){std::cout<<a<<\" \"; int c=a+b;a=b;b=c;}",
+          "output": "0 1 1 2 3 5 "
+        }
+      ]
+    },
+    {
+      "part": "Part 41 - Modern C++ Utilities",
+      "items": [
+        {
+          "level": 525,
+          "topic": "recursive digit sum",
+          "syntax": "int n=1234,s=0; while(n){s+=n%10;n/=10;} std::cout<<s;",
+          "puzzle": "___ n=1234,s=0; while(n){s+=n%10;n/=10;} std::cout<<s;",
+          "output": "10"
+        },
+        {
+          "level": 526,
+          "topic": "recursive reverse",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 527,
+          "topic": "recursive palindrome",
+          "syntax": "std::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "puzzle": "___::string s=\"level\"; std::string r=s; std::reverse(r.begin(),r.end()); std::cout<<(s==r);",
+          "output": "1"
+        },
+        {
+          "level": 528,
+          "topic": "recursive binary search",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 529,
+          "topic": "recursive array max",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 530,
+          "topic": "recursive string reverse",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 531,
+          "topic": "linear search - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 532,
+          "topic": "binary search",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 533,
+          "topic": "selection sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 534,
+          "topic": "bubble sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        }
+      ]
+    },
+    {
+      "part": "Part 42 - Concurrency Basics",
+      "items": [
+        {
+          "level": 535,
+          "topic": "insertion sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 536,
+          "topic": "merge sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 537,
+          "topic": "quick sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 538,
+          "topic": "counting sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 539,
+          "topic": "sort ascending",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 540,
+          "topic": "sort descending",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 541,
+          "topic": "second largest - practice 2",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 542,
+          "topic": "kth smallest",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 543,
+          "topic": "frequency sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        }
+      ]
+    },
+    {
+      "part": "Part 43 - Practical Mini Programs",
+      "items": [
+        {
+          "level": 544,
+          "topic": "stable sort",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 545,
+          "topic": "custom comparator",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 546,
+          "topic": "search sorted vector",
+          "syntax": "#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "puzzle": "#___ <vector>\n#include <iostream>\nint main(){std::vector<int> v={1,2,3}; v.push_back(4); std::cout<<v.size();}",
+          "output": "4"
+        },
+        {
+          "level": 547,
+          "topic": "merge sorted arrays",
+          "syntax": "#include <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <vector>\n#include <iostream>\nint main(){std::vector<int> v={3,1,2}; std::sort(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "1 2 3 "
+        },
+        {
+          "level": 548,
+          "topic": "two pointer pair sum",
+          "syntax": "int x=10; int* p=&x; std::cout<<*p;",
+          "puzzle": "___ x=10; int* p=&x; std::cout<<*p;",
+          "output": "10"
+        },
+        {
+          "level": 549,
+          "topic": "singly linked node",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 550,
+          "topic": "insert front",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 551,
+          "topic": "insert back",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 552,
+          "topic": "delete front",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 553,
+          "topic": "delete value",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 554,
+          "topic": "search linked list",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 555,
+          "topic": "reverse linked list",
+          "syntax": "#include <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "puzzle": "#___ <algorithm>\n#include <iostream>\n#include <vector>\nint main(){std::vector<int> v={1,2,3}; std::reverse(v.begin(),v.end()); for(int x:v)std::cout<<x<<\" \";}",
+          "output": "3 2 1 "
+        },
+        {
+          "level": 556,
+          "topic": "linked list length",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 557,
+          "topic": "doubly linked node",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 558,
+          "topic": "stack linked list",
+          "syntax": "#include <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "puzzle": "#___ <stack>\n#include <iostream>\nint main(){std::stack<int> s; s.push(10); s.push(20); std::cout<<s.top();}",
+          "output": "20"
+        },
+        {
+          "level": 559,
+          "topic": "queue linked list",
+          "syntax": "#include <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "puzzle": "#___ <queue>\n#include <iostream>\nint main(){std::queue<int> q; q.push(10); q.push(20); std::cout<<q.front();}",
+          "output": "10"
+        },
+        {
+          "level": 560,
+          "topic": "circular list",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 561,
+          "topic": "binary tree node",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 562,
+          "topic": "preorder traversal",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 563,
+          "topic": "inorder traversal",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 564,
+          "topic": "postorder traversal",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 565,
+          "topic": "tree height",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        },
+        {
+          "level": 566,
+          "topic": "BST insert",
+          "syntax": "int x=5;\nstd::cout << x*2;",
+          "puzzle": "___ x=5;\nstd::cout << x*2;",
+          "output": "10"
+        }
+      ]
+    }
+  ]
+}

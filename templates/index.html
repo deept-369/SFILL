@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='sfilllogo.png') }}" />
+    <title>SFILL | Coding Practice</title>
+    
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-left">
+        <a class="logo" href="{{ url_for('index') }}" aria-label="SFILL home"><span class="logo-mark"><img src="{{ url_for('static', filename='sfilllogo.png') }}" alt="SFILL Logo" /></span></a>
+        <nav class="nav-links" aria-label="Primary navigation"><a class="nav-item" href="{{ url_for('index') }}">Home</a><a class="nav-item active" href="{{ url_for('index') }}" aria-current="page">Play</a><a class="nav-item" href="#editor">Learn</a><a class="nav-item" href="#progress">Leaderboard</a></nav>
+      </div>
+      <div class="header-actions"><a class="avatar-link" href="{{ url_for('profile') }}" aria-label="Open your dashboard" title="Open dashboard"><div class="avatar">{{ user.name[0]|upper }}</div></a></div>
+    </header>
+
+    <main class="workspace">
+      <section class="challenge-banner" aria-labelledby="topic"><span class="challenge-kicker">Current challenge</span><strong id="topic">{{ puzzle.topic }}</strong></section>
+      <form id="answer-form" class="editor-window">
+        <div class="editor-header"><div class="window-controls" aria-hidden="true"><span class="control red"></span><span class="control yellow"></span><span class="control green"></span></div><div class="editor-tab"><span class="python-badge"><img src="https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png" alt="Python logo" style="width: 16px; height: 16px;" /></span> puzzle.py</div></div>
+        <div class="editor-body" id="editor" role="group" aria-label="Code editor">{% for line in puzzle.lines %}<div class="code-line">{% for piece in line %}{% if piece.type == 'text' %}<span class="code-text">{{ piece.value }}</span>{% else %}<input class="blank" type="text" autocomplete="off" spellcheck="false" size="{{ [piece.length, 2]|max }}" aria-label="Missing code" />{% endif %}{% endfor %}</div>{% endfor %}</div>
+        <div class="editor-status"><span class="status-light" aria-hidden="true"></span> Ready to run</div>
+        <div class="editor-feedback"><p id="feedback" class="feedback" aria-live="polite"></p><section class="output-panel" id="output-panel"><span class="output-label">Expected output</span><pre id="output">{{ puzzle.output }}</pre></section></div>
+      </form>
+    </main>
+
+    <footer class="site-footer" id="progress">
+      <button type="button" id="previous-button" class="btn previous-button" {% if puzzle.level <= 1 %}disabled{% endif %}><span aria-hidden="true">&#8592;</span> Previous</button>
+      <div class="progress-container" aria-label="Puzzle progress"><span class="level-text">Level {{ puzzle.level }}</span><div class="progress-bar-bg"><div class="progress-bar-fill" data-width="{{ (puzzle.level / puzzle.total * 100)|round|int }}"></div></div><span class="progress-count">{{ puzzle.level }} / {{ puzzle.total }}</span></div>
+      <p class="footer-quote">Small steps make big progress</p>
+      <div class="footer-actions"><button type="button" id="skip-button" class="btn skip-button">Skip <span aria-hidden="true">&#8594;</span></button><button type="submit" form="answer-form" id="submit-button" class="btn submit-button">Check answer <span aria-hidden="true">&#8594;</span></button></div>
+    </footer>
+    <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </body>
+</html>

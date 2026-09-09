@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SFILL | Log in</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='sfilllogo.png') }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body class="auth-page">
+    <main class="auth-card">
+      <a class="logo auth-logo" href="{{ url_for('login') }}"
+        ><span class="logo-mark"
+          ><img
+            src="{{ url_for('static', filename='sfilllogo.png') }}"
+            alt="SFILL Logo" /></span
+      ></a>
+      <p class="auth-kicker">Your coding practice roadmap</p>
+      <h1>Continue your progress</h1>
+      <p class="auth-copy">
+        Log in with your username and password. A new username will start a
+        fresh learning path.
+      </p>
+      <form class="auth-form" method="post">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}" />
+        <label for="name">Username</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          autocomplete="username"
+          required
+          autofocus />
+        <label for="password">Password</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          autocomplete="current-password"
+          required />
+        {% if error %}
+        <p class="auth-error" role="alert">{{ error }}</p>
+        {% endif %}
+        <button class="btn auth-button" type="submit">
+          Log in <span aria-hidden="true">&#8594;</span>
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

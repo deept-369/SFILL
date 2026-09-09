@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SFILL | Dashboard</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='sfilllogo.png') }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="{{ url_for('index') }}"
+        ><span class="logo-mark"
+          ><img
+            src="{{ url_for('static', filename='sfilllogo.png') }}"
+            alt="SFILL Logo" /></span
+      ></a>
+      <div class="header-actions">
+        <a class="profile-link" href="{{ url_for('index') }}"
+          >Back to puzzles</a
+        >
+        <form action="{{ url_for('logout') }}" method="post">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token }}" />
+          <button class="logout-button" type="submit">Log out</button>
+        </form>
+      </div>
+    </header>
+    <main class="profile-page">
+      <section class="profile-heading">
+        <div class="avatar profile-avatar">{{ user.name[0]|upper }}</div>
+        <div>
+          <span class="challenge-kicker">Your learning profile</span>
+          <h1>{{ user.name }}</h1>
+          <p>Keep solving puzzles and build fluency one level at a time.</p>
+        </div>
+      </section>
+      <section class="profile-stats" aria-label="Progress summary">
+        <div class="profile-stat">
+          <span>Completed</span><strong>{{ completed }}</strong
+          ><small>of {{ total }} puzzles</small>
+        </div>
+        <div class="profile-stat">
+          <span>Languages started</span
+          ><strong
+            >{{ languages|selectattr('completed', 'gt', 0)|list|length
+            }}</strong
+          ><small>Keep exploring</small>
+        </div>
+        <div class="profile-stat">
+          <span>Progress</span><strong>{{ percentage }}%</strong
+          ><small>Roadmap complete</small>
+        </div>
+        <div class="profile-stat">
+          <span>Skipped</span><strong>{{ user.get("skipped_count", 0) }}</strong
+          ><small>Not counted in progress</small>
+        </div>
+      </section>
+      <section class="progress-section">
+        <div class="progress-section-head">
+          <h2>Roadmap progress</h2>
+          <span>{{ completed }} / {{ total }}</span>
+        </div>
+        <div class="large-progress">
+          <div data-width="{{ percentage }}"></div>
+        </div>
+        <p class="profile-note">
+          Your progress is saved automatically to your account after every
+          correct answer.
+        </p>
+      </section>
+      <section class="progress-section">
+        <div class="progress-section-head">
+          <h2>Language progress</h2>
+          <span>{{ languages|length }} tracks</span>
+        </div>
+        <div class="dashboard-language-list">
+          {% for language in languages %}
+          <a
+            class="dashboard-language"
+            href="{{ url_for('play', language=language.slug) }}"
+            ><span class="dashboard-language-name"
+              ><i
+                data-color="{{ language.color }}"
+                data-color-property="background-color"></i
+              >{{ language.name }}</span
+            ><span>{{ language.completed }} / {{ language.total }}</span
+            ><span class="dashboard-language-bar"
+              ><i
+                data-width="{{ language.percentage }}"
+                data-color="{{ language.color }}"
+                data-color-property="background-color"></i></span
+            ><strong>{{ language.percentage }}%</strong></a
+          >
+          {% endfor %}
+        </div>
+      </section>
+      <a class="btn profile-continue" href="{{ url_for('index') }}"
+        >Continue learning <span aria-hidden="true">&#8594;</span></a
+      >
+    </main>
+    <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+  </body>
+</html>
