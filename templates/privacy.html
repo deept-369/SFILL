@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <title>SFILL | Privacy Policy</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <main class="policy-page">
+      <a class="text-link" href="{{ url_for('index') }}">Back to SFILL</a>
+      <span class="challenge-kicker">SFILL policy</span>
+      <h1>Privacy Policy</h1>
+      <p>
+        SFILL provides interactive coding practice. This policy explains what
+        information is used when you learn on the site.
+      </p>
+      <h2>Information you provide</h2>
+      <p>
+        If you create a learning profile, SFILL stores the username and progress
+        needed to continue your practice. Passwords are stored as one-way
+        password hashes.
+      </p>
+      <h2>Cookies and local storage</h2>
+      <p>
+        SFILL uses a session cookie to keep you signed in and to protect account
+        actions. Progress is associated with your profile so the dashboard can
+        show completed lessons.
+      </p>
+      <h2>Advertising</h2>
+      <p>
+        SFILL may display Google-served advertising on the public homepage.
+        Google and its partners may place and read cookies, use web beacons or
+        pixels, and use IP addresses or similar identifiers to serve, measure,
+        and personalize ads according to applicable policies. For details, read
+        <a href="https://www.google.com/policies/privacy/partners/"
+          >How Google uses data when you use our partners' sites or apps</a
+        >. You can manage advertising preferences through Google Ads Settings.
+      </p>
+      <h2>Contact</h2>
+      <p>
+        For privacy questions, contact the SFILL team through the
+        <a href="{{ url_for('contact') }}">contact page</a>.
+      </p>
+      <p class="policy-updated">Last updated: September 19, 2026</p>
+    </main>
+  </body>
+</html>

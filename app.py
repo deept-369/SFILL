@@ -20,6 +20,9 @@ app.config.update(
     SESSION_COOKIE_SECURE=os.environ.get("CODEPUZZLE_COOKIE_SECURE", "0") == "1",
 )
 
+ADSENSE_CLIENT_ID = os.environ.get("ADSENSE_CLIENT_ID", "").strip()
+ADSENSE_HOME_SLOT = os.environ.get("ADSENSE_HOME_SLOT", "").strip()
+
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 LANGUAGES = [
     {"slug": "python", "name": "Python", "file": "python.json", "color": "#f2c94c", "description": "Build a strong foundation with clear, readable code."},
@@ -39,7 +42,16 @@ for language in LANGUAGES:
     if language["file"]:
         with open(os.path.join(DATA_DIR, language["file"]), "r", encoding="utf-8") as file:
             dataset = json.load(file)
-        DATASETS[language["slug"]] = [puzzle for part in dataset["parts"] for puzzle in part["items"]]
+        unique_puzzles = []
+        seen_syntax = set()
+        for puzzle in (puzzle for part in dataset["parts"] for puzzle in part["items"]):
+            syntax = re.sub(r"^(?:#|//|--) Practice variant \d+\n", "", puzzle["syntax"])
+            syntax_key = "".join(syntax.casefold().split())
+            if syntax_key in seen_syntax:
+                continue
+            seen_syntax.add(syntax_key)
+            unique_puzzles.append(puzzle)
+        DATASETS[language["slug"]] = unique_puzzles
 
 STARTER_PUZZLE = {
     "topic": "Getting started",
@@ -158,7 +170,10 @@ def add_security_headers(response):
     response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
     response.headers["Content-Security-Policy"] = (
         "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; "
-        "script-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+        "script-src 'self' https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net; "
+        "connect-src 'self' https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net; "
+        "frame-src 'self' https://googleads.g.doubleclick.net; frame-ancestors 'self'; "
+        "base-uri 'self'; form-action 'self'"
     )
     return response
 
@@ -238,7 +253,13 @@ def puzzle_for_level(language, level):
 def index():
     user = current_user()
     progress = get_progress(user) if user else {}
-    return render_template("home.html", user=user, languages=language_cards(progress))
+    return render_template(
+        "home.html",
+        user=user,
+        languages=language_cards(progress),
+        adsense_client_id=ADSENSE_CLIENT_ID,
+        adsense_home_slot=ADSENSE_HOME_SLOT,
+    )
 
 
 @app.get("/play/<language>")
@@ -312,6 +333,50 @@ def profile():
         total=total,
         percentage=round(completed / total * 100) if total else 0,
         languages=cards,
+    )
+
+
+@app.get("/privacy")
+def privacy():
+    return render_template("privacy.html")
+
+
+@app.get("/terms")
+def terms():
+    return render_template("terms.html")
+
+
+@app.get("/contact")
+def contact():
+    return render_template("contact.html")
+
+
+@app.get("/robots.txt")
+def robots():
+    return (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Disallow: /login\n"
+        "Disallow: /profile\n"
+        "Disallow: /play/\n"
+        "Disallow: /api/\n"
+        "Sitemap: https://sfill.online/sitemap.xml\n",
+        200,
+        {"Content-Type": "text/plain; charset=utf-8"},
+    )
+
+
+@app.get("/sitemap.xml")
+def sitemap():
+    pages = ["/", "/privacy", "/terms", "/contact"]
+    urls = "".join(
+        f"<url><loc>https://sfill.online{page}</loc></url>" for page in pages
+    )
+    return (
+        f'<?xml version="1.0" encoding="UTF-8"?>'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>',
+        200,
+        {"Content-Type": "application/xml; charset=utf-8"},
     )
 
 

@@ -844,6 +844,82 @@ body {
   justify-content: space-between;
   font-size: 0.75rem;
 }
+.home-ad-section,
+.learning-notes,
+.policy-page {
+  width: min(1180px, 100% - 40px);
+  margin: 0 auto;
+}
+.home-ad-section {
+  padding: 0 0 64px;
+  text-align: center;
+}
+.ad-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.learning-notes {
+  padding: 0 0 84px;
+  border-top: 1px solid var(--line);
+}
+.learning-notes h2 {
+  margin: 10px 0 24px;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1;
+}
+.learning-notes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.learning-notes-grid article {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.learning-notes-grid h3 {
+  margin: 0 0 8px;
+}
+.learning-notes-grid p,
+.policy-page p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.footer-links {
+  display: flex;
+  gap: 14px;
+}
+.footer-links a {
+  color: var(--muted);
+}
+.footer-links a:hover {
+  color: var(--cream);
+}
+.policy-page {
+  max-width: 760px;
+  padding: 56px 0 90px;
+}
+.policy-page h1 {
+  margin: 24px 0 18px;
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  line-height: 0.95;
+}
+.policy-page h2 {
+  margin: 38px 0 8px;
+  font-size: 1.25rem;
+}
+.policy-page .btn {
+  display: inline-block;
+  margin-top: 12px;
+  text-decoration: none;
+}
+.policy-updated {
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
 .back-link {
   margin-left: auto;
 }
@@ -995,7 +1071,15 @@ body {
     margin-top: 24px;
   }
   .home-footer {
-    width: calc(100% - 32px);
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+  .learning-notes-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .footer-links {
+    width: 100%;
   }
   .back-link {
     margin: 12px 0 0;
